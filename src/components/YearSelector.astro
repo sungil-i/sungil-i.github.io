@@ -1,0 +1,42 @@
+---
+// src/components/YearSelector.astro
+
+// 1. Astro.glob 대신 안정적인 Vite 네이티브 함수를 사용합니다.
+// { eager: true } 옵션을 주면 await 없이 파일 모듈을 즉시 가져옵니다.
+const pages = import.meta.glob('../pages/**/*.md', { eager: true });
+
+// 객체 형태의 결과를 배열 형태로 변환합니다.
+const allPages = Object.values(pages) as Record<string, any>[];
+
+// 2. URL에서 연도(4자리 숫자)만 추출하여 배열로 만듭니다.
+const extractedYears = allPages
+  .map(page => page.url?.split('/')[1])
+  .filter(year => year && /^\d{4}$/.test(year));
+
+// 3. Array.from()과 Set을 이용해 중복을 제거하고 내림차순 정렬합니다.
+const uniqueYears = Array.from(new Set(extractedYears));
+const years = uniqueYears.sort((a, b) => Number(b) - Number(a));
+
+const currentPath = Astro.url.pathname;
+---
+
+<select class="form-select form-select-sm bg-secondary text-white border-secondary" id="yearSwitcher" aria-label="연도 선택">
+  {years.map(year => (
+    <option 
+      value={`/${year}/`} 
+      selected={currentPath.startsWith(`/${year}/`)}
+    >
+      {year}학년도
+    </option>
+  ))}
+</select>
+
+<script>
+  const switcher = document.getElementById('yearSwitcher');
+  if (switcher) {
+    switcher.addEventListener('change', (e) => {
+      const target = e.target as HTMLSelectElement;
+      window.location.href = target.value;
+    });
+  }
+</script>
