@@ -1,41 +1,44 @@
 ---
 // src/layouts/ClassLayout.astro
-import MainLayout from './MainLayout.astro'; // MainLayout을 상속받음
+import MainLayout from './MainLayout.astro'; 
 
 interface Props {
   frontmatter: {
     title: string;
-    classId: string; // 마크다운에서 전달받을 학급 ID (예: '2-10')
+    classId: string; 
   };
 }
 
 const { frontmatter } = Astro.props;
-const currentYear = Astro.url.pathname.split('/')[1]; // URL에서 연도 추출 (예: '2026')
-const classFolder = `${currentYear}/${frontmatter.classId}`; // 폴더 경로 조합
+const currentYear = Astro.url.pathname.split('/')[1]; 
+const classFolder = `${currentYear}/${frontmatter.classId}`; 
 
-// --- [핵심 핵심] daily/test 파일 자동 목록 및 정렬 로직 ---
+// --- [수정된 핵심 로직: Astro.glob 대신 import.meta.glob 사용] ---
 
-// 1. 해당 학급의 모든 마크다운 파일을 가져옵니다.
-const allClassContent = await Astro.glob('../pages/**/*.md');
+// 1. Vite 네이티브 함수를 사용하여 마크다운 파일들을 즉시(eager) 불러옵니다.
+const pages = import.meta.glob('../pages/**/*.md', { eager: true });
 
-// 2. daily 폴더 파일 필터링 및 이름 내림차순 정렬 (최신글이 위로)
+// 2. 가져온 모듈 객체를 배열 형태로 변환합니다. (타입 단언 추가)
+const allClassContent = Object.values(pages) as any[];
+
+// 3. daily 폴더 파일 필터링 및 이름 내림차순 정렬 (최신글이 위로)
 const dailyPosts = allClassContent
-  .filter(post => post.url?.includes(`/pages/${classFolder}/daily/`))
+  .filter(post => post.url?.includes(`/${classFolder}/daily/`))
   .sort((a, b) => {
-    const fileA = a.file.split('/').pop() || '';
-    const fileB = b.file.split('/').pop() || '';
-    return fileB.localeCompare(fileA); // 파일 이름 내림차순
+    // Vite 모듈은 file 경로를 가지고 있으므로 이를 기준으로 정렬합니다.
+    const fileA = a.file?.split('/').pop() || '';
+    const fileB = b.file?.split('/').pop() || '';
+    return fileB.localeCompare(fileA); 
   });
 
-// 3. test 폴더 파일 필터링 및 이름 오름차순 정렬 (1차 -> 2차 순서대로)
+// 4. test 폴더 파일 필터링 및 이름 오름차순 정렬 (1차 -> 2차 순서대로)
 const testPosts = allClassContent
-  .filter(post => post.url?.includes(`/pages/${classFolder}/test/`))
+  .filter(post => post.url?.includes(`/${classFolder}/test/`))
   .sort((a, b) => {
-    const fileA = a.file.split('/').pop() || '';
-    const fileB = b.file.split('/').pop() || '';
-    return fileA.localeCompare(fileB); // 파일 이름 오름차순
+    const fileA = a.file?.split('/').pop() || '';
+    const fileB = b.file?.split('/').pop() || '';
+    return fileA.localeCompare(fileB); 
   });
-
 ---
 
 <MainLayout title={`${frontmatter.title} (${frontmatter.classId})`}>
@@ -46,7 +49,7 @@ const testPosts = allClassContent
         <div class="list-group list-group-flush">
           {dailyPosts.map(post => (
             <a href={post.url} class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-              {post.frontmatter.title || post.file.split('/').pop()?.replace('.md', '')}
+              {post.frontmatter.title || post.file?.split('/').pop()?.replace('.md', '')}
               <span class="badge bg-secondary rounded-pill">수업</span>
             </a>
           ))}
@@ -62,7 +65,7 @@ const testPosts = allClassContent
         <div class="list-group list-group-flush small">
           {testPosts.map(post => (
             <a href={post.url} class="list-group-item list-group-item-action">
-              {post.frontmatter.title || post.file.split('/').pop()?.replace('.md', '')}
+              {post.frontmatter.title || post.file?.split('/').pop()?.replace('.md', '')}
             </a>
           ))}
         </div>
