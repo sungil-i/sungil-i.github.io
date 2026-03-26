@@ -42,6 +42,9 @@ const testPosts = allClassContent
 ---
 
 <MainLayout title={`${frontmatter.title} (${frontmatter.classId})`}>
+  <div class="mb-5 pt-4 border-top">
+    <slot /> </div>
+    
   <div class="row">
     <div class="col-md-7 border-end">
       <h2 class="h3 text-primary mb-4 border-bottom pb-2">📅 매일 수업 기록</h2>
@@ -74,7 +77,4 @@ const testPosts = allClassContent
       )}
     </div>
   </div>
-
-  <div class="mt-5 pt-4 border-top">
-    <slot /> </div>
 </MainLayout>
