@@ -1,3 +1,4 @@
+< 구름 EDU >
 구름 EDU 에 접속합니다.
 https://tech01-hs.goorm.io
 
@@ -5,3 +6,8 @@ https://tech01-hs.goorm.io
 
 아이디: 학년반번호
 암호: 내가 저장한 암호
+
+< 박원준샘 수업내용 >
+https://sungil-i.github.io/2026/2-10/
+
+이곳에 매일 수업 내용을 기록합니다.
