@@ -150,3 +150,59 @@ bool hasTicket = true;
 bool canEnter = (level >= 25) || (hasTicket == true);
 Console.WriteLine($"입장 가능 여부: {canEnter}");
 ```
+
+### (2)-3. 복합 대입 연산자
+
+- += : 덧셈 복합 대입 연산자 
+- -= : 뺄셈 복합 대입 연산자
+- *= : 곱셈 복합 대입 연산자
+- /= : 나눗셈 복합 대입 연산자
+
+```csharp
+int a = 10;
+a += 30; // 같은표현 a = a + 30; 
+```
+
+> int exp = 500;<br>
+> 복합 대입 연산자를 사용하여 exp에 250을 더하세요.<br>
+> 결과값을 출력하세요.
+
+```csharp
+int exp = 500;
+exp += 250; // 같은 표현 exp = exp + 250;
+Console.WriteLine($"현재 경험치: {exp}");
+```
+
+### (2)-4. 문자열 함수: 포함 여부 확인
+
+> string inventory = "물약, 열쇠, 지도";<br>
+> 1. inventory 문자열에 "열쇠"가 포함되어 있는지 확인하여 결과(bool)를 출력하세요.
+
+string 객체의 **Contains** 함수를 사용하면, 문자열에 원하는 문자가 포함되어 있는지 확인할 수 있습니다.
+
+```csharp
+string inventory = "물약, 열쇠, 지도";
+bool hasWord = inventory.Contains("열쇠");
+Console.WriteLine(hasWord);
+```
+
+### (2)-5. 문자열 함수: 바꾸기
+
+string 객체의 **Replace** 함수는 특정 문자를 내가 원하는 문자로 바꿔주는 역할을 합니다.
+
+사용법
+
+**word.Replace("ABC", "DEF");**
+
+**: word 에서 "ABC" 라는 문자를 찾아서 "DEF"로 바꿔줍니다.**
+
+> string rawMessage = "오늘은 정말 우울한 날이야.";<br>
+> "우울한" → "멋진"<br>
+> 으로 문자열을 바꾸시오.
+
+```csharp
+string rawMessage = "오늘은 정말 우울한 날이야.";
+string newMessage = rawMessage.Replace("우울한", "멋진");
+Console.WriteLine(rawMessage);
+Console.WriteLine(newMessage);
+```
