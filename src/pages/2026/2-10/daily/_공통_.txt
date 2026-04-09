@@ -13,8 +13,21 @@ https://sungil-i.github.io/2026/2-10/
 이곳에 매일 수업 내용을 기록합니다.
 
 
-
+---
 
 
 키보드
 https://i.namu.wiki/i/bA6_fA7JSNMeUbA7SLWaN1LRuQtPT9PfEOf7h0FTyGv5pvtLcQ9CWKp0zC-7MNj_YCoSKXNBLAelivkNsxe-11Vhu0Jwb697uE7E_X4xcwb86fMPvm_OZ8aLL8l1tqKd8fPqF_8HRVeisnLBsXsC5w.webp
+
+
+---
+
+< 변수와 연산자 수업내용 >
+https://sungil-i.github.io/2026/2-10/daily/04-07-csharp_var_and_operator1/
+
+변수와 연산자 수업 내용입니다.
+https://tech01-hs.goorm.io 
+코드를 완성하세요.
+
+힘냅시다, 화이팅~!
+박원준쌤^^
