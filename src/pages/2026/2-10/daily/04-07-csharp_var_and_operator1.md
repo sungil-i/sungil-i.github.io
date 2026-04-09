@@ -109,7 +109,16 @@ Console.WriteLine($"현재 체력: {currentHp}");
 - 비교 연산자( >, <, >=, <=, == )
 - 논리 연산자( AND &&, OR ||, NOT ! )
 
-**사용 예시**
+**AND 연산자**
+
+| A | B | **A && B** |
+| :-: | :-: | :-: |
+| 참(true) | 참(true) | **참(true)** |
+| 참(true) | 거짓(false) | **거짓(false)** |
+| 거짓(false) |참(true) | **거짓(false)** |
+| 거짓(false)| 거짓(false) | **거짓(false)** |
+
+**AND 연산자 사용 예시**
 
 > 레벨이 20 이상이고( && )<br>티켓을 가지고 있는지 여부를<br>canEnter(bool)에 저장하세요. <br>
 > 그리고 canEnter를 출력하세요.
@@ -118,5 +127,26 @@ Console.WriteLine($"현재 체력: {currentHp}");
 int level = 25;
 bool hasTicket = true;
 bool canEnter = (level >= 25) && (hasTicket == true);
+Console.WriteLine($"입장 가능 여부: {canEnter}");
+```
+
+**OR 연산자**
+
+| A | B | **A \|\| B** |
+| :-: | :-: | :-: |
+| 참(true) | 참(true) | **참(true)** |
+| 참(true) | 거짓(false) | **참(true)** |
+| 거짓(false) | 참(true) | **참(true)** |
+| 거짓(false) | 거짓(false) | **거짓(false)** |
+
+**OR 연산자 사용 예시**
+
+> 레벨이 20 이상거나( || )<br>티켓을 가지고 거나 할 때 입장 가능하다.<br>canEnter(bool)에 저장하세요. <br>
+> 그리고 canEnter를 출력하세요.
+
+```csharp
+int level = 25;
+bool hasTicket = true;
+bool canEnter = (level >= 25) || (hasTicket == true);
 Console.WriteLine($"입장 가능 여부: {canEnter}");
 ```
