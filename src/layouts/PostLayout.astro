@@ -1,78 +1,102 @@
 ---
 // src/layouts/PostLayout.astro
-import MainLayout from './MainLayout.astro';
+import MainLayout from "./MainLayout.astro";
 
 // Astro는 마크다운 렌더링 시 frontmatter와 headings 배열을 자동으로 props로 전달합니다.
 const { frontmatter, headings } = Astro.props;
 
 // Svelte 코드처럼 h2와 h3만 필터링합니다. (Astro에서는 level 대신 depth를 사용합니다)
-const filteredHeadings = headings.filter((h: any) => h.depth === 2 || h.depth === 3);
+const filteredHeadings = headings.filter(
+  (h: any) => h.depth === 2 || h.depth === 3,
+);
 ---
 
 <MainLayout title={frontmatter.title || "수업 기록"}>
-    <div class="container-fluid px-md-5 mt-5 mb-5"> 
-        <div class="row justify-content-center"> 
-            
-            <div class="col-12 col-lg-9 col-xl-8"> 
-                <div class="mb-4"> 
-                    <a href="javascript:history.back()" class="text-decoration-none text-muted small"> 
-                        <span class="me-1">←</span> 목록으로 돌아가기 
-                    </a> 
-                </div> 
-                <div class="mb-5"> 
-                    <h1 class="fw-bold mb-3">{frontmatter.title}</h1> 
-                    {frontmatter.date && (
-                        <div class="text-muted small"> 
-                            <span>📅 작성일: {frontmatter.date}</span> 
-                        </div> 
-                    )}
-                </div> 
-                
-                <div class="markdown-body shadow-sm p-4 p-md-5 rounded border"> 
-                    <slot /> </div> 
-                
-                <div class="mt-5 text-center"> 
-                    <hr class="mb-5"> 
-                    <a href="javascript:history.back()" class="btn btn-outline-dark px-4 rounded-pill"> 목록으로 돌아가기 </a> 
-                </div> 
-            </div> 
+  <div class="container-fluid px-md-5 mt-5 mb-5">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10 col-xl-10">
+        <div class="mb-4">
+          <a
+            href="javascript:history.back()"
+            class="text-decoration-none text-muted small"
+          >
+            <span class="me-1">←</span> 목록으로 돌아가기
+          </a>
+        </div>
+        <div class="mb-5">
+          <h1 class="fw-bold mb-3">{frontmatter.title}</h1>
+          {
+            frontmatter.date && (
+              <div class="text-muted small">
+                <span>📅 작성일: {frontmatter.date}</span>
+              </div>
+            )
+          }
+        </div>
 
-            <div class="d-none d-lg-block col-lg-3 col-xl-2 ps-lg-4">
-                <div class="sticky-top pt-4" style="top: 80px;">
-                    <h6 class="fw-bold text-muted mb-3 text-uppercase" style="letter-spacing: 1px; font-size: 0.85rem;">
-                        📝 Outline
-                    </h6>
-                    <nav class="nav flex-column outline-nav">
-                        {filteredHeadings.map((heading: any) => (
-                            <a 
-                                class={`nav-link text-muted py-1 ${heading.depth === 3 ? 'ms-3 small' : 'fw-semibold'}`} 
-                                href={`#${heading.slug}`}
-                            >
-                                {heading.text}
-                            </a>
-                        ))}
-                    </nav>
-                </div>
-            </div>
+        <div
+          class="markdown-body shadow-sm p-4 p-md-5 rounded border w-100"
+          style="max-width: 100%;"
+        >
+          <slot />
+        </div>
 
-        </div> 
-    </div> 
+        <div class="mt-5 text-center">
+          <hr class="mb-5" />
+          <a
+            href="javascript:history.back()"
+            class="btn btn-outline-dark px-4 rounded-pill"
+          >
+            목록으로 돌아가기
+          </a>
+        </div>
+      </div>
+
+      <div class="d-none d-lg-block col-lg-2 col-xl-2 ps-lg-4">
+        <div class="sticky-top pt-2" style="top: 80px;">
+          <h6
+            class="fw-bold text-muted mb-3 text-uppercase"
+            style="letter-spacing: 1px; font-size: 0.85rem;"
+          >
+            📝 Outline
+          </h6>
+          <nav class="nav flex-column outline-nav">
+            {
+              filteredHeadings.map((heading: any) => (
+                <a
+                  class={`nav-link text-muted py-1 ${heading.depth === 3 ? "ms-3 small" : "fw-semibold"}`}
+                  href={`#${heading.slug}`}
+                >
+                  {heading.text}
+                </a>
+              ))
+            }
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
 </MainLayout>
 
-<style> 
-    .markdown-body { 
-        transition: background-color 0.3s ease, color 0.3s ease; 
-    } 
+<style>
+  .markdown-body {
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease;
+  }
 
-    .outline-nav .nav-link {
-        transition: color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
-        border-radius: 6px;
-        font-size: 0.95rem;
-    }
-    
-    .outline-nav .nav-link:hover {
-        color: var(--bs-primary) !important;
-        background-color: var(--bs-light);
-        transform: translateX(3px); 
-    }
+  .outline-nav .nav-link {
+    transition:
+      color 0.2s ease,
+      background-color 0.2s ease,
+      transform 0.2s ease;
+    border-radius: 6px;
+    font-size: 0.95rem;
+  }
+
+  .outline-nav .nav-link:hover {
+    color: var(--bs-primary) !important;
+    background-color: var(--bs-light);
+    transform: translateX(3px);
+  }
 </style>

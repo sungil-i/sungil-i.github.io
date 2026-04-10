@@ -11,4 +11,15 @@ export default defineConfig({
             },
         },
     },
+    markdown: {
+        shikiConfig: {
+            // 단일 theme 속성 대신 themes 객체를 사용하여 두 가지 테마를 지정합니다.
+            themes: {
+                light: 'github-light',
+                dark: 'github-dark',
+            },
+            // 긴 코드의 가로 스크롤을 방지하고 줄바꿈을 원하시면 true로 설정하세요.
+            wrap: false,
+        },
+    },
 });

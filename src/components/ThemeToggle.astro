@@ -21,16 +21,18 @@
 
 <style>
   .theme-toggle {
-    position: fixed; /* 우측 상단 고정 */
-    top: 1.5rem;
-    right: 1.5rem;
+    /* 기존 position: fixed 관련 속성(top, right) 모두 제거 */
     background: transparent;
     border: none;
     cursor: pointer;
-    z-index: 1000;
     padding: 0.5rem;
-    color: var(--text-color, #f1f1f1);
+    color: inherit; /* 헤더의 텍스트 색상을 자연스럽게 따라가도록 변경 */
     transition: color 0.3s ease;
+    
+    /* 아이콘이 버튼 중앙에 예쁘게 오도록 Flex 추가 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .moon-icon { display: block; }
