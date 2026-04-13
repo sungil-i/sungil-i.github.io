@@ -131,6 +131,8 @@ bool canEnter = (level >= 20) && (hasTicket == true);
 Console.WriteLine($"입장 가능 여부: {canEnter}");
 ```
 
+
+
 **OR 연산자**
 
 | A | B | **A \|\| B** |
@@ -139,6 +141,8 @@ Console.WriteLine($"입장 가능 여부: {canEnter}");
 | 참(true) | 거짓(false) | **참(true)** |
 | 거짓(false) | 참(true) | **참(true)** |
 | 거짓(false) | 거짓(false) | **거짓(false)** |
+
+
 
 **OR 연산자 사용 예시**
 
