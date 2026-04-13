@@ -152,7 +152,7 @@ Console.WriteLine($"입장 가능 여부: {canEnter}");
 ```csharp
 int level = 25;
 bool hasTicket = true;
-bool canEnter = (level >= 25) || (hasTicket == true);
+bool canEnter = (level >= 20) || (hasTicket == true);
 Console.WriteLine($"입장 가능 여부: {canEnter}");
 ```
 
