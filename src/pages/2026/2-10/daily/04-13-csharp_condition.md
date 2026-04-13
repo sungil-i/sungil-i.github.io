@@ -60,8 +60,8 @@ if(조건) {
 int score = 55;
 bool is_pass = score >= 60;
 if( is_pass ) {
-    Console.Wriet("합격");
+    Console.WriteLine("합격");
 } else {
-    Console.Wriet("불합격");
+    Console.WriteLine("불합격");
 }
 ```
