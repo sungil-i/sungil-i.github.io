@@ -118,6 +118,7 @@ Console.WriteLine($"현재 체력: {currentHp}");
 | 거짓(false) |참(true) | **거짓(false)** |
 | 거짓(false)| 거짓(false) | **거짓(false)** |
 
+
 **AND 연산자 사용 예시**
 
 > 레벨이 20 이상이고( && )<br>티켓을 가지고 있는지 여부를<br>canEnter(bool)에 저장하세요. <br>
@@ -126,7 +127,7 @@ Console.WriteLine($"현재 체력: {currentHp}");
 ```csharp
 int level = 25;
 bool hasTicket = true;
-bool canEnter = (level >= 25) && (hasTicket == true);
+bool canEnter = (level >= 20) && (hasTicket == true);
 Console.WriteLine($"입장 가능 여부: {canEnter}");
 ```
 
