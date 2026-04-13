@@ -1,6 +1,6 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
-title: "04-13 3.C# 조건문"
+title: "04-13(월) 3.C# 조건문"
 date: "2026-04-13"
 ---
 

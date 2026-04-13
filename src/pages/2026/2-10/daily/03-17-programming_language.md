@@ -1,6 +1,6 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
-title: "03-17 프로그래밍 언어의 발전 과정"
+title: "03-17(화) 프로그래밍 언어의 발전 과정"
 date: "2026-03-17"
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
-title: "03-12 컴퓨터 구성요소"
+title: "03-12(목) 컴퓨터 구성요소"
 date: "2026-03-12"
 ---
 

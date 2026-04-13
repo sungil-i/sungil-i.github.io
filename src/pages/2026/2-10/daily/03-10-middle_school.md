@@ -1,6 +1,6 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
-title: "03-10 출신 중학교"
+title: "03-10(화) 출신 중학교"
 date: "2026-03-10"
 ---
 

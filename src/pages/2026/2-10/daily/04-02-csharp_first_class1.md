@@ -1,6 +1,6 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
-title: "04-02 1.시샵 첫 수업 (1)"
+title: "04-02(목) 1.시샵 첫 수업 (1)"
 date: "2026-04-02"
 ---
 

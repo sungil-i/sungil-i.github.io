@@ -1,6 +1,6 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
-title: "04-07 2.C# 변수와 연산자"
+title: "04-07(화) 2.C# 변수와 연산자"
 date: "2026-04-07"
 ---
 
