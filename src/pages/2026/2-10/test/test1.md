@@ -4,7 +4,7 @@ title: "수행평가 1 (논술형) 준비"
 date: "2026-03-17"
 ---
 
-![수행1-1](/assets/images/2026-03-31-TEST-1-1.png)
+![수행1-1](src/assets/images/2026-03-31-TEST-1-1.png)
 
 ![수행1-2](/assets/images/2026-03-31-TEST-1-2.png)
 
