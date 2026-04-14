@@ -34,12 +34,9 @@ const filteredHeadings = headings.filter(
           }
         </div>
 
-        <div
-          class="markdown-body shadow-sm p-4 p-md-5 rounded border w-100"
-          style="max-width: 100%;"
-        >
-          <slot />
-        </div>
+<div class="markdown-body shadow-sm p-4 p-md-5 rounded border w-100" style="max-width: 100%;">
+  <slot />
+</div>
 
         <div class="mt-5 text-center">
           <hr class="mb-5" />
@@ -98,5 +95,16 @@ const filteredHeadings = headings.filter(
     color: var(--bs-primary) !important;
     background-color: var(--bs-light);
     transform: translateX(3px);
+  }
+</style>
+
+<style is:global>
+  /* markdown-body 컨테이너 내부의 모든 이미지에 적용 */
+  .markdown-body img {
+    max-width: 100%; /* 부모 너비를 넘지 않도록 제한 */
+    height: auto; /* 비율에 맞게 높이 자동 조절 */
+    display: block; /* 여백 계산을 깔끔하게 하기 위해 블록 요소로 변경 */
+    margin: 1.5rem auto; /* 상하 여백을 주고 가운데 정렬 (원준님 취향에 맞게 조절 가능) */
+    border-radius: 0.375rem; /* Bootstrap의 rounded 클래스처럼 모서리를 둥글게 (선택 사항) */
   }
 </style>
