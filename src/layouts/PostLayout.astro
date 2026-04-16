@@ -34,9 +34,12 @@ const filteredHeadings = headings.filter(
           }
         </div>
 
-<div class="markdown-body shadow-sm p-4 p-md-5 rounded border w-100" style="max-width: 100%;">
-  <slot />
-</div>
+        <div
+          class="markdown-body shadow-sm p-4 p-md-5 rounded border w-100"
+          style="max-width: 100%;"
+        >
+          <slot />
+        </div>
 
         <div class="mt-5 text-center">
           <hr class="mb-5" />
@@ -107,4 +110,75 @@ const filteredHeadings = headings.filter(
     margin: 1.5rem auto; /* 상하 여백을 주고 가운데 정렬 (원준님 취향에 맞게 조절 가능) */
     border-radius: 0.375rem; /* Bootstrap의 rounded 클래스처럼 모서리를 둥글게 (선택 사항) */
   }
+
+  /* 1. 마크다운 테이블 기본 구조를 Bootstrap 스타일로 강제 적용 */
+/* [공통] 테이블 레이아웃 안정화 (사이즈 변화 방지) */
+  .markdown-body table {
+    width: 100% !important;
+    table-layout: auto !important; /* 내용에 맞춰 크기 조절 */
+    border-collapse: collapse !important;
+    margin: 1.5rem 0 !important;
+  }
+
+  /* 2. 헤더(th) 및 셀(td) 디자인 */
+  .markdown-body table th,
+  .markdown-body table td {
+    padding: 0.75rem !important; /* 여백 확보 */
+    border: 1px solid var(--bs-border-color) !important; /* 내부 선(Lines) 추가 */
+    vertical-align: middle !important;
+    text-align: center !important;
+    color: var(--bs-body-color) !important;
+  }
+
+  /* 3. 헤더 배경색 강조 (선택 사항) */
+  .markdown-body table thead th {
+    background-color: var(--bs-tertiary-bg) !important;
+    font-weight: 700 !important;
+  }
+
+  /* 4. 마우스 호버(Hover) 효과 추가 */
+  .markdown-body table tbody tr {
+    transition: background-color 0.2s ease !important;
+  }
+
+  .markdown-body table tbody tr:hover {
+    background-color: var(
+      --bs-tertiary-bg
+    ) !important; /* Bootstrap Hover 효과 재현 */
+    cursor: default;
+  }
+
+  /* 5. 모바일 가로 스크롤 대응 (테이블이 너무 클 경우) */
+  .markdown-body div.table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+/* --------------------------------------------------
+     DARK THEME 전용 스타일 (라이트 테마는 영향 없음)
+  -------------------------------------------------- */
+
+  /* 1. 다크 테마 시 th (헤더) 배경 진하게 + 글자 흰색 */
+  [data-bs-theme="dark"] .markdown-body table thead th {
+    background-color: #212529 !important; /* Bootstrap Dark 배경색 */
+    color: #ffffff !important;            /* 글자색 흰색 */
+    border-color: var(--bs-border-color) !important;
+  }
+
+  /* 2. 다크 테마 시 td (본문) 글자색 흰색 */
+  [data-bs-theme="dark"] .markdown-body table td {
+    color: #ffffff !important;            /* 본문 글자색 흰색 */
+    border-color: var(--bs-border-color) !important;
+    background-color: transparent !important;
+  }
+
+  /* 3. 다크 테마 시 호버 효과 조정 */
+  [data-bs-theme="dark"] .markdown-body table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.075) !important;
+  }
+
+  /* 4. 다크 테마 시 줄무늬(Striped) 배경색 초기화 (방해 금지) */
+  [data-bs-theme="dark"] .markdown-body table tr:nth-child(2n) {
+    background-color: transparent !important;
+  }  
 </style>
