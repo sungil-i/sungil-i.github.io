@@ -153,3 +153,73 @@ if( !hasTicket ) {
     Console.WriteLine("경고");
 }
 ```
+
+### (2)-1. switch문 (정수형)
+
+> switch문은 if문의 편리한 형태입니다.
+
+**문법**
+
+```csharp
+switch(변수)
+{
+    case 값1: 구문1; break;
+    case 값2: 구문2; break;
+    case 값3: 구문3; break;
+    default: 구문4; break;
+}
+```
+
+**예시**
+
+> 게임 키보드 조작 WASD<br>W(위), A(왼쪽), S(아래), D(오른쪽)
+
+```csharp
+int key = 5;
+switch(key)
+{
+    case 2: Console.WriteLine("아래로 이동"); break;
+    case 3: Console.WriteLine("위로 이동"); break;
+    case 4: Console.WriteLine("오른쪽으로 이동"); break;
+    case 5: Console.WriteLine("왼쪽으로 이동"); break;
+    default:  Console.Write("대기"); break;
+}
+```
+
+### (2)-2. switch문 (문자열)
+
+**예시**
+
+```csharp
+string job = "마법사";
+switch(job)
+{
+    case "전사": Console.WriteLine("검"); break;
+    case "마법사": Console.WriteLine("파이어볼"); break;
+    default: Console.WriteLine("기본 공격"); break;
+}
+```
+
+### (2)-3. 삼항 연산자
+
+> if문을 한줄로 나타낸 형태
+
+**문법**
+
+```csharp
+// 조건이 참이면, 변수에 A를 넣고
+// 조건이 거짓이면, 변수에 B를 넣어라.
+변수 = (조건) ? A : B
+```
+
+**예시**
+
+> 24시간 기반의 시간이 주어지고 AM 또는 PM 를 설정하라
+
+```csharp
+int time24h = 15;
+string timeTxt = (time24h >= 12) ? "PM" : "AM";
+Console.WriteLine($"{time24h}시는 {timeTxt} 입니다.");
+```
+
+결과: **15시는 PM 입니다.**
