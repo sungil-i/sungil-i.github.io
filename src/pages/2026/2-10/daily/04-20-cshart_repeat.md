@@ -38,3 +38,63 @@ for(int i=1; i<=5; i=i+1) {
     Console.WriteLine($"{i}번째 반복");
 }
 ```
+
+실행결과
+
+```text
+1번째 반복
+2번째 반복
+3번째 반복
+4번째 반복
+5번째 반복
+```
+
+### (1)-2. 카운트 다운 (while문)
+
+**문법**
+
+조건이 참(true)일 동안 코드를 반복합니다.<br>
+while 문은 조건에 따라 무한 반복할 수 있습니다.
+
+```csharp
+while(조건) {
+    코드;
+}
+```
+
+예시
+
+> while문을 사용하여 3부터 1까지 <br>숫자를 거꾸로 줄여가며 카운트다운을 합니다.
+
+```csharp
+int count = 3;
+while(count > 0) {
+    Console.WriteLine($"카운트 다운: {count}");
+    count = count - 1;
+}
+```
+
+실행결과
+
+```text
+카운트 다운: 3
+카운트 다운: 2
+카운트 다운: 1
+```
+
+### (1)-3. 짝수만 건너뛰기 (continue)
+
+continue 를 만나면<br>아래 코드를 무시하고 **다음 반복**으로 넘어갑니다.
+
+예시
+
+> 1부터 5까지 반복하다가,<br>i가 3일 때는 continue를 사용해 건너뛰세요.
+
+```csharp
+for(int i=1; i<=5; i=i+1) {
+    if(i == 3) {
+        continue;
+    }
+    Console.WriteLine($"{i}번째 반복");
+}
+```
