@@ -159,3 +159,34 @@ for(int i=1; i<=9; i=i+1) {
 2x8=16
 2x9=18
 ```
+
+### (2)-1. 반복해서 생성하기 (for문)
+
+> 유니티에서 적을 여러 마리 생성(Spawning)할 때 사용하는 기초 로직입니다.
+
+예제
+
+for문을 사용해서 적을 3개 생성하세요.
+
+```csharp
+for(int i=1; i<=3; i++) { // i=i+1
+    Console.WriteLine($"{i}번째 적을 생성했습니다.");
+}
+```
+
+### (2)-2. 체력 물약 마시기 (while문)
+
+예시
+
+> 인벤토리에 있는 물약을 모두 소모할 때까지 체력을 회복하는 로직입니다.
+
+```csharp
+int potion = 3;
+while(potion > 0) {
+    Console.WriteLine("${potion}번째 체력 물약 소진");
+    potion--;     // potion = potion - 1
+}
+Console.WriteLine("물약 없음");
+```
+
+### (3)
