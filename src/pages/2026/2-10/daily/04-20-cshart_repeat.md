@@ -189,4 +189,13 @@ while(potion > 0) {
 Console.WriteLine("물약 없음");
 ```
 
-### (3)
+### (2)-3. 아이템 건너뛰기 (continue)
+
+> 특정 아이템(3번째)을 건너뛰게 합니다.
+
+```csharp
+for(int i=1; i<=5; i++) {
+    if(i==3) continue;
+    Console.Write($"{i}번째 아이템 줍기");
+}
+```
