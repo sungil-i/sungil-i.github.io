@@ -214,3 +214,13 @@ while(true) {
     enemy++;
 }
 ```
+
+### (2)-5. 구구단 만들기 (while문 사용)
+
+> while 문을 사용해서 구구단 7단을 완성하시오.
+
+```csharp
+int dan = 7;
+int i = 1;
+
+```
