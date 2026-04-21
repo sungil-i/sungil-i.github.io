@@ -199,3 +199,18 @@ for(int i=1; i<=5; i++) {
     Console.Write($"{i}번째 아이템 줍기");
 }
 ```
+
+### (2)-4. 적 생성 종료 (break)
+
+예시
+
+> 적 생성 도중 특정 아이템 발생 시 생성 종료하기
+
+```csharp
+int enemy = 1;
+while(true) {    
+    Console.Write($"{enemy}번째 적 생성");
+    if(enemy==10) break;
+    enemy++;
+}
+```
