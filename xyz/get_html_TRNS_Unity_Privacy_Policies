@@ -1,0 +1,114 @@
+import requests
+from bs4 import BeautifulSoup
+from googletrans import Translator
+import time
+
+def fetch_and_translate(urls):
+    translator = Translator()
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
+    
+    # 두 버전의 본문을 담을 변수
+    en_body = ""
+    ko_body = ""
+    
+    for i, url in enumerate(urls):
+        print(f"[{i+1}/{len(urls)}] 처리 중: {url}")
+        try:
+            response = requests.get(url, headers=headers)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            # 문서 본문 영역 탐색
+            content_area = soup.find('main') or soup.body
+            if not content_area: continue
+            
+            # 불필요 요소 제거
+            for s in content_area(['script', 'style', 'nav', 'footer', 'iframe']):
+                s.decompose()
+
+            # 제목 추출
+            title = soup.find('h1')
+            en_title = title.get_text(strip=True) if title else url.split('/')[-1].replace('-', ' ').title()
+            
+            # 제목 번역
+            ko_title = translator.translate(en_title, src='en', dest='ko').text
+            
+            # 영문판 HTML 구조 추가
+            en_body += f'<section id="doc-en-{i}"><h1>{en_title}</h1><p>Source: {url}</p>'
+            # 한글판 HTML 구조 추가
+            ko_body += f'<section id="doc-ko-{i}"><h1>{ko_title}</h1><p>출처: {url}</p>'
+
+            # 본문 태그 순회하며 추출 및 번역
+            for element in content_area.find_all(['h2', 'h3', 'p', 'li']):
+                tag = element.name
+                text = element.get_text(strip=True)
+                if not text: continue
+
+                # 영문 추가
+                en_body += f'<{tag}>{text}</{tag}>\n'
+                
+                # 한글 번역 후 추가 (API 부하 방지를 위해 짧은 대기시간 권장)
+                try:
+                    translated = translator.translate(text, src='en', dest='ko').text
+                    ko_body += f'<{tag}>{translated}</{tag}>\n'
+                    time.sleep(0.1) # 가벼운 딜레이
+                except Exception as e:
+                    ko_body += f'<{tag}>[번역 오류: {text}]</{tag}>\n'
+
+            en_body += '<hr></section>'
+            ko_body += '<hr></section>'
+                        
+        except Exception as e:
+            error_msg = f"Error processing {url}: {e}"
+            en_body += f'<h1>Error</h1><p>{error_msg}</p>'
+            ko_body += f'<h1>오류</h1><p>{error_msg}</p>'
+            
+    return en_body, ko_body
+
+def save_as_html(content, filename, lang_title):
+    html_template = f"""<!DOCTYPE html>
+<html lang="{"ko" if lang_title=="한글판" else "en"}">
+<head>
+    <meta charset="UTF-8">
+    <title>Unity Privacy Policy - {lang_title}</title>
+    <style>
+        body {{ font-family: 'Malgun Gothic', sans-serif; line-height: 1.7; color: #333; max-width: 900px; margin: 0 auto; padding: 40px; background: #fff; }}
+        h1 {{ border-bottom: 3px solid #333; padding-bottom: 10px; color: #000; }}
+        h2 {{ border-bottom: 1px solid #ddd; margin-top: 30px; color: #444; }}
+        p {{ margin: 15px 0; text-align: justify; }}
+        li {{ margin-bottom: 8px; }}
+        hr {{ border: 0; height: 2px; background: #eee; margin: 50px 0; }}
+        @media print {{ body {{ padding: 0; }} hr {{ page-break-after: always; }} }}
+    </style>
+</head>
+<body>
+    {content}
+</body>
+</html>"""
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(html_template)
+
+if __name__ == "__main__":
+    target_urls = [
+        "https://unity.com/kr/legal/privacy-policy",
+        "https://unity.com/legal/developer-privacy-policy",
+        "https://unity.com/legal/developer-privacy-policy-faq",
+        "https://unity.com/legal/game-player-and-app-user-privacy-policy",
+        "https://unity.com/legal/game-player-and-app-user-privacy-faq",
+        "https://unity.com/legal/educational-products-for-schools-privacy-notice",
+        "https://unity.com/legal/privacy-supplement-statement-for-unity-mars-companion-app",
+        "https://unity.com/legal/unity-data-processing-addendum-dpa",
+        "https://unity.com/legal/dpa-amendment-eu-uk-swiss-sccs",
+        "https://unity.com/legal/technical-and-organisational-measures",
+        "https://unity.com/legal/subprocessors",
+        "https://unity.com/legal/supplemental-privacy-statement-unity-muse"
+    ]
+    
+    en_html, ko_html = fetch_and_translate(target_urls)
+    
+    save_as_html(en_html, "Unity_Privacy_EN.html", "영문판")
+    save_as_html(ko_html, "Unity_Privacy_KO.html", "한글판")
+    
+    print("\n작업 완료! Unity_Privacy_EN.html 과 Unity_Privacy_KO.html 파일이 생성되었습니다.")

@@ -1,0 +1,3184 @@
+# Unity Legal & Privacy Policy Documents
+
+> 통합 생성일: 2026-04-23
+
+---
+
+# Privacy Policy Hub
+
+**Source URL:** [https://unity.com/kr/legal/privacy-policy](https://unity.com/kr/legal/privacy-policy)
+
+## Developer Privacy Policy
+
+This Privacy Policy governs our information practices for our Developer Services, which includes any websites, where a link to this Policy is provided. Developer Services means products and services intended for a party that develops and/or distributes a game or other app made with and/or using Unity Services.
+
+This Privacy Policy also applies to Personal Information we collect offline, such as when you call us or interact with Unity in person, such as at an industry event or at a place of business.
+
+## Developer Privacy Policy FAQ
+
+These FAQs provide a handy entry point to our longer and more comprehensiveDeveloper Privacy Policy. They are intended to enhance rather than replace the important notices in the Privacy Policy, which governs our collection, use, storage, and sharing of the information that we collect or receive from you.Customers should understand that Unity does not provide legal advice, therefore the information on this page is not a substitute for seeking your own legal counsel to determine the legal requirements of your business and processes, and how to address them.
+
+## Game Player and App User Privacy Policy
+
+This Privacy Policy will provide you with information on how Unity Technologies will collect, use, store, share or otherwise handle your Personal Information that we are responsible for and collect or receive through your use of applications which are owned by third parties but utilize Unity’s technology.
+
+This Privacy Policy also applies to Personal Information we collect offline, such as when you call us or interact with Unity in person, such as at an industry event or at a place of business.
+
+## Game Player and App User Privacy FAQ
+
+These FAQs provide a handy entry point to our longer and more comprehensiveGame Player and App User Privacy Policy.They are intended to enhance rather than replace the important notices in the Privacy Policy, which governs our collection, use, storage, and sharing of the information that we collect or receive from you.
+
+## Unity Educational Products for Schools Privacy Notice
+
+This sets forth Unity’s policies and procedures regarding the Unity software products in schools.
+
+## Privacy Supplement Statement for Unity MARS Companion App
+
+This sets forth special privacy terms regarding use of the Unity MARS Companion App.
+
+## Unity Data Processing Addendum
+
+This Data Processing Addendum (this “DPA”) is incorporated into and forms an integral part of the Unity Terms of Service. This agreement determines the rights and obligations of each party when processing personal information.
+
+## DPA Amendment for EU, UK, and Swiss SCCs
+
+In 2021, the European Commission and the Swiss Federal Data Protection and Information Commission issued new Standard Contractual Clauses ("2021 SCCs"). Additionally, in 2022, the UK Parliament approved the UK International Data Transfer Addendum to the EU SCCs (“UK Addendum”). The 2021 SCCs and UK Addendum replace the Standard Contractual Clauses enacted in 2010 (“2010 SCCs”). This is a pre-signed copy of this document which you may download, execute on your side, and return toDPA@unity3d.com.
+
+## Technical and Organisational Measures
+
+Technical and Organisational Measures (TOMs) are strategic safeguards designed to protect data security and ensure adherence to data protection regulations. These are incorporated by reference in Unity’sData Processing Addendum.
+
+## Sub-Processors
+
+Sub-processors are third-party companies that assist Unity by handling personal data on Unity's behalf. These are incorporated by reference in Unity’sData Processing Addendum.
+
+## GENERATIVE AI SUPPLEMENTAL PRIVACY NOTICE
+
+This notice explains Unity's processing activities with respect to Personal Information collected through users of Generative AI Tools
+
+
+---
+
+# Developer Privacy Policy
+
+**Source URL:** [https://unity.com/legal/developer-privacy-policy](https://unity.com/legal/developer-privacy-policy)
+
+Last Edit/Review: April 10, 2026
+
+Last Update: July 24, 2025
+
+## 1. Frequently Asked Questions (FAQs)
+
+TheseFAQsprovide a handy entry point to our longer and more comprehensive Developer Privacy Policy ("Privacy Policy") (below). They enhance rather than replace the important notices in this Privacy Policy, which governs our collection, use, storage, and sharing of the information that we collect or receive from you.
+
+### What’s new as of April 10, 2026?
+
+On April 10, 2026, we made the following updates to our Developer Privacy Policy:
+
+* Updated descriptions of our products and practices to reflect our current operations, and removed retired products;
+* Added a reference to the UK Online Safety Act as a law to which we are subject;
+* Updated our mailing address in the United States; and
+* Edited formatting and language to clarify information.
+The difference between an edit/review and an update is that "updates" involve material changes to our Privacy Policy whereas edits are not material or simply indicate a review has occurred. For example, we may make clarifying edits by giving additional examples. When we provide an update, you will receive a notice to accept and read the changes, which are summarized here.
+
+## 2. Privacy Policy Overview
+
+Unity Technologies and its subsidiaries and affiliates (collectively “Unity”) offer a variety of products, services, and websites for Developers that will be referred to in this Privacy Policy as the “Service” or “Services.” The Services include those provided to Developers under theUnity Advertising Services Terms of ServiceandCreate Terms of Service. This Privacy Policy refers to Unity as “we” or “us” and to the Developers as “you.” When we say “device,” we mean any device, including desktop, laptop, PC or Mac computers, smartphones, tablets, or any other device that is used to access or interact with the Service. When we say “Developer,” we mean a third party that develops and/or distributes a game or other app made with and/or using Unity Services. For clarity, Developer is inclusive of Users of ourArt Tools. When we say“User”we mean a Developer, people browsing our websites, a customer, or a prospective customer. When we say “Personal Information” we mean information that identifies you as an individual or relates to an identifiable individual. Personal Information does not include aggregated, de-identified, and/ or anonymized information, i.e., when the information has been transformed so that it no longer relates back to a person’s identity.
+
+It is important that you read this Privacy Policy together with any other privacy policy or fair processing notice we may provide on specific occasions when we are collecting or processing Personal Information, so that you are fully aware of how and why we are using your Personal Information. While this is our main Privacy Policy for Developers there may be supplemental privacy policies applicable depending on the service being used. You can find a link to all privacy noticeshere. To learn about our practices for game player data, please see ourGame Player and App User Privacy Policy.
+
+This Privacy Policy governs our information practices for our Developer Services, which includes any websites, where a link to this Privacy Policy is provided. Developer Services means products and services intended for a party that develops and/or distributes a game or other app made with and/or using Unity Services. This Privacy Policy also applies to Personal Information we may collect offline, such as if you call us or interact with Unity in person, including at industry events or at a place of business.
+
+If you are a student using a Unity Educational Product (excluding theStudent Plan), please see theUnity Educational Privacy Notice. For clarity, this main Privacy Policy does not apply to you unless you are on the Student Plan.
+
+## 3. Information We Collect
+
+We collect the following categories of Personal Information:
+
+A. Personal Information we receive from you:
+
+B. Personal Information we collect through your use of our Services or from other sources:
+
+C. Sensitive Information:
+
+Unless we explicitly request it, we ask that you not send us, and you not disclose, any sensitive Personal Information (e.g., social security numbers, information related to racial or ethnic origin, political opinions, religion or other beliefs, health, criminal background, or trade union membership) on or through the Unity website, the Services or otherwise to us.
+
+D. Aggregated, De-Identified, and/ or Anonymized Information:
+
+We may aggregate, de-identify, and/ or anonymize Personal Information, i.e., transform the information so it no longer relates back to a person's identity and will no longer be considered Personal Information. We do so to generate other data for our use, which we may use and disclose for any purpose.
+
+## 4. How We Use the Information we Collect or Receive
+
+Below, you will find a table depicting how we use the information we collect or receive through the use of our Services.
+
+* When a user signs up for a Service.
+* Providing access to online accounts, verifying User’s information, completing transactions (including purchases), processing orders and related payments, delivering purchases.
+* Analyzing and acting on the analysis of our core business metrics such as system and log maintenance, technical support, usage data and system debugging.You cannot opt-out of core business metric analytics as they are strictly necessary for us to run the services.Carrying out operations and general business such as administering online Services; employee training and managing work activities and personnel generally.
+* You cannot opt-out of core business metric analytics as they are strictly necessary for us to run the services.
+* Carrying out operations and general business such as administering online Services; employee training and managing work activities and personnel generally.
+* Name & Contact Details
+* Company Information
+* Account Information
+* Billing & Financial Information
+* Social Network Information
+* Information Uploaded Through Use of Services
+* Information Provided Through Use of Services
+* Biometric Information
+* Device Information
+* IP Address
+* Log Information
+* Core Business Metric Information
+* Cookies and Related Technologies
+* Performing the terms of the contract, including the Terms of Service we enter with you to provide the Services.
+* Consent, such as:When we collect Personal Information through our use of cookies and similar technologies.
+* When we collect Personal Information through our use of cookies and similar technologies.
+* Legitimate Interest, such as in:Maintaining the Service & operational improvementsResponding to inquiriesLegal obligations such as when you submit a request to access your personal information.
+* Maintaining the Service & operational improvements
+* Responding to inquiries
+* Legal obligations such as when you submit a request to access your personal information.
+* Customer relationship management
+* Lead management
+* Account and transaction recordkeeping
+* Name & Contact Details
+* Company Information
+* Account Information
+* Billing & Financial Information
+* Legitimate Interest, such as in enhancing and growing our business and meeting the needs of our customers.Comply with a legal obligation* such as financial reporting obligations
+* Comply with a legal obligation* such as financial reporting obligations
+* Marketers
+* Third-Party Social Networks
+* Unity Partners
+* Researchers
+* Sending administrative information to you, such as changes to our terms, conditions and policies.
+* Sending notices to you when we have obtained your information from a party other than you.
+* Name & Contact Details
+* Company Information
+* Account Information
+* Performance of the Terms of Service Agreement we enter with you to provide the Services.
+* Legal obligations* such as when we obtain your information from a third party and are obligated to notify you.
+* Marketers
+* Third-Party Social Networks
+* Unity Partners
+* Researchers
+* Third-Party lead generation services
+* Name & Contact Details
+* Company Information
+* Account Information
+* Billing & Financial Information
+* Social Network Information
+* Information Uploaded Through Use of Services
+* Information Provided Through Use of Services
+* Device Information
+* Log Information
+* Performance of the Terms of Service Agreement we enter with you to provide the Services.
+* Legitimate Interests, such as:Responding to and resolving inquiries or complaintsProviding support to customers so that they can use the serviceLegal obligations* such as when you submit a request to access your Personal Information.
+* Responding to and resolving inquiries or complaints
+* Providing support to customers so that they can use the service
+* Legal obligations* such as when you submit a request to access your Personal Information.
+* Providing you with our newsletter and/or other marketing materials
+* Inviting you to conferences and/ or events.
+* Following up with you following a conference and/ or event
+* Conducting research and surveys
+* Name & Contact Details
+* Company Information
+* Account Information
+* Social Network Information
+* Information Provided Through Use of Services
+* IP Address
+* Log Information
+* Cookies and Related Technologies
+* Other Information
+* Consent, such as:When you have opted into marketing communicationsWhen we have your soft opt-in to certain communications We have your soft opt-in when you provide your contact information to us in the context of a purchase of a product or service.**
+* When you have opted into marketing communications
+* When we have your soft opt-in to certain communications We have your soft opt-in when you provide your contact information to us in the context of a purchase of a product or service.**
+* When we collect Personal Information through our use of cookies and similar technologies.
+* Contacting users for sales and marketing opportunities
+* Marketers
+* Third-Party Social Networks
+* Unity Partners
+* Researchers
+* Third-Party lead generation services
+* Name & Contact Details
+* Company Information
+* Account Information
+* Social Network Information
+* Information Provided Through Use of Services
+* IP Address
+* Log Information
+* Cookies and Related Technologies
+* Consent,such as:When you have opted in to sharing your social media account(s) with us.
+* When you have opted in to sharing your social media account(s) with us.
+* Legitimate Interest, such as:Such as interacting with you on social media through postsSuch as attributing a contribution to an individualPerformance of the Terms of Service Agreement we enter with you to provide the Services, such as fulfilling our obligations associated with those who sign up to the Unity Affiliate Program.
+* Such as interacting with you on social media through posts
+* Such as attributing a contribution to an individual
+* Performance of the Terms of Service Agreement we enter with you to provide the Services, such as fulfilling our obligations associated with those who sign up to the Unity Affiliate Program.
+* Third-Party Social Networks
+Allowing you to participate in sweepstakes, contests, or other promotions.
+Some of these promotions have additional rules containing information about how we will use and disclose your Personal Information, which we will communicate to you separately
+
+* Name & Contact Details
+* Company Information
+* Account Information
+* Social Network Information
+* Information Provided Through Use of Services
+* IP Address
+* Log Information
+* Cookies and Related Technologies
+* Manage our contractual relationship, such as fulfilling obligations associated with a contest.
+* Consent, such as:When you have opted into relevant marketing communicationsWhen we collect Personal Information through our use of cookies and similar technologies.
+* When you have opted into relevant marketing communications
+* When we collect Personal Information through our use of cookies and similar technologies.
+Marketers Third-Party Social Networks 
+Unity Partners
+Researchers
+Third-Party lead generation services
+
+Personalizing our interactions with you and providing you with information and/ or offers. These may be:
+
+* Based on your past usage and/ or preferences
+* Delivering content via our Services that we believe will be relevant and interesting to you
+* Name & Contact Details
+* Company Information
+* Account Information
+* Social Network Information
+* Information Provided Through Use of Services
+* Device Information
+* IP Address
+* Log Information
+* Cookies and Related Technologies
+* Consent, such as:When we collect Personal Information through our use of cookies and similar technologies.
+* When we collect Personal Information through our use of cookies and similar technologies.
+* Legitimate Interest, such as:Such as providing tailored Services based on past usage and/or preferences, and such tailoring would be based on basic and privacy-non-intrusive segmentation.
+* Such as providing tailored Services based on past usage and/or preferences, and such tailoring would be based on basic and privacy-non-intrusive segmentation.
+* Marketers
+* Unity Partners
+* Researchers
+* Improving the efficiency of our Services
+* Identifying usage trends
+* Determining the effectiveness of our promotional campaigns
+* Develop new products and Services
+* Conducting research and surveys
+* Developing, enhancing, improving, repairing, maintaining or modifying the Services and/or assisting our Developers with this activity
+* Conducting data analytics, i.e., applying analytics to business operations and data to describe, predict, and improve business performance within Unity and/or to provide a better user experience, including the use of e.g., machine learning.
+* Name & Contact Details
+* Company Information
+* Account Information
+* Billing & Financial Information
+* Social Network Information
+* Information Uploaded Through Use of Services
+* Information Provided Through Use of Services
+* Device Information
+* IP Address
+* Log Information
+* Core Business Metric Information
+* Cookies and Related Technologies
+* Performance of the Terms of Service Agreement we enter with you to provide the Services.
+* Consent, such as:When we collect Personal Information through our use of cookies and similar technologies.
+* When we collect Personal Information through our use of cookies and similar technologies.
+* Legitimate Interest, such as:Such as developing new Services and/ or productsUnderstanding market sentiments and market standards
+* Such as developing new Services and/ or products
+* Understanding market sentiments and market standards
+* Marketers
+* Third-Party Social Networks
+* Unity Partners
+* Researchers
+Conducting data analytics, i.e., applying analytics to business operations and data to describe, predict, and improve business performance within Unity and/or to provide a better user experience, including the use ofAI, including Generative AI.This includes analyzing the data you may have opted to import or link through the Unity Cloud Dashboard including third-party data such as Google analytics ("Developer Data").Please note: we aim to include data minimization into our AI practices, such as through the incorporation noise reduction tools such as:
+
+* Removal, tokenization, and anonymization of some personal information;
+* To detect and restrict Unacceptable Content as provided for in our Content Policy being provided by users.
+* Name & Contact Details
+* Company Information
+* Account Information
+* Information Uploaded Through Use of Services
+* Information Provided Through Use of Services
+* Device Information
+* IP Address
+* Log Information
+* Core Business Metric Information
+* Cookies and Related Technologies
+* Performance of the Terms of Service Agreement we enter with you to provide the Services.
+* Consent, such as:When we collect Personal Information through our use of cookies and similar technologies.
+* When we collect Personal Information through our use of cookies and similar technologies.
+* Legitimate Interest, such as:Developing new Services and/ or productsUnderstanding market sentiments and market standards
+* Developing new Services and/ or products
+* Understanding market sentiments and market standards
+* Unity Partners
+* Fraud and security purposes, such as monitoring to detect and prevent cyberattacks or identity theft attempts.
+* Prevention of criminal activity or harm to Users, such as illegal or harmful content being posted on our message boards.
+* Name & Contact Details
+* Company Information
+* Account Information
+* Billing & Financial Information
+* Social Network Information
+* Information Uploaded Through Use of Services
+* Information Provided Through Use of Services
+* Biometric Information
+* Device Information
+* IP Address
+* Log Information
+* Core Business Metric Information
+* Cookies and Related Technologies
+* Comply with a legal obligation*
+* Legitimate Interests, such as:Securing our services, investigating cyber intrusions, fraud, and abuse.Protecting our operations, rights, safety, or propertyPursuing all available legal remedies, defending claims, and limiting damages we may sustain
+* Securing our services, investigating cyber intrusions, fraud, and abuse.
+* Protecting our operations, rights, safety, or property
+* Pursuing all available legal remedies, defending claims, and limiting damages we may sustain
+* Reporting to our Board of Directors as required by the Securities & Exchange Commission.
+* Audits such as to verify that our internal processes function as intended and are compliant with Legal, regulatory, and contractual requirements.
+* Financial and accounting purposes.
+* Complying with laws and regulations. These may be outside of your country of residence.
+* Other legal reasons such as enforcing terms and conditions, protecting operations, rights, privacy, safety, or property and/or that of our affiliates, you or others; to allow us to pursue available legal remedies, defend claims and limit the damages that we may sustain.
+* Name & Contact Details
+* Company Information
+* Account Information
+* Billing & Financial Information
+* Social Network Information
+* Information Uploaded Through Use of Services
+* Information Provided Through Use of Services
+* Biometric Information
+* Device Information
+* IP Address
+* Log Information
+* Core Business Metric Information
+* Cookies and Related Technologies
+* Comply with a legal obligation* such as financial reporting obligations
+* Legitimate Interests, such as:Securing our services, investigating cyber intrusions, fraud, and abuse.Reporting on company progress to key stakeholders and making decisions on such reportingProtecting our operations, rights, safety, or propertyPursuing all available legal remedies, defending claims, and limiting damages we may sustain
+* Securing our services, investigating cyber intrusions, fraud, and abuse.
+* Reporting on company progress to key stakeholders and making decisions on such reporting
+* Protecting our operations, rights, safety, or property
+* Pursuing all available legal remedies, defending claims, and limiting damages we may sustain
+* Cooperating with public and government authorities, including law enforcement outside of your country of residence.
+* Fulfilling legal and compliance obligations, responding to legal processes, meeting national security or law enforcement requirements.
+* Name & Contact Details
+* Company Information
+* Account Information
+* Billing & Financial Information
+* Social Network Information
+* Information Uploaded Through Use of Services
+* Information Provided Through Use of Services
+* Biometric Information
+* Device Information
+* IP Address
+* Log Information
+* Core Business Metric Information
+* Cookies and Related Technologies
+* Comply with a legal obligation*
+* Legitimate Interest, such as:Monitoring, reacting to, and documenting an emergency and/or incident
+* Monitoring, reacting to, and documenting an emergency and/or incident
+* In connection with a reorganization, merger, sale, joint venture, assignment, transfer, or other disposition of all or any portion of our business, assets, or stock (including in connection with any bankruptcy or similar proceedings). You will be notified of any such business transaction and possible changes to the processing of your Personal Information in accordance with applicable law.
+* Name & Contact Details
+* Company Information
+* Account Information
+* Billing & Financial Information
+* Social Network Information
+* Information Uploaded Through Use of Services
+* Information Provided Through Use of Services
+* Biometric Information
+* Device Information
+* IP Address
+* Log Information
+* Core Business Metric Information
+* Cookies and Related Technologies
+* Legitimate Interests, such as:Pursuing a business transactionCorporate restructuring
+* Pursuing a business transaction
+* Corporate restructuring
+* Responding to, handling, and documenting incidents and emergencies
+* Actively monitoring to ensure adequate incident prevention, response, and documentation
+* Sending notifications and alerts in the event of incidents or emergencies
+* Name & Contact Details
+* Company Information
+* Account Information
+* Billing & Financial Information
+* Social Network Information
+* IP Address
+* Comply with a legal obligation*
+Comply with a legal obligation*
+
+* Legitimate Interest, such as:Monitoring, reacting to, and documenting an emergency and/or incident
+Legitimate Interest, such as:
+
+* Monitoring, reacting to, and documenting an emergency and/or incident
+* Law Enforcement
+* Incident reporter
+*In these cases, our marketing communication will only relate to our own similar products or services to that which you purchased. At the time of purchase, we will have given you the opportunity to easily object to receiving these types of marketing messages, and we will always include an unsubscribe link in each marketing communication so that you can easily opt-out if preferred.
+
+Please note: When the legal basis is to manage our contractual relationship with you, the minimum information required will beName & Contact Details,Account Information,Billing & Financial Information(if a service requires payment from any party),IP Address,Log Information, andCore Business Metric Informationor in the case of ensuring that our services are operating with enough servers and capacity, machine ID and event telemetry information. Not providing this information may result in you not being able to use the Services.
+
+## 5. Sharing Information
+
+Below, you will find an outline of scenarios in which information may be shared using our Services.
+
+We share Personal Information with select vendors and service providers to help us provide our Services such as:
+
+* Website, Data Hosting and Analytics Vendors including Cloud ServersProvide the functionality of the ServicesStore and transfer data in a secure mannerImprove and develop new products and servicesData analytics
+* Provide the functionality of the Services
+* Store and transfer data in a secure manner
+* Improve and develop new products and services
+* Data analytics
+* Marketing & EventsEvent hostingProvide marketing communications, consistent with your choicesFacilitate and sponsor sweepstakes, contests, and similar promotionsConduct research and surveys
+* Event hosting
+* Provide marketing communications, consistent with your choices
+* Facilitate and sponsor sweepstakes, contests, and similar promotions
+* Conduct research and surveys
+* Payment ProcessorsFacilitate financial transactions:
+Our payments processors request that we provide you with a link to their privacy statements:Worldpay -Privacy StatementZuora -Privacy StatementStripe -Privacy CenterSpeedTree payment data is stored by Authorize.net and Paypal. You may find their privacy policy link(s) here:https://www.authorize.net/about-us/privacy/andhttps://www.paypal.com/us/webapps/mpp/ua/privacy-full.
+* Facilitate financial transactions:
+Our payments processors request that we provide you with a link to their privacy statements:Worldpay -Privacy StatementZuora -Privacy StatementStripe -Privacy Center
+* Worldpay -Privacy Statement
+* Zuora -Privacy Statement
+* Stripe -Privacy Center
+* SpeedTree payment data is stored by Authorize.net and Paypal. You may find their privacy policy link(s) here:https://www.authorize.net/about-us/privacy/andhttps://www.paypal.com/us/webapps/mpp/ua/privacy-full.
+* Fraud and SecurityProtect and secure our systems and ServicesMonitor, investigate, and take action on fraudulent activity
+* Protect and secure our systems and Services
+* Monitor, investigate, and take action on fraudulent activity
+* Professional Services Providers-Various of services such as audit, legal, and financial.
+* Information Technology VendorsInfrastructure provision
+* Infrastructure provision
+* Sales Infrastructure VendorsCustomer relationship managementLead managementAccount and transaction recordkeepingResell our products and services
+* Customer relationship management
+* Lead management
+* Account and transaction recordkeeping
+* Resell our products and services
+For safety, security, and legal compliance, we share Personal Information:
+
+* When we are required to disclose the information in response to legal process (e.g., if we receive a court order, search warrant, subpoena, or similar legal process);
+* If we believe that the Service is being used in the commission of a crime, including to report such criminal activity or to exchange information with other companies and organizations for the purposes of fraud protection and credit risk reduction;
+* To protect the vital interests of you, another person or the public, for example when there is a meaningful risk that poses a threat to the safety of you, another person or the public generally; and
+* To protect the rights or property of Unity, including to enforce the terms and licenses that govern the use of the Services.
+Sharing can happen within our Services and outside it when you take certain actions. For example:
+
+* When you share a replay on a social network – depending on your privacy settings at the relevant social network – some users of the relevant social network will be able to see the replay;
+* When you post comments on our forums, visitors and other forum users will be able to see your username, photo, and comments;
+* When you publish or provide assets for license on the Asset Store, your seller name and other information in your Publisher profile will be visible;
+* When you sign up for a certification program, your Name & Contact Information will be shared with the vendor who runs the certifications.
+Additional information for those located in the European Economic Area
+
+We also disclose your Personal Information as necessary or appropriate, in particular when we have a legal obligation or legitimate interest to do so, as set out in further detail here.
+
+This may include laws outside your country of residence, which could give rise to a legal obligation requiring us to process your Personal Information, including:
+
+* Civil and commercial matters:Where we are in receipt of a court order to disclose information for the purposes of court proceedings, such as under Regulation (EU) No 1215/2012 on jurisdiction and the recognition and enforcement of judgments in civil and commercial matters.To comply with Council Regulation (EC) No 1206/2001 of 28 May 2001 on cooperation between the courts of the Member States in the taking of evidence in civil or commercial matters.
+* Where we are in receipt of a court order to disclose information for the purposes of court proceedings, such as under Regulation (EU) No 1215/2012 on jurisdiction and the recognition and enforcement of judgments in civil and commercial matters.
+* To comply with Council Regulation (EC) No 1206/2001 of 28 May 2001 on cooperation between the courts of the Member States in the taking of evidence in civil or commercial matters.
+* Criminal matters: to comply with requests and orders from EU and EU Member State law enforcement to provide information in relation to a criminal investigation in compliance with applicable local laws, or to take steps to report information we believe is important to law enforcement where so required or advisable under applicable local laws.
+* Consumer matters: to comply with requests from competent authorities under EU or EU Member State consumer protection law, such as under Directive (EU) 2019/2161 and its implementing laws in EU Member States.
+* Corporate and taxation matters: to comply with our obligations under applicable EU Member State corporate and tax legislation, such as where a national tax law of an EU Member State requires collection of specific transactional personal information for tax purposes.
+* Regulatory matters: to respond to a request or to provide information we believe is necessary or appropriate to comply with our obligations to engage with regulators, such as when relevant EU Member State data protection supervisory authorities initiate investigation under the General Data Protection Regulation into our Company. These can include authorities outside of your country of residence.
+* Compliance and internal investigations: to comply with whistleblowing requirements under Directive (EU) 2019/1937 and its implementing laws in EU Member States.
+* Health and safety regulations: to comply with health and safety reporting obligations in accordance with applicable local laws, such as in relation to accidents involving members of the public on our premises.
+* Compliance with the Safety Laws such as the UK Online Safety Act 2023 and the Digital Services Act (Regulation (EU) 2022/2065):: Note: Unity will provide its users of impacted services with aggregate reporting regarding Unity’s compliance with the Digital Services Act upon the user’s request.
+Note: This list will be updated as new laws are enacted.
+
+* For dispute resolution purposes;
+* To protect our rights, privacy, safety or property, and/or that of our affiliates, you or others.
+## 6. Our Policies Concerning Children
+
+Unless expressly provided otherwise, the Services are intended for general audiences and are not intended for children. We do not knowingly collect Personal Information from children under 13. If any party becomes aware that a child under the age to provide lawful consent to processing in their region (e.g., 13 in the U.S., 16 in the E.U.,16 in Japan) has provided us with Personal Information in contravention of our policies, they should contact us atDPO@unity3d.com.
+
+* Some third parties, such as platform providers like the iTunes Store or Google Play, may provide age-based ratings on some of the apps created by Developers. These ratings shall have no bearing on the limitations set out in applicable law and in this Privacy Policy. Third parties may also provide content categories on some of the Services. These categories shall have no bearing on the limitations set out in applicable law and in this Privacy Policy.
+## 7. Your Choices About Unity’s Collection and Use of Your Information
+
+Below, you will find information on how any User can access, correct, update, suppress, restrict, or delete your Personal Information, object to or opt out of the processing of Personal Information, withdraw your consent (which will not affect the lawfulness of processing prior to the withdrawal), or if you would like to request to receive a copy of your Personal Information for purposes of transmitting it to another company (to the extent these rights are provided to you by applicable law), you may contact us in accordance with the instructions immediately above, or in accordance with Section 16 "Contact Us" below. We may not be able to accommodate a request if we believe the request would violate any law or legal requirement.
+
+In your request, please make clear what Personal Information you would like to have changed or whether you would like to have your Personal Information suppressed from our database. For your protection, we may only implement requests with respect to the Personal Information associated with the particular email address that you use to send us your request, and we may need to verify your identity before implementing your request. We will try to comply with your request as soon as reasonably practicable.
+
+1. You always have the option to refrain from using the Service or to discontinue using the Service if you do not want Personal Information collected about you. If you choose to discontinue using the service and wish for your Personal Information to be deleted, please exercise your rights as described in the Section 8 “Privacy Rights”below.
+
+2. You can choose to use the Service in a manner that limits the Personal Information we collect.
+
+* Unity Editor opt-outYou can opt-out of usage analytics in "Edit Your Privacy Settings" in the Privacy section under "My Account".Please note: You cannot opt-out of core business metrics analytics as such analytics are strictly necessary for us to run the services as they are used for items such as testing new system features to evaluate their impact, system and log maintenance, technical support, system debugging, deciding whether to continue to support certain operating systems.
+* You can opt-out of usage analytics in "Edit Your Privacy Settings" in the Privacy section under "My Account".Please note: You cannot opt-out of core business metrics analytics as such analytics are strictly necessary for us to run the services as they are used for items such as testing new system features to evaluate their impact, system and log maintenance, technical support, system debugging, deciding whether to continue to support certain operating systems.
+* Please note: You cannot opt-out of core business metrics analytics as such analytics are strictly necessary for us to run the services as they are used for items such as testing new system features to evaluate their impact, system and log maintenance, technical support, system debugging, deciding whether to continue to support certain operating systems.
+* Unity Hub opt-outYou can opt-out of usage analytics in the Privacy Settings under “Preferences”, indicated by the gear wheel.
+* You can opt-out of usage analytics in the Privacy Settings under “Preferences”, indicated by the gear wheel.
+* Unity Asset Transformer (formerly known as Pixyz) ServicesYou can opt-out of usage analytics collection anytime, by simply changing the parameter inside the software settings.
+* You can opt-out of usage analytics collection anytime, by simply changing the parameter inside the software settings.
+3.  Generative AI
+
+* Prior to your use of any Generative AI feature made available by Unity, we will provide a just-in-time notice (like an interstitial for example, when you log in) that will provide you with notice of a particular use of data and give you an opportunity to opt-out.
+4. You can exercise your rights as described in Section 8 “Privacy Rights” below.
+
+5. You can opt out of receiving marketing-related emails from us or certain communications like email, by following the instructions in any marketing message you receive, or by withdrawing your consent. However:
+
+* We reserve the right to confirm your opt-out; andUsers who opt-out of marketing messages may still receive administrative, relationship, or transactional messages (e.g., we might send a notice about changes to our Terms of Service or changes to the functionality of a product or Service).
+* Users who opt-out of marketing messages may still receive administrative, relationship, or transactional messages (e.g., we might send a notice about changes to our Terms of Service or changes to the functionality of a product or Service).
+6. In any event, we will try to comply with your request(s) as soon as reasonably practicable.
+
+In the following Services you can access, update, and delete your Personal Information through your account. To exercise your other rights, please contact us in accordance with the instructions immediately below, or in accordance with Section 16 "Contact Us" below.
+
+* Unity Software
+* Asset Store
+* Unity Build AutomationNote: Unity may not be able to fulfill a request to delete (erase) or port a project without first receiving an account administrator’s permission. For requests to delete (erase) or port a project, please contact us in accordance with the instructions immediately below, or in accordance with Section 16 "Contact Us" below.
+* Note: Unity may not be able to fulfill a request to delete (erase) or port a project without first receiving an account administrator’s permission. For requests to delete (erase) or port a project, please contact us in accordance with the instructions immediately below, or in accordance with Section 16 "Contact Us" below.
+* SyncSketchYou can delete your account by following the instructionshere. To exercise your other rights, please contact us in accordance with the instructions immediately below, or in accordance with Section 16 "Contact Us" below.
+* You can delete your account by following the instructionshere. To exercise your other rights, please contact us in accordance with the instructions immediately below, or in accordance with Section 16 "Contact Us" below.
+* Unity Ads
+* Unity Analytics
+* Unity connected games service (including Game Server Hosting)
+* Unity Student PlanYou can request access to your student verification data by emailing privacy@sheerid.com
+* You can request access to your student verification data by emailing privacy@sheerid.com
+* Unity’s Vivox Service
+* ironSource Services
+For Services not listed
+
+To exercise your rights for all other Developer Services, please contact us in accordance with the instructions immediately below, or in accordance with  Section 16 "Contact Us" below.
+
+For efficiency, please note the service your request is about.
+
+We may need to retain certain information for recordkeeping purposes and/or to complete any transactions that you began prior to requesting a change or deletion (e.g., when you make a purchase or enter a promotion, you may not be able to change or delete the Personal Information provided until after the completion of such purchase or promotion).
+
+## 8. Privacy Rights
+
+Depending on the country or state in which you reside, you may have additional privacy rights. For more information on the applicable rights in, please choose the appropriate location in Brazil, Canada, European Economic Area (“EEA”) and United Kingdom (“UK”), Israel, Japan, Republic of Korea, and U.S.A. (California) below:
+
+Brazil
+
+The Brazilian General Data Protection Act provides you the right to:
+
+* Confirm Unity's processing of your data;
+* Access your data;
+* Correct your incomplete, inaccurate, or outdated data;
+* Request anonymization, blocking or elimination of unnecessary or excessive data or of data processed in noncompliance with the Brazilian General Data Protection Act;
+* Port your data to other service providers or suppliers of products;
+* Delete your personal data when processed with your consent;
+* Obtain information on the public and private entities with whom Unity shared your data;
+* Obtain information on the possibility of not providing consent and on the consequences of the denial;
+* Revoke your consent to the processing of your data when we seek your consent; and
+* Lodge complaints before data protection authorities.
+Canada
+
+The Canadian Personal Information Protection and Electronic Documents Act provides certain rights with respect to your personal data, such as:
+
+* Right to Access - You have the right to request Unity provide you with a copy of your personal data.
+* Right to Rectification (Correction) - You have the right to request Unity to correct any information about you that you believe is incorrect. You also have the right to request Unity to complete information about you that you believe is incorrect.
+EEA and UK
+
+The EU and UK General Data Protection Regulations ( “GDPR”) provide certain rights (when applicable to you) in relation to the way in which Unity processes your Personal Information as a data controller. You have the following rights:
+
+* Right to Access - You have the right to request Unity provide you with a copy of your Personal Information.
+* Right to Rectification (Correction) - You have the right to request Unity to correct any information about you that you believe is incorrect. You also have the right to request Unity to complete information about you that you believe is incorrect.
+* Right to Erasure (Deletion) - You have the right to request Unity to erase your Personal Information, under certain conditions.
+* Right to Restrict Processing - You have the right to request Unity to restrict the processing of your Personal Information, under certain conditions.
+* Right to Object to Processing - You have the right to object to Unity’s processing of your Personal Information, under certain conditions.
+* Right to Data Portability - You have the right to request Unity to transfer your Personal Information to another organization, or directly to you, under certain conditions.
+* Right to Lodge a Complaint - You may lodge a complaint with an EEA data protection authority for your country or region where you have your habitual residence or place of work or where an alleged infringement of applicable data protection law occurs. In the UK, you may lodge a complaint with the Information Commissioner’s Office (“ICO”). A list of data protection authorities is available athttps://ec.europa.eu/newsroom/article29/items/612080If you do have a complaint, we would appreciate the chance to deal with your concerns before approaching your supervisory body, so please contact us atDPO@unity3d.comif you wish to discuss any complaint.
+* If you do have a complaint, we would appreciate the chance to deal with your concerns before approaching your supervisory body, so please contact us atDPO@unity3d.comif you wish to discuss any complaint.
+The Israel Protection of Privacy Law 5741-1981:
+
+* Any information provided by you is on a voluntary basis with no legal requirement to do so, but if you refuse to provide such information we may not be able to provide you with the Services. According to the Protection of Privacy Law, each person is entitled to inspect, either himself or through a representative authorized by him in writing or his guardian, any information about him kept in a database.
+Japan
+
+The Act on the Protection of the Personal Information of Japan provides certain rights with respect to your Personal Data, such as:
+
+* The right to request a notification of the purposes of use of your Personal Data
+* The right to request the disclosure, correction, addition, or deletion of your Personal Data
+* The right to request the discontinuation of use or provision to any third-party
+* The right to request the disclosure of the record of provision of your Personal Data
+* If you are a resident of Japan and wish to exercise any of the above rights, please email us atDPO@unity3d.com(or contact us at the address indicated in Section 16 “Contact Us” below)
+* Unity Technologies, GINZA SIX 8F, 6-10-1 Ginza, Chuo-ku, Tokyo Japan 104-0061
+United States of America
+
+* CaliforniaPlease see Section 18 “Additional Information for Residents of California”below for additional information on how we handle your Personal Data and the privacy requests you may make under applicable law.
+* Please see Section 18 “Additional Information for Residents of California”below for additional information on how we handle your Personal Data and the privacy requests you may make under applicable law.
+## 9. Transfers out of Country of Collection
+
+Unity has implemented and maintains a framework consistent with applicable law for transfers of Personal Information outside of the country of collection, including for transfers out of the UK and/or EEA.
+
+Your Personal Information may be stored and processed in any country where we havefacilities, includingironSourcewhich is headquartered in Israel, or in which we engage service providers, such as Google Cloud Platform and Salesforce and by using the Services you understand that your Personal Information will be transferred to countries outside of your country of residence, including the United States, which may have data protection rules that are different from those of your country. In certain circumstances, courts, law enforcement agencies, regulatory agencies or security authorities in those other countries may be entitled to access your Personal Information.
+
+Where this will involve transferring your Personal Information outside the UK and/or EEA, we ensure a similar degree of protection is afforded to it by ensuring at least one of the following safeguards is implemented:
+
+Adequacy Decisions:Some non-EEA countries are recognized under the UK GDPR and by the European Commission as providing an adequate level of data protection according to EEA standards (the full list of these countries is availablehere). For example, we may transfer to our affiliates who are located around the world, including Canada, Japan, New Zealand, Republic of Korea, Switzerland, and the United Kingdom.
+
+Standard Contractual Clauses:For transfers of Personal Information from the UK and/or EEA to third countries, which are not considered adequate under the UK GDPR and/or by the European Commission, we have put in place standard contractual clauses adopted under the UK GDPR and/or by the European Commission to protect your Personal Information. For example, we use Google Cloud Platform’s infrastructure and data centers which are located around the world, including the United States. We rely on both controller-controller and controller-processor Standard Contractual Clauses. You may obtain a copy of these measures by contacting us in accordance with Section 16 "Contact Us"  below. “UK GDPR” has the meaning given to it in section 3(10) (as supplemented by section 205(4)) of the Data Protection Act 2018.
+
+Japan
+
+For transfers from Japan to countries other than the EEA/UK, we have put adequate measures in place to protect your Personal Information.
+
+The transferees are obligated to comply with equivalent or comparable rules to those under the Act on the Protection of Personal Information of Japan (APPI) on a continuous basis, and we periodically confirm their compliance. We also periodically confirm any changes to the data privacy regulations of other countries that may affect the compliance measures taken by our overseas affiliates and third-party service providers and take measures such as requesting that they take corrective measures or suspending the provision of Personal Information if any issues arise in the implementation of such compliance measures. We will provide you with further information on the measures we take in this regard upon your request.
+
+## 10. Retention
+
+We retain Personal Information for as long as is necessary or as permitted in light of the purpose(s) for which it was obtained and consistent with applicable law, for example, for the purposes of satisfying any legal, regulatory, tax, accounting or reporting requirements. The criteria to determine our retention periods include:
+
+* The length of time we have an ongoing relationship with you and provide the Services to you (for example, for as long as you have an account with us or keep using the Services);
+* Whether there is a legal obligation to which we are subject (for example, certain laws require us to keep records of your transactions for a certain period of time before we can delete them); or
+* Whether retention is advisable in light of our legal position (such as in regard to applicable statutes of limitations, litigation or regulatory investigations).
+Where a legal obligation arises or retention is advisable in light of our legal position, in some circumstances, we will retain certain Personal Information, even after your account has been deleted and/or we no longer provide the Services to you; for example:
+
+* To cooperate with law enforcement or public, regulatory and government authorities: If we receive a preservation order or search warrant, related to your Services account, we will preserve Personal Information subject to such order or warrant after you delete your Services account.
+* To comply with legal provisions on tax and accounting: We may retain your Personal Information, such as Name & Contact Details, Account Information, Billing & Financial Information, after you delete your Services account, as required by tax law and to comply with bookkeeping requirements. Please note the length of time may vary by country.
+* For fraud and security purposes: We may retain your Personal Information for fraud or security purposes. In the event you have acted fraudulently through the use of the Services (e.g., by refusing monies properly owed for the Services), we may retain Name & Contact Details, Company Information, Account Information, and IP address.
+* To pursue or defend a legal action: We may retain relevant Personal Information in the event of a legal claim or complaint, including regulatory investigations or legal proceedings about a claim related to your Personal Information, or if we reasonably believe there is a prospect of litigation (whether in respect of our relationship with you or otherwise) after the dispute has been settled or decided by a court or tribunal from which there is no further right of appeal. The criteria for determining the length of time we will retain this information include:Whether there is a legal obligation to which we are subject (for example, if the settlement or decision requires us to keep the records for a certain period of time before we can delete them); orWhether retention is advisable in light of our legal position (such as in regard to applicable statutes of limitations, litigation or regulatory investigations).
+* Whether there is a legal obligation to which we are subject (for example, if the settlement or decision requires us to keep the records for a certain period of time before we can delete them); or
+* Whether retention is advisable in light of our legal position (such as in regard to applicable statutes of limitations, litigation or regulatory investigations).
+## 11. Security
+
+We employ a variety of measures to safeguard the collection, transmission, and storage of the information we collect. These measures vary based on the sensitivity of the information that we collect, process, and store, and the current state of technology. Please note that no system can be guaranteed to be 100% secure. Therefore, while we strive to employ reasonable protections for your information that are appropriate to its sensitivity, we cannot guarantee or warrant the security of the information you share with us, and we cannot be responsible for the theft, destruction, loss or inadvertent disclosure of your information. Where we have given you (or where you have chosen) a password which enables you to access certain parts of our site, you are responsible for keeping this password confidential. We ask you not to share a password with anyone. We have put in place procedures to deal with any suspected Personal Information breach and will notify you and any applicable regulator of a breach where we are legally required to do so.
+
+If you have reason to believe that your interaction with us is no longer secure, please immediately notify us in accordance with Section 16 “Contact Us” below.
+
+## 12. Biometric Information
+
+Please note, Unity is a data processor for biometric information. The following Section contains legal information which is only applicable under U.S. Law.
+
+Your use of certain features may result in the collection of biometric information. Biometric information is any information based on an individual's biometric identifier used to identify an individual. Biometric information that may be collected depending on how you use Unity's products includes scans of an individual's hand or face geometry. For example, if you are using Unity AR Companion App to scan a person's hand or face geometry, that may be considered to be collecting biometric information under applicable laws. At this time, Unity only stores scans collected through your use of the Unity AR Companion App in accordance with how you choose to store the data, but we do not otherwise use such scans.
+
+We use commercially reasonable organizational, technical, and administrative methods designed to protect biometric information within our organization.
+
+We retain biometric information for as long as needed or permitted in light of the purposes stated in this Privacy Policy, unless a longer retention period is permitted or required by applicable law. For more information on the criteria used to determine our retention periods, please see Section 10 "Retention" above.
+
+We will destroy or dispose of your biometric information as required by applicable law. For example, we may destroy electronic records of biometric information through such processes as overwriting magnetic media, degaussing, or physical destruction, and we may dispose of paper records by such processes as shredding or incineration.
+
+Please note you may need to make your request for deletion through Unity’s customer as we do not directly collect your Personal Information and cannot likely locate your account without our customer’s assistance.
+
+## 13. Cookie & Advertising Policy
+
+We may collect Personal Information using cookies and similar technologies. For more information on how Unity uses cookies, the types of cookies and other technologies used, and your privacy choices, please see ourCookie & Advertising Policy.
+
+## 14. Sites and Services Operated by Others
+
+The Unity Service may contain links to other sites, applications, and services. Because Unity does not operate those other sites, applications, and services, we cannot take responsibility for the privacy practices of the entities that operate them. We recommend that you consistently check privacy policies to understand an operator’s practices. As a reminder, this Privacy Policy solely describes Unity’s practices.
+
+This Privacy Policy does not address, and we are not responsible for, the privacy, information, or other practices of any third parties, including any third party operating any website or service to which the Services link. The inclusion of a link on the Services does not imply endorsement of the linked site or service by us or by our affiliates.
+
+The Services may provide functionality allowing you to make payments to us using third-party payment services with which you have created your own account. When you use such a service to make a payment to us, your Personal Information will be collected by such a third-party and not by us and therefore will be subject to the third party’s privacy policy, rather than this Privacy Policy. We have no control over, and are thus are not responsible for, this third-party’s collection, use, and disclosure of your Personal Information.
+
+In addition, we are not responsible for the information collection, use, disclosure, or security policies or practices of other organizations, such as Facebook, Apple, Google, Microsoft, RIM, or any other app developer, app provider, social media platform provider, operating system provider, wireless service provider, or device manufacturer, including with respect to any Personal Information you disclose to other organizations through or in connection with the Apps or our Social Media Pages.
+
+## 15. Other Useful Information
+
+Some of Unity’s product features require access to your camera. While using these features we ask that you be aware of your surroundings and be considerate of others. Use of these features may result in cached images being saved to your device. In certain products, we may save your images to our cloud servers. For Unity the Unity AR Companion App, you will be notified at the time of access if the images are being saved to our servers. Please keep your security features on your device up to date and securely dispose of your device when you change devices by clearing this information.
+
+For more information on the Unity AR Companion app, which is one of our services that uses your camera, please see the App'sSupplemental Privacy Notice.
+
+You will have an opportunity to consent to camera access prior to Unity accessing your camera.
+
+For more information on Unity's policies and other Legal Information, please see ourLegal Informationpage.
+
+## 16. Contact Us
+
+Unity Technologies SF, located at 116 New Montgomery Street, Suite 200, San Francisco, CA 94105, United States, is the organization responsible for collection, use, and disclosure of your Personal Information under this Privacy Policy.
+
+Our European Contact remains Unity Technologies ApS, located at Niels Hemmingsens Gade 24, 1153 Copenhagen, Denmark.
+
+If you have any questions about this Privacy Policy, please contact us atDPO@unity3d.com.
+
+Because email communications are not always secure, please do not include credit card or other sensitive information in your emails to us.
+
+You can contact us as follows:
+
+* DPO@unity3d.com
+* Unity Technologies, 116 New Montgomery Street, Suite 200, San Francisco, CA 94105 (United States contact)
+* Unity Technologies ApS, Niels Hemmingsens Gade 24, 1153 Copenhagen, Denmark (European Union contact)
+* Unity Technologies, GINZA SIX 8F, 6-10-1 Ginza, Chuo-ku, Tokyo Japan 104-0061 (Japan Contact)
+## 17. Changes to this Privacy Policy
+
+The “LAST UPDATED” legend at the top of this Privacy Policy indicates when this Privacy Policy was last revised. Any changes will become effective when we post the revised Privacy Policy on the Services.
+
+We reserve the right to change our practices and this Privacy Policy at any time. We may also send an email or provide notice within some or all of our offerings when this Privacy Policy changes. We encourage you to check this page regularly so that you know what our current practices are.
+
+## 18. Additional Information for Residents of California
+
+Collection and Disclosure of Personal Information
+
+The following chart details which categories of Personal Information we collect and process, as well as which categories of Personal Information we disclose to third parties for our operational business purposes, including within the 12 months preceding the date this Privacy Policy was last updated. You may view our CCPA Transparency Report athttps://unity.com/legal/privacy-report. This report provides details on our responses to requests to access, delete or opt-out under CCPA.
+
+Sensitive Personal Information.
+
+* Personal Information that reveals an individual’s social security, driver’s license, state identification card, or passport number; account log-in, financial account, debit card, or credit card number in combination with any required security or access code, password, or credentials allowing access to an account; precise geolocation; racial or ethnic origin, religious or philosophical beliefs, citizenship, immigration status, or union membership; the contents of mail, email, and text messages unless Unity is the intended recipient of the communication; genetic data;
+* The processing of biometric information for the purpose of uniquely identifying an individual;
+* Personal Information collected and analyzed concerning an individual’s health;
+* Personal Information collected and analyzed concerning an individual’s sex life or sexual orientation;
+* Personal Information collected from a known child.
+Individual Requests
+
+If you are a California resident, you may make the following requests:
+
+* You may request that we disclose to you the following information covering the 12 months preceding your request:The categories of Personal Information we collected about you and the categories of sources from which we collected such Personal Information;The business or commercial purpose for collecting or sharing Personal Information about you;The categories of Personal Information about you that we shared (as defined under the applicable privacy law) and the categories of third parties to whom we shared such Personal Information; andThe categories of Personal Information about you that we otherwise disclosed, and the categories of third parties to whom we disclosed such Personal Information (if applicable).
+* The categories of Personal Information we collected about you and the categories of sources from which we collected such Personal Information;
+* The business or commercial purpose for collecting or sharing Personal Information about you;
+* The categories of Personal Information about you that we shared (as defined under the applicable privacy law) and the categories of third parties to whom we shared such Personal Information; and
+* The categories of Personal Information about you that we otherwise disclosed, and the categories of third parties to whom we disclosed such Personal Information (if applicable).
+* You may request to correct inaccuracies in your Personal Information;
+* You may request to have your Personal Information deleted; and
+* You may request to receive specific pieces of Personal Information, including, where applicable, to obtain a copy of the Personal Information you provided to us in a portable format.
+Please note that Unity has placed aCalifornia Notice of Rightson its website to explain how California residents may exercise their privacy rights under the California Consumer Privacy Act. This notice is incorporated into this Privacy Policy.
+
+We will not unlawfully discriminate against you for exercising your rights under applicable privacy law. To make a privacy request, please contact us atDPO@unity3d.comor Unity Technologies, 116 New Montgomery Street, Suite 200, San Francisco, CA 94105, United States. We will verify and respond to your request consistent with applicable law, taking into account the type and sensitivity of the Personal Information subject to the request. We may need to request additional Personal Information from you, such as email address/ username/ country associated with the account where applicable, in order to verify your identity and protect against fraudulent requests. If you make a request to delete, we may ask you to confirm your request before we delete your Personal Information.
+
+We do not sell or “share” the Personal Information of Developers, and we have not engaged in such activities in the preceding 12 months.Without limiting the forgoing, we do knowingly not sell or “share” the Personal Information of Developers who are minors under 16 years of age.
+
+Authorized Agents
+
+If an agent would like to make a request on your behalf as permitted under applicable law, the agent may use the submission methods noted in the section “Individual Requests” above. As part of our verification process, we may request that the agent provide, as applicable, proof concerning his or her status as an authorized agent. In addition, we may require that you verify your identity as described in the section “Individual Requests” above or confirm that you provided the agent permission to submit the request.
+
+* For third-party representatives writing in on behalf of Unity account holders, please provide the name and any signed documentation you may have to act on behalf of the account holder, or you may ask the account holder to write to us from their account email to provide us permission to transact with you directly. Unity reserves the right to take reasonable steps to verify the authenticity of identities and authorizations in compliance with applicable laws prior to making any disclosures.
+De-Identified Information
+
+Where we maintain or use de-identified information, we will continue to maintain and use the de-identified information only in a de-identified fashion and will not attempt to re-identify the information.
+
+Providing Personal Information to third parties for direct marketing purposes: California residents have the right to request the identity of any third parties to whom the resident’s Personal Information was provided, if such provision was to enable the third party’s direct marketing efforts. If you are a California resident and wish to make such a request, please submit your request toDPO@unity3d.com. Alternatively, you may opt-out of having your Personal Data shared with third parties for their direct marketing purposes, by emailing us atDPO@unity3d.com.
+
+How we respond to “Do Not Track” signals: We are committed to providing you with meaningful choices about the information collected on our Services. Our cookie management tool on our website recognizes browser-initiated Do Not Track signals. To learn more about Do Not Track signals, you can visit allaboutdnt.com.
+
+Removal of content.
+
+Pursuant to California Business & Professions Code §22581, if you are a resident of California, under 18, and a registered user of the Services, you may ask us to remove content or information that you have posted to the Services by writing toDPO@unity3d.com. Please note that your request does not ensure complete or comprehensive removal of the content or information, as, for example, some of your content may have been reposted by another user.
+
+
+---
+
+# Developer Privacy Policy FAQ
+
+**Source URL:** [https://unity.com/legal/developer-privacy-policy-faq](https://unity.com/legal/developer-privacy-policy-faq)
+
+Last Updated: March 1, 2023
+
+Last Edit/Review: April 10, 2026
+
+### Frequently Asked Questions (FAQs)
+
+These FAQs provide a handy entry point to our longer and more comprehensiveDeveloper Privacy Policy. They are intended to enhance rather than replace the important notices in the Privacy Policy, which governs our collection, use, storage, and sharing of the information that we collect or receive from you. Customers should understand that Unity does not provide legal advice, therefore the information on this page is not a substitute for seeking your own legal counsel to determine the legal requirements of your business and processes, and how to address them.
+
+### I visit Unity or its affiliates' websites, what should I know?
+
+We collect log info, including IP address and device data, related to your visits to our site. When you post comments on our community pages and forums, other forum users will be able to see your username, photo and comments. When you post, you should assume that all the information you provide is public.
+
+### I am a game developer that uses Unity software to build my game, what should I know?
+
+You can access and update your information by logging into your Unity account on our website. We use analytics services to understand how developers use our software in order to improve our software and services. We also include certain device data collection in the runtime of the software, which is incorporated into the applications you create with the software. You should be sure that your privacy policy explains to your players the variety of technical information that is collected and shared with third parties like Unity. If you use Unity developer services such as Mobile Advertising or Unity Analytics, read the applicable FAQs below and ourCookie and Advertising Notice. Depending on the product, you need to do some or all of the below. Please be sure to read any product-specific documentation or guidance. Provide notice to your game player customers of our data collection by providing our name and a link to our Privacy Policy during the player’s sign up for the game.
+
+* Update your Privacy Policy to reflect the data processing activities
+* Take steps to allow a player to opt-in to data collection and/ or transfer
+* Take steps to allow a player to opt-out of data collection
+* Take steps to allow a player to exercise their privacy rights
+### Is Unity Collecting Information On Players Of My Game?
+
+If you are a developer or publisher that uses a product or feature which generates Developer Data, uses Unity Ads, Unity Analytics or any other personalization service, then yes, Unity might be collecting personal information on the player of your game. In the case of Unity Ads, the player will have the option to opt out of personal information collection and request a report on the personal information collected. For other personalization services, it is up to you, the developer, to implement the proper configurations that abide by applicable Privacy laws and regulations.
+
+### I want to build a game using Unity software, but without any other additional services, what should I know?
+
+To enable or disable data collection for your Unity project, configure the diagnostics settings at a project level or for specific build targets as describedhere.
+
+If using a legacy version of the Editor, we advise you to check that analytics are switched off, which can be done using the below steps. Please note, these images are reflecting the legacy interface which had legacy elections. Please other services such asUnity Gaming Services(Foundation, Engagement, and Grow Services) may involve the collection of app-user personal data.
+
+### Did your Privacy Policy move from its current URL?
+
+The previousprivacy policy URLnow directs the user to a privacy center where the user can select the privacy policy which applies to them. You may use the usual link which goes to the privacy center if you need to update your own privacy policy, or you can link directly to theGame Player and App User Privacy Policy
+
+### As a publisher, what should I do to be transparent with my players?
+
+You should continue to notify your players about third-party ad partners (like Unity) that you share data with. You can do this by placing a link to ourPrivacy Policywithin your own privacy policy. This is no different from the transparency Unity has previously recommended.
+
+### I sell assets in the Unity Asset Store. What do I need to know?
+
+Unity has collected information about your device, including IP address, and your use of the Asset Store as well as any information you actively provided when you created your account. Our primary uses of your information will be to facilitate your placement of assets in the store and to ensure that you are paid in accordance with our agreement. Other uses might include sending you updates on changes or promotions in the Asset Store. You can access and update your account info by logging in to the Asset Store and visiting the Publisher Administration page. Also, when you publish or provide assets for licenses on the Asset Store, your seller name and other information in your Publisher profile will be visible.
+
+### I bought an asset in the Unity Asset Store. What should I know?
+
+Unity has collected information about your device, including IP address, and your use of the Asset Store as well as any information you actively provided when you created your account. Our primary uses of your information will be to facilitate your access to the Asset Store and any assets you have purchased as well as to assure our developers selling assets on the Asset Store that we are effectively providing them due compensation.
+
+Other uses of this information might include sending you updates on changes or promotions in the Asset Store. You can access and update your account info by logging in to the Asset Store and visiting your My Account page. You can also adjust your settings to limit the types of marketing materials we send you or to remove your consent for receiving any advertising from Unity.
+
+### How do I access and control my Asset Store information?
+
+To update your current information and manage privacy and notification settings, go to yourAsset Store Account settings. To update your Provider (Publisher) information, go to yourAsset Store Publisher settings.
+
+### Is Unity a processor or controller of data?
+
+Please see the applicableTerms of ServiceTerms of Service,DPA, andPrivacy Policy.
+
+## Is Unity a processor or controller of data?
+
+Please see the applicableTerms of ServiceTerms of Service,DPA, andPrivacy Policy.Privacy Policy.
+
+### What is a Unity ID?
+
+A Unity ID is your developer user account with Unity. Your Unity ID allows you to connect with your Unity teams and resources, and securely control access to Unity services for you and your team members.
+
+### How can I manage my privacy settings?
+
+All Unity creators have access to a new privacy panel found atid.unity.com/privacy/edit. From there, you can directly access our services that have potential privacy choices for you to make via a link to the respective service’s privacy profile settings.
+
+### How can I manage my security settings?
+
+All Unity creators have access to a new security panel found atid.unity.com/security. Here you can manage your 2-factor authentication settings as well as see your most recent sessions beside the associated IP address.
+
+### How can I delete my Unity Account?
+
+In the Settings > Account Management section of your Unity Account, you can delete your Unity Account yourself or request that we do it for you. This process shouldn’t be taken lightly, however, as once your Unity Account is deleted your personal information will be removed from many of Unity’s applications and services, and you will lose content you have created in connection with your Unity Account.
+
+### I Deleted My Unity Developer Account. Do I Have To Set Up A Whole New Account If I Want Back In?
+
+Correct. If you were once a Unity user and deleted your account, you will need to begin the process over again. You will be able to use the same email to create a new account. For more information on getting started again with Unity, please gohere.
+
+### I Requested A Personal Information Disclosure Report And Have Not Received Notification That It Is Ready?
+
+Please allow Unity the time allotted under applicable data protection laws to compile your personal information disclosure reports; this typically ranges from 30 to 45 days depending on your jurisdiction. If you have not received your report after this period, please contactDPO@unity3d.comfor an update.
+
+### Further Information
+
+If you have any questions not addressed above, please contact us at DPO@unity3d.com.
+
+
+---
+
+# Game Player and App User Privacy Policy
+
+**Source URL:** [https://unity.com/legal/game-player-and-app-user-privacy-policy](https://unity.com/legal/game-player-and-app-user-privacy-policy)
+
+Last Edit/ Review: April 10, 2026
+
+Last Updated: July 24, 2025
+
+## 1. Frequently Asked Questions (FAQs)
+
+TheseFAQsprovide a handy entry point to our longer and more comprehensive Game Player and App User Privacy Policy (“Privacy Policy”) (below). They enhance rather than replace the important notices in this Privacy Policy, which governs our collection, use, storage, and sharing of the information that we collect or receive from you.
+
+### What’s new as of April 10, 2026?
+
+On April 10, 2026, we made the following updates to our Privacy Policy:
+
+* Updated product names, removed references to retired products, and aligned descriptions with current practices.
+* Updated our information regarding third-party ad networks.
+* Updated the policy to reflect changes prompted by privacy laws in Kentucky and Indiana, effective in 2026.
+* Added a reference to the UK Online Safety Act as a law to which we are subject.
+* Updated Unity’s U.S. office address.
+* Edited formatting and language to clarify information.
+The difference between an edit/review and an update is that "updates" involve material changes to our Privacy Policy whereas edits are not material or simply indicate a review has occurred. For example, we may make clarifying edits by giving additional examples. When we provide an update, you will receive a notice to accept and read the changes, which are summarized here.
+
+## 2. Privacy Policy Overview
+
+Unity Technologies and its subsidiaries and affiliates (collectively “Unity”) offer a variety of products, Services, and websites for Developers and App Users that will be referred to in this Privacy Policy as the “Service” or “Services.” The Privacy Policy refers to Unity as “we” or “us” and to game players and App Users as “you.” When we say “device,” we mean any device, including desktop, laptop, PC or Mac computers, smartphones, tablets, or any other device that is used to access or interact with the Service. When we say “Developer,” or “Publisher”we mean a third-party that develops and/or distributes a game or other application - ("app" or "apps") made with and/or using Unity Services. When we say“App User”we mean a game player or person who is using an app made with and/or using Unity Services. When we say“User”we mean an App User and people browsing our websites. When we say “Personal Data” we mean information that identifies you as an individual or relates to an identifiable individual. Personal Data does not include aggregated, de-identified, and/ or anonymized information, i.e., when the information has been transformed so that it no longer relates back to a person's identity.
+
+It is important that you read this Privacy Policy together with any other privacy policy or fair processing notice we may provide on specific occasions when we are collecting or processing Personal Data, so that you are fully aware of how and why we are using your Personal Data. To learn about our practices for Developer data, please see ourDeveloper Privacy Policy. You can find a link to all privacy noticeshere.
+
+This Privacy Policy provides you with information on how Unity collects, uses, stores, shares or otherwise handles your Personal Information (as described below) that we are responsible for and collect or receive through your use of applications which are owned by third parties but utilize Unity’s technology. This Privacy Policy also applies to Personal Information we collect offline, such as when you call us or interact with Unity in person, such as at an industry event or at a place of business.
+
+Developers use our products in their applications. They may collect Personal Information for which we, they, or another party is responsible. This Privacy Policy only applies to your Personal Information that Unity is responsible for when acting as a data controller as explained below. As such, please be sure to also read the privacy policy for the application you are using for a full understanding of how Developers use your Personal Information.
+
+## 3. Information We Collect
+
+Depending on how you interact with Unity (e.g., by contacting us, by interacting with our website) we may collect the following categories of Personal Information:
+
+A. Personal Information we receive from you:
+
+B. Personal Information we collect through your use of our Services or from other sources:
+
+C. Sensitive Information:
+
+Unless we explicitly request it, we ask that you not send us, and you not disclose, any sensitive Personal Information (e.g., social security numbers, information related to racial or ethnic origin, political opinions, religion or other beliefs, health, criminal background, or trade union membership) on or through the Unity website, the Services or otherwise to us.
+
+D. Aggregated, De-Identified, and/ or Anonymized Information:
+
+We may aggregate, de-identify, and/ or anonymize Personal Information, i.e., transform the information so it no longer relates back to a person's identity and  will no longer be considered Personal Information. We do so to generate other data for our use, which we may use and disclose for any purpose.
+
+## 4. How We Use the Information we Collect or Receive
+
+Below, you will find a table depicting how we use the information we collect or receive through the use of our Services.
+
+* Providing the Services*
+* Analyzing and acting on the analysis of our products such as system and log maintenance, technical and customer support, system debugging.
+* Carrying out operations and general business such as administering online Services; employee training and managing work activities and personnel generally
+* Name & Contact Details
+* Account Information
+* Social Network Information
+* Information Uploaded Through Use of Services
+* Information Provided Through Use of Services
+* Biometric Information
+* Device Information
+* IP Address
+* Log Information
+* Cookies and Related Technologies-Demographic Information
+* Performance of the Terms of Service Agreement we enter with you to provide the Services
+* Consent, such as:When we collect Personal Information through our use of cookies and similar technologies.When we serve personalized advertisements in Unity Ads.
+* When we collect Personal Information through our use of cookies and similar technologies.
+* When we serve personalized advertisements in Unity Ads.
+* Legitimate Interests, such as:Service maintenance, optimizations, & operational improvementsResponding to inquiriesContextual advertising
+-Legal obligations, such as when you submit a request to access your Personal Information
+* Service maintenance, optimizations, & operational improvements
+* Responding to inquiries
+* Contextual advertising
+-Legal obligations, such as when you submit a request to access your Personal Information
+* Developers
+* Third-Party Social Networks
+* Unity Partners
+* Name & Contact Details
+* Account Information
+* Social Network Information
+* Information Uploaded Through Use of Services
+* Information Provided Through Use of Services
+* Biometric Information
+* Device Information
+* IP Address
+* Log Information
+* Cookies and Related Technologies
+Consent, such as
+
+* When you have opted in to sharing your social media account(s) with us.
+* Legitimate Interests, such as:Interacting with you on social media through postsAttributing a contribution to an individualPerformance of the Terms of Service Agreement we enter with you to provide the Services, such as:Fulfilling our obligations associated with those who sign up to the Unity Affiliate Program.
+* Interacting with you on social media through posts
+* Attributing a contribution to an individual
+* Performance of the Terms of Service Agreement we enter with you to provide the Services, such as:
+* Fulfilling our obligations associated with those who sign up to the Unity Affiliate Program.
+* Third-Party Social Networks
+Allowing you to participate in sweepstakes, contests, or other promotions, such as related to Struckd or Unity Rewards.
+Some of these promotions have additional rules containing information about how we will use and disclose your Personal Information, which we will communicate to you separately
+
+* Name & Contact Details
+* Account Information
+* Social Network Information
+* Information Uploaded Through Use of Services
+* Information Provided Through Use of Services
+* Biometric Information
+* Device Information
+* IP Address
+* Log Information
+* Cookies and Related Technologies
+Manage our contractual relationship, such as:
+
+* Fulfilling obligations associated with a contest
+* Consent, such as:When you have opted into relevant marketing communicationsWhen we collect Personal Information through our use of cookies and similar technologies.
+* When you have opted into relevant marketing communications
+* When we collect Personal Information through our use of cookies and similar technologies.
+* Marketers
+* Third-party Social Networks
+* Unity Partners
+* Researchers
+* Third party lead generation services
+* Personalizing our interactions with you, providing you with offers; and delivering content that we believe will be relevant and interesting to you, including by grouping data to improve content suggestions.
+* These may be:Tailored to your interests, shipping history and/ or behavior.Based on your demographics, past usage and/ or preferences.
+* Tailored to your interests, shipping history and/ or behavior.
+* Based on your demographics, past usage and/ or preferences.
+* Name & Contact Details
+* Account Information
+* Social Network Information
+* Device Information
+* IP Address
+* Log Information
+* Cookies and Related Technologies
+* Demographic Information
+-Consent, such as
+
+* To send you offers tailored to your specific interests, and/or behavior.
+* When we collect Personal Information through our use of cookies and similar technologies.Legitimate Interests, such as:
+* Legitimate Interests, such as:
+* Providing tailored Services based on past usage and/or preferences, and such tailoring is based on basic and privacy-non-intrusive segmentation.
+* Developers
+* Marketers
+* Third-party Social Networks
+* Unity Partners
+* Data Enrichment Providers
+* Improving the efficiency of our Services
+* Identifying usage trends
+* Determining our promotional campaign effectiveness
+* Develop new products and Services
+* Developing, enhancing, improving, repairing, maintaining or modifying the Services and/or assisting our Developers with this activity
+* Name & Contact Details
+* Account Information
+* Social Network Information
+* Information Uploaded Through Use of Services
+* Information Provided Through Use of Services
+* Biometric Information
+* Device Information
+* IP Address
+* Log Information
+* Cookies and Related Technologies
+* Performance of the Terms of Service Agreement we enter with you to provide the Services.
+* Consent such as:when we collect Personal Information through our use of cookies and similar technologies.
+* when we collect Personal Information through our use of cookies and similar technologies.
+* Legitimate Interests, such as:Developing new Services and/ or products
+* Developing new Services and/ or products
+* Developers
+* Marketers
+* Third-Party Social Networks
+* Unity Partners
+* Researchers
+* Fraud & security purposes, such as monitoring to detect and prevent cyberattacks or identity theft
+* Prevention of criminal activity or harm to Users, such as illegal or harmful content being posted on our message boards
+* Name & Contact Details
+* Account Information
+* Social Network Information
+* Information Uploaded Through Use of Services
+* Information Provided Through Use of Services
+* Biometric Information
+* Device Information
+* IP Address
+* Log Information
+* Cookies and Related Technologies
+* Comply with a legal obligation
+* Legitimate Interests, such as:Securing our services, investigating cyber intrusions, fraud, & abuse.Protecting our operations, rights, safety, or propertyPursuing all available legal remedies, defending claims, and limiting damages we may sustainPerformance of the Terms of Service Agreement we enter with you to provide the Services.
+* Securing our services, investigating cyber intrusions, fraud, & abuse.
+* Protecting our operations, rights, safety, or property
+* Pursuing all available legal remedies, defending claims, and limiting damages we may sustain
+* Performance of the Terms of Service Agreement we enter with you to provide the Services.
+* Law enforcement
+* Reporting to our Board of Directors as required by the Securities & Exchange Commission.
+* Audits to verify e.g., that our internal processes function as intended and are compliant with legal, regulatory, & contractual requirements.
+* Financial and accounting purposes
+* Complying with laws and regulations. These may be outside of your country of residence.
+* For other legal reasons, e.g., to enforce our terms and conditions or licenses; to protect our operations; to protect our rights, privacy, safety or property, and/or that of our affiliates, you or others; to allow us to pursue available legal remedies, defend claims and limit the damages that we may sustain.
+* Name & Contact Details
+* Account Information
+* Social Network Information
+* Information Uploaded Through Use of Services
+* Information Provided Through Use of Services
+* Biometric Information
+* Device Information
+* IP Address
+* Log Information
+* Cookies and Related Technologies
+* Comply with a legal obligation
+Comply with a legal obligation
+
+* Legitimate Interests, such as:Securing our services, investigating cyber intrusions, fraud, & abuse.Reporting company progress to key-stakeholders and making decisions on such reportingProtecting our operations, rights, safety, or propertyPursuing all available legal remedies, defending claims, and limiting damages we may sustain
+Legitimate Interests, such as:
+
+* Securing our services, investigating cyber intrusions, fraud, & abuse.
+* Reporting company progress to key-stakeholders and making decisions on such reporting
+* Protecting our operations, rights, safety, or property
+* Pursuing all available legal remedies, defending claims, and limiting damages we may sustain
+* Law enforcement
+* Cooperating with public and government authorities, including law enforcement. These may be outside of your country of residence
+* Fulfilling our legal and compliance related obligations, including complying with applicable laws; complying with legal processes; responding to requests from public and government authorities; meeting national security or law enforcement requirements.
+* Name & Contact Details
+* Account Information
+* Social Network Information
+* Information Uploaded Through Use of Services
+* Information Provided Through Use of Services
+* Biometric Information
+* Device Information
+* IP Address
+* Log Information
+* Cookies and Related Technologies
+* Comply with a legal obligation
+* Law enforcement
+* In connection with a reorganization, merger, sale, joint venture, assignment, transfer or other disposition of all or any portion of our business, assets or stock (including in connection with any bankruptcy or similar proceedings). You will be notified of any such business transaction and of possible changes to the processing of your Personal Information in accordance with applicable law.
+* Name & Contact DetailsAccount InformationSocial Network InformationInformation Uploaded Through Use of ServiceDevice InformationBiometric InformationIP AddressLog InformationCookies and Related Technologies
+* Account Information
+* Social Network Information
+* Information Uploaded Through Use of Service
+* Device Information
+* Biometric Information
+* IP Address
+* Log Information
+* Cookies and Related Technologies
+* Legitimate Interests, such as:
+* In pursuing a business transaction
+* Corporate restructuring
+* Responding to, handling and documenting incidents and emergencies,
+* Actively monitoring to ensure adequate incident prevention, response and documentation,
+* Sending notifications and alerts in the event of incidents or emergencies
+* Name & Contact Details
+* Account Information
+* Social Network Information
+* Device Information
+* IP Address
+* Log Information
+* Cookies and Related Technologies
+* Legitimate Interests, such as:
+* Monitoring, reacting to, and documenting an emergency and/ or incident
+* Law enforcement
+* Incident reporter
+*Services Provided Include:
+
+--> User Acquisition: Allows Developers to run ad campaigns to find the most valuable users to keep their application growing.
+
+--> Audience Pinpointer: Allows Developers to optimize advertising campaigns
+
+--> Mediation: Allows Developers to establish rules for how that developer’s partnered ad networks can bid on the developer’s inventory
+
+--> Header Bidding: Allows ad networks to participate in a real time auction for a specific piece of inventory.
+
+--> Unity Ads: Allows Developers to implement advertising in their application.
+
+-->Unity Ads & Analytics product: Allows Developers to implement in-app advertisement placements which will be sold to various demand sources on the Unity network.
+
+--> deltaDNA Predictive Segments: Analytics which creates predictions about user behavior
+
+--> Unity Player Sign In: Allows App Users to create an account so they have a persistent ID across projects or games/apps.
+
+--> Web Offerwall: Allows Users to complete various offers in order to earn rewards in participating Developer applications.
+
+--> Unity Levelplay: Allows Developers to manage and optimize their monetization strategy through mediation.
+
+--> Struckd: Allows Users to create, and play games on mobile and web applications.
+
+--> Unity Rewards Application: Allows Users to complete various offers to redeem rewards available through the mobile application.
+
+## 5. Sharing Information
+
+Below, you will find an outline of scenarios in which information may be shared using our Services.
+
+We share Personal Data with select vendors and service providers to help us provide our Services such as:
+
+* Website, Data Hosting, and Analytics VendorsProvide the functionality of the ServicesStore and transfer data in a secure mannerImprove and develop new products and servicesData analytics
+* Provide the functionality of the Services
+* Store and transfer data in a secure manner
+* Improve and develop new products and services
+* Data analytics
+* Payment ProcessorsFacilitate financial transactions: Our payments processors request that we provide you with a link to their privacy statements:
+* Facilitate financial transactions: Our payments processors request that we provide you with a link to their privacy statements:
+* Fraud and Security VendorsProtect and secure our systems and ServicesMonitor, investigate, and take action on fraudulent activity
+* Protect and secure our systems and Services
+* Monitor, investigate, and take action on fraudulent activity
+* Professional Services ProvidersVarious services, such as audit, legal, and financial
+* Various services, such as audit, legal, and financial
+* Information Technology VendorsInfrastructure provision
+* Infrastructure provision
+For safety, security, and legal compliance, we share Personal Data:
+
+* When we are required to disclose the information in response to legal process (e.g., if we receive a court order, search warrant, subpoena, or similar legal process);
+* If we believe that the Service is being used in the commission of a crime, including to report such criminal activity or to exchange information with other companies and organizations for the purposes of fraud protection and credit risk reduction;
+* To protect the vital interests of you, another person or the public, for example when there is a meaningful risk that poses a threat to the safety of you, another person or the public generally; and
+* In order to protect the rights or property of Unity, including to enforce the terms and licenses that govern the use of the Services.
+As discussed in ourCookie & Advertising Policy, we may permit advertisers and their agents to use cookies or related technologies within the Service to store information on or read information from your browser or device so that they can optimize their advertising campaigns, including to frequency cap and deliver targeted ads.
+Unity Ads
+
+* We use Personal Data as discussed in this Privacy Policy collected from Developers’ apps to place personalized ads in Developers’ apps and elsewhere. This usage will permit other parties, such as publishers and attribution companies, to learn about the devices that received, viewed or interacted with ads. For more information about our partners, please see Section 13 - "Unity Ads Privacy Features and Third-Party Partners in Providing Advertising" below.Unity Ads Privacy Features and Third-Party Partners in Providing Advertising.
+Sharing can happen within our Services and outside it when you take certain actions. For example:
+
+* When you share a replay on a social network – depending on your privacy settings at the relevant social network – some users of the relevant social network will be able to see the replay;
+* When you post comments on our forums, visitors and other forum users will be able to see your username, photo, and comments;
+* When you publish games on the Struckd app, your game and profile will be visible; or
+* When you ask to be matched with another player to play a connected game.
+Additional information for those located in the European Economic Area
+
+We also disclose your Personal Information as necessary or appropriate, in particular when we have a legal obligation or legitimate interest to do so, as set out in further detail below.
+
+This may include laws outside your country of residence, which could give rise to a legal obligation requiring us to process your Personal Information, including:
+
+* Civil and commercial matters:Where we are in receipt of a court order to disclose information for the purposes of court proceedings, such as under Regulation (EU) No 1215/2012 on jurisdiction and the recognition and enforcement of judgments in civil and commercial matters.To comply with Council Regulation (EC) No 1206/2001 of 28 May 2001 on cooperation between the courts of the Member States in the taking of evidence in civil or commercial matters.
+* Where we are in receipt of a court order to disclose information for the purposes of court proceedings, such as under Regulation (EU) No 1215/2012 on jurisdiction and the recognition and enforcement of judgments in civil and commercial matters.
+* To comply with Council Regulation (EC) No 1206/2001 of 28 May 2001 on cooperation between the courts of the Member States in the taking of evidence in civil or commercial matters.
+* Criminal matters:to comply with requests and orders from EU and EU Member State law enforcement to provide information in relation to a criminal investigation in compliance with applicable local laws, or to take steps to report information we believe is important to law enforcement where so required or advisable under applicable local laws.
+* Consumer matters:to comply with requests from competent authorities under EU or EU Member State consumer protection law, such as under Directive (EU) 2019/2161 and its implementing laws in EU Member States.
+* Corporate and taxation matters:to comply with our obligations under applicable EU Member State corporate and tax legislation, such as where a national tax law of an EU Member State requires collection of specific transactional personal information for tax purposes.
+* Regulatory matters:to respond to a request or to provide information we believe is necessary or appropriate to comply with our obligations to engage with regulators, such as when relevant EU Member State data protection supervisory authorities initiate investigation under the General Data Protection Regulation into our Company. These can include authorities outside of your country of residence.
+* Compliance and internal investigations:to comply with whistleblowing requirements under Directive (EU) 2019/1937 and its implementing laws in EU Member States.
+* Health and safety regulations:to comply with health and safety reporting obligations in accordance with applicable local laws, such as in relation to accidents involving members of the public on our premises.
+* Compliance with Safety Laws such as the UK Online Safety Act 2023 and the Digital Services Act:(Regulation (EU) 2022/2065) and any other applicable laws.  Note: Unity will provide its users of impacted services with aggregate reporting regarding Unity’s compliance with the Digital Services Act upon the user’s request.
+* For dispute resolution purposes;
+* To protect our rights, privacy, safety or property, and/or that of our affiliates, you or others.
+## 6. Our Policies Concerning Children
+
+### Unity Struckd
+
+If a User is a child, we may collect and store the below information solely for our internal operations and our legitimate interest:
+
+* IP address
+* Unique Installation-specific ID
+* Randomly generated User ID
+* Vendor ID
+* Device ID
+We collect the above information
+
+* For internal analytics to understand the service and e.g., why an error is occuring in Struckd or what causes Users to engage with Struckd
+* To be able to can send push notifications
+* To be able to make updates to the application without the need to push an update
+We may share some of this information with our service providers who we contract with to help us provide our Services. Please note, while we collect country and birth date, this information is not stored.
+
+### Unity Advertising  Services
+
+Developers using Unity’s Advertising Services may offer any of the following three categories of applications: 1) child-directed (Users are likely children); 2) mixed audience (Users are both children and non-children); and 3) non-child directed (Users are unlikely to be children). If the application is a mixed audience, the Developer should implement an age-gate where required by law, and send a signal to Unity which indicates that we need to limit data collection, serve non-personalized ads, or otherwise disable the Service. The Developer similarly categorizes applications which are specifically child-directed. A child is considered to be any User under the age of consent in their applicable jurisdiction.
+
+In connection with the Ads Service, in the event we receive a signal from a Developer, we reduce our data collection for our Ads Service. In such instances, we will only collect Personal Information listed below. We collect this Personal Information for internal operations and our legitimate interests in providing the Service as described below.
+
+* IP address: Used to provide a compliant experience suitable for the User’s region.
+* Unique Installation-specific ID: Used for operational purposes related to the serving of contextual advertisements.
+* User ID: Used to provide rewards in exchange for watching an ad. Unity uses a developer-set identification ("User ID") to let the Developer know when a User with the User ID has completed the watched ad and is therefore entitled to receive the in-game reward (e.g., coin, gems).
+In connection with the Web Offerwall service, in the event we receive a signal from a Developer, we will collect and maintain a service-specific identifier associated with the Developer’s application in order to enable a service block since the Unity Web Offerwall service is not intended for children.
+
+### Protection of Persistent Identifiers
+
+To ensure the identifiers collected under above are restricted solely to these internal operations, Unity employs technical and administrative means, such as data segregation, data labelling, contractual and policy restrictions on data use, and employee training, to ensure they are not used or disclosed to contact a specific individual, including through behavioral advertising, to amass a profile on a specific individual, or for any other purpose.
+
+Children's Data Retention
+
+We retain children’s personal data in accordance with Section 10, strictly to fulfill the business needs and internal operations described above. We delete this data according to the following timeframes:
+
+* Unity Struckd:Children's data is retained and automatically deleted after 2 years of inactivity.
+* Unity Advertising Services:App interaction data associated with an installation ID is retained for up to 12 months. Transaction records are retained for up to 180 days specifically for billing and fraud prevention purposes.
+### Other Services
+
+Our Services are otherwise not intended for children. If you are aware that our Services are otherwise collecting Personal Information about children, please contact us atDPO@unity3d.com
+
+If you or your parent or guardian have questions about this Privacy Policy or how we use your Personal Data of a child, contact us atDPO@unity3d.com.
+
+## 7. Your Choices About Unity’s Collection and Use of Your Information
+
+Below is information about your choices regarding Unity’s collection and use of your information through the use of our Services.
+
+A. Unity Ads opt-out
+
+* You cannot opt-out of receiving ads in games or apps using Unity Ads, but you can take steps to opt-out of certain personalized ads, within the ad unit, by clicking or tapping the Data Privacy icon.
+B. Unity Ads opt-in
+
+* In certain jurisdictions, Unity will ask for your affirmative consent before serving you personalized ads. Your consent (and other privacy choices) may be changed at any time within the ad unit by clicking or tapping the Data Privacy icon ​​​​​​
+C. Analytics
+
+* Developers may choose to install a mechanism to opt-out of analytics.
+D. Unity Player Sign-In
+
+* You may opt-out of aggregated analytics by clicking the “opt-out” button at the bottom of the screen.
+E. Unity Web Offerwall
+
+* Developers should have a User opt-out mechanism. Access and erasure requests can be submitted throughthis webform.
+F. Unity Struckd
+
+* Users can opt-out of optional data collection and sharing through the settings of the application.
+G. Unity Rewards App
+
+* Users can submit access and deletion requests through the settings of the application, or thisform. If you would like to submit an opt out of personalization, please submit an deletion request. For any other request, you may contact us atrewards-privacy-request@unity3d.com.
+* Important Note: Please be aware that upon withdrawal, your account and all associated data, including any earned but unredeemed rewards or points, will be permanently deleted, subject to legal exceptions.
+## 8. Privacy Rights
+
+Depending on the country or state in which you reside, you may have various privacy rights. For more information on the applicable rights in , please choose the appropriate location in Brazil, Canada, European Economic Area (“EEA”) and United Kingdom (“UK”) , Israel, Japan, Republic of Korea, and the United States  below:
+
+Brazil
+
+The Brazilian General Data Protection Act provides you the right to:
+
+* Confirm Unity's processing of your Personal Data;
+* Access your Personal Data;
+* Correct your incomplete, inaccurate, or outdated Personal Data;
+* Request anonymization, blocking or elimination of unnecessary or excessive Personal Data or of Personal Data processed in noncompliance with the Brazilian General Data Protection Act;
+* Port your Personal Data to other service providers or suppliers of products;
+* Delete your Personal Data when processed with your consent;
+* Obtain information on the public and private entities with whom Unity shared your Personal Data;
+* Obtain information on the possibility of not providing consent and on the consequences of the denial;
+* Revoke your consent to the processing of your Personal Data when we seek your consent; and
+* Lodge complaints before data protection authorities.
+Canada
+
+The Canadian Personal Information Protection and Electronic Documents Act provides certain rights with respect to your Personal Data, such as:
+
+* Right to Access: You have the right to request Unity provide you with a copy of your Personal Data.
+* Right to Rectification (Correction) - You have the right to request Unity to correct any Personal Data about you that you believe is incorrect. You also have the right to request Unity to complete Personal Data about you that you believe is incomplete.
+EEA and UK
+
+The EU and UK General Data Protection Regulations (“GDPR”) provides certain rights (should they apply to you) in relation to the way in which Unity processes your Personal Information as a data controller. You have the following rights:
+
+* Right to Access: You have the right to request Unity provide you with a copy of your Personal Information.
+* Right to Rectification (Correction) - You have the right to request Unity to correct any Personal Data about you that you believe is incorrect. You also have the right to request Unity to complete information about you that you believe is incomplete.
+* Right to Erasure (Deletion) - You have the right to request Unity to erase your Personal Information, under certain conditions.
+* Right to Restrict Processing - You have the right to request Unity to restrict the processing of your Personal Information, under certain conditions.
+* Right to Object to Processing - You have the right to object to Unity’s processing of your Personal Information, under certain conditions.
+* Right to Data Portability - You have the right to request Unity to transfer your Personal Information that we have collected to another organization, or directly to you, under certain conditions.
+* Right to Lodge a Complaint - You may lodge a complaint with an EEA data protection authority for your country or region where you have your habitual residence or place of work or where an alleged infringement of applicable data protection law occurs. A list of data protection authorities is available athttps://ec.europa.eu/newsroom/article29/items/612080. In the UK, you may lodge a complaint with the Information Commissioner’s Office (“ICO”).If you do have a complaint, we would appreciate the chance to deal with your concerns before approaching your supervisory body, so please contact us atDPO@unity3d.comif you wish to discuss any complaint.
+* If you do have a complaint, we would appreciate the chance to deal with your concerns before approaching your supervisory body, so please contact us atDPO@unity3d.comif you wish to discuss any complaint.
+The Israel Protection of Privacy Law 5741-1981:
+
+* Any Personal Data provided by you is on a voluntary basis with no legal requirement to do so, but if you refuse to provide such information we may not be able to provide you with the Services. According to the Protection of Privacy Law, each person is entitled to inspect, either himself or through a representative authorized by him in writing or his guardian, any Personal Data about him kept in a database.
+Japan
+
+The Act on the Protection of the Personal Information of Japan provides certain rights with respect to your Personal Data, such as:
+
+* The right to request a notification of the purposes of use of your Personal Data
+* The right to request the disclosure, correction, addition, or deletion of your Personal Data
+* The right to request the discontinuation of use or provision to any third-party
+* The right to request the disclosure of the record of provision of your Personal Data
+* If you are a resident of Japan and wish to exercise any of the above rights, please email us atDPO@unity3d.com(or contact us at the address indicated inSection 17“Contact Us” below)
+United States of America
+
+* If you are a resident of California, Colorado, Connecticut, Delaware, Florida, Iowa, Indiana, Kentucky, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Tennessee, Texas, Utah, or Virginia, you may have certain rights under your state's laws. Please seeSection 19“Additional Information for Residents of Certain States”, below, for additional information on how we handle your Personal Data and your potential privacy rights under applicable law.
+How to exercise your Privacy Rights
+
+To access, correct, update, suppress, restrict, or delete your Personal Data, object to or opt out of the processing of Personal Data, withdraw your consent (which will not affect the lawfulness of processing prior to the withdrawal), or if you would like to request a copy of your Personal Data to transmit it to another company (to the extent these rights are provided to you by applicable law), you may contact us in accordance with the instructions at the end of this section, or in accordance withSection 17"Contact Us" below. We will respond to your request consistent with applicable law.
+
+Your request should make clear what Personal Data you would like to have changed or whether you would like to have your Personal Data suppressed from our database. For your protection, we may only implement requests with respect to the Personal Data associated with the particular identifier (e.g., email address, device ID, advertising ID) that you use to send us your request, and we may need to verify your identity before implementing your request. We will try to comply with your request as soon as reasonably practicable and as required by law.
+
+Please note that we may need to retain certain information for recordkeeping purposes and/or to complete any transactions that you began prior to requesting a change or deletion (e.g., when you make a purchase or enter a promotion, you may not be able to change or delete the Personal Data provided until after the completion of such purchase or promotion).
+
+In the event your request relates to the Services below, you can ask us to stop collecting your app-usage data and delete what we've already collected. If your request is regarding Services where we do not process the Personal Data to which your request relates, you will need to contact the Developer directly:
+
+* Unity Analytics
+* The Developer may have configured privacy settings within its app in order to permit you to object to profiling, opt-out of further profiling, request deletion (erasure) of Personal Data, or request access to Personal Data.
+2.App Users viewing Unity Ads
+
+* Depending on the Developer's implementation of privacy tools, you can access the Personal Data collected about your device on a per-app basis by clicking or tapping the Data Privacy icon on the ad unit.
+* By scrolling through the disclosure, you will either see a dynamically populated paragraph of plain text showing you the Personal Data related to your device from that app or you will see an option to click/tap a link within the text to see the data display. If you object to our maintaining this Personal Data or collecting future app-usage data, you may elect to opt-out of further collection and request deletion of historical data. Please note IP addresses may be maintained in logs for security of our system for our Services running on your device and may continue to be collected.
+3.Unity Player Sign-In
+
+* If you are a game player using Unity Player Sign-In and would like to exercise your Privacy Rights, please submit ithere.
+4.Unity Web Offerwall
+
+* Developers should have an opt-out mechanism. Access and erasure requests can be submitted throughthis webform.
+5. Unity Struckd
+
+* Users can delete their Personal Data from within the application. Users can submit access requests by following the instructions at the end of this section, or in accordance withSection 17‘Contact Us’ below.
+6. Unity Rewards App
+
+* Users can submit access and deletion requests through the settings of the application, or thisform. If you would like to submit an opt out of personalization, please submit an deletion request. For any other request, you may contact us atrewards-privacy-request@unity3d.com.
+* Important Note: Please be aware that upon withdrawal, your account and all associated data, including any earned but unredeemed rewards or points, will be permanently deleted, subject to legal exceptions.
+7. For the Tapjoy Offerwall
+
+* To exercise any of the rights listed above, please use one of the following methods:
+* For exercising your rights to know or to delete personal data, submit your request through our online form, which can be accessed athttps://ironsrc.formtitan.com/ftproject/tj-privacy.
+* Alternatively, you may send an email with your request to the following address:tapjoy-privacy-request@unity3d.com.
+Depending on your state, if you have submitted a request that you believe we have not fulfilled, you may contact us to appeal our decision by replying to our response to your request, or by contacting us attapjoy-privacy-request@unity3d.com.
+
+8. For Services not listed
+
+* To exercise your rights for all other Services, please contact us by following the instructions at the beginning of this section in accordance with the instructions immediately above, or in accordance withSection 17"Contact Us" section below.
+For efficiency, please note the Service your request is about.
+
+## 9. Transfers out of Country of Collection
+
+Unity has implemented and maintains a framework consistent with applicable law for transfers of Personal Data outside of the country of collection, including for transfers out of the UK and/or EEA.
+
+Your Personal Data may be stored and processed in any country where we havefacilities, including ironSource which is headquartered in Israel, or in which we engage service providers, such as Google Cloud Platform and Looker, and by using the Services you understand that your Personal Data will be transferred to countries outside of your country of residence, including the United States, which may have data protection rules that are different from those of your country. In certain circumstances, courts, law enforcement agencies, regulatory agencies or security authorities in those countries may be entitled to access your Personal Data.
+
+When your Personal Data is transferred outside the UK and/or EEA, we ensure a similar degree of protection is afforded to it by using at least one of the following safeguards is implemented:
+
+Adequacy Decisions:Some non-EEA countries are recognized under the UK GDPR and by the European Commission as providing an adequate level of data protection according to EEA standards (the full list of these countries is availablehere). For example, we may transfer your Personal Data to our affiliates who are located around the world, including Canada, Japan, New Zealand, Republic of Korea, Switzerland, and the United Kingdom.
+
+Standard Contractual Clauses:For transfers of Personal Data from the UK and/or EEA to third countries that are not considered adequate under the UK GDPR and/or by the European Commission, we have put in place Standard Contractual Clauses adopted under the UK GDPR and/or by the European Commission to protect your Personal Data. For example, we use Google Cloud Platform’s infrastructure and data centers which are located around the world, including the United States. We rely on both controller-controller and controller-processor Standard Contractual Clauses. You may obtain a copy of these measures by contacting us in accordance withSection 17“Contact Us” below.
+
+Japan
+
+For transfers from Japan to countries other than the EEA/UK, we have put adequate measures in place to protect your Personal Information.
+
+The Unity affiliates and service providers to whom Personal Data is transferred  are obligated to comply with equivalent or comparable rules to those under the Act on the Protection of Personal Information of Japan (APPI) on a continuous basis, and we periodically confirm their compliance. We also periodically confirm any changes to the data privacy regulations of other countries that may affect the compliance measures taken by our overseas affiliates and service providers and take measures such as requesting that they take corrective measures or suspending the provision of Personal Data if any issues arise in the implementation of such compliance measures. We will provide you with further information on the measures we take in this regard upon your request.
+
+## 10. Retention
+
+We retain Personal Data for as long as is necessary or as permitted in light of the purpose(s) for which it was obtained and consistent with applicable law, for example, for the purposes of satisfying any legal, regulatory, tax, accounting or reporting requirements. The criteria to determine our retention periods include:
+
+* The length of time we have an ongoing relationship with you and provide the Services to you (for example, for as long as you have an account with us or keep using the Services);
+* We are subject to legal obligation (for example, certain laws require us to keep records of your transactions for a certain period of time before we can delete them); or
+* Retention is advisable in light of our legal position (such as in regard to applicable statutes of limitations, litigation or regulatory investigations).
+Where a legal obligation arises or retention is advisable in light of our legal position, in some circumstances, we will retain certain Personal Data, even after your account has been deleted and/or we no longer provide the Services to you. For example:
+
+* To cooperate with law enforcement or public, regulatory and government authorities: If we receive a preservation order or search warrant, related to your account, we will preserve Personal Data subject to such order or warrant after you delete your Services account.
+* To comply with legal provisions on tax and accounting: We may retain your Personal Data after you delete your Personal Data, as required by tax law and to comply with bookkeeping requirements. Please note the length of time may vary by country.
+* For fraud and security purposes: We may retain your Personal Data for fraud/ security purposes such as IP address, User ID, Device ID, and unique app installation-specific ID, which can be used to investigate whether a specific device exhibits a pattern of abnormal app interaction behavior, which may indicate a malicious bot or fraudulent actor.
+* To pursue or defend a legal action: We may retain relevant Personal Data in the event of a legal claim or complaint, including regulatory investigations or legal proceedings about a claim related to your Personal Data. We may also retain Personal Data if we reasonably believe there is a prospect of litigation (whether in respect of our relationship with you or otherwise) after the dispute has been settled or decided by a court or tribunal from which there is no further right of appeal. The criteria for determining the length of time we will retain this information include:Whether there is a legal obligation to which we are subject (for example, if the settlement or decision requires us to keep the records for a certain period of time before we can delete them); orWhether retention is advisable in light of our legal position (such as in regard to applicable statutes of limitations, litigation or regulatory investigations).
+* Whether there is a legal obligation to which we are subject (for example, if the settlement or decision requires us to keep the records for a certain period of time before we can delete them); or
+* Whether retention is advisable in light of our legal position (such as in regard to applicable statutes of limitations, litigation or regulatory investigations).
+## 11. Security
+
+We employ a variety of measures to safeguard the collection, transmission, and storage of the information we collect. These measures vary based on the sensitivity of the information and the current state of technology. Please note that no system can be guaranteed to be 100% secure. While we strive to employ reasonable protections for your Personal Data that are appropriate to its sensitivity, we cannot guarantee or warrant the security of the information you share with us and we cannot be responsible for the theft, destruction, loss or inadvertent disclosure of your information. Where we have given you (or where you have chosen) a password which enables you to access certain parts of our site, you are responsible for keeping this password confidential. We ask you not to share a password with anyone.
+
+We have put in place procedures to deal with any suspected Personal Data breach and will notify you and any applicable regulator of a breach where we are legally required to do so.
+
+If you have reason to believe that your interaction with us is no longer secure, please immediately notify us in accordance withSection 17“Contact Us” below.
+
+## 12. Biometric Information
+
+The following section contains legal information which is only applicable under U.S. law.
+
+Your use of certain features may result in the collection of biometric information. Biometric information is any information based on an individual's biometric identifier used to identify an individual. Biometric information that may be collected depending on how you use Unity's products includes voice recordings.
+
+We use commercially reasonable organizational, technical, and administrative methods designed to protect biometric information within our organization.
+
+We retain biometric information for as long as needed or permitted in light of the purposes stated in this Privacy Policy, unless a longer retention period is permitted or required by applicable law. For more information on the criteria used to determine our retention periods, please see Section 10 "Retention" above.
+
+We will destroy or dispose of your biometric information as required by applicable law. For example, we may destroy electronic records of biometric information through such processes as overwriting magnetic media, degaussing, or physical destruction, and we may dispose of paper records by such processes as shredding or incineration.
+
+Please note you may need to make your request for deletion through Unity’s customer as we may need our customer’s assistance to locate your account.
+
+## 13. Unity Ads Privacy Features and Third Party Partners in Providing Advertising
+
+Privacy Features
+
+If Unity delivers personalized advertising through its ad network, Unity will provide notice and information about how you may be able to opt-out of such personalized advertisements. Please note that the limitations available to you are determined by the laws within your jurisdiction and the tools the Developer chooses to implement. Such an opportunity to opt out may occur through your device settings (see the section “Information and choices regarding tracking and targeting on mobile devices” in ourCookie & Advertising Policyand the choices available within the ad unit as described in this Privacy Policy by accessing the Data Privacy icon in the ad unit.
+
+Developer Advertising Using Other Ad Networks
+
+Developers may use other third-party advertising networks, and Unity’s choice features within its ad units only apply to ads delivered in the Unity network.
+
+Please note that the Developer of the app showing Unity Ads may have limited choices in providing certain identifying information, including your device advertising ID, about you to our third-party partners advertising goods and services with Unity. You may still see ads from the partners listed below, but they will not be based on your Personal Data. Additionally, you may have opted-out of profiling in Unity’s ad network within a Unity Ad for your app, in which case we will only serve contextual ads from ourselves and these partners within your app. For all others, please review the following information:
+
+Third Party Ad Network Partners
+
+The following third-party partners may receive an ad request from Unity containing your Personal Data. This list may be updated from time to time. These partners use this information to build your profile and personalize your ad experience to serve future ads you may see on the internet as well as inside the Unity ad network. The privacy policies linked below provide you with information around the Personal Data that they have from all sources, including Unity.
+
+Aarki,Adbility,Admazing,AdMaxim,AdMixer,Adtiming,Affle,Algorix,Amazon,Appier,Appreciate/Digital Turbine,AppLovin (FKA MoPub),Appstock,apptimus,Basis Technologies (FKA Centro),Beeswax,Between X,Bidease,Bidmachine,Bigabid,BigoAds,BlueSea,Brave.io,Castify Al,Connekt Media,Conversant,Criteo LLC,Dataseat Ltd,Equativ,Galaxy,Google,Hybrid.Ai,IGNITE MEDIA,Illumin,Improve Digital / Azerion,Index Exchange,InMobi,IQZone,Jampp,Joca,Kayzen (fka Applift),Kidoz,Kwai,Lifestreet,Liftoff,LoopMe,Luna Media,Magnite,Mars Media Group,Media Net,Microsoft (FKA Xandr),MobAvenue,Mobidriven,Moloco,OMS,OpenX,Opera,Pangle,Persona.ly,Playdigo, Inc.,Pubmatic,Pubnative,Rhebus,RhythmOne,RTBHouse,Samsung,ShareIT,Smaato,Snap Inc.,Sovrn,StackAdapt,Start.io,Stroer,SuperAwesome,SVG,Tencent,TheTradeDesk,Thunder,TopOn,Triplelift,Undertone,Unicorn,Vidazoo,Voise Tech,Voise Tech,Webeye/Taurus X,Wildlife Studios,Wish,Wof,Yabbi,Yahoo,Yandex,YeahMobi,Youappi.
+
+Bidding Partners
+
+In addition, Unity’s mediation product shares your Personal Data to the bidding partners identified below. This list may be updated from time to time. These partners use this information to build your profile and personalize your ad experience to serve future ads you may see on the internet as well as inside the Unity ad network. The privacy policies linked below provide you with information around the Personal Data that they have from all sources, including Unity.
+
+Applovin,Meta,Mintegral,Snap inc., andVungle.
+
+## 14. Cookie & Advertising Policy
+
+We may collect Personal Data through the use of cookies and similar technologies. For more information on how Unity uses cookies, the types of cookies and other technologies used, and your privacy choices, please see ourCookie & Advertising Policy
+
+To update your cookie preferences, please select "Cookie Settings" at the bottom of the web page or click the shield icon.
+
+## 15. Sites and Services Operated by Others
+
+Unity Services may contain links to other sites, applications, and services. Because Unity does not operate those other sites, applications, and services, we cannot take responsibility for the privacy practices of the entities that operate them. We recommend that you consistently check privacy policies to understand an operator’s practices. As a reminder, this Privacy Policy describes Unity’s practices.
+
+The inclusion of a link on the Services does not imply endorsement of the linked site or service by us or by our affiliates.
+
+The services may provide functionality allowing you to make payments to us using third-party payment services with which you have created your own account. When you use such a service to make a payment to us, your Personal Data will be collected by a third-party and not by us, and will be subject to the third-party’s privacy policy, rather than this Privacy Policy. We have no control over, and are not responsible for, this third-party’s collection, use, and disclosure of your Personal Data.
+
+In addition, we are not responsible for the information collection, use, disclosure, or security policies or practices of other organizations, such as Facebook, Apple, Google, Microsoft, RIM, or any other app developer, app provider, social media platform provider, operating system provider, wireless service provider, or device manufacturer, including with respect to any Personal Data you disclose to other organizations through or in connection with the Apps or our Social Media Pages.
+
+## 16. Other Useful Information
+
+For more information on Unity's policies and other Legal Information, please see ourLegal Informationpage.
+
+## 17. Contact Us
+
+Unity Technologies S.F., is the organization responsible for collection, use, and disclosure of your Personal Data under this Privacy Policy.
+
+If you have any questions about this Privacy Policy, please contact us atDPO@unity3d.com.
+
+Because email communications are not always secure, please do not include credit card or other sensitive information in your emails to us.
+
+You can contact us as follows:
+
+* DPO@unity3d.com
+* Unity Technologies, 116 New Montgomery Street, Suite 200, San Francisco, CA 94105 (United States contact)
+* Unity Technologies ApS, Niels Hemmingsens Gade 24, 1153 Copenhagen, Denmark (European Union contact)
+* Unity Technologies, GINZA SIX 8F, 6-10-1 Ginza, Chuo-ku, Tokyo Japan 104-0061 (Japan Contact)
+## 18. Changes to this Privacy Policy
+
+The “LAST UPDATED” legend at the top of this Privacy Policy indicates when this Privacy Policy was last revised. Any changes will become effective when we post the revised Privacy Policy on the Services.
+
+We reserve the right to change our practices and this Privacy Policy at any time. We may also send an email or provide notice within some or all of our offerings when this Privacy Policy changes. We encourage you to check this page regularly so that you know what our current practices are.
+
+## 19. Additional Information for Residents of Certain States.
+
+Collection, Disclosure, Sharing, and Sale of Personal Information
+
+if you are a resident of California, Colorado, Connecticut, Delaware, Florida, Iowa, Indiana, Kentucky, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Rhode Island, Tennessee, Texas, Utah, or Virginia, you have certain rights under state privacy laws with respect to personal data we collect. If you are a resident of such states, this section of the Privacy Policy contains disclosures required by law and explains rights that may be available to you depending on the applicable jurisdiction.
+
+The following chart details which categories of Personal Data we collect and process, as well as which categories of Personal Data we disclose to third parties for our operational business purposes, including within the 12 months preceding the date this Privacy Policy was last updated. The chart also details the categories of Personal Information that we “sell” or “share” for purposes of cross-context behavioral or targeted advertising, including within the preceding 12 months. You may view our CCPA Transparency Report athttps://unity.com/legal/privacy-report. This report provides details on our responses to requests to access, delete or opt-out under CCPA.
+
+* Personal Data that reveals an individual’s social security, driver’s license, state identification card, or passport number; account log-in, financial account, debit card, or credit card number in combination with any required security or access code, password, or credentials allowing access to an account; precise geolocation; racial or ethnic origin, religious or philosophical beliefs, citizenship, immigration status, or union membership; the contents of mail, email, and text messages unless Unity is the intended recipient of the communication; genetic data;
+Personal Data that reveals an individual’s social security, driver’s license, state identification card, or passport number; account log-in, financial account, debit card, or credit card number in combination with any required security or access code, password, or credentials allowing access to an account; precise geolocation; racial or ethnic origin, religious or philosophical beliefs, citizenship, immigration status, or union membership; the contents of mail, email, and text messages unless Unity is the intended recipient of the communication; genetic data;
+
+* Biometric information processed for the purpose of uniquely identifying an individual;
+* Personal Data collected and analyzed concerning an individual’s health;
+* Personal Data collected and analyzed concerning an individual’s sex life or sexual orientation;
+* Personal Data collected from a known child
+Individual Requests
+
+Subject to applicable law, you may make the following requests:
+
+* You may request to know whether we process your Personal Data, and to access such Personal Data.
+* You may request to correct inaccuracies in your Personal Data;
+* You may request to have your Personal Data deleted;
+* You may request to receive a copy of your Personal Data, including specific pieces of Personal Data, including, where applicable, to obtain a copy of the Personal Data you provided to us in a portable format;
+* You may request to opt out of the “sale” or "sharing" of your Personal Data; and
+* You may request to opt out of targeted advertising, including the “sharing” of your Personal Data for purposes of cross-context behavioral advertising.
+Please note that Unity has placed aCalifornia Notice of Rightson its website that includesadditionalinformation about your rights if you are a California resident and how you may exercise those rights under the California Consumer Privacy Act.
+
+We will not unlawfully discriminate against you for exercising your rights under applicable privacy law. To make a privacy request, please contact us atDPO@unity3d.comor at Unity Technologies, 116 New Montgomery, Suite 200, San Francisco, CA 94105, United States. We will verify and respond to your request consistent with applicable law, taking into account the type and sensitivity of the Personal Data subject to the request. We may need to request additional Personal Data from you, such as your email or account information, to verify your identity and protect against fraudulent requests. If you make a request to delete, we may ask you to confirm your request before we delete your Personal Data.
+
+To request to opt out of any future sale or sharing of your Personal Information, or to opt out of any future sharing of your Personal Data for purposes of cross-context behavioral advertising or any future processing for purposes of targeted advertising, clickhere:We do not knowingly sell or share the Personal Data of minors under 16 years of age.
+
+Appeal Process
+
+If you are a Colorado, Connecticut, Florida, Indiana, Iowa, Montana, New Hampshire, New Jersey, Oregon, Texas, or Virginia consumer, and we decline to take action on your request, you may appeal our decision within a reasonable period after you have received notice of the refusal. You may file an appeal by contacting usDPO@unity3d.comor at Unity Technologies, 116 New Montgomery, Suite 200, San Francisco, CA 94105, United States.
+
+Authorized Agents
+
+If an agent would like to make a request on your behalf as permitted under applicable law, the agent may use the submission methods noted in the section “Individual Requests” above. As part of our verification process, we may request that the agent provide, as applicable, proof concerning his or her status as an authorized agent. In addition, we may require that you verify your identity as described in the section “Individual Requests” above or confirm that you provided the agent permission to submit the request.
+
+De-Identified Information
+
+Where we maintain or use de-identified information, we will continue to maintain and use the de-identified information only in a de-identified fashion and will not attempt to re-identify the information.
+
+Providing Personal Data of California residents for direct marketing purposes: California residents have the right to request the identity of any third parties to whom the resident’s Personal Data was provided, if such provision was to enable the third-party’s direct marketing efforts. If you are a California resident and wish to make such a request, please submit your request toDPO@unity3d.com. Alternatively, you may opt-out of having your Personal Data shared with third parties for their direct marketing purposes, by emailing us atDPO@unity3d.com.
+
+How we respond to “Do Not Track” signals
+
+We are committed to providing you with meaningful choices about the Personal  Data collected on our Services. Our cookie management tool on our website recognizes browser-initiated Do Not Track signals. To learn more about Do Not Track signals, you can visitallaboutdnt.com.
+
+Removal of content
+
+Pursuant to California Business & Professions Code §22581, if you are a resident of California, under 18, and a registered user of the Services, you may ask us to remove content or information that you have posted to the Services by writing toDPO@unity3d.comPlease note that your request does not ensure complete or comprehensive removal of the content or information, as, for example, some of your content may have been reposted by another user
+
+​Notice of Financial Incentive (Unity Rewards)
+
+Unity may offer you certain benefits, such as the ability to earn Unity Coins that are redeemable for gift cards or other rewards, through programs like Unity Rewards app. When you participate in these financial incentive programs, we collect and use your personal information for the reasons listed above in the Policy as well as in this notice. This notice describes the material terms of the Unity Rewards app program, as required by the California Consumer Privacy Act (CCPA) and other US state privacy laws.
+
+Summary of the Incentive Program
+
+The Unity Rewards app allows you to earn Unity Coins, which can be redeemed for items like gift cards or other value, in exchange for your engagement with offers and advertisements presented within the Unity Rewards app.
+
+Categories of Personal Information Collected
+
+To operate the Unity Rewards program, we collect personal information when you sign up and as you use the service. The categories of information implicated by the program include:
+
+* Identifiers: Such as your Advertising ID (e.g., GAID, IDFA), user IDs assigned by Unity or our partners, IP address, and email address.
+* Internet or Other Electronic Network Activity Information: Such as your device type and model, operating system, browser and network information, engagement data (including ad clicks and impressions), session time, app events (like installing a game or completing a tutorial), and interactions with our platform features.
+* Commercial Information: Such as your rewards transaction history, including points earned, points spent, redemption history, and the products you redeem.
+* Information You Voluntarily Provide: Such as descriptions and communications you submit through customer service tickets.
+* Security and Fraud Prevention Data: Such as data from reCAPTCHA, Play dIntegrity results, and information related to account status changes (e.g., suspensions).
+How to Opt-In
+
+By downloading the Unity Rewards app, agreeing to our Terms of Service and Privacy Policy during the sign-up process, and meeting any other registration requirements as outlined in the sign-up process, you are affirmatively opting in to participate in the financial incentive program.
+
+Your Right to Withdraw
+
+You have the right to withdraw from the Unity Rewards program at any time. Because the program's core function is the exchange of your data for rewards, withdrawing from the program is processed as a request to delete your personal information. Users can submit access and deletion requests through the settings of the application, or thisform. For any other request, you may contact us atrewards-privacy-request@unity3d.comorDPO@unity3d.com.
+
+Important Note: Please be aware that upon withdrawal, your account and all associated data, including any earned but unredeemed rewards or points, will be permanently deleted, subject to legal exceptions.
+
+How the Incentive is Reasonably Related to the Value of Your Data
+
+The rewards offered through Unity Rewards are reasonably related to the value of the personal data we collect as well as related to the value of the user's time spent on Unity and advertisers' platforms. We estimate your data's value using a revenue-attribution method that evaluates the contribution of your personal information and engagement to our platform's revenue streams, the effectiveness of personalized targeting and recommendations enabled by your data, the value delivered to our partners through user insights and acquisition, and the operational value of your engagement data for platform optimization.
+
+This data and your time investment help us generate revenue by providing insights to advertisers and game developers, enabling them to deliver targeted offers and measure the effectiveness of their campaigns. Additionally, your data and platform engagement allow us to optimize the platform, improve the rewards program, and personalize your experience based on your gaming preferences and activity patterns.
+
+The incentives you receive, such as redeemable rewards (e.g., coins) and the offers available for redemption, represent a meaningful portion of this calculated value and are proportional to both the engagement and value your participation brings to the platform and the time you invest in Unity Rewards and our partners' games. Our rewards program is designed to return a reasonable share of the value generated from your data and engagement back to you.
+
+
+---
+
+# Game Player and App User Privacy FAQ
+
+**Source URL:** [https://unity.com/legal/game-player-and-app-user-privacy-faq](https://unity.com/legal/game-player-and-app-user-privacy-faq)
+
+## Frequently Asked Questions (FAQs)
+
+Last Updated: November 15, 2022
+
+Last Edit/Review: April 10, 2026
+
+These FAQs provide a handy entry point to our longer and more comprehensiveGame Player and App User Privacy Policy. They are intended to enhance rather than replace the important notices in the Privacy Policy, which governs our collection, use, storage, and sharing of the information that we collect or receive from you.
+
+## I visit Unity or its affiliates' websites, what should I know?
+
+We collect log info, including IP address and device data, related to your visits to our site. When you post comments on our community pages and forums, other forum users will be able to see your username, photo and comments. When you post, you should assume that all the information you provide is public.
+
+## I play a game that was built with or uses certain Unity software, what should I know?
+
+Depending on the software used by the Developer, Unity may collect some or all of the following information about your device: unique device identifiers (e.g., IDFV for iOS devices and Android ID for Android devices); IP address; country of install (mapped from IP address); device manufacturer and model platform type (iOS, Android, Mac, Windows, etc.) and the operating system and version running on your system or device; language; CPU information such as model, the number of CPUs present, frequency, and instruction set support flags; the graphics card type and vendor name; graphics card driver name and version (e.g., “nv4disp.dll 6.10.93.71”); which graphics API is in use (e.g., “OpenGL 2.1” or “Direct3D 9.0c”); amount of system and video RAM present; current screen resolution; version of the Unity Editor used to create the game; sensor flags (e.g., device support for gyroscope, touch pressure or accelerometer); application or bundle identification (“app ID”) of the game installed; unique advertising identifiers provided for iOS and Android devices (e.g., IDFA or Android Ad ID); and a checksum of all the data that gets sent to verify that it transmitted correctly.
+
+Some developers use Unity services, which may collect additional information on instruction from the developer as part of theDeveloper Data framework. For more information on specific Unity services, please refer to the Privacy Overview in ourUnity documentation. Examples of how data is used:
+
+* In serving ads, we try to predict which ads will be of most interest to you based on the games you play and the ads you watch.
+* For Unity Analytics, we assist developers to deliver the best game experience for you.For example, game developers who use our software often standardize certain features to enhance game player experience, such as saving your place in a game. This means that the game level you reached in your last session is where you will begin when you return to the game.Developers also need our assistance in tracking when you are eligible to redeem a reward within a game, such as when you have completed a challenge and get store credits to purchase new tools to play the game.
+* For example, game developers who use our software often standardize certain features to enhance game player experience, such as saving your place in a game. This means that the game level you reached in your last session is where you will begin when you return to the game.
+* Developers also need our assistance in tracking when you are eligible to redeem a reward within a game, such as when you have completed a challenge and get store credits to purchase new tools to play the game.
+* In Unity Analytics, some of your data points may also be rolled up into an anonymized, aggregated format to help game developers make decisions about how they support their games.For example, if a game developer is considering phasing out support for an older version of iOS software, they may look at the total number of players currently using that version of iOS software to determine if they need to support that version in updates. Another use on a per game basis is when a developer analyzes the numbers of players dropping out after a certain level. The developer would use this information to look at the design of their game and re-assess if the game challenge is truly intuitive or needs some additional instruction for players. This allows the developer to enhance the experience and retain the developer’s customers better.
+* For example, if a game developer is considering phasing out support for an older version of iOS software, they may look at the total number of players currently using that version of iOS software to determine if they need to support that version in updates. Another use on a per game basis is when a developer analyzes the numbers of players dropping out after a certain level. The developer would use this information to look at the design of their game and re-assess if the game challenge is truly intuitive or needs some additional instruction for players. This allows the developer to enhance the experience and retain the developer’s customers better.
+Some Unity developers may collect your information independent of Unity. Unity does not have control over this information. If you want to request access to or deletion of this information, then check each developer’s app settings or website for instructions on how to make a request.
+
+## Does Unity collect what the GDPR refers to as “special categories” of personal information about players, such as political, religious, or sexual orientation?
+
+No. Unity does not collect these special categories of personal information.
+
+## I play a game that uses Unity Analytics of deltaDNA, what do I need to know?
+
+Unity has collected device information, like IP address and device identifiers, as well as events completed or actions taken within the game, including level, number of credits, time it took you to earn them, metadata about in-game communications and the value and details of purchases. Using our systems, the developer of the game has ongoing access to this data. This collection and use of data makes it possible for your experience to operate as expected by permitting you to do things like redeem rewards you have earned or return to where you left off in a game. Other Unity customers may have access to aggregated reports about game activity in general across a number of games. These reports are based, in part, on your game activities, but do not specifically identify you or your device. The reports described in this paragraph help developers make decisions on optimal methods to run the games they have made for you. For example, the developer may need to know the types of devices running the game to determine how to support game updates on an ongoing basis. Some data collected by Unity Analytics may be used by Unity Ads for personalized advertising; see the FAQs related to advertising for more information.
+
+## I received an ad from Unity Ads, what do I need to know?
+
+Unity Ads has probably collected device information, like IP address and device identifiers, and information regarding the delivery of ads and your interaction with them, all of which may be shared with ad publishers and attribution companies. For clarity, Unity collects the following data: whether you click or tap an ad for a new game, whether you watch the ad or play a game frequently, whether others playing a game like the one you’re playing have downloaded a particular new game, and whether you download and install the new game you see advertised. Where a developer has enabled certain features, Unity Ads may also collect your session information and monetization events. All of this is for purposes of predicting the types of new games that you might like to download. Unity may track additional data about you in the future for purposes of making these types of predictions, and we will notify you prior to new data collection.
+
+## Do I have any choices regarding the data collection described above if I do not wish to see personalized ads?
+
+You cannot opt-out of receiving ads in games or apps using Unity Ads, but you can take steps to opt-out of certain personalized ads, within the ad unit, by clicking or tapping the Data Privacy icon.
+
+If you are in the EU and do not wish to be targeted in this manner, the first Unity ad you see in an app (as of May 25, 2018) explains how you can opt-out of data collection in that particular game. You can opt-out then or at any time by clicking or tapping the Data Privacy icon
+
+on any ad you see (the Data Privacy icon will also allow you to access the data that is collected about you in that particular app).
+
+Additionally, all users, regardless of their location, may opt-out of all personalized advertising by enabling privacy features on their devices such as Limit Ad Tracking (iOS) and Opt Out of Ads Personalization (Android). See your device’s Help system for more information. Also where Unity maintains a network-wide profile on you, it will provide you the ability to opt-out of Unity’s personalized advertising on a network-wide basis.
+
+Please note that if your privacy choices indicate that you do not want personalized advertising, and you will receive only contextual advertising. You may also visit the third parties listed in our Game Player and App User Privacy Policy. (at the links we provide) to see the types of data that these parties have about you based on your device’s advertising identifier.
+
+## Why provide advertising at all?
+
+A great deal of creativity and resources go into making all games. Developers and publishers can provide free-to-play games because advertising helps cover their costs. Unity tailors ad types and frequency so players have a better experience (for example, by seeing fewer but more relevant ads). This also allows advertisers to serve the most pertinent ads to players.
+
+## Does Unity Ads Network Actually Sell Personal Information?
+
+To begin, Unity does not, and will not, provide your personal information in direct exchange for money.Therefore, in the literal sense, Unity does not sell your personal information. However, the CCPA requires Unity to disclose if it sells personal information and under its expansive definition of “sell”, Unity believes the following activities may constitute a CCPA sale of personal information. When you play a game that utilizes Unity’s Ad Network, the device you are using sends an advertising identifier (called an “Ad ID”) to Unity. Under the CCPA, this Ad ID is considered personal data. Why? Because it may include information on you such as your location, the device you are using, some of the activities you’ve completed in your game and more. We have included more detail and a link to what’s defined as “personal information” below for your convenience. Unity shares the Ad ID with our advertising and publishing partners and sometimes these partners may use this Ad ID to look up information about you. This may include things like your online activities, purchases you’ve made or websites you’ve visited. This is all done to personalize future advertisements you may see. In fact, the whole point is to give the advertiser an opportunity to advertise to you - and specifically to you - with a personalized ad. For this reason, under CCPA, sharing the Ad ID may be a sale of personal information.
+
+## I play a game that uses Unity Server Hosting, what do I need to know?
+
+Unity has collected unique device identifiers, IP address (which may be matched to identify approximate location for matchmaking), as well as information regarding games played and match attributes
+
+## What are device identifiers (like IDFA or fingerprints) and why do you collect them?
+
+Like many other providers of mobile apps, instead of requiring users to create an account and log in to it each time they access one of our apps, Unity and others using our products may opt to recognize the user’s device through various device identifiers. Device identifiers are also used for functions that require Unity to recognize devices across various apps.
+
+## Further Information
+
+If you have any questions not addressed above, please contact us atDPO@unity3d.com.
+
+
+---
+
+# Unity Educational Products Privacy Notice
+
+**Source URL:** [https://unity.com/legal/educational-products-for-schools-privacy-notice](https://unity.com/legal/educational-products-for-schools-privacy-notice)
+
+Last Updated: April 2024
+
+## What’s new as of April, 2024?
+
+In April 2024, we updated our Educational Privacy Notice so that it is easier for you to understand our practices. Please note that we have not materially changed our practices and we continue to provide you with your rights as provided for previously.
+
+## Introduction
+
+Unity Technologies and its subsidiaries and affiliates (collectively “Unity”) offer a variety of products and Services for Schools that will be referred to in this Policy as the “Service” or “Services.” The Services include those provided to Schools under theUnity Terms of Service. The Policy refers to Unity as “we” or “us” and to the School or Student as “you.” When we say “device,” we mean any device, including desktop, laptop, PC or Mac computers, smartphones, tablets, or any other device that is used to access or interact with the Service.
+
+Privacy is very important to Unity Technologies, just as it is to the students, parents, teachers, and Schools to whom we offer our Educational Products. We make these products available to Schools to provide students a hands on opportunity to learn about Unity software. This Unity Educational Privacy Notice describes our information practices for information concerning students who are given access to these products via Schools. By using our Educational Products, you acknowledge this Unity Educational Products Privacy Notice, and understand that we may transfer your data outside of the European Economic Area (EEA). For information about our information practices for other products and services, please see theUnity Developer Privacy Policy.
+
+## Some Helpful Terms
+
+For purposes of this Privacy Notice:
+
+“Educational Product” means educational versions of Unity's game-development software and/or educational software and materials concerning Unity's game-development software provided to a School or to a Student, such as ourEducational Grant License.
+
+“Educational User Data” means information and/or data concerning any Student or their use of any Educational Product.
+
+“Personal Information” means individually identifiable information about a Student; such “Personal Information” does not include information that does not identify an individual or information from which all personally identifiable portions have been removed, aggregated or de-identified.
+
+“School” means any pre-school, elementary, or secondary school or school district, after school program, college, university, academy, or any other educational institution, and includes any teacher or administrative personnel of that School, as relevant.
+
+"School Personnel" means any educator, lecturer, instructor, teacher, faculty, staff, IT administrator, media specialist, lab administrator, or any personnel of the School.
+
+“Student” means any individual who is given access to our Educational Products. "Student" is not inclusive of School Personnel who provide Students with access to our Educational Products.
+
+"Student Plan" means the student version of the "Unity Pro" subscription. Individuals who are currently enrolled in an accredited School are eligible to use theStudent Plan. (Age restrictions as determined by GDPR, COPPA and similar regulations apply as outlined in ourTerms of Service.
+
+## Scope of this Privacy Notice
+
+This Unity Educational Products Privacy Notice only applies to Educational User Data collected by us as a result of Student use or access to the Educational Products; this Notice does not apply to any other information or data we collect, including via ourWebsite(and any successor or related Websites) and any non-Educational User Data collected from any School in connection with making the Educational Products available to Schools—for more information our information practices for other products and services, please see ourDeveloper Privacy Policy.
+
+Please Note: This Unity Educational Products Privacy Notice does not apply to the Educational User Data collected by us as a result of a Students use of the Student Plan. The Student Plan is governed by ourDeveloper Privacy Policy.
+
+## Information We Collect Through The Use Of Our Services
+
+The below includes some information which we do not necessarily think is personal information, but is instead information which Schools have an interest in knowing if collected.
+
+Name & Contact Details (Optional)
+
+* This is the student name and email. It is optional to provide and only applicable to the legacy EdLab product.
+IP Address
+
+* This provides city-level geolocation. For Educational Grant License, this is associated with the School device.
+Random Unique Identifier
+
+* For Educational Grant License, this is associated with the School license
+Device Information
+
+* Such as device id and machine id. For Educational Grant License, this is associated with the School device
+Student Work Data
+
+* Such as projects made through use of the service
+Sensitive Information
+
+Unless we request it, we ask that you not send us, and you not disclose, any sensitive Personal Information (e.g., social security numbers, information related to racial or ethnic origin, political opinions, religion or other beliefs, health, criminal background, or trade union membership) on or through the Unity website, the Services or otherwise to us.
+
+Aggregated, De-Identified, and/ or Anonymized Information:
+
+We may aggregate, de-identify, and/ or anonymize Personal Information, i.e., transform the information so it no longer relates back to a person's identity so that it will no longer be considered Personal Information. We do so to generate other data for our use, which we may use and disclose for any purpose.
+
+* Providing access to online accounts, verifying User’s information, completing transactions (including purchases), processing orders and related payments, delivering purchases.
+* Analyzing and acting on the analysis of our core business metrics such as system and log maintenance, technical support, and system debugging.
+* You cannot opt-out of core business metric analytics as they are strictly necessary for us to run the services.
+* Carrying out operations and general business such as administering online Services; employee training and managing work activities and personnel generally.
+* Name & Contact Details
+* IP Address
+* Random Unique Identifier
+* Device Information
+* Student Work Data
+Performing the terms of the contract, including the Terms of Service we enter with you to provide the Services. Legitimate interest in:
+
+* Maintaining the Service & operational improvements
+* Responding to inquiries
+* Legal obligations* such as when you submit a request to access your personal information.
+* Name & Contact Details
+* IP Address
+* Random Unique Identifier
+* Device Information
+* Student Work Data
+Performing the terms of the contract, including the Terms of Service we enter with you to provide the Services.  Legitimate interest in:
+
+* Responding to and resolving inquiries or complaints
+* Providing support to customers so that they can use the service
+* Legal obligations* such as when you submit a request to access your personal information.
+* Name & Contact Details
+* IP Address
+* Random Unique Identifier
+* Device Information
+* Student Work Data
+* Improving the efficiency of our Services
+* Identifying usage trends
+* Developing, enhancing, improving, repairing, maintaining or modifying the Services and/or assisting our Developers with this activity
+* Name & Contact Details
+* IP Address
+* Random Unique Identifier
+* Device Information
+* Fraud and security purposes, such as monitoring to detect and prevent cyberattacks or identity theft attemptsPrevention of criminal activity or harm to Users, such as illegal or harmful content being posted on our message boards
+* Prevention of criminal activity or harm to Users, such as illegal or harmful content being posted on our message boards
+* Name & Contact Details
+* IP Address
+* Random Unique Identifier
+* Device Information
+Comply with a legal obligation* Legitimate Interests:
+
+* Securing our services, investigating cyber intrusions, fraud, and abuse.
+* Protecting our operations, rights, safety, or property
+* Pursuing all available legal remedies, defending claims, and limiting damages we may sustain
+* Reporting to our Board of Directors as required by the Securities & Exchange CommissionAudits such as to verify that our internal processes function as intended and are compliant with Legal, regulatory, and contractual requirementsFinancial & accounting purposesComplying with laws and regulations. These may be outside of your country of residenceOther legal reasons such as enforcing terms and conditions, protecting operations, rights, privacy, safety, or property and/or that of our affiliates, you or others; to allow us to pursue available legal remedies, defend claims and limit the damages that we may sustain.
+* Financial & accounting purposes
+* Complying with laws and regulations. These may be outside of your country of residence
+* Other legal reasons such as enforcing terms and conditions, protecting operations, rights, privacy, safety, or property and/or that of our affiliates, you or others; to allow us to pursue available legal remedies, defend claims and limit the damages that we may sustain.
+* Name & Contact Details
+* IP Address
+* Random Unique Identifier
+* Device Information
+* Student Work Data
+Comply with a legal obligation* such as financial reporting obligations. Legitimate Interests:
+
+* Securing our services, investigating cyber intrusions, fraud, and abuse.
+* Reporting on company progress to key stakeholders and making decisions on such reporting
+* Protecting our operations, rights, safety, or property
+* Pursuing all available legal remedies, defending claims, and limiting damages we may sustain
+* Cooperating with public and government authorities, including law enforcement outside of your country of residence
+* Fulfilling legal and compliance obligations, responding to legal processes, meeting national security or law enforcement requirements
+* Name & Contact Details
+* IP Address
+* Random Unique Identifier
+* Device Information
+* Student Work Data
+* Name & Contact Details
+* IP Address
+* Random Unique Identifier
+* Device Information
+* Student Work Data
+Legitimate Interests:
+
+* Pursuing a business transaction
+* Corporate restructuring
+* Responding to, handling, and documenting incidents and emergencies
+* Actively monitoring to ensure adequate incident prevention, response, and documentation
+* Sending notifications and alerts in the event of incidents or emergencies
+* Name & Contact Details
+* IP Address
+* Random Unique Identifier
+* Device Information
+* Student Work Data
+Legitimate Interest:
+
+* Monitoring, reacting to, and documenting an emergency and/or incident
+* Law Enforcement
+* Incident Reporter
+*For more information on our legal obligations, please see section ‘Other Disclosures’ below.
+
+** For more information on disclosure of Personal Information in connection with a sale or business transaction, please see ‘Other Disclosures’ below.
+
+Please note: We do not use Student Personal Information for advertising or marketing purposes.
+
+## Sharing Information
+
+Below, you will find an outline of scenarios in which information may be shared using our Services.
+
+* Service Provision & Maintenance
+* Customer Service
+* Business Reporting
+* Protecting and securing our systems and Services
+* Monitoring, investigating, and taking action on fraudulent activity
+* These provide a variety of services to us such as audit, legal, and financial.
+* These assist us with infrastructure provision
+* When we are required to disclose the information in response to legal process (e.g., if we receive a court order, search warrant, subpoena, or similar legal process);
+* If we believe that the Service is being used in the commission of a crime, including to report such criminal activity or to exchange information with other companies and organizations for the purposes of fraud protection and credit risk reduction;
+* To protect the rights or property of Unity, including to enforce the terms and licenses that govern the use of the Services.
+## FERPA, COPPA, and Other Laws
+
+Schools or the Educational User Data provided by Schools to us may be subject to the Family Educational Rights and Privacy Act (“FERPA”) in the United States or other laws or regulations. Unity acts as a “School official” for FERPA purposes, consistent with 34 Code of Federal Regulations (CFR) §99.31(a)(1) and to protect student data accordingly.
+
+The Children’s Online Privacy Protection Act (“COPPA”) is a United States federal law that governs the collection and use of certain information from children under 13 years old (“Child” or “Children”). COPPA requires that a privacy notice be given to, and consent received from, parents or legal guardians for the collection, use, and/or disclosure of personal information (as defined by COPPA) collected from Children. To the extent that a School determines consent from a student’s parent or legal guardian is required, Unity relies on the School, who is acting as an agent, to provide such consent on behalf of parents Seehttps://www.ftc.gov/tips-advice/business-center/guidance/complying-coppa-frequently-asked-questions.
+
+## Authorization to Collect Information from or About Students
+
+For Educational User Data provided by Schools, please note we do not collect Personal Information directly from Students, unless we believe that we have the relevant authorization at law to do so, such as by Schools providing consent on behalf of parents or legal guardians where able to do so.
+
+Each School is responsible for determining and implementing its compliance obligations under FERPA, COPPA and/or other applicable laws. In the event a School determines parental consent is required to use the Educational Products, the School is obligated to obtain such consent and ensure it meets the standards required under applicable laws.
+
+## Your Choices About Unity’s Collection and Use of Your Information
+
+Below, you will find information about your choices regarding Unity’s collection and use of your information through the use of our Services.
+
+1. You always have the option to refrain from using the Service or to discontinue using the Service if you do not want Personal Information collected about you. If you choose to discontinue using the service and wish for your Personal Information to be deleted, please exercise your rights as described in the “Privacy Rights” section below.
+
+2. You can choose to use the Service in a manner that limits the Personal Information we collect.
+
+* Unity Editor opt-outYou can opt-out of usage analytics in "Edit Your Privacy Settings" in the Privacy section under "My Account".Please note: You cannot opt-out of core business metrics analytics as such analytics are strictly necessary for us to run the services as they are used for items such as testing new system features to evaluate their impact, system and log maintenance, technical support, system debugging, deciding whether to continue to support certain operating systems.
+* You can opt-out of usage analytics in "Edit Your Privacy Settings" in the Privacy section under "My Account".Please note: You cannot opt-out of core business metrics analytics as such analytics are strictly necessary for us to run the services as they are used for items such as testing new system features to evaluate their impact, system and log maintenance, technical support, system debugging, deciding whether to continue to support certain operating systems.
+* Please note: You cannot opt-out of core business metrics analytics as such analytics are strictly necessary for us to run the services as they are used for items such as testing new system features to evaluate their impact, system and log maintenance, technical support, system debugging, deciding whether to continue to support certain operating systems.
+* Unity Hub opt-outYou can opt-out of usage analytics in the Privacy Settings under “Preferences”, indicated by the gear wheel.
+* You can opt-out of usage analytics in the Privacy Settings under “Preferences”, indicated by the gear wheel.
+3. You can request access to or deletion of your Personal Information in the Privacy section under "My Account".
+
+4. For further assistance, including requests from School Personnel, please contact DPO@unity3d.com
+
+## Privacy Rights
+
+Depending on the country or state in which you reside, you may have additional privacy rights. For more information on the applicable rights in, please choose the appropriate location in Brazil, Canada, European Economic Area (“EEA”) and United Kingdom (“UK”), Israel, Japan, Republic of Korea, and U.S.A. (California) below:
+
+Brazil
+
+The Brazilian General Data Protection Act provides you the right to:
+
+* Confirm Unity's processing of your data;
+* Access your data;
+* Correct your incomplete, inaccurate, or outdated data;
+* Request anonymization, blocking or elimination of unnecessary or excessive data or of data processed in noncompliance with the Brazilian General Data Protection Act;
+* Port your data to other service providers or suppliers of products;
+* Delete your personal data when processed with your consent;
+* Obtain information on the public and private entities with whom Unity shared your data;
+* Obtain information on the possibility of not providing consent and on the consequences of the denial;
+* Revoke your consent to the processing of your data when we seek your consent; and
+* Lodge complaints before data protection authorities.
+Canada
+
+The Canadian Personal Information Protection and Electronic Documents Act provides certain rights with respect to your personal data, such as:
+
+* Right to Access - You have the right to request Unity provide you with a copy of your personal data.
+* Right to Rectification (Correction) - You have the right to request Unity to correct any information about you that you believe is incorrect. You also have the right to request Unity to complete information about you that you believe is incorrect.
+EEA and UK
+
+The EU and UK General Data Protection Regulations (collectively, the “GDPR”) provide certain rights (when applicable to you) in relation to the way in which Unity processes your Personal Information as a data controller. You have the following rights:
+
+* Right to Access - You have the right to request Unity provide you with a copy of your Personal Information.
+* Right to Rectification (Correction) - You have the right to request Unity to correct any information about you that you believe is incorrect. You also have the right to request Unity to complete information about you that you believe is incorrect.
+* Right to Erasure (Deletion) - You have the right to request Unity to erase your Personal Information, under certain conditions.
+* Right to Restrict Processing - You have the right to request Unity to restrict the processing of your Personal Information, under certain conditions.
+* Right to Object to Processing - You have the right to object to Unity’s processing of your Personal Information, under certain conditions.
+* Right to Data Portability - You have the right to request Unity to transfer your Personal Information to another organization, or directly to you, under certain conditions.
+* Right to Lodge a Complaint - You may lodge a complaint with an EEA data protection authority for your country or region where you have your habitual residence or place of work or where an alleged infringement of applicable data protection law occurs. In the UK, you may lodge a complaint with the Information Commissioner’s Office (“ICO”). A list of data protection authorities is available athttps://ec.europa.eu/newsroom/article29/items/612080If you do have a complaint, we would appreciate the chance to deal with your concerns before approaching your supervisory body, so please contact us at dpo@unity3d.com if you wish to discuss any complaint.
+* If you do have a complaint, we would appreciate the chance to deal with your concerns before approaching your supervisory body, so please contact us at dpo@unity3d.com if you wish to discuss any complaint.
+The Israel Protection of Privacy Law 5741-1981:
+
+* Any information provided by you is on a voluntary basis with no legal requirement to do so, but if you refuse to provide such information we may not be able to provide you with the Services. According to the Protection of Privacy Law, each person is entitled to inspect, either himself or through a representative authorized by him in writing or his guardian, any information about him kept in a database.
+Japan
+
+The Act on the Protection of the Personal Information of Japan provides certain rights with respect to your personal information, such as:
+
+* The right to request a notification of the purposes of use of your personal information
+* The right to request the disclosure, correction, addition, or deletion of your personal information
+* The right to request the discontinuation of use or provision to any third party
+* The right to request the disclosure of the record of provision of your personal information
+* If you are a resident of Japan and wish to exercise any of the above rights, please email us at DPO@unity3d.com (or contact us at the address indicated in the “Contact Us” section listed below)
+* Unity Technologies, GINZA SIX 8F, 6-10-1 Ginza, Chuo-ku, Tokyo Japan 104-0061
+United States of America
+
+* CaliforniaPlease see the Section titled “Additional Information for Residents of California”for additional information on how we handle your Personal Information and the privacy requests you may make under applicable law
+* Please see the Section titled “Additional Information for Residents of California”for additional information on how we handle your Personal Information and the privacy requests you may make under applicable law
+## Transfers out of Country of Collection
+
+Unity has implemented and maintains a framework consistent with applicable law for transfers of Personal Information outside of the country of collection, including for transfers out of the UK and/or EEA.
+
+Your Personal Information may be stored and processed in any country where we havefacilities, includingironSourcewhich is headquartered in Israel, or in which we engage service providers, such as Google Cloud Platform and Salesforce and by using the Services you understand that your Personal Information will be transferred to countries outside of your country of residence, including the United States, which may have data protection rules that are different from those of your country. In certain circumstances, courts, law enforcement agencies, regulatory agencies or security authorities in those other countries may be entitled to access your Personal Information.
+
+Where this will involve transferring your Personal Information outside the UK and/or EEA, we ensure a similar degree of protection is afforded to it by ensuring at least one of the following safeguards is implemented:
+
+Adequacy Decisions: Some non-EEA countries are recognized under the UK GDPR and by the European Commission as providing an adequate level of data protection according to EEA standards (the full list of these countries is availablehere). For example, we may transfer to our affiliates who are located around the world, including Canada, Japan, New Zealand, Republic of Korea, Switzerland, and the United Kingdom.
+
+Standard Contractual Clauses: For transfers of Personal Information from the UK and/or EEA to third countries, which are not considered adequate under the UK GDPR and/or by the European Commission, we have put in place standard contractual clauses adopted under the UK GDPR and/or by the European Commission to protect your Personal Information. For example, we use Google Cloud Platform’s infrastructure and data centers which are located around the world, including the United States. We rely on both controller-controller and controller-processor Standard Contractual Clauses. You may obtain a copy of these measures by contacting us in accordance with the “Contacting Us” section below. “UK GDPR” has the meaning given to it in section 3(10) (as supplemented by section 205(4)) of the Data Protection Act 2018.
+
+Japan
+
+For transfers from Japan to countries other than the EEA/UK, we have put adequate measures in place to protect your Personal Information.
+
+The transferees are obligated to comply with equivalent or comparable rules to those under the Act on the Protection of Personal Information of Japan (APPI) on a continuous basis, and we periodically confirm their compliance. We also periodically confirm any changes to the data privacy regulations of other countries that may affect the compliance measures taken by our overseas affiliates and third-party service providers and take measures such as requesting that they take corrective measures or suspending the provision of Personal Information if any issues arise in the implementation of such compliance measures. We will provide you with further information on the measures we take in this regard upon your request.
+
+## Retention
+
+Unity will delete or return Educational User Data and copies thereof upon the request of Customer either: a) following either the discontinuation of the applicable Unity Offering, or termination or expiration of the Terms of Service, or b) upon the request of Customer following either the discontinuation of the applicable Unity Offering or termination or expiration of the Terms of Service.
+
+Notwithstanding the foregoing, we reserve the right to retain Personal Information for as long as is reasonably necessary to fulfill the purpose for which it was collected and consistent with applicable law, for example, for the purposes of satisfying any legal, regulatory, tax, accounting or reporting requirements. The criteria to determine our retention periods include:
+
+* The length of time we have an ongoing relationship with you and provide the Services to you (for example, for as long as you have an account with us or keep using the Services);
+* Whether retention is advisable in light of our legal position (such as in regard to applicable statutes of limitations, litigation or regulatory investigations).
+Where a legal obligation arises or retention is advisable in light of our legal position, in some circumstances, we will retain certain Personal Information, even after your account has been deleted and/or we no longer provide the Services to you; for example:
+
+* To cooperate with law enforcement or public, regulatory and government authorities: If we receive a preservation order or search warrant, related to your Services account, we will preserve Personal Information subject to such order or warrant after you delete your Services account.
+* For fraud and security purposes: We may retain your Personal Information for fraud or security purposes. In the event you have acted fraudulently through the use of the Services (e.g., by refusing monies properly owed for the Services), we may retain IP address.
+* To pursue or defend a legal action: We may retain relevant Personal Information in the event of a legal claim or complaint, including regulatory investigations or legal proceedings about a claim related to your Personal Information, or if we reasonably believe there is a prospect of litigation (whether in respect of our relationship with you or otherwise) after the dispute has been settled or decided by a court or tribunal from which there is no further right of appeal. The criteria for determining the length of time we will retain this information include:Whether there is a legal obligation to which we are subject (for example, if the settlement or decision requires us to keep the records for a certain period of time before we can delete them); orWhether retention is advisable in light of our legal position (such as in regard to applicable statutes of limitations, litigation or regulatory investigations).
+* Whether there is a legal obligation to which we are subject (for example, if the settlement or decision requires us to keep the records for a certain period of time before we can delete them); or
+* Whether retention is advisable in light of our legal position (such as in regard to applicable statutes of limitations, litigation or regulatory investigations).
+## Data Security and Protection
+
+We employ a variety of measures to safeguard the collection, transmission and storage of the Educational User Data we collect. Please note that no system can be guaranteed to be 100% secure. Therefore, while we strive to employ reasonable protections for Educational User Data, we cannot guarantee or warrant the security of the information shared with us and we cannot be responsible for the theft, destruction, loss or inadvertent disclosure of such information.
+
+Our Security align with NIST CSF standards. Furthermore, our breach response management aligns with both NIST and the SEC Reporting Rules. Unity will notify Schools with the relevant breach notification law and our agreement with the School.
+
+If you would like more information about our current security measures, please contact Unity atdpo@unity3d.com.
+
+## Sites and Services Operated by Others
+
+The Unity Service may contain links to other sites, applications, and services. Because Unity does not operate those other sites, applications, and services, we cannot take responsibility for the privacy practices of the entities that operate them. We recommend that you consistently check privacy policies to understand an operator’s practices. As a reminder, this Privacy Policy describes Unity’s practices.
+
+This Privacy Policy does not address, and we are not responsible for, the privacy, information, or other practices of any third parties, including any third party operating any website or service to which the Services link. The inclusion of a link on the Services does not imply endorsement of the linked site or service by us or by our affiliates.
+
+The Services may provide functionality allowing you to make payments to us using third-party payment services with which you have created your own account. When you use such a service to make a payment to us, your Personal Information will be collected by such a third party and not by us and will be subject to the third party’s privacy policy, rather than this Privacy Policy. We have no control over, and are not responsible for, this third party’s collection, use, and disclosure of your Personal Information.
+
+In addition, we are not responsible for the information collection, use, disclosure, or security policies or practices of other organizations, such as Facebook, Apple, Google, Microsoft, RIM, or any other app developer, app provider, social media platform provider, operating system provider, wireless service provider, or device manufacturer, including with respect to any Personal Information you disclose to other organizations through or in connection with the Apps or our Social Media Pages.
+
+## Contact Information
+
+You can, and should, ask questions about this Privacy Notice and our privacy practices. You should always feel free to contact us at:
+
+* DPO@unity3d.com
+* Unity Technologies, 30 3rd Street, San Francisco, CA 94103 (United States contact)
+* Unity Technologies ApS, Niels Hemmingsens Gade 24, 1153 Copenhagen, Denmark (European Union contact)
+Changes to this Privacy Notice
+
+We reserve the right to change our practices and this Notice at any time. We may also send an email or provide notice within some or all of our offerings when this Notice changes. We encourage you to check this page regularly so that you know what our current practices are.
+
+## Additional Information for Residents of California
+
+Collection and Disclosure of Personal Information
+
+The following chart details which categories of Personal Information we collect and process, as well as which categories of Personal Information we disclose to third parties for our operational business purposes, including within the 12 months preceding the date this Privacy Policy was last updated. You may view our CCPA Transparency Report athttps://unity.com/legal/privacy-report. This report provides details on our responses to requests to access, delete or opt-out under CCPA.
+
+Sensitive Personal Information.
+
+* Personal Information that reveals an individual’s social security, driver’s license, state identification card, or passport number; account log-in, financial account, debit card, or credit card number in combination with any required security or access code, password, or credentials allowing access to an account; precise geolocation; racial or ethnic origin, religious or philosophical beliefs, citizenship, immigration status, or union membership; the contents of mail, email, and text messages unless Unity is the intended recipient of the communication; genetic data;
+* The processing of biometric information for the purpose of uniquely identifying an individual;
+* Personal Information collected and analyzed concerning an individual’s health;
+* Personal Information collected and analyzed concerning an individual’s sex life or sexual orientation;
+* Personal Information collected from a known child.
+Individual Requests
+
+If you are a California resident, you may make the following requests:
+
+* You may request that we disclose to you the following information covering the 12 months preceding your request:The categories of Personal Information we collected about you and the categories of sources from which we collected such Personal Information;The business or commercial purpose for collecting or sharing Personal Information about you;The categories of Personal Information about you that we shared (as defined under the applicable privacy law) and the categories of third parties to whom we shared such Personal Information; andThe categories of Personal Information about you that we otherwise disclosed, and the categories of third parties to whom we disclosed such Personal Information (if applicable).
+* The categories of Personal Information we collected about you and the categories of sources from which we collected such Personal Information;
+* The business or commercial purpose for collecting or sharing Personal Information about you;
+* The categories of Personal Information about you that we shared (as defined under the applicable privacy law) and the categories of third parties to whom we shared such Personal Information; and
+* The categories of Personal Information about you that we otherwise disclosed, and the categories of third parties to whom we disclosed such Personal Information (if applicable).
+* You may request to correct inaccuracies in your Personal Information;
+* You may request to have your Personal Information deleted; and
+* You may request to receive specific pieces of Personal Information, including, where applicable, to obtain a copy of the Personal Information you provided to us in a portable format.
+Please note that Unity has placed aCalifornia Notice of Rightson its website to explain how California residents may exercise their privacy rights under the California Consumer Privacy Act. This notice is incorporated into this policy.
+
+We will not unlawfully discriminate against you for exercising your rights under applicable privacy law. To make a privacy request, please contact us at DPO@unity3d.com or Unity Technologies, 30 3rd Street, San Francisco, CA 94103. We will verify and respond to your request consistent with applicable law, taking into account the type and sensitivity of the Personal Information subject to the request. We may need to request additional Personal Information from you, such as email address/ username/ country associated with the account where applicable, in order to verify your identity and protect against fraudulent requests. If you make a request to delete, we may ask you to confirm your request before we delete your Personal Information.
+
+We do not sell or “share” the Personal Information of Developers, and we have not engaged in such activities in the preceding 12 months. Without limiting the forgoing, we do knowingly not sell or “share” the Personal Information of Developers who are minors under 16 years of age.
+
+Authorized Agents
+
+If an agent would like to make a request on your behalf as permitted under applicable law, the agent may use the submission methods noted in the section entitled “Individual Requests.” As part of our verification process, we may request that the agent provide, as applicable, proof concerning his or her status as an authorized agent. In addition, we may require that you verify your identity as described in the section entitled “Individual Requests” or confirm that you provided the agent permission to submit the request.
+
+* For third party representatives writing in on behalf of Unity account holders, please provide the name and any signed documentation you may have to act on behalf of the account holder, or you may ask the account holder to write to us from their account email to provide us permission to transact with you directly. Unity reserves the right to take reasonable steps to verify the authenticity of identities and authorizations in compliance with applicable laws prior to making any disclosures.
+De-Identified Information
+
+Where we maintain or use de-identified information, we will continue to maintain and use the de-identified information only in a de-identified fashion and will not attempt to re-identify the information.
+
+Providing Personal Information to third parties for direct marketing purposes: California residents have the right to request the identity of any third parties to whom the resident’s Personal Information was provided, if such provision was to enable the third party’s direct marketing efforts. If you are a California resident and wish to make such a request, please submit your request to DPO@unity3d.com. Alternatively, you may opt-out of having your personal information shared with third parties for their direct marketing purposes, by emailing us at DPO@unity3d.com.
+
+How we respond to “Do Not Track” signals: We are committed to providing you with meaningful choices about the information collected on our Services. Our cookie management tool on our website recognizes browser-initiated Do Not Track signals. To learn more about Do Not Track signals, you can visit allaboutdnt.com.
+
+Removal of content.
+
+Pursuant to California Business & Professions Code section 22581, if you are a resident of California, under 18, and a registered user of the Services, you may ask us to remove content or information that you have posted to the Services by writing to DPO@unity3d.com. Please note that your request does not ensure complete or comprehensive removal of the content or information, as, for example, some of your content may have been reposted by another user.
+
+
+---
+
+# Error fetching https://unity.com/legal/privacy-supplement-statement-for-unity-mars-companion-app
+
+404 Client Error: Not Found for url: https://unity.com/legal/privacy-supplement-statement-for-unity-mars-companion-app
+
+---
+
+# Unity – Data Processing Addendum ("DPA")
+
+**Source URL:** [https://unity.com/legal/unity-data-processing-addendum-dpa](https://unity.com/legal/unity-data-processing-addendum-dpa)
+
+Unity – Data Processing Addendum
+
+Effective : April 10, 2026
+
+What's changed?
+
+On April 10, 2026 We revised our references to Applicable Data Protection Law and updated Unity’s office address in San Francisco, California.
+
+This Data Processing Addendum (this “DPA”) is incorporated into and forms an integral part of the Unity Terms of Service, available athttps://unity.com/legal/terms-of-service, the Unity Advertising Terms of Service, available athttps://unity.com/legal/one-operate-services-terms-of-service, the Asset Store Terms of Service and EULA, available athttps://unity.com/legal/as-terms, and the Asset Store Provider Agreement, available athttps://unity.com/legal/as-provider, or, as applicable, an offline agreement relating to the subject matter therein (the “Terms of Service”) between You and the Unity Party specified in Section 2.26 below., on behalf of itself and its Affiliates, inclusive of ironSource (collectively, “Unity”) and you (“Customer” or “you”), each a “party” and collectively the “parties”. Acceptance of the Terms of Service includes acceptance of this DPA. Capitalized but undefined terms used in this DPA will have the meanings assigned to those terms in the Terms of Service.
+
+To the extent you are using the services named herein and in absence of any other offline agreement, you shall be deemed to have accepted this DPA and applicable Standard Contractual Clauses upon acceptance or execution of the applicable Terms of Service.Thisis a pre-signed copy of this document and accompanying SCCs which you may download, execute on your side, and return toDPA@unity3d.com.
+
+#### 1. Scope of Addendum
+
+1.1. Applicable Data Protection Law.The parties agree that this DPA is designed to set forth the parties' obligations resulting from Applicable Data Protection Law. As such, the parties acknowledge and agree that this DPA will only apply to the extent, as applicable, that (a) EU Data Protection Law applies to the processing of personal data of data subjects located in or from Customer located (or where Customer is a processor, where the relevant controller is located) in the EEA, UK, or Switzerland, (b) the LGPD applies to the processing of personal data of data subjects located in Brazil and to any processing activity that is for the purpose of providing goods or services in Brazil, (c) the PIPEDA applies to the processing of personal data of data subjects located in Canada; (d) the Private Sector Act applies to the processing of personal data of data subjects located in Québec; (e) the Personal Data Protection Act, Act No. 25.326 of 2000 applies to the processing of personal data within the territory of Argentina, (f) the CCPA as amended applies to the processing of personal data of data subjects located in the State of California, United States of America, (g) the CPA applies to the processing of personal data of data subjects located in the State of Colorado, United States of America, (h) the VCDPA applies to the processing of personal data of data subjects located in the State of Virginia, United States of America, (i) the CTDPA applies to the processing of personal data of data subjects located in the State of Connecticut, United States of America, (j) the UCPA applies to the processing of personal data of data subjects located in the State of Utah, United States of America, (k) the FDBR applies to the processing of personal data of data subjects located in the State of Florida, United States of America, (l) the OCPA applies to the processing of personal data of data subjects located in the State of Oregon, United States of America, (m) the TDPSA applies to the processing of personal data of data subjects located in the State of Texas, United States of America, (n) the MTCDPA applies to the processing of personal data of data subjects located in the State of Montana, United States of America; (o) the DPDPA applies to the processing of personal data of data subjects located in the State of Delaware, United States of America; (p) the ICDPA applies to the processing of personal data of data subjects located in the State of Iowa, United States of America; (q) the NDPA applies to the processing of personal data of data subjects located in the State of Nebraska, United States of America; (r) the NHDPA applies to the processing of personal data of data subjects located in the State of New Hampshire, United States of America; (s) the NJDPA applies to the processing of personal data of data subjects located in the State of New Jersey, United States of America; and (t) the TIPA applies to the processing of personal data of data subjects located in the State of Tennessee, United States of America,- (u) the KCDPA applies to the processing of personal data of data subjects located in the State of Kentucky, United States of America; and (v) the INCDPA applies to the processing of personal data of data subjects located in the State of Indiana, United States of America.
+
+1.2 Other-Applicable Data Protection Law.Notwithstanding the foregoing, where applicable, certain Additional Terms for Other-Applicable Data Protection Law will supplement this DPA, as set forth Section 8.
+
+#### 2. Definitions
+
+2.1"controller", "processor", "data subject", "personal data", “personal data breach”, "processing" (and "process"), and “special category” shall have the meanings given in EU Data Protection Law; provided, however, that:
+
+2.1.1To the extent that the CCPA is applicable, the definition of “personal data” includes “Personal Information”; the definition of “data subject” includes “Consumer”; the definition of “controller” includes “Business”; and the definition of “processor” includes “Service Provider”, all as defined under the CCPA , and
+
+2.1.2To the extent that Non-EU Data Protection Law is applicable, definitions shall have the meanings given under applicable law.
+
+2.2“Additional Terms for Other-Applicable Data Protection Law” means the additional terms referred to in Section 8, which reflect the parties’ agreement on the terms governing the processing of certain data in connection with certain other data protection regulations.
+
+2.3“Advertiser” means any party placing advertisements with Unity pursuant to the Terms of Service.
+
+2.4“Affiliates” means an entity that directly or indirectly controls, is controlled by, or is under common control with, a party.
+
+2.5“Applicable Data Protection Law” means (i) EU Data Protection Law; and (ii) Non-EU Data Protection Law.
+
+2.6“Approved Addendum” means the template addendum issued by the United Kingdom Information Commissioner’s Office and laid before the United Kingdom Parliament in accordance with s119A of the Data Protection Act 2018 on 2 February 2022, as it is revised under Section 18 of such addendum.
+
+2.7“Argentina Data Protection Law” means Personal Data Protection Act, Act No. 25.326 of 2000 ('the Act') and Decree No.1558/2001 Regulating Law No. 25.326 ('the Decree'), amended by Decree No. 1160/10.
+
+2.8“Argentinian Model Clauses” mean the model contract for the international transfer of “personal data” (as defined under Argentina Data Protection Law) to other countries that do not provide an adequate level of protection for personal data related to Data Subjects residing in Argentina, as set out in Disposition 60-E/2016.”
+
+2.9“Biometric Laws” means any law or regulation governing the handling of biometric information, including but not limited to the Illinois Biometric Information Privacy Act (“BIPA”), and the Texas Capture or Use of Biometric Identifier Act (“CUBI”).
+
+2.10“Compliance Tool” means Unity’s self-serve tools made available to data subjects by Unity for the purposes of exercising their rights under Applicable Data Protection Law.
+
+2.11“DPA 2018” means the UK Data Protection Act, 2018.
+
+2.12“Device Manufacturer” means a device manufacturer and/or a mobile carrier on which Unity promotes Customer’s products and/or services using its Aura Platform under the applicable Terms of Service.
+
+2.13“Device Manufacturer Personal Data” has the meaning give to such term in Subsection 4.4;
+
+2.14“End User” means customers of Customer and/or the viewers of Publishers’ and/or Advertisers’ content
+
+2.15"EU Data Protection Law" means (i) the GDPR; (ii) the EU e-Privacy Directive (Directive 2002/58/EC); and (iii) any national data protection laws made under or pursuant to (i) or (ii) including the UK GDPR and the DPA 2018.
+
+2.16“GDPR” means the EU General Data Protection Regulation 2016/679.
+
+2.17Intentionally omitted.
+
+2.18“Non-EU Data Protection Law” means the California Consumer Privacy Act (“CCPA”), as amended by the California Privacy Rights Act (“CPRA”); the Virginia Consumer Data Protection Act (“VCDPA”); the Colorado Privacy Act (“CPA”), the Connecticut Data Protection Act (“CTDPA”), the Utah Consumer Privacy Act (“UCPA”); the Florida Digital Bill of Rights (“FDBR”); the Oregon Consumer Privacy Act ("OCPA"); Texas Data Privacy and Security Act ("TDPSA"); Montana Consumer Data Privacy Act (“MTCDPA”); Delaware Personal Data Privacy Act (“DPDPA”); the Indiana Consumer Data Privacy Act (“ICDPA”) and the Indiana Consumer Data Protection Act (“INCDPA”); Nebraska Data Privacy Act (“NDPA”); New Hampshire Data Privacy Act (“NHDPA”); New Jersey Data Privacy Act (“NJDPA”); Tennessee Information Protection Act (“TIPA”); Kentucky Consumer Data Protection Act (“KCDPA”); the Canadian Personal Information Protection and Electronic Documents Act (“PIPEDA”); Québec's Act Respecting the Protection of Personal Information in the Private Sector (“Private Sector Act”), the Brazilian General Data Protection Law ("LGPD"); and Argentina Data Protection Law.
+
+2.19“Publisher” means any distributor of software and services for whom Unity provides monetization or backend services for such publisher’s software and services under the Terms of Service.
+
+2.20“SCCs” means with respect to data transfers from the European Union to third countries that are not deemed adequate jurisdictions by the European Commission the Controller-Controller standard contractual clauses (the “C2C SCCs”) and/or Controller-Processor standard contractual clauses (the “C2P SCCs”) (as applicable) approved by the European Commission, as may be updated from time to time (the “EU SCCs”) or, with respect to data transfers from the United Kingdom, the C2C SCCs and/or the C2P SCCs as further amended by the Mandatory Clauses of the Approved Addendum, as may be updated by the United Kingdom Information Commissioner’s Office from time to time (the “UK SCCs”), for so long as this DPA is effective, subject to the following: (i) only the provisions pertaining to Module One are deemed applicable under the C2C SCCs standard contractual clauses; (ii) only the provisions pertaining to Module Two are deemed applicable under the C2P SCCs; (iii) except with respect to the UK SCCs, the governing law will be that of the country of the Data Protection Authority with jurisdiction over the data exporter and any dispute arising in connection with the EU SCCs will be subject to the exclusive jurisdiction of the courts of such country; (iv) the applicable annex to the applicable standard contractual clauses is amended as set forth in Appendix A below.
+
+2.21“SDK” means Unity’s software development kit for integrating Unity’s proprietary products into mobile applications.
+
+2.22“Security, Privacy and Architecture Documentation” means the Security, Privacy and Architecture Documentation applicable to the Services purchased by Customer, as described in summaries that Unity generally makes available to its Customers as updated from time to time, or otherwise made reasonably available by Unity, including as set out here from time to time:https://unity.com/legal/technical-and-organisational-measures.
+
+2.23“Services” means the Controller Services and/or Processor Services (as outlined in Section 3) used by Customer in connection with the applicable Terms of Service.
+
+2.24“Sub-Processor” means any entity that Unity engages to process Customer’s personal data on behalf of Unity, which entities may include Unity’s Affiliates.
+
+2.25“UK GDPR” means the EU General Data Protection Regulation 2016/679, as incorporated into UK Data Protection Law.
+
+2.26“Unity Party” means the entity responsible for the data processing activities.
+
+2.27Unity Party for all Services governed by theUnity Terms of Serviceshall be Unity Technologies S.F.
+
+#### 3. Controller Services and Processor Services
+
+3.1 Controller Services.
+
+3.1.1Unless otherwise noted in 3.2 , “Controller Services” shall refer to all Services governed by the applicable Unity Terms of Service.
+
+3.1.2The term "Controller Services" shall encompass personal data relating to account information processed via both the Controller and Processor Services.
+
+3.2 Processor Services.
+
+3.2.1“Processor Services'' as used herein shall refer to data uploaded through the below services or as otherwise specified in Unity’s Documentation or Additional Terms, as applicable:
+
+Player Services
+
+* LiveOps SolutionsNot including Unity Player Accounts, which is a Controller Service
+* Not including Unity Player Accounts, which is a Controller Service
+* Multiplayer Solutions
+* Community Solutions
+Creator Services
+
+These were previously referred to as Game Services and Multiplayer Services
+
+Consulting Services
+This is where a customer contracts with Unity to consult with them on their game
+
+* Unity MARS, Unity AR Companion App, and Engine Diagnostics
+3.2.2 Aura Platform Services.Except as otherwise provided in a separate agreement, when Processing End Users of a Device Manufacturer’s Personal Data, Customer acts as an independent Controller and Unity acts as a Processor on behalf of Device Manufacturer.
+
+3.3When personal data is transferred via a Processor Service in conjunction with, and transmitting data to a Controller Service, or where personal data processed in connection with a Processor Service is expressly provided by you to Unity as an independent controller, Unity shall act as both a Controller and a Processor as outlined below. In instances where this includes End User personal data, this will be noted in the corresponding documentation or terms for the relevant service.
+
+3.3.1 Unity as a Processor
+
+For provision of the Processor Service for all purposes outlined in this DPA.
+
+3.3.2 Unity as a Controller
+
+For all purposes outlined in ourPrivacy Policy, including but not limited to:
+
+* Monitor, prevent, and detect fraudulent transactions and other fraudulent activity on Unity services;
+* Implement, maintain, and perform internal processes that enable Unity to provide its products and services, including relationship management, billing, and invoicing;
+* Analyze, develop, and personalize Unity's products and services.
+4. General Terms and Conditions
+
+4.1 Control/Application of the DPA. In the event of any conflict or discrepancy between the SCCs, the Additional Terms for Other-Applicable Data Protection Law, the Terms of Service, and the terms and conditions of this DPA, the following order of precedence will apply: (a) the SCCs (where applicable), (b) this DPA, (c) the Additional Terms for Other-Applicable Data Protection Law, (d) the Terms of Service. This DPA applies only to Customer, and Unity and does not confer any rights to any third party hereunder. This DPA does not replace any additional rights related to privacy or data security set forth in the Terms of Service.
+
+4.2 Treatment of Data Rights and Restrictions in Other Agreements.Customer agrees that this DPA does not enlarge any rights provided for in the Terms of Service, and Customer continues to be limited to the data use rights and restrictions provided for therein.
+
+4.3 Limitations of Liability.This DPA in no way alters the limitations of liability or other legal terms set out in the Terms of Service.
+
+4.4 Advertiser’s Mobile Measurement Partners.Where Customer is an Advertiser, it acknowledges and agrees that: (i) to the extent it requires Unity to present data to a third party install tracker in connection with trafficking of its advertising campaigns, that it has such third parties under a valid data processing agreement clearly directing the install tracker as to its usage instructions, duties, and liabilities for processing such data; (ii) any personal data shared by Unity with Customer and/or any third-party on Customer’s behalf, in connection with the advertising services, concerning (1) End Users of an application of a third-party app developer; and/or (2) for Aura Platform Services, End Users of a Device Manufacturer (“Device Manufacturer Personal Data”), is provided solely for the purposes of attribution, frequency capping and/or fraud detection and prevention.
+
+4.4.1Aura Platform Services. Where Customer is an Advertiser using Aura Platform Services: (i) Customer shall provide End Users with a list of all the data shared by Customer with Unity and inform such End Users that such data will be used by the End User’s Device Manufacturer for marketing purposes; (ii) Customer shall obtain consent from End Users on behalf of the End User’s Device Manufacturer, prior to disclosing, and/or allowing Unity to access any data, that shall cover, at a minimum, the processing (including accessing, collecting, using, storing and/or disclosing) by Unity of data, including personal data, originating from, and/or associated with the End User’s device, for the purpose of serving non-interest based ads, and measuring the effectiveness of ads, including aggregating personal data for the purpose of creating reports, and improving the End User’s Device Manufacturer’s products and services. To the extent required by applicable law, if such consent is not obtained or is withdrawn by the End User, Customer must not initialize Unity’s SDK or disclose any personal data to Unity in relation to that End User, and refrain from using Unity’s SDK in any other manner in relation to that End User. In any event, the consent obtained from an End User shall comply with all the requirements of Data Protection Laws and shall name the End User’s Device Manufacturer as a Controller.
+
+4.5 Special Category Data.With the exception of information uploaded through the use of Unity MARS, and Unity AR Companion App, which may be considered as biometric under applicable laws, Special Category Data will not be processed pursuant to this DPA and the Customer warrants and represents that the Customer will not be sharing, disclosing or otherwise transferring such data to Unity.
+
+4.5.1You represent and warrant that you have complied with all Data Protection Laws with respect to any transfer of personal data to us in connection with your use of the Service. Such compliance by you includes, but is not limited to, you providing proper notification of the transfer, communicating the possibility that a person’s data may be transmitted outside their country of origin, and obtaining any necessary consents for both collection and storage of biometric information of such person, including any geometric scans of that individual’s facial features. Further, where applicable, you give your written consent to Unity to collect, store, disclose and use any biometric information contained in Your Materials from which Created Materials will be provided as part of the Service. Please note that Unity may request copies of your consent records to confirm your compliance with this Section 4.5.1. Failure to provide proper documentation may result in cancellation of your use of the Service.
+
+4.5.2 Biometric LawsThis Section applies to all transfers and disclosures of personal data from Customer to Unity as contemplated by the Terms of Service, particularly where such data consists of an individual voiceprint or any geometric scans of the facial features of an individual (“Biometric Information”) and is within the scope of applicable Biometric Laws including but not limited to BIPA and CUBI. Terms not otherwise defined in this DPA shall have the meaning ascribed to it by Applicable Data Protection Law
+
+4.5.2.1Customer must comply with Biometric Laws, including but not limited to, providing proper notification of the transfer, communicating the possibility that an individual’s data will be transmitted outside their country of origin, and obtaining any necessary consents for both collection and storage of biometric data.
+
+4.5.2.2Where Biometric Information is used by Customer and transmitted to Unity in connection with the Services, Customer will obtain advance, adequate consents from those persons whose Biometric Information has been used. Such consent will be in compliance with applicable Biometric Laws and Applicable Data Protection Law.
+
+4.5.2.3Unity shall secure Biometric Information in the same manner as any other confidential or sensitive information that it stores. The information shall be destroyed upon conclusion of its use as specified in this DPA.
+
+4.6 Compliance with Law/Public Notices.Each party shall maintain a publicly-accessible privacy policy on its website that satisfies the transparency disclosure requirements of Applicable Data Protection Law. Customer shall list Unity as a third party that is collecting data within its application in its publicly available privacy policy, including by providing a link to Unity’s privacy policy available athttps://unity.com/legal/privacy-policyor the ironSource’s privacy policy available athttps://developers.ironsrc.com/ironsource-mobile/air/ironsource-mobile-privacy-policy/, or Tapjoy’s privacy policy available athttps://dev.tapjoy.com/en/legal/Privacy-Policy, as applicable. Customer shall have all required rights, licenses, and permissions to allow the processing of personal data by Unity under the Terms of Service and to make personal data available to Unity in accordance with the requirements of this DPA. Customer shall provide all notices and obtain all consents, as required by and in compliance with Applicable Data Protection Laws with respect to the collection of data by Unity and/or transfer of any data to Unity by Customer, in connection with the Terms of Service, in accordance with the requirements of this DPA and supporting documentation. Customer agrees to keep up to date versions of Unity software and services installed in their applications as Unity identifies as necessary to permit Unity to maintain its compliance with law. By way of example and without limiting the generality of the foregoing, Unity relies on Customer updating its applications with software changes made to provide certain opportunities for End Users to exercise their rights to disclosure and deletion requests; however, updates unrelated to compliance with law may occur from time to time which are not subject to this Section 4.6 nor governed by this DPA.
+
+4.6.1Without limiting the generality of the foregoing, when a Consumer exercises an opt out of sale or sharing of their personal data, Customer shall pass to Unity an indication of that Consumer’s opt out using the applicable opt out mechanism as noted in the corresponding documentation or terms for the relevant service. Unity agrees to comply with such opt out signals received by Unity.
+
+4.7 Term and Termination.This DPA will become effective as of the date Customer has accepted both: (i) a valid Terms of Service; and (ii) solely to the extent this DPA is not already incorporated into such Terms of Service, this DPA. Subject to Section 4.9, This DPA will terminate simultaneously and automatically upon the termination of the Terms of Service. Unity may terminate this DPA (in whole or in part) at any time upon notice to Customer if Unity offers alternative means to Customer that complies with Applicable Data Protection Laws. Customer may terminate this DPA at Customer’s discretion upon Unity’s receipt of Customer’s written notice of termination.
+
+4.8 Governing Law.To the extent required by Applicable Data Protection Law, this DPA will be governed by the laws of the applicable jurisdiction. In all other cases, this DPA shall be governed by the laws of the jurisdiction set forth in the Terms of Service.
+
+4.9 Survival.This DPA shall survive termination or expiry of any terms of service or other agreement to permit Unity to comply with its legal obligations. Upon termination or expiry of the Parties’ relationship, Unity may continue to process the personal data provided that such processing complies with the requirements of this Section 4.9 and otherwise with Applicable Data Protection Law.
+
+#### 5. Controller-Controller Terms.
+
+The Controller-Controller Terms set forth in this Section 5 will apply only in connection with Customer’s use of the Controller Services and Unity’s processing of personal data in connection therewith.
+
+5.1 Relationship of the Parties.Subject to Section 4.2, the parties acknowledge and agree in connection with the processing of personal data for Controller Services, each party (a) is an independent controller of the personal data under Applicable Data Protection Law; (b) will individually determine the purposes and means of its processing of personal data; and (c) will comply with the obligations applicable to it under Applicable Data Protection Law with respect to the personal data.
+
+5.2 Purpose of Processing.Customer shall have all required rights, licenses, and permissions to allow the Processing of personal data by Unity under the Terms of Service and to make personal data available to Unity in accordance with the requirements of this DPA. Customer shall provide all notices and obtain all consents, as stipulated in Section 4.6 herein. To the extent required by applicable law, if such consent is not obtained or is withdrawn by the End User, Customer must not initialize Unity’s SDK or disclose any personal data to Unity in relation to that End User and refrain from using Unity’s SDK in any other manner in relation to that End User. Customer will permit the disclosure of the personal data described in the Terms of Service or otherwise herein for the applicable Controller Services to Unity to process as a controller of the personal data for the purposes described in Unity’s Privacy Policy available athttps://unity.com/legal/privacy-policyand/or the ironSource’s privacy policy available athttps://developers.ironsrc.com/ironsource-mobile/air/ironsource-mobile-privacy-policy/, or Tapjoy’s privacy policy available athttps://dev.tapjoy.com/en/legal/Privacy-Policy, as applicable by Controller Services to which Customer subscribes (the "Permitted Purpose"). Specifically, and notwithstanding anything to the contrary in any prior data processing addendum, Unity shall use the personal data in an identified format to make decisions (including targeting decisions) within its services, provide services (including monetization services, serving non-interest based ads, and measuring the effectiveness of ads) to its customers, assist its customers with maintaining their own services, improving its services, and analyzing the marketplace for its services as well as the performance of its services. Notwithstanding the foregoing, data obtained by Unity independent of Customer using Unity software or services that is the same or similar to the personal data described herein shall not be restricted by this Addendum, any license agreement, or any terms or conditions for such services. For the avoidance of doubt, Unity may use all personal data collected on an aggregated or de-identified basis as set out in its Privacy Policy, provided that such use does not reveal an individual or an individual's device directly or indirectly.
+
+5.2.1.Customer represents and warrants that: (i) the information provided to Unity using its Consent API is complete, accurate, and up-to-date; (ii) consent obtained from an End User shall comply with all the requirements of Applicable Data Protection Laws, (iii) ironSource's and Unity’s and Advertising Partners’ shall rely on the information provided to Unity using its Consent API and shall not cause Unity and/or Advertising Partners to be in violation of Applicable Data Protection Laws; and (iv) Customer shall re-obtain consent from End Users as required from time to time by Unity.
+
+5.3 Security.Each party shall implement appropriate technical and organizational measures to protect the personal data (i) from accidental or unlawful destruction, and (ii) loss, alteration, unauthorized disclosure of, or access to the personal data (a "Security Incident"). In the event a party suffers a confirmed Security Incident, it shall notify the other party without undue delay and both parties shall cooperate in good faith to agree and action such measures as may be necessary to mitigate or remedy the effects of the Security Incident. Nothing herein prohibits either party from moving forward to notify regulatory authorities as may be required by law prior to notification of the other party so long as the notifying party provides notification to the other party without undue delay.
+
+5.4 Transfers of Personal Data.
+
+1.General Obligations for Transfer of Data.Either party may transfer personal data to third countries if such transfer complies with the provisions for the transfer of such data set forth in Applicable Data Protection Law. To the extent 5.4.(3) below applies, Customer represents that they are able to act as an exporting controller of data whether by their organisation being within the European Union or by being subject to categorization under Clause 13(a) of the SCCs as an organization capable of acting as an exporter from the European Union.
+
+2.Transfers of EEA Personal Data to Customer.To the extent that Unity transfers personal data subject to EU Data Protection Law to Customer and Customer is established in a country outside of the EEA that is not subject to an adequacy decision, then Customer will be deemed to have entered into the required SCCs as the data importer with the Unity Party as identified in section 2.26 above as the data exporter, and such transfers will be subject to those SCCs.
+
+3.Transfers of EEA Personal Data to Unity.To the extent that Customer transfers personal data subject to EU Data Protection Law to Unity, then Customer will be deemed to have entered into the required SCCs as the data exporter with Unity Party as identified in section 2.26 above , as the data importer, and such transfers will be subject to those SCCs.
+
+4.Transfers of Brazilian Personal Data.To the extent that a party transfers personal data subject to the LGPD to the other party, then the transferring party will be deemed to have entered into the required SCCs as the data exporter with the receiving party as the data importer, and such transfers will be subject to those SCCs. With respect to Unity, such SCCs shall be deemed to be entered into by the Unity Party as identified in section 2.26 above.
+
+5.Transfers of Swiss Personal Data.To the extent that a party transfers personal data subject to the Switzerland Data Protection Law, the 2021 Standard Contractual Clauses form part of this DPA and take precedence over the rest of this DPA for such transfer to the extent of any conflict
+
+6.Transfers of Personal Data from Argentina to outside of Argentina.To the extent that provision of the Services involves the transfer of personal data from Argentina to outside of Argentina (either directly or via onward transfer) to a jurisdiction that does not have adequate legislation in the terms of article 12 of Law No. 25,326 and its regulatory Decree No. 1558/01, then the parties will be deemed to have entered into the required Argentinian Model Clauses, and such transfers will be subject to those Model Clauses. The roles of the parties and the description of transfers, for the purposes of Annex A to the Argentinian Model Clauses, is set out in Appendix A.
+
+#### 6. Controller-Processor Terms.
+
+The Controller-Processor Terms set forth in this Section 6 will apply only in connection with Customer’s use of the Processor Services and Unity’s processing of personal data in connection therewith.
+
+6.1 Processing of Customer Personal Data
+
+6.1.1 Relationship of the Parties.The parties acknowledge and agree that with regard to the processing of personal data for Processor Services: (a) Customer is a controller or processor, as applicable, of the personal data under Applicable Data Protection Law; (b) Unity is a processor of the personal data under Applicable Data Protection Law or, where Customer is a processor, Unity is a sub-processor of the personal data under Applicable Data Protection Law; and (c) each party will comply with the obligations applicable to it under Applicable Data Protection Law with respect to the processing of personal data. If Customer is a processor, Customer represents and warrants to Unity that Customer’s instructions and actions with respect to personal data, including its appointment of Unity as another processor, have been authorized by the relevant controller and that such controller is organised in the European Union and capable of acting as a data exporter or is acting upon the instruction of a controller that is or is otherwise categorized as a qualified exporter under Clause 13(a) of the SCCs.
+
+6.1.2 Customer’s Instructions.For the purposes of this DPA and, if applicable, the SCCs, Customer instructs Unity to process personal data for the following purposes: (i) to store and use data as described more fully in the Terms of Service and any applicable descriptions of the Processor Services (including, without limitation, Processing of ad revenue data associated with Partner personal data by Unity and/or Unity Affiliates for the purpose of providing the advertising Services by ironSource and/or ironSource Affiliates), (ii) to analyze data to maintain and improve the service, and (iii) to comply with other reasonable instructions provided by Customer (e.g., via email) where such instructions are consistent with the terms and conditions of the Terms of Service, this DPA, and Applicable Data Protection Law. This DPA and the Terms of Service constitute Customer’s complete and final instructions to Unity for the Processing of Customer personal data. Any additional instructions that are inconsistent with the terms of the Terms of Service or this DPA must be agreed upon separately in a writing signed by authorized representatives of both parties.
+
+6.1.3 Unity’s Processing of Personal Data.In connection with the Terms of Service and Customer’s use of the Processor Services, Unity will only process personal data on behalf of and in accordance with Customer’s instructions and otherwise in accordance with the requirements of Applicable Data Protection Law. Customer’s instructions for the Processing of personal data by Unity will comply with all Applicable Data Protection Law. Customer will have sole responsibility for the accuracy, quality, and legality of the personal data and the means by which Customer acquired such personal data. Customer agrees that Unity may and instructs Unity to transfer data to sub-processors in third countries under adequate protections equal to those found herein, including any SCCs.
+
+6.1.4 Security of Processing.Unity will secure Customer’s personal data by implementing appropriate technical and organizational measures to ensure a level of security appropriate to the risk, as required under Applicable Data Protection Law. Such measures include those set forth in the Security, Privacy and Architecture Documentation. Unity will not materially decrease the overall security of the Services during the term of the Terms of Service.
+
+6.1.5 Personal Data Breach Notification.Unity will notify you without undue delay after it becomes aware of a personal data breach. To the extent such personal data breach is caused by a violation of the requirements of this DPA by Unity, Unity will make reasonable efforts to identify and remediate the cause of such personal data breach. Any notification of a personal data breach provided hereunder will not be construed as an acknowledgement by Unity of any fault or liability in connection with the personal data breach. Further, Customer is solely responsible for complying with incident notification laws applicable to Customer and fulfilling any third party notification obligations related to any personal data breach.
+
+6.2 Compliance Assistance.To the extent required by Applicable Data Protection Law, Unity agrees to provide you with reasonable assistance in ensuring compliance with your obligations pursuant to Articles 32 to 36 of the GDPR and Articles 5, 6, 10, 38 and 46 of the LGPD, as applicable, taking into account the nature of Unity’s processing and the information available to Unity. Upon request from you, Unity will further provide commercially reasonable assistance to you by appropriate technical and organizational measures, insofar as this is possible, in relation to handling of a Data Subject’s request for exercising Data Subject’s rights set forth in Chapter III of the GDPR and Article 18 of the LGPD, taking into account the nature of Unity’s processing of personal data and solely to the extent you are unable to fulfill such requests through the Services. You will be responsible for any costs arising from Unity’s provision of such assistance.
+
+6.3 Data Subject Requests.Notwithstanding the foregoing, if Unity receives a request from a data subject in relation to personal data, Unity will (a) if the request is made via a Compliance Tool, respond directly to the data subject’s request in accordance with the standard functionality of the Compliance Tool, or (b) if the request is not made via a Compliance Tool, direct the data subject to submit his or her data subject request to Customer, and Customer will be responsible for responding to such request.
+
+6.4 Government Requests.Unity will notify Customer about any legally binding request for disclosure of the personal data by a law enforcement or other public authority unless otherwise prohibited.
+
+6.5 Deletion of Customer Personal Data.Unity will delete all Customer personal data and copies thereof upon the request of Customer either: a) following either the discontinuation of the applicable Unity Offering, or termination or expiration of the Terms of Service, or b) upon the request of Customer following either the discontinuation of the applicable Unity Offering or termination or expiration of the Terms of Service. Deletion of Customer personal data shall not apply if otherwise required by Applicable Data Protection Law and/or Customer’s instructions. Unity shall only delete Customer personal data associated with the Processor Services to the extent that Customer is the sole originating source of such Customer personal data. The parties agree that the certification of the deletion of Customer personal data will be provided by Unity to Customer upon Customer’s request at such times and in such manner as the Customer prescribes.
+
+6.6 Audits.Unity will make available to you all information necessary to demonstrate compliance with its obligations under the GDPR or UK GDPR. Upon your written request at reasonable intervals, Unity will provide a copy of Unity’s then most recent summaries of third-party audits or certifications or other documentation, as applicable, that Unity generally makes available to its Customers at the time of such request. The parties agree that the audit rights described in Article 28 of the GDPR and, where applicable, as stipulated in the SCCs, will be satisfied by Unity’s provision of such summaries and/or reports.
+
+6.7 Unity Personnel
+
+6.7.1 Confidentiality.Unity will ensure that its personnel engaged in the processing of personal data are informed of the confidential nature of personal data, have received appropriate training on their responsibilities, and have either executed written confidentiality agreements no less protective than the confidentiality provisions set forth in Terms of Services or are under an appropriate statutory obligation of confidentiality. Unity will ensure that such confidentiality obligations survive the termination of the personnel engagement.
+
+6.7.2 Limitation of Access. Unity will ensure that Unity’s access to personal data is limited to those personnel who require such access to perform under the Terms of Service.
+
+6.7.3 Data Protection Officer.Certain of Unity’s employees have been appointed as data protection officers where such appointment is required by Applicable Data Protection Law. The appointed person may be reached atdpo@unity3d.com.
+
+6.8 Sub-Processors
+
+6.8.1 General Authorization.To the extent required by Applicable Data Protection Law, you generally authorize Unity to subcontract processing of personal data under this DPA to Sub-processors (and permit each Sub-processor appointed in accordance with this Section 6.8 to appoint Sub-processors). Unity may continue to use those Sub-processors already engaged by Unity as at the date of this DPA as specified at:https://unity.com/legal/subprocessors, provided that Unity: (a) provides Customer with information about the Sub-processor(s) as may be reasonably requested by Customer from time to time; (b) flows down its obligations under this DPA to such Sub-processor, such that the processing requirements of such Sub-Processor with respect to Customer’s personal data are no less onerous than the processing requirements of Unity as set forth in this DPA; and (c) will be fully liable to Customer for the performance of the Sub-Processor’s obligations under this DPA if such Sub-Processor fails to fulfill its data protection obligations. You agree that Unity has general written authorization to appoint sub-processors under Clause 9 of the SCCs.
+
+6.8.2 New Sub-Processors.Unity will inform you of any intended changes concerning the addition or replacement of Sub-processors and provide you with five (5) business days to make reasonable objections to any new Sub-processors. In the event you reasonably object to a new Sub-processor, you may, as a sole remedy, terminate the applicable Terms of Service and this DPA with respect only to those Services that cannot be provided by Unity without the use of the objected-to Sub-processor by providing Unity with written notice provided that all amounts due under the Terms of Service shall be duly paid to Unity.
+
+6.8.3 Sub-Processor Agreement.The parties agree that if copies of Unity’s agreements with a Sub-Processor must be sent by Unity to Customer pursuant to Applicable Data Protection Law, such copies may have all commercial information and provisions unrelated to this DPA redacted by Unity beforehand; and, that such copies will be provided by Unity only upon reasonable request by Customer.
+
+6.9 Transfers of Personal Data
+
+6.9.1 General Obligations for Transfer of Data.Either party may transfer personal data to third countries if such transfer complies with the provisions for the transfer of such data set forth in Applicable Data Protection Law.
+
+6.9.2Customer agrees that Unity may and instructs Unity to transfer data to sub-processors in third countries under adequate protections equal to those found herein, including any SCCs. Unity may enter agreements as necessary to fulfill the requirements laid down herein.
+
+6.9.3 Transfers of EEA Personal Data to Unity.To the extent that Customer transfers personal data subject to EU Data Protection Law to Unity, then Customer will be deemed to have entered into the required SCCs as the data exporter with the Unity Party as identified in section 2.26 above as the data importer, and such transfers will be subject to those SCCs.
+
+6.9.4 Transfers of Brazilian Personal Data to Unity.To the extent that Customer transfers personal data subject to the LGDP to Unity, then Customer will be deemed to have entered into the required SCCs as the data exporter with the Unity Party as identified in section 2.26 above as the data importer, and such transfers will be subject to those SCCs.
+
+6.9.5 Transfers of Swiss Personal Data.To the extent that a party transfers personal data subject to the Switzerland Data Protection Law, the 2021 Standard Contractual Clauses form part of this DPA and take precedence over the rest of this DPA for such transfer to the extent of any conflict
+
+6.9.6 Transfers of Personal Data from Argentina to outside of Argentina.To the extent that the provision of the Services involves the transfer of personal data from Argentina to outside of Argentina (either directly or via onward transfer) to a jurisdiction that does not have adequate legislation in the terms of article 12 of Law No. 25,326 and its regulatory Decree No. 1558/01, then Customer will be deemed to have entered into the required Argentinian Model Clauses as the data exporter with the Unity Party as identified in section 2.26 above as the data importer, and such transfers will be subject to those Model Clauses. The description of transfers, for the purposes of Annex A to the Argentinian Model Clauses, is set out in Appendix A.
+
+#### 7. Changes to this DPA.
+
+7.1Unity may update the terms of this Addendum, including the designation of Controller Services and Processor Services in Section 3, from time to time, including, but not limited to: (a) as set forth in the applicable Unity Terms of Service ; (b) as required to comply with Applicable Data Protection Law, applicable regulation, court order, or regulatory guidance; or (c) to add new Additional Terms for Other-Applicable Data Protection Law. If such update will have a material adverse impact on Customer, as reasonably determined by Unity, then Unity will use reasonable efforts to inform Customer at least 30 days (or such shorter period as may be required to comply with Applicable Data Protection Law) before the change will take effect, or to obtain the consent of the Customer if required under applicable law. If Customer objects to any such change, Customer may terminate this DPA by giving written notice to Unity within 30 days of being informed by Unity of the change.
+
+#### 8. Additional Terms for Other-ApplicableData Protection Laws
+
+8.1The parties acknowledge that data protection laws in addition to Applicable Data Protection Law may apply to the parties’ processing of personal data.
+
+8.2 Japan. This Section of this DPA applies to all transfers and provisions of Personal Information or Personal Data from Customer to Unity as contemplated by the Terms of Service if the Personal Information or Personal Data is regulated under the Act on the Protection of Personal Information (Act No. 57 of 2003 as amended in 2015 and thereafter) ('APPI'), including where applicable, rules, guidance and codes of practices issued by the regulatory bodies of Japan hereinafter, “Japanese Data Protection Laws.” Terms not otherwise defined in Section 2 shall have the meaning ascribed to it by the Japanese Data Protection Laws.
+
+8.2.1 Controller Services.To the extent Controller Services listed under Section 3.1 are subject to Japanese Data Protection Laws, Unity, as a Business Operator Handling Personal Information, is responsible for the handling of Personal Information or Personal Data in its possession. Customer is responsible for providing any consents and notices required to permit (a) Customer's use and receipt of the Controller Services and (b) Unity’s accessing, storing, and processing of data provided by Customer (including Personal Information or Personal Data, if applicable) under the DPA. Additionally, Customer agrees to obtain the consent of each principal to the Provision of Personal Data to a Third Party including those in a Foreign Country as contemplated under this DPA providing necessary information for the principal to give consent thereto, if and to the extent required under the Japanese Data Protection Laws.
+
+8.2.1.1 Purpose of Use.The Customer shall permit Unity to utilize the Personal Information or Personal Data within the scope of the Permitted Purpose as stated under Section 5.2 Purpose of Processing.
+
+8.2.1.2 Compliance.Unity and the Customer shall warrant that the necessary proceedings under the Japanese Data Protection Laws have been implemented, including, without limitation, (i) the recording of any transfer of Personal Data or Personally Referable Information to a Third Party or receipt of Personal Data from a Third Party and (ii) disclosing, correcting, adding or deleting the contents of, ceasing utilization of, erasing, or ceasing the third-party provision of Retained Personal Data or other relevant information upon the request from the data subjects, when meeting the requirements under the Japanese Data Protection Laws.
+
+8.2.1.3 Safety Measures.Unity and the Customer shall comply with Japanese Data Protection Laws and take necessary measures for the management of Personal Information or Personal Data.
+
+8.2.1.4In the case that the Customer provides Personal Information or Anonymously Processed Information, or Pseudonymously Processed Information or Personally Referable Information under Japanese Data Protection Laws to Unity in effecting the Permitted Purpose, the Customer shall specify to that effect in advance. In the case that the Customer provides Anonymously Processed Information or Pseudonymously Processed Information to Unity in effecting the Permitted Purpose, the Customer shall warrant that the proceedings under the Japanese Data Protection Laws have been implemented with respect to the Anonymously Processed Information or Pseudonymously Processed Information in order to qualify as such.
+
+8.2.1.4.1Unity shall, if the data have been provided in accordance with Section 8.2.1.4, comply with Japanese Data Protection Laws and take any measures required thereof for the management of the applicable data.
+
+8.2.1.4.2If the Personally Referable Information is to become Personal Data to Unity, Customer shall confirm that Unity has obtained consent from the data subjects or obtain such consent from the data subjects on Unity’s behalf when it provides the Personally Referable Information to Unity.
+
+8.2.1.4.3Unity shall at all times implement appropriate technical, physical, personnel and organizational measures designed to safeguard Personal Information or Personal Data as required by Japanese Data Protection Laws.
+
+8.2.2 Processor Services.To the extent that Processor Services listed under Section 3.2 is subject to Japanese Data Protection Laws the definition of “processor” includes an entity entrusted by the Business Operator Handling Personal Information the handling of Personal Information or Personal Data in whole or in part within the scope necessary for the achievement of the purpose of utilization (also a “trustee”), as described under Japanese Data Protection Laws. Customer may exercise necessary and appropriate supervision over the trustees including subcontractors to ensure the proper security management of the Personal Information or Personal Data.
+
+8.2.2.1Customer is responsible for providing any consents and notices required to permit (a) Customer's use and receipt of the Processor’s Services and (b) Unity’s accessing, storing, and processing of data provided by Customer (including Personal Information or Personal Data, if applicable) under the DPA. Additionally, Customer agrees to obtain the consent of each principal to the Provision of Personal Data to a Third Party including those in a Foreign Country as contemplated under this DPA by providing necessary information for the principal to give consent thereto, if and to the extent required under the Japanese Data Protection Laws.
+
+8.2.2.2To the extent required by Japanese Data Protection Laws, Sections 8.2.1.1 to 8.2.1.5 are incorporated by reference as if fully stated forth herein.
+
+8.3 South Korea.This Section of this DPA applies to all transfers and provisions of Personal Information from Customer to Unity as contemplated by the Terms of Service if the personal information is within the scope of the Personal Information from Customer and Unity from South Korea as contemplated by the Terms of Service. Terms not otherwise defined in Section 2 shall have the meaning ascribed to it by the Personal Information Protection Act, the Enforcement Decree and the Enforcement Rule thereof, the Standards on Measures to Ensure Personal Information Security (Personal Information Protection Commission Notification No. 2020-2), the Standard Guidelines on Protection of Personal Information Personal Information Protection Commission Notification No. 2020-1), including where applicable rules, guidance and codes of practices issued by the regulatory bodies of South Korea. Hereinafter referred to “Korean Data Protection Laws”.
+
+8.3.1To the extent Controller Services listed under Section 3.1 is subject to Korean Data Protection Laws the Customer is solely responsible for obtaining any consents and giving any notices required to permit (a) Customer's use and receipt of the Services and (b) Unity’s accessing, storing, and processing of data provided by Customer (including Personal Information, if applicable) under the Terms of Service and this DPA. Additionally, Customer agrees to obtain the consent of each Data Subject for such third party provision and/or international data transfer as contemplated under this DPA if and to the extent required under the Korean Data Protection Laws.
+
+8.3.1.1The Customer shall permit Unity to utilize the Personal Information within the scope of the Permitted Purpose as stated under Section 5.2 Purpose of Processing.
+
+8.3.1.2Unity and the Customer shall warrant that the proceedings under the Korean Data Protection Laws have been implemented.
+
+8.3.1.3Unity and the Customer shall comply with Korean Data Protection Laws and take necessary measures for the management of Personal Information.
+
+8.3.1.4In the case that the Customer provides data containing personal information, Anonymized, or Pseudonymized Information under the Korean Data Protection Laws to Unity in effecting the Permitted Purpose, the Customer shall specify to that effect in advance. In the case that the Customer provides Anonymized or Pseudonymized Information to Unity in effecting the Permitted Purpose, the Customer shall warrant that the proceedings under the Korean Data Protection Laws have been implemented with respect to Anonymized or Pseudonymized Information.
+
+8.3.1.4.1Unity shall, if the data have been provided in accordance with Section 8.3.1.4, comply with Korean Data Protection Laws and take any measures required for the management of the data.
+
+8.3.1.5.Unity shall at all times implement appropriate technical and organizational measures designed to safeguard Personal Information as required by Korean Data Protection Laws.
+
+8.3.2To the extent that Processor Services listed under Section 3.2 is subject to Korean Data Protection Laws the Customer hereby entrusts Unity as a Service Provider and Unity hereby agrees to provide the processing of personal information related to the services listed under Section 3.2.
+
+8.3.2.1Service Provider shall perform personal information processing for the Processor Services listed under Section 3.2 in accordance with the terms and conditions of this DPA.
+
+8.3.2.2Unless otherwise approved by the Customer in advance, Service Provider may not transfer or re-entrust all or a part of its rights and obligations hereunder to a third party. If Service Provider enters into an entrustment agreement with a third party in connection with this DPA, Service Provider shall inform and consult with the Customer prior to the execution of entrustment agreement.
+
+8.3.2.3Service Provider shall take managerial and technical measures necessary for securing safety of the personal information pursuant to Articles 23(2), 24(3) and 29 of the Personal Information Protection Act, Articles 21 and 30 of the Enforcement Decree thereof and the Standards on Measures to Ensure Personal Information Security (Personal Information Protection Commission Notification No. 2020-2).
+
+8.3.2.4Service Provider shall not use the personal information beyond the scope of the tasks entrusted hereunder or disclose or divulge the personal information to any third party during the term of this DPA as well as after the termination of this DPA. Upon the termination or expiration of this DPA, Service Provider shall destroy or promptly return to the Customer the personal information in its possession regarding the tasks entrusted hereunder pursuant to Article 16 of the Enforcement Decree of the Personal Information Protection Act and the Standards on Measures to Ensure Personal Information Security (Personal Information Protection Commission Notification No. 2020-2). If Service Provider destroys the personal information in accordance with the above, Service Provider shall give notice thereof the Customer without undue delay.
+
+8.3.2.5The Customer may supervise Service Provider in connection with the following matters, and Service Provider shall reasonably comply with such supervision:
+
+* Status of the personal information processing;
+* Status of those who can access the personal information and access logs thereof;
+* Compliance of the provisions prohibiting use or third party transfer of the personal information outside the scope of the intended purpose or re-entrustment;
+* Enforcement of measures necessary for securing safety such as encryption, etc.; and
+* Other matters necessary for the protection of personal information.
+8.3.2.6The Customer may reasonably request documentation to inspect the status of the matters set forth in Section 8.3.2.5 above and require the Service Provider to make necessary corrections thereto. Service Provider shall make commercially reasonable efforts to comply with such requests and make such corrections unless it has a justifiable reason.
+
+8.3.2.7The Customer reserves the right to conduct training for Service Provider once a year in order to prevent loss, theft, leakage, alteration or damage of personal information, and Service Provider agrees to attend such training by the Customer.
+
+8.3.2.8The details of the training under Section 8.3.2.7 above, including the time and method, shall be implemented upon consultation between the Customer and Service Provider as necessary.
+
+8.3.2.9Either party shall indemnify the other party, data subject or any third party for any damages due to the breach of this Section 8.3 by itself or its officer, employee or trustee, or any damages due to termination of this DPA for causes attributable to itself or its officer, employee or trustee.
+
+8.3.2.10With respect to Section 8.3.2.9 above, if the other party compensates for all or a part of the damage incurred by the data subject or other third party, the other party has the right to claim reimbursement from the offending party.
+
+8.4 Singapore. This Section of this DPA applies to all transfers and disclosures of Personal Data from Customer to Unity as contemplated by the Terms of Service if the personal data is within the scope of the Singapore’s Personal Data Protection Act 2012 (No. 26 of 2012), including where applicable, rules, guidance and codes of practices issued by the regulatory bodies of Singapore hereinafter, “Singapore Data Protection Laws”. Terms not otherwise defined in Section 8.4 shall have the meaning ascribed to it by the Singapore Data Protection Laws.
+
+8.4.1To the extent Controller Services listed under Section 3.1 are subject to Singapore Data Protection Laws, Customer is responsible for any consents and notices required to permit (a) Customer's use and receipt of the Controller Services and (b) Unity’s accessing, storing, and processing of data provided by Customer (including Personal Data, if applicable) under the Terms of Service and this DPA. Additionally, Customer agrees to obtain the consent of each Data Subject to an International Data Transfer as contemplated under this DPA if and to the extent required under the Singapore Data Protection Laws. Personal Information may be transferred, as necessary, world-wide to provide the Controller Services under the Terms of Service.
+
+8.4.1.1 Purpose.Unity shall comply with all its obligations under the PDPA at its own cost. Unity shall only process, use, or disclose Customer Personal Data: (a) strictly within the scope of the Permitted Purpose as stated under Section 5.2 Purpose of Processing by fulfilling its obligations and providing the services required under the Terms of Service; (b) with the Customer’s prior written consent; or (c) when required by law or by order of court, but shall notify the Customer as soon as practicable before complying with such law or order of court at its own costs
+
+8.4.1.2 Accuracy and Correction of Personal Data.Where the Customer provides Customer Personal Data to Unity, the Customer shall make reasonable effort to ensure that the Customer Personal Data is accurate and complete before providing the same to Unity. Unity shall put in place adequate measures to ensure that the Customer Personal Data in its possession or control remain or is otherwise accurate and complete. In any case, Unity shall take steps to correct any errors in the Customer Personal Data, as soon as practicable upon the Customer’s written request.
+
+8.4.1.3 Protection. Unity shall protect Customer Personal Data in Unity’s control or possession by making reasonable security arrangements (including, where appropriate, physical, administrative, procedural and information & communications technology measures) to prevent unauthorized or accidental access, collection, use, disclosure, copying, modification, disposal or destruction of Customer Personal Data, or other similar risks.
+
+8.4.1.4 Retention limitation.Unity shall not retain Customer Personal Data (or any documents or records containing Customer Personal Data, electronic or otherwise) for any period of time longer than is necessary to serve the purposes of this Terms of Service and this DPA.
+
+8.4.1.5 Policies on personal data protection. Unity shall ensure that its employees, agents and subcontractors who may receive or have access to any of Customer Personal Data are aware of the obligations specified under this clause and agree to abide by same.
+
+8.4.1.6 Access.The Contractor shall provide the Customer with access to the Customer Personal Data that the Contractor has in its possession or control, as soon as practicable upon Customer’s written request.
+
+8.4.1.7In the case that the Customer provides Personal Information or Anonymously Processed Information under Singapore Data Protection Laws to Unity in effecting the Purpose, the Customer shall specify that effect in advance. In the case that the Customer provides Anonymously Processed Information to Unity in effecting the Purpose, the Customer shall warrant that the proceedings under the Singapore Data Protection Laws have been implemented with respect to the Anonymously Processed Information.
+
+8.4.1.7.1Unity shall, if the data have been provided in accordance with Section 8.4.1.7, comply with Singapore Data Protection Laws and take any measures required for the management of the data.
+
+8.4.2To the extent that Processor Services listed under Section 3.2 is subject to Singapore Data Protection Laws the definition of “processor” includes a “data intermediary” as described under Singapore Data Protection Laws. Customer may exercise necessary and appropriate supervision over the data intermediary to ensure proper security management of the personal data
+
+8.4.2.1Customer is responsible for any consents and notices required to permit (a) Customer's use and receipt of the Processor’s Services and (b) Unity’s accessing, storing, and processing of data provided by Customer (including Personal Information, if applicable) under the Terms of Service and this DPA. Additionally, Customer agrees to obtain the consent of each Data Subject to an International Transfer as contemplated under this DPA if and to the extent required under the Singapore Data Protection Laws. Personal Information may be transferred, as necessary, world-wide to provide the Processor Services under the Terms of Service and this DPA.
+
+8.4.2.1.1Sections 8.4.1.2 to 8.4.1.6 are incorporated by reference as if fully said forth herein.
+
+8.5 China. This Section of this DPA applies to all transfers and provisions of Personal Information or Personal Data from Customer to Unity as contemplated by the Terms of Service if the Personal Information or Personal Data is regulated by Personal Information Protection Law of People’s Republic of China (“PIPL”), including where applicable, rules, guidance and codes of practices issued by the regulatory bodies of China hereinafter, “Chinese Data Protection Laws”. Terms not otherwise defined in Section 8.5 shall have the meaning ascribed to it by the Chinese Data Protection Laws.
+
+8.5.1 Processor Services.To the extent that Processor Services listed under Section 3.2 is subject to Chinese Data Protection Law, the Customer acknowledges that Unity is not a Personal Information Handler with respect to the Processor Services listed under Section 3.2, but an Agent of the Customer under the PIPL. The Customer agrees to entrust Unity an Agent and Unity hereby agrees to provide the processing of Personal Information with respect to the Processor Services listed under Section 3.2.
+
+8.5.1.1Unity will only process Personal Information on behalf of and in accordance with Customer’s instructions and otherwise in accordance with the requirements of Chinese Data Protections Laws.
+
+8.5.1.2Unless with the Customer’s prior consent, Unity may not re-entrust a third party to process the Personal Information related to the Processor Services listed under Section 3.2.
+
+8.5.1.3The Customer shall permit Unity to utilize the Personal Information and engage subcontractors in accordance with Section 6. Unity, as the Agent, will not handle the Personal Information beyond the agreed purpose and method of handling. The Customer may exercise necessary and appropriate supervision of the Agent including the permitted subcontractor to ensure the proper security management of the Personal Information.
+
+8.5.1.4The Customer is responsible for any consents and notices required to permit (a) Customer’s use and receipt of the Processor Services listed under Section 3.2; and (b) Unity’s accessing, storing, and processing of data provided by Customer (including Personal Information, if applicable) under the Terms of Service and this DPA. Additionally, Customer agrees to obtain the consent of each Data Subject to an International Transfer as contemplated under this DPA as required by the Chinese Data Protection Laws. Personal Information may be transferred, as necessary, world-wide to provide the Processor Services under the Terms of Service and this DPA.
+
+8.5.2Levelplay. Notwithstanding Section 3.1, for Personal Information processed in connection with Levelplay for data subjects located in China, Unity will be deemed to be providing Levelplay as a Processor Service under Section 3.2 and will act solely as an Agent as defined under the PIPL.
+
+Appendix A
+
+FOR CONTROLLER SERVICES - MODULE ONE TRANSFER CONTROLLER TO CONTROLLER
+
+ANNEX I- Controller Controller Services
+
+A. LIST OF PARTIES
+
+Data exporter in relation to relevant restricted transfers from Customer to Unity
+
+Data importer in relation to relevant restricted transfers from Unity to Customer
+
+Name: _________________ i.e., Customer, as identified in the applicable Offering Identification and/or Customer’s Service Account
+
+Address: _________________ i.e., Customer’s address, as identified in the applicable Offering Identification and/or Customer’s Service Account
+
+Contact person’s name, position and contact details:_________________ i.e., Customer’s point of contact, as identified in the applicable Offering Identification and/or Customer’s Service Account
+
+Activities relevant to the data transferred under these Clauses: _________________ i.e., Storing and analyzing data to carry out the purposes of the data transfer
+
+Date: Deemed signed and effective as of the effective date set forth in the applicable Offering Identification or the date on which Customer started to use a Unity service, whichever is earlier.
+
+Role (controller/processor): Controller
+
+Data exporter in relation to relevant restricted transfers from Unity to Customer
+
+Data importer in relation to relevant restricted transfers from Customer to Unity
+
+Name: Unity Party as identified in section 2.26 above
+
+Address:
+
+* Unity Technologies S.F., 116 New Montgomery, Suite 200, San Francisco, CA 94105
+Contact person’s name, position and contact details: Jamie Crabtree; DPO;dpo@unity3d.com
+
+Activities relevant to the data transferred under these Clauses: Storing and analyzing data to carry out the purposes of the data transfer
+
+Date: Deemed signed and effective as of the effective date set forth in the applicable Offering Identification or the date on which Customer registered for any of the Unity Services or otherwise accessed, enabled or utilized any of the Unity Services or Unity Assets, whichever is earlier.
+
+Role (controller/processor): Controller
+
+B. DESCRIPTION OF TRANSFER
+
+Categories of data subjects whose personal data is transferred
+
+* Data subjects may include Customers, Partners, and Vendors (including without limitation employees/ staff) and their End Users about whom personal data is provided to Unity via the Services by, or at the direction of, Customer.
+Categories of personal data transferred
+
+* Information processed through the customer's use of the services including contact information, device information, information uploaded by the customer, location information, financial information, software usage event information, authentication information (including tokens), and IP address. This includes usernames of employees who access Unity’s ordering system to place advertisements, bid on the right to advertise to any End User, or any vendor employee who provides such information to Unity in performing services for Unity.
+* End Users data including voice, advertising identifiers or device IDs (e.g. IDFA GAID), User IDs, IP address, game play, in-app purchase, and device data, including device identifiers,
+* Information related to the ad content or attribution data sent by Customer or Customer’s agent
+Sensitive data transferred (if applicable) and applied restrictions or safeguards that fully take into consideration the nature of the data and the risks involved, such as for instance strict purpose limitation, access restrictions (including access only for staff having followed specialised training), keeping a record of access to the data, restrictions for onward transfers or additional security measures.
+
+- N/A
+
+The frequency of the transfer (e.g. whether the data is transferred on a one-off or continuous basis).
+
+* Transferred continuously
+Nature of the processing
+
+* To provide the Services in accordance with the Terms of Service, or with instructions from the User (including instructions provided through the User’s Account).
+Purpose(s) of the data transfer and further processing
+
+* To provide the Services in accordance with the Terms of Service, or with instructions from the User (including instructions provided through the User’s Account).
+* For End Users, the data may be transferred to personalize advertising and in game purchase opportunities as well as to personalize game play.
+* To facilitate, support and operate games and player or user experiences
+* Analytics to maintain and improve the service
+* For Unity’s internal purposes, including billing and payment processing, fraud prevention, and improving products and services.
+The period for which the personal data will be retained, or, if that is not possible, the criteria used to determine that period
+
+Unity retains personal data for as long as needed or permitted in light of the purpose(s) for which it was obtained and consistent with applicable law. The criteria used to determine our retention periods include:
+
+* The length of time Unity has an ongoing relationship with the data subject and/or Customer, including the provision of provision of services;
+* Whether there is a legal obligation to which Unity is subject;
+* Whether retention is advisable in light of our legal position
+For transfers to (sub-) processors, also specify subject matter, nature and duration of the processing
+
+* Unity uses processors as necessary to perform the Services pursuant to the Terms of Service on a continuous basis for the duration of the retention period.
+C. COMPETENT SUPERVISORY AUTHORITY
+
+Unity’s Competent Supervisory Authority is the Danish Data Protection Agency, Carl Jacobsens Vej 35, DK-2500 Valby;dt@datatilsynet.dk; +45 33 19 32 00
+
+D. ELECTIONS UNDER EU SCCS
+
+1. Clause 7 Docking Clause: This optional clause allowing, with the agreement of the Parties, for an entity that is not a Party to these Clauses to accede to these Clauses at any time shall apply.
+
+2. Clause 9 (a) Use of sub-processors: N/A for Module One
+
+3. Clause 11 (a) Redress: This optional clause allowing for the appointment of an independent dispute resolution body to receive complaints by the data subjects shall not apply.
+
+4. Clause 13 (a) Supervision:
+
+1. Where the data exporter is established in an EU Member State: The supervisory authority with responsibility for ensuring compliance by the data exporter with Regulation (EU) 2016/679 as regards the data transfer, as indicated in Annex I.C, shall act as competent supervisory authority.
+
+2. Where the data exporter is not established in an EU Member State, but falls within the territorial scope of application of Regulation (EU) 2016/679 in accordance with its Article 3(2) and has appointed a representative pursuant to Article 27(1) of Regulation (EU) 2016/679: The supervisory authority of the Member State in which the representative within the meaning of Article 27(1) of Regulation (EU) 2016/679 is established, as indicated in Annex I.C, shall act as competent supervisory authority.
+
+3. Where the data exporter is not established in an EU Member State, but falls within the territorial scope of application of Regulation (EU) 2016/679 in accordance with its Article 3(2) without however having to appoint a representative pursuant to Article 27(2) of Regulation (EU) 2016/679: The supervisory authority of one of the Member States in which the data subjects whose personal data is transferred under these Clauses in relation to the offering of goods or services to them, or whose behaviour is monitored, are located, as indicated in Annex I.C, shall act as competent supervisory authority.
+
+5. Clause 17 Governing Law: Option One allowing for these Clauses to be governed by the law of one of the EU Member States, provided such law allows for third-party beneficiary rights. The Parties agree that this shall be the law provided for in Section 4.8 above.
+
+6. Clause 18 (b) Choice of Forum and Jurisdictions: The Parties agree that any dispute arising from these Clauses shall be resolved by the courts provided for in Section 4.8 above.
+
+E. ELECTIONS UNDER THE UK SCCS
+
+The Information Commissioner’s OfficeInternational Data Transfer Addendum To The EU Commission Standard Contractual Clausesshall be deemed incorporated by reference to this DPA.
+
+1. The Parties and Selected SCCs, Modules and Selected Clauses have  been identified in this ANNEX I above.
+
+2. Either Importer or Exporter may end the Addendum as set out in Section 19 of the Addendum i.e.:
+
+* 19. If the ICO issues a revised Approved Addendum under Section 18, if any Party selected in Table 4 “Ending the Addendum when the Approved Addendum changes”, will as a direct result of the changes in the Approved Addendum have a substantial, disproportionate and demonstrable increase in:a its direct costs of performing its obligations under the Addendum;and/orb its risk under the Addendum,
+* a its direct costs of performing its obligations under the Addendum;and/or
+* b its risk under the Addendum,
+and in either case it has first taken reasonable steps to reduce those costs or risks so that it is not substantial and disproportionate, then that Party may end this Addendum at the end of a reasonable notice period, by providing written notice for that period to the other Party before the start date of the revised Approved Addendum
+
+F. ELECTIONS UNDER SWISS SCCS
+
+The SCCs will be deemed completed in accordance with this Annex 1 except that:
+
+* Under Clause 13 of the EU SCCs, the competent supervisory authority is the Swiss Federal Data Protection and Information Commission to the extent that the transfer is governed by the Swiss Federal Act on Data Protection,
+* References to “Member State” in the 2021 Standard Contractual Clauses refer to Switzerland, and data subjects may exercise and enforce their rights under the 2021 Standard Contractual Clauses in Switzerland.
+* References to GDPR in the 2021 Standard Contractual Clauses refer to the Swiss Federal Act on Data Protection (as amended and replaced).
+[and/or]
+
+FOR PROCESSOR SERVICES - MODULE TWO TRANSFER CONTROLLER TO PROCESSOR
+
+ANNEX I to Controller-Processor SCCs
+
+A. LIST OF PARTIES
+
+Data exporter(s):
+
+Name: _________________ i.e., Customer, as identified in the applicable Offering Identification and/or Customer’s Service Account,
+
+Address: _________________ i.e., Customer’s address, as identified in the applicable Offering Identification and/or Customer’s Service Account
+
+Contact person’s name, position and contact details: _________________ i.e., Customer’s point of contact, as identified in the applicable Offering Identification and/or Customer’s Service Account
+
+Activities relevant to the data transferred under these Clauses: Oversight of common data protection program to assure uses of the transferred data are limited to the uses described herein.
+
+Date: Deemed signed and effective as of the effective date set forth in the applicable Offering Identification or the date on which Customer registered for any of the Unity Services or otherwise accessed, enabled or utilized any of the Unity Services or Unity Assets, whichever is earlier.
+
+Role (controller)/processor):Controller
+
+Data importer(s):
+
+Name: Unity Party as identified in section 2.26 above
+
+Address:
+
+* Unity Technologies S.F., 116 New Montgomery Street, Suite 200, San Francisco, CA 94105
+Contact person’s name, position and contact details: Jamie Crabtree, DPOdpo@unity3d.com
+
+Activities relevant to the data transferred under these Clauses:Oversight of common data protection program to assure uses of the transferred data are limited to the uses described herein.
+
+Date: Deemed signed and effective as of the effective date set forth in the applicable Offering Identification or the date on which Customer registered for any of the Unity Services or otherwise accessed, enabled or utilized any of the Unity Services or Unity Service Assets, whichever is earlier.
+
+Role (controller/processor):Processor
+
+B. DESCRIPTION OF TRANSFER
+
+Categories of data subjects whose personal data is transferred
+
+* Data subjects may include Customers, Partners, and Vendor End Users about whom personal data is provided to Unity via the Services by, or at the direction of, Customer.
+Categories of personal data transferred
+
+* Information processed through the Customers use of the services including contact information, device information, information uploaded by the customer, location information, financial information, software usage event information, authentication information (including tokens), and IP address.
+* End Users data including voice, advertising identifiers or device IDs (e.g. IDFA GAID), User IDs, IP address, game play, in-app purchase, and device data, including device identifiers,
+* Information related to the ad content or attribution data sent by Customer or Customer’s agent
+Sensitive data transferred (if applicable) and applied restrictions or safeguards that fully take into consideration the nature of the data and the risks involved, such as for instance strict purpose limitation, access restrictions (including access only for staff having followed specialised training), keeping a record of access to the data, restrictions for onward transfers or additional security measures.
+
+* Information uploaded through the use of Unity MARS, and Unity AR Companion App, which may be considered as biometric under applicable laws.
+* Unity shall secure Biometric Information in the same manner as any other confidential or sensitive information that it stores, including stringent access restrictions with limited permissions based on roles, access audits and security reviews. The information shall be destroyed upon conclusion of its use as specified elsewhere in this DPA.
+The frequency of the transfer (e.g. whether the data is transferred on a one-off or continuous basis).
+
+* Transferred continuously
+Nature of the processing
+
+* To provide the Services in accordance with the Agreement or Terms of Service, or with instructions from the User (including instructions provided through the User’s Account).
+Purpose(s) of the data transfer and further processing
+
+* For game players, the data is transferred for in-game purchase opportunities as well as to personalize game play, such as through IAP and Remote Config Services.
+* To facilitate, support and operate games and player or user experiences
+* To provide the Services in accordance with the Agreement or Terms of Service, or with instructions from the User (including, without limitation, Processing of ad revenue data associated with Partner personal data by Unity and/or Unity Affiliates for the purpose of providing the advertising Services by Unity and/or Unity, and instructions provided through the User’s Account).
+* Analytics to maintain and improve the service
+* For Unity’s internal purposes, including billing and payment processing, fraud prevention, and improving products and services.
+The period for which the personal data will be retained, or, if that is not possible, the criteria used to determine that period
+
+Unity retains personal data for as long as needed or permitted in light of the purpose(s) for which it was obtained and consistent with applicable law. The criteria used to determine our retention periods include:
+
+* The length of time Unity has an ongoing relationship with the data subject and/or Customer, including the provision of services;
+* Whether there is a legal obligation to which Unity is subject;
+* Whether retention is advisable in light of our legal position
+For transfers to (sub-) processors, also specify subject matter, nature and duration of the processing
+
+* Unity uses processors as necessary to perform the Services pursuant to the Agreement on a continuous basis for the duration of the retention period.
+C. COMPETENT SUPERVISORY AUTHORITY
+
+Unity’s Competent Supervisory Authority is the Danish Data Protection Agency, Carl Jacobsens Vej 35, DK-2500 Valby;dt@datatilsynet.dk; +45 33 19 32 00
+
+D. TECHNICAL AND ORGANISATIONAL MEASURES
+
+As set out inthis linkfrom time to time:https://unity.com/legal/technical-and-organisational-measures
+
+E. ELECTIONS UNDER EU SCCS
+
+1. Clause 7 Docking Clause: This optional clause allowing, with the agreement of the Parties, for an entity that is not a Party to these Clauses to accede to these Clauses at any time shall apply.
+
+2. Clause 9 (a) Use of sub-processors: Option 2 allowing for General Written Authorization for the engagement of sub-processor(s) shall apply via the mechanism specified in Section 6.8 above.
+
+3. Clause 11 (a) Redress: This optional clause allowing for the appointment of an independent dispute resolution body to receive complaints by the data subjects shall not apply.
+
+4. Clause 13 (a) Supervision:
+
+1. Where the data exporter is established in an EU Member State: The supervisory authority with responsibility for ensuring compliance by the data exporter with Regulation (EU) 2016/679 as regards the data transfer, as indicated in Annex I.C, shall act as competent supervisory authority.
+
+2. Where the data exporter is not established in an EU Member State, but falls within the territorial scope of application of Regulation (EU) 2016/679 in accordance with its Article 3(2) and has appointed a representative pursuant to Article 27(1) of Regulation (EU) 2016/679: The supervisory authority of the Member State in which the representative within the meaning of Article 27(1) of Regulation (EU) 2016/679 is established, as indicated in Annex I.C, shall act as competent supervisory authority.
+
+3. Where the data exporter is not established in an EU Member State, but falls within the territorial scope of application of Regulation (EU) 2016/679 in accordance with its Article 3(2) without however having to appoint a representative pursuant to Article 27(2) of Regulation (EU) 2016/679: The supervisory authority of one of the Member States in which the data subjects whose personal data is transferred under these Clauses in relation to the offering of goods or services to them, or whose behaviour is monitored, are located, as indicated in Annex I.C, shall act as competent supervisory authority.
+
+5. Clause 17 Governing Law: Option One allowing for these Clauses to be governed by the law of one of the EU Member States, provided such law allows for third-party beneficiary rights. The Parties agree that this shall be the law provided for in Section 4.8 above.
+
+6. Clause 18 (b) Choice of Forum and Jurisdictions: The Parties agree that any dispute arising from these Clauses shall be resolved by the courts provided for in Section 4.8 above.
+
+F. ELECTIONS UNDER THE UK SCCS
+
+The Information Commissioner’s OfficeInternational Data Transfer Addendum To The Eu Commission Standard Contractual Clausesshall be deemed incorporated by reference to this DPA.
+
+1. The Parties and Selected SCCs, Modules and Selected Clauses have been identified in this ANNEX I above.
+
+2. Either Importer or Exporter may end the Addendum as set out in Section 19 of the Addendum i.e.:
+
+* 19. If the ICO issues a revised Approved Addendum under Section 18, if any Party selected in Table 4 “Ending the Addendum when the Approved Addendum changes”, will as a direct result of the changes in the Approved Addendum have a substantial, disproportionate and demonstrable increase in:a its direct costs of performing its obligations under the Addendum;and/orb its risk under the Addendum,
+* a its direct costs of performing its obligations under the Addendum;and/or
+* b its risk under the Addendum,
+and in either case it has first taken reasonable steps to reduce those costs or risks so that it is not substantial and disproportionate, then that Party may end this Addendum at the end of a reasonable notice period, by providing written notice for that period to the other Party before the start date of the revised Approved Addendum
+
+G. ELECTIONS UNDER SWISS SCCS
+
+The SCCs will be deemed completed in accordance with this Annex 1 except that:
+
+1. Under Clause 13 of the EU SCCs, the competent supervisory authority is the Swiss Federal Data Protection and Information Commission to the extent that the transfer is governed by the Swiss Federal Act on Data Protection,
+
+2. References to “Member State” in the 2021 Standard Contractual Clauses refer to Switzerland, and data subjects may exercise and enforce their rights under the 2021 Standard Contractual Clauses in Switzerland.
+
+3. References to GDPR in the 2021 Standard Contractual Clauses refer to the Swiss Federal Act on Data Protection (as amended and replaced).
+
+[and/or]
+
+To the extent data is being transferred from Processor to Controller, Module 4 shall also apply:
+
+FOR PROCESSOR SERVICES - MODULE FOUR TRANSFER PROCESSOR TO CONTROLLER
+
+ANNEX I to Processor-Controller SCCs
+
+A. LIST OF PARTIES
+
+Data exporter(s):
+
+Name: Unity Party as identified in section 2.26 above
+
+Address:
+
+* Unity Technologies S.F., 116 New Montgomery Street, Suite 200, San Francisco, CA 94105
+Contact person’s name, position and contact details: Jamie Crabtree, DPO dpo@unity3d.com
+
+Activities relevant to the data transferred under these Clauses: Oversight of common data protection program to assure uses of the transferred data are limited to the uses described herein.
+
+Date: Deemed signed and effective as of the effective date set forth in the applicable Offering Identification or the date on which Customer registered for any of the Unity Services or otherwise accessed, enabled or utilized any of the Unity Services or Unity Service Assets, whichever is earlier.
+
+Role (controller/processor): Processor
+
+Data importer(s):
+
+Name: _________________ i.e., Customer, as identified in the applicable Offering Identification and/or Customer’s Service Account,
+
+Address: _________________ i.e., Customer’s address, as identified in the applicable Offering Identification and/or Customer’s Service Account
+
+Contact person’s name, position and contact details: _________________ i.e., Customer’s point of contact, as identified in the applicable Offering Identification and/or Customer’s Service Account
+
+Activities relevant to the data transferred under these Clauses: Oversight of common data protection program to assure uses of the transferred data are limited to the uses described herein.
+
+Date: Deemed signed and effective as of the effective date set forth in the applicable Offering Identification or the date on which Customer registered for any of the Unity Services or otherwise accessed, enabled or utilized any of the Unity Services or Unity Assets, whichever is earlier.
+
+Role (controller)/processor): Controller
+
+B. DESCRIPTION OF TRANSFER
+
+Categories of data subjects whose personal data is transferred
+
+* Data subjects may include Customers, Partners, and Vendor End Users about whom personal data is provided to Unity via the Services by, or at the direction of, Customer.
+Categories of personal data transferred
+
+* Information processed through the Customers use of the services including contact information, device information, information uploaded by the customer, location information, financial information, software usage event information, authentication information (including tokens), and IP address.
+* End Users data including voice, advertising identifiers or device IDs (e.g. IDFA GAID), User IDs, IP address, game play, in-app purchase, and device data, including device identifiers,
+* Information related to the ad content or attribution data sent by Customer or Customer’s agent
+Sensitive data transferred (if applicable) and applied restrictions or safeguards that fully take into consideration the nature of the data and the risks involved, such as for instance strict purpose limitation, access restrictions (including access only for staff having followed specialised training), keeping a record of access to the data, restrictions for onward transfers or additional security measures.
+
+* Information uploaded through the use of Unity MARS, and Unity AR Companion App, which may be considered as biometric under applicable laws.
+* Unity shall secure Biometric Information in the same manner as any other confidential or sensitive information that it stores, including stringent access restrictions with limited permissions based on roles, access audits and security reviews. The information shall be destroyed upon conclusion of its use as specified elsewhere in this DPA.
+The frequency of the transfer (e.g. whether the data is transferred on a one-off or continuous basis).
+
+* Transferred continuously
+Nature of the processing
+
+* To provide the Services in accordance with the Agreement or Terms of Service, or with instructions from the User (including instructions provided through the User’s Account).
+Purpose(s) of the data transfer and further processing
+
+* For game players, the data is transferred for in-game purchase opportunities as well as to personalize game play, such as through IAP and Remote Config Services.
+* To facilitate, support and operate games and player or user experiences
+* To provide the Services in accordance with the Agreement or Terms of Service, or with instructions from the User (including, without limitation, Processing of ad revenue data associated with Partner personal data by Unity and/or Unity Affiliates for the purpose of providing the advertising Services by Unity and/or Unity, and instructions provided through the User’s Account).
+* Analytics to maintain and improve the service
+* For Unity’s internal purposes, including billing and payment processing, fraud prevention, and improving products and services.
+The period for which the personal data will be retained, or, if that is not possible, the criteria used to determine that period
+
+Unity retains personal data for as long as needed or permitted in light of the purpose(s) for which it was obtained and consistent with applicable law. The criteria used to determine our retention periods include:
+
+* The length of time Unity has an ongoing relationship with the data subject and/or Customer, including the provision of services;
+* Whether there is a legal obligation to which Unity is subject;
+* Whether retention is advisable in light of our legal position
+For transfers to (sub-) processors, also specify subject matter, nature and duration of the processing
+
+Unity uses processors as necessary to perform the Services pursuant to the Agreement on a continuous basis for the duration of the retention period.C. COMPETENT SUPERVISORY AUTHORITY
+
+Unity’s Competent Supervisory Authority is the Danish Data Protection Agency, Carl Jacobsens Vej 35, DK-2500 Valby; dt@datatilsynet.dk; +45 33 19 32 00
+
+D. ELECTIONS UNDER EU SCCS
+
+1. Clause 7 Docking Clause: This optional clause allowing, with the agreement of the Parties, for an entity that is not a Party to these Clauses to accede to these Clauses at any time shall apply.
+
+2. Clause 9 (a) Use of sub-processors: N/A for Module Four
+
+3. Clause 11 (a) Redress: This optional clause allowing for the appointment of an independent dispute resolution body to receive complaints by the data subjects shall not apply.
+
+4. Clause 13 (a) Supervision: N/A for Module Four
+
+5. Clause 17 Governing Law: These Clauses shall be governed by the law of a country allowing for third-party beneficiary rights. The Parties agree that this shall be the law provided for in Section 4.8 above.
+
+6. Clause 18 (b) Choice of Forum and Jurisdictions: Any dispute arising from these Clauses shall be resolved by the courts provided for in Section 4.8 above.
+
+E. ELECTIONS UNDER THE UK SCCS
+
+The Information Commissioner’s OfficeInternational Data Transfer Addendum To The EU Commission Standard Contractual Clausesshall be deemed incorporated by reference to this DPA.
+
+1. The Parties and Selected SCCs, Modules and Selected Clauses have been identified in this ANNEX I above.
+
+2. Either Importer or Exporter may end the Addendum as set out in Section 19 of the Addendum i.e.:
+
+* 19. If the ICO issues a revised Approved Addendum under Section 18, if any Party selected in Table 4 “Ending the Addendum when the Approved Addendum changes”, will as a direct result of the changes in the Approved Addendum have a substantial, disproportionate and demonstrable increase in:a its direct costs of performing its obligations under the Addendum;and/orb its risk under the Addendum,
+* a its direct costs of performing its obligations under the Addendum;and/or
+* b its risk under the Addendum,
+and in either case it has first taken reasonable steps to reduce those costs or risks so that it is not substantial and disproportionate, then that Party may end this Addendum at the end of a reasonable notice period, by providing written notice for that period to the other Party before the start date of the revised Approved Addendum
+
+F. ELECTIONS UNDER SWISS SCCS
+
+The SCCs will be deemed completed in accordance with this Annex 1 except that:
+
+1. References to “Member State” in the 2021 Standard Contractual Clauses refer to Switzerland, and data subjects may exercise and enforce their rights under the 2021 Standard Contractual Clauses in Switzerland.
+
+References to GDPR in the 2021 Standard Contractual Clauses refer to the Swiss Federal Act on Data Protection (as amended and replaced).
+
+G. TECHNICAL AND ORGANISATIONAL MEASURES
+
+As set out inthis linkfrom time to time:https://unity.com/legal/technical-and-organisational-measures.
+
+FOR AURA SERVICES - MODULE TWO TRANSFER CONTROLLER TO PROCESSOR
+
+ANNEX I to Controller-Processor SCCs
+
+A. LIST OF PARTIES
+
+Data exporter(s):
+
+Name: _________________ i.e., Customer, as identified in the applicable Offering Identification and/or Customer’s Service Account,
+
+Address: _________________ i.e., Customer’s address, as identified in the applicable Offering Identification and/or Customer’s Service Account
+
+Contact person’s name, position and contact details: _________________ i.e., Customer’s point of contact, as identified in the applicable Offering Identification and/or Customer’s Service Account
+
+Activities relevant to the data transferred under these Clauses: Oversight of common data protection program to assure uses of the transferred data are limited to the uses described herein.
+
+Date: Deemed signed and effective as of the effective date set forth in the applicable Offering Identification or the date on which Customer registered for Aura Services or otherwise accessed, enabled or utilized Aura Services, whichever is earlier.
+
+Role (controller)/processor): Controller
+
+Data importer(s):
+
+Name: _________________ i.e., Customer, as identified in the applicable Offering Identification and/or Customer’s Service Account
+
+Address: _________________ i.e., Customer’s address, as identified in the applicable Offering Identification and/or Customer’s Service Account
+
+Contact person’s name, position and contact details :_________________ i.e., Customer’s point of contact, as identified in the applicable Offering Identification and/or Customer’s Service Account
+
+Activities relevant to the data transferred under these Clauses: Storing and analyzing data to carry out the purposes of the data transfer
+
+Date: Deemed signed and effective as of the effective date set forth in the applicable Offering Identification or the date on which Customer started to use Aura services, whichever is earlier.
+
+Role (controller/processor): Controller
+
+Data importer(s):
+
+Name: Unity Party as identified in section 2.26 above
+
+Address:
+
+* Unity Technologies S.F., 116 New Montgomery Street, Suite 200, San Francisco, CA 94105
+Contact person’s name, position and contact details: Jamie Crabtree, DPO dpo@unity3d.com
+
+Activities relevant to the data transferred under these Clauses: Storing and analyzing data to carry out the purposes of the data transfer.
+
+Date: Deemed signed and effective as of the effective date set forth in the applicable Offering Identification or the date on which Customer registered for Aura Services or otherwise accessed, enabled or utilized Aura Services, whichever is earlier.
+
+Role (controller/processor): Processor on behalf of Device Manufacturer
+
+B. DESCRIPTION OF TRANSFER
+
+Categories of data subjects whose personal data is transferred
+
+* Data subjects may include End Users of Device Manufacturer and/or End Users of Customer about whom personal data is transferred to Unity by advertisers, by a third party on such advertisers’ behalf, and/or by third party data providers in connection with the Aura Platform Services.
+Categories of personal data transferred
+
+* End Users data including voice, advertising identifiers or device IDs (e.g. IDFA GAID), User IDs, IP address, game play, in-app purchase, and device data, including device identifiers.
+* Information related to the ad content or attribution data sent by Customer or Customer’s agent.
+Sensitive data transferred (if applicable) and applied restrictions or safeguards that fully take into consideration the nature of the data and the risks involved, such as for instance strict purpose limitation, access restrictions (including access only for staff having followed specialised training), keeping a record of access to the data, restrictions for onward transfers or additional security measures.
+
+- N/A
+
+The frequency of the transfer (e.g. whether the data is transferred on a one-off or continuous basis).
+
+* Transferred continuously
+Nature of the processing
+
+* To provide the Aura Services in accordance with the Terms of Service, or with instructions from the User (including instructions provided through the User’s Account).
+Purpose(s) of the data transfer and further processing
+
+* To provide the Services in accordance with the Terms of Service, or with instructions from the User (including instructions provided through the User’s Account).
+* For End Users, the data may be transferred to personalize advertising and in game purchase opportunities as well as to personalize game play.
+* To facilitate, support and operate games and player or user experiences
+* Analytics to maintain and improve the service
+* For Unity’s internal purposes, including billing and payment processing, fraud prevention, and improving products and services.
+* Device Manufacturer Personal Data is transferred for the purposes of attribution, frequency capping and/or fraud detection and prevention.
+The period for which the personal data will be retained, or, if that is not possible, the criteria used to determine that period
+
+Unity retains personal data for as long as needed or permitted in light of the purpose(s) for which it was obtained and consistent with applicable law. The criteria used to determine our retention periods include:
+
+* The length of time Unity has an ongoing relationship with the data subject and/or Customer, including the provision of provision of services;
+* Whether there is a legal obligation to which Unity is subject;
+* Whether retention is advisable in light of our legal position
+Device Manufacturer Personal Data will be retained by Customer for a reasonable period based on the applicable limitation period for contractual claims.
+
+For transfers to (sub-) processors, also specify subject matter, nature and duration of the processing
+
+* Unity uses processors as necessary to perform the Services pursuant to the Terms of Service on a continuous basis for the duration of the retention period.
+C. COMPETENT SUPERVISORY AUTHORITY
+
+Unity’s Competent Supervisory Authority is the Danish Data Protection Agency, Carl Jacobsens Vej 35, DK-2500 Valby; dt@datatilsynet.dk; +45 33 19 32 00
+
+D. TECHNICAL AND ORGANISATIONAL MEASURES
+
+As set out inthis linkfrom time to time:https://unity.com/legal/technical-and-organisational-measures
+
+E. ELECTIONS UNDER EU SCCS
+
+1. Clause 7 Docking Clause: This optional clause allowing, with the agreement of the Parties, for an entity that is not a Party to these Clauses to accede to these Clauses at any time shall apply.
+
+2. Clause 9 (a) Use of sub-processors: N/A for Module Four
+
+3. Clause 11 (a) Redress: This optional clause allowing for the appointment of an independent dispute resolution body to receive complaints by the data subjects shall not apply.
+
+4. Clause 13 (a) Supervision:
+
+1. Where the data exporter is established in an EU Member State: The supervisory authority with responsibility for ensuring compliance by the data exporter with Regulation (EU) 2016/679 as regards the data transfer, as indicated in Annex I.C, shall act as competent supervisory authority.
+
+2. Where the data exporter is not established in an EU Member State, but falls within the territorial scope of application of Regulation (EU) 2016/679 in accordance with its Article 3(2) and has appointed a representative pursuant to Article 27(1) of Regulation (EU) 2016/679: The supervisory authority of the Member State in which the representative within the meaning of Article 27(1) of Regulation (EU) 2016/679 is established, as indicated in Annex I.C, shall act as competent supervisory authority.
+
+3. Where the data exporter is not established in an EU Member State, but falls within the territorial scope of application of Regulation (EU) 2016/679 in accordance with its Article 3(2) without however having to appoint a representative pursuant to Article 27(2) of Regulation (EU) 2016/679: The supervisory authority of one of the Member States in which the data subjects whose personal data is transferred under these Clauses in relation to the offering of goods or services to them, or whose behaviour is monitored, are located, as indicated in Annex I.C, shall act as competent supervisory authority.
+
+5. Clause 17 Governing Law: Option One allowing for these Clauses to be governed by the law of one of the EU Member States, provided such law allows for third-party beneficiary rights. The Parties agree that this shall be the law provided for in Section 4.8 above.
+
+6. Clause 18 (b) Choice of Forum and Jurisdictions: The Parties agree that any dispute arising from these Clauses shall be resolved by the courts provided for in Section 4.8 above.
+
+F. ELECTIONS UNDER THE UK SCCS
+
+The Information Commissioner’s OfficeInternational Data Transfer Addendum To The EU Commission Standard Contractual Clausesshall be deemed incorporated by reference to this DPA.
+
+1. The Parties and Selected SCCs, Modules and Selected Clauses have been identified in this ANNEX I above.
+
+2. Either Importer or Exporter may end the Addendum as set out in Section 19 of the Addendum i.e.:
+
+* 19. If the ICO issues a revised Approved Addendum under Section 18, if any Party selected in Table 4 “Ending the Addendum when the Approved Addendum changes”, will as a direct result of the changes in the Approved Addendum have a substantial, disproportionate and demonstrable increase in:a its direct costs of performing its obligations under the Addendum;and/orb its risk under the Addendum,
+* a its direct costs of performing its obligations under the Addendum;and/or
+* b its risk under the Addendum,
+and in either case it has first taken reasonable steps to reduce those costs or risks so that it is not substantial and disproportionate, then that Party may end this Addendum at the end of a reasonable notice period, by providing written notice for that period to the other Party before the start date of the revised Approved Addendum
+
+G. ELECTIONS UNDER SWISS SCCS
+
+The SCCs will be deemed completed in accordance with this Annex 1 except that:
+
+1. Under Clause 13 of the EU SCCs, the competent supervisory authority is the Swiss Federal Data Protection and Information Commission to the extent that the transfer is governed by the Swiss Federal Act on Data Protection,
+
+2. References to “Member State” in the 2021 Standard Contractual Clauses refer to Switzerland, and data subjects may exercise and enforce their rights under the 2021 Standard Contractual Clauses in Switzerland.
+
+3. References to GDPR in the 2021 Standard Contractual Clauses refer to the Swiss Federal Act on Data Protection (as amended and replaced).
+
+FOR AURA SERVICES - MODULE FOUR TRANSFER PROCESSOR TO CONTROLLER
+
+ANNEX I to Processor-Controller SCCs
+
+A. LIST OF PARTIES
+
+Data exporter(s):
+
+Name: Unity Party as identified in section 2.26 above
+
+Address:
+
+* Unity Technologies S.F., 116 New Montgomery, Suite 200, San Francisco, CA 94105
+Contact person’s name, position and contact details: Jamie Crabtree, DPO dpo@unity3d.com
+
+Activities relevant to the data transferred under these Clauses: Storing and analyzing data to carry out the purposes of the data transfer.
+
+Date: Deemed signed and effective as of the effective date set forth in the applicable Offering Identification or the date on which Customer registered for Aura Services or otherwise accessed, enabled or utilized Aura Services, whichever is earlier.
+
+Role (controller/processor): Processor on behalf of Device Manufacturer
+
+Data importer(s):
+
+Name: _________________ i.e., Customer, as identified in the applicable Offering Identification and/or Customer’s Service Account
+
+Address: _________________ i.e., Customer’s address, as identified in the applicable Offering Identification and/or Customer’s Service Account
+
+Contact person’s name, position and contact details :_________________ i.e., Customer’s point of contact, as identified in the applicable Offering Identification and/or Customer’s Service Account
+
+Activities relevant to the data transferred under these Clauses: Storing and analyzing data to carry out the purposes of the data transfer
+
+Date: Deemed signed and effective as of the effective date set forth in the applicable Offering Identification or the date on which Customer started to use Aura services, whichever is earlier.
+
+Role (controller/processor): Controller
+
+B. DESCRIPTION OF TRANSFER
+
+Categories of data subjects whose personal data is transferred
+
+* Data subjects may include End Users of Device Manufacturer and/or End Users of Customer about whom personal data is transferred to Unity by advertisers, by a third party on such advertisers’ behalf, and/or by third party data providers in connection with the Aura Platform Services.
+Categories of personal data transferred
+
+* End Users data including voice, advertising identifiers or device IDs (e.g. IDFA GAID), User IDs, IP address, game play, in-app purchase, and device data, including device identifiers.
+* Information related to the ad content or attribution data sent by Customer or Customer’s agent.
+Sensitive data transferred (if applicable) and applied restrictions or safeguards that fully take into consideration the nature of the data and the risks involved, such as for instance strict purpose limitation, access restrictions (including access only for staff having followed specialised training), keeping a record of access to the data, restrictions for onward transfers or additional security measures.
+
+- N/A
+
+The frequency of the transfer (e.g. whether the data is transferred on a one-off or continuous basis).
+
+* Transferred continuously
+Nature of the processing
+
+* To provide the Aura Services in accordance with the Terms of Service, or with instructions from the User (including instructions provided through the User’s Account).
+Purpose(s) of the data transfer and further processing
+
+* To provide the Services in accordance with the Terms of Service, or with instructions from the User (including instructions provided through the User’s Account).
+* For End Users, the data may be transferred to personalize advertising and in game purchase opportunities as well as to personalize game play.
+* To facilitate, support and operate games and player or user experiences
+* Analytics to maintain and improve the service
+* For Unity’s internal purposes, including billing and payment processing, fraud prevention, and improving products and services.
+* Device Manufacturer Personal Data is transferred for the purposes of attribution, frequency capping and/or fraud detection and prevention.
+The period for which the personal data will be retained, or, if that is not possible, the criteria used to determine that period
+
+Unity retains personal data for as long as needed or permitted in light of the purpose(s) for which it was obtained and consistent with applicable law. The criteria used to determine our retention periods include:
+
+* The length of time Unity has an ongoing relationship with the data subject and/or Customer, including the provision of provision of services;
+* Whether there is a legal obligation to which Unity is subject;
+* Whether retention is advisable in light of our legal position
+Device Manufacturer Personal Data will be retained by Customer for a reasonable period based on the applicable limitation period for contractual claims.
+
+For transfers to (sub-) processors, also specify subject matter, nature and duration of the processing
+
+* Unity uses processors as necessary to perform the Services pursuant to the Terms of Service on a continuous basis for the duration of the retention period.
+C. COMPETENT SUPERVISORY AUTHORITY
+
+Unity’s Competent Supervisory Authority is the Danish Data Protection Agency, Carl Jacobsens Vej 35, DK-2500 Valby; dt@datatilsynet.dk; +45 33 19 32 00
+
+D. ELECTIONS UNDER EU SCCS
+
+1. Clause 7 Docking Clause: This optional clause allowing, with the agreement of the Parties, for an entity that is not a Party to these Clauses to accede to these Clauses at any time shall apply.
+
+2. Clause 9 (a) Use of sub-processors: N/A for Module Four
+
+3. Clause 11 (a) Redress: This optional clause allowing for the appointment of an independent dispute resolution body to receive complaints by the data subjects shall not apply.
+
+4. Clause 13 (a) Supervision: N/A for Module Four
+
+5. Clause 17 Governing Law: These Clauses shall be governed by the law of a country allowing for third-party beneficiary rights. The Parties agree that this shall be the law provided for in Section 4.8 above.
+
+6. Clause 18 (b) Choice of Forum and Jurisdictions: Any dispute arising from these Clauses shall be resolved by the courts provided for in Section 4.8 above.
+
+E. ELECTIONS UNDER THE UK SCCS
+
+The Information Commissioner’s OfficeInternational Data Transfer Addendum To The EU Commission Standard Contractual Clausesshall be deemed incorporated by reference to this DPA.
+
+1. The Parties and Selected SCCs, Modules and Selected Clauses have been identified in this ANNEX I above.
+
+2. Either Importer or Exporter may end the Addendum as set out in Section 19 of the Addendum i.e.:
+
+* 19. If the ICO issues a revised Approved Addendum under Section 18, if any Party selected in Table 4 “Ending the Addendum when the Approved Addendum changes”, will as a direct result of the changes in the Approved Addendum have a substantial, disproportionate and demonstrable increase in:a its direct costs of performing its obligations under the Addendum;and/orb its risk under the Addendum,
+* a its direct costs of performing its obligations under the Addendum;and/or
+* b its risk under the Addendum,
+and in either case it has first taken reasonable steps to reduce those costs or risks so that it is not substantial and disproportionate, then that Party may end this Addendum at the end of a reasonable notice period, by providing written notice for that period to the other Party before the start date of the revised Approved Addendum
+
+F ELECTIONS UNDER SWISS SCCS
+
+The SCCs will be deemed completed in accordance with this Annex 1 except that:
+
+2. References to “Member State” in the 2021 Standard Contractual Clauses refer to Switzerland, and data subjects may exercise and enforce their rights under the 2021 Standard Contractual Clauses in Switzerland.
+
+References to GDPR in the 2021 Standard Contractual Clauses refer to the Swiss Federal Act on Data Protection (as amended and replaced).
+
+G. TECHNICAL AND ORGANISATIONAL MEASURES
+
+If Customer Processes Device Manufacturer Personal Data under the provisions of this Addendum, Customer hereby represents and warrants it has implemented measures at least equivalent to the technical and organizational measures as set out inthis linkfrom time to time(https://developers.is.com/ironsource-mobile/general/160322-2/), in addition to any other measures specified in, or supplied to Unity and/or Device Manufacturer in connection with the applicable Agreement or Terms of Service.
+
+
+---
+
+# Error fetching https://unity.com/legal/dpa-amendment-eu-uk-swiss-sccs
+
+404 Client Error: Not Found for url: https://unity.com/legal/dpa-amendment-eu-uk-swiss-sccs
+
+---
+
+# TECHNICAL AND ORGANISATIONAL MEASURES INCLUDING TECHNICAL AND ORGANISATIONAL MEASURES TO ENSURE THE SECURITY OF THE DATA
+
+**Source URL:** [https://unity.com/legal/technical-and-organisational-measures](https://unity.com/legal/technical-and-organisational-measures)
+
+Published: December 3, 2024
+
+Last Edit/Review: n/a
+
+EXPLANATORY NOTE:
+
+Description of the technical and organisational measures implemented by the data importer(s) (including any relevant certifications) to ensure an appropriate level of security, taking into account the nature, scope, context and purpose of the processing, and the risks for the rights and freedoms of natural persons.
+
+Unity maintains a data security and privacy governance structure to manage risk to unauthorized access and unauthorized usage of personal data entrusted to Unity. The data governance structure involves regular reporting to top management as well as to Unity’s audit committee of its board of directors.
+
+Unity maintains a security policy and a privacy program policy as part of its governance program.
+
+Unity’s internal audit team may audit its privacy program or its security program as part of its enterprise risk management function.
+
+Unity requires employees to complete security and privacy training. Unity personnel are required to conduct themselves in a manner consistent with the company’s guidelines regarding confidentiality, business ethics, appropriate usage, and professional standards.
+
+Unity conducts a reasonable background check of its employees to the extent permitted by applicable law. Personnel are required to sign a confidentiality agreement and must acknowledge receipt of, and compliance with, Unity's confidentiality and privacy policies.
+
+Unity encrypts the personal data described in Annex I using a 256 AES bit encryption method during storage to assure data is held in pseudonymous format. The data remains in pseudonymous format within its systems, unless proper permission to access personal data is obtained. Unity maintains a “restricted data access procedure” in which the employee applies for access and states specific uses of the data. Access is granted only after review and approval of the internal data owner and the privacy office.
+
+Unity maintains a site reliability engineering team to respond to indicators of issues within its system, including error rate, latency and throughput measurements. Additionally, our systems are designed to alert on database connectivity, third party dependencies, and data content appearing in an unexpected manner. Each alert is subject to an incident rating classification system that dictates resource allocation and time to resolve metrics.
+
+Unity employs two factor authentication for its systems, including where the transferred data is stored. Each application checks credentials in order to allow the display of Personal Data to an authorized End User or authorized administrator. The granting or modification of access rights is based on: the authorized personnel’s job responsibilities, job duty requirements necessary to perform authorized tasks, and a need to know basis. Approvals are managed by Unity’s designated team. Access to systems is logged to create an audit trail for accountability. Where passwords are employed for authentication (e.g. login to workstations), password policies that follow at least industry standard best practices are implemented. These standards include restrictions on password reuse and sufficient password strength.
+
+Unity employs firewalls and malware detection softwareץ
+
+Unity maintains a Security Incident and Event Management system to analyze logs for problematic behavior and events. Unity implements a strict policy for incident response and will react promptly to known incidents.
+
+Unity maintains a physical security team that oversees controlled access to its facilities, including requiring badging, cctv implementation, and alarm monitoring.
+
+Unity monitors its infrastructure for proper configuration using a third party SaaS solution.
+
+Measures for ensuring data minimisation:
+
+Pseudonymization of data where possible. Unity maintains a data retention schedule for its products as part of its record retention policy.
+
+Unity maintains an internal process for data subjects requesting portability of their data. Data subjects can write todpo@unity3d.comto initiate a request.
+
+Unity maintains systems that permit data subjects to automatically request data erasure through either their account if an employee of our Customer or through an in-app request method if they are an end user of a mobile application.
+
+Unity evaluates processors’ privacy and security prior to onboarding and includes confidentiality and privacy contract terms into agreements with processors.
+
+Our cloud storage provider maintains data centers to provide for redundancy through dual circuits, switches, networks or other necessary devices to help provide redundancy. The electrical power systems are designed to be redundant, including a primary and alternate power source of equal capacity. The server operating systems use proprietary algorithms to augment data security and redundancy. Our provider has developed and maintains a business continuity plan and disaster recovery plan. Our provider considers its external attack surface and employs purpose built technologies into external facing systems to prevent attacks. Our provider uses intrusion detection systems. Additionally, our provider uses on-site security operations, data center access procedures, and has instituted a system of segmented access for its employees according to job classification. Data centers are monitored using CCTV as well as controlled access badging. Our providers have implemented access control systems, provide security training to employees, and have installed systems to ensure that personal data cannot be read, copied, altered, or removed without authorization. Data is logically isolated and logged to assure an auditable record of access. Data destruction is subject to a process involving two independent validations prior to completion. Personnel are background checked and trained in security procedures. Subprocessors are audited prior to onboarding for privacy and security practices and only onboarded with appropriate security, confidentiality and privacy contract terms.
+
+Storage: All Personal Data is stored on servers managed by ourcloud service provider. The provider manages physical security and external network security (i.e., networks outside Unity’s infrastructure). Infrastructure systems are designed to eliminate single points of failure and minimize the impact of anticipated environmental risks. The platform performs preventative and corrective maintenance without interruption to services.
+
+Business Continuity: Unity replicates data over multiple regions to help to protect against accidental destruction or loss.
+
+Data Transmission: Unity’s servers transfer Personal Data via HTTPS to and from the SDK. This is designed to prevent Personal Data from being read, copied, altered or removed without authorization during electronic transfer or transport.
+
+Control Activities and Processes: Control activities provide reasonable assurance that logical access to relevant applications, Personal Data and system resources is restricted to properly authorized individuals and programs. Unity designated a specific team for configuring and administrating of the firewall and security groups to control security and access to “internal” network infrastructure. All servers implement access control and user validation according to the business requirements. Firewalls and host-based intrusion detection systems are deployed on the system. All security monitoring systems including, but not limited to, firewalls and host intrusion detection systems are deployed and enabled. All infrastructure platforms and services (operating systems, web servers, database servers, firewalls, etc.) are configured according to industry best practices.
+
+Data: Personal Data is backed up regularly using tools provided by Unity’s cloud service provider. Every user has unique credentials when accessing the system and is limited only to Personal Data relevant to that user.
+
+Unity obtained an ISO 27001 certification with respect to the ironSource ad network and mediation platform.
+
+
+---
+
+# Subprocessors
+
+**Source URL:** [https://unity.com/legal/subprocessors](https://unity.com/legal/subprocessors)
+
+## Unity Sub-Processors
+
+The following is a list of Unity’s sub-processors who may have access to our customers' personal information in order to perform services on our behalf, as detailed inUnity’s Data Processing Addendum.
+
+Should there be any changes to the sub-processors for a Unity Service you utilize, you will be notified via your dashboard or a similar notification mechanism.
+
+Last Updated December 3, 2024
+
+We have relocated this sub-processor page to our Privacy Policy Hub, which can be accessedhere.
+
+For the following services, please see their sub-processor pages:
+
+SyncSketch
+
+
+---
+
+# AI Supplemental Privacy Notice
+
+**Source URL:** [https://unity.com/legal/supplemental-privacy-statement-unity-muse](https://unity.com/legal/supplemental-privacy-statement-unity-muse)
+
+Last Edit/Review: July 24, 2025
+
+#### Introduction & Scope
+
+This AI Supplemental Privacy Notice will provide you, the User, with information about Unity’s (herein “we”, “us”, “our”, or “Unity”) processing activities with respect to your Personal Information collected through your use of AI Tools (herein “AI Tools”). This policy applies to our Users who have downloaded or who access Unity’s AI Tools.
+
+Please refer to Unity’s main Privacy Policy to understand our data processing activities with respect to your Unity ID account data and other data collected as a result of your use of Unity’s other Sites, Products, or Services as well as your rights to those activities and AI Tools.
+
+#### Personal or Confidential Information We Collect and its Sources
+
+By downloading and/or using Unity AI Tools, we collect Personal Information from you in two ways:
+
+* Directly from you when you provide it to us.
+* Passively when you use AI Tools.
+In addition to the Personal Information that is governed by our Privacy Policy, Personal Information that you actively provide may include:
+
+* Your Communications with Us:Users may provide us with information when they participate in community and forum pages on AI Tools.
+* Prompts and Outputs:Our Services allow you to submit text code, images, audio-visual content, or data, information, materials to the AI Tools (“Prompts”), which generate responses based on your Prompts (“Outputs”). If you include personal or confidential information in your Prompts, we will collect that information, which may be reproduced in the Outputs.
+By downloading and/or using the Unity AI Tools, Unity may passively and automatically collect the events associated with your Personal Information from you:
+
+* Usage Information.We collect information about your activity through AI Tools. Information about your usage may include user actions, day of first session, day of the last session, or session length.
+* Device Information.AI Tools may also collect device information such as the operating system, hardware and software versions, platform, screen size, and CPU/graphics characteristics.
+* Location Information.When you use AI Tools, we may collect information about your location. IP addresses can be used to learn about the general location (e.g. city, state and country) of the User’s point of access to AI Tools.
+* Metadata Information:AI Tools may also access metadata and other information associated with files you upload through our Services.
+For more information on other Personal Information that Unity collects through your Unity account and your use of other Unity Sites, Products, or Services, please see our mainPrivacy Policy. For information on cookies and similar technologies that may collect information through your use of Unity’s Site, Products, Services, and AI Tools, please see ourCookie Policy.
+
+#### Purpose of Collecting Personal Information (How We Use Your Data)
+
+We use the Personal Information we collect through your download and/or use of the Unity AI Tools to provide, administer, operate, and improve AI Tools and its related Services (together, “Services”). Specifically, we may use your Personal Information for the purposes below.
+
+* Providing the functionality of the Services and fulfilling your requests, including:To create, administer and troubleshoot accounts;To credit or accept payments;To provide technical support and respond to inquiries;To prevent fraud, enforce the relevant terms of service or licenses, and protect Users;To improve (unless otherwise limited via explicit reference to a license granted within any applicable Additional Terms or Documentation including the Unity Developer Data Additional Terms), the applicable Services and otherwise use the developer data imported or linked through the Unity Cloud Dashboard (“Developer Data”) as instructed by you.
+* To create, administer and troubleshoot accounts;
+* To credit or accept payments;
+* To provide technical support and respond to inquiries;
+* To prevent fraud, enforce the relevant terms of service or licenses, and protect Users;
+* To improve (unless otherwise limited via explicit reference to a license granted within any applicable Additional Terms or Documentation including the Unity Developer Data Additional Terms), the applicable Services and otherwise use the developer data imported or linked through the Unity Cloud Dashboard (“Developer Data”) as instructed by you.
+We will engage in these activities to manage our contractual relationship with you, to comply with a legal obligation, when we have your consent (e.g., when you are requesting for us to respond to you), and/ or when necessary for our legitimate interests (e.g., to respond to inquiries from customers and potential customers, for license enforcement and prevention of software piracy, to inform decisions around service offerings, and for operational improvements).
+
+* Providing you with our newsletter and/or other marketing materials and facilitating social sharingTo send you marketing-related emails with information about our services, new products, and other news about our company.To facilitate the social sharing functionality that you choose to use.
+* To send you marketing-related emails with information about our services, new products, and other news about our company.
+* To facilitate the social sharing functionality that you choose to use.
+We will engage in this activity with your consent or where we have a legitimate interest.
+
+* Allowing you to participate in sweepstakes, contests, or other promotions.
+We use this information to manage our contractual relationship with you, or in some cases, based on your consent or our legitimate interest.
+
+* Accomplishing our business purposes.To perform analytics and research aimed at improving the accuracy, effectiveness, usability, or popularity of the AI Tools;For data analysis and testing, for example, to improve the efficiency of AI Tools;For AI Tools maintenance;For reporting and hosting of data;For audits, to verify that our internal processes function as intended and are compliant with legal, regulatory or contractual requirements;For fraud and security purposes, for example, monitoring to detect and prevent cyberattacks or attempts to commit identity theft;For the prevention of criminal activity or harm to users of our Services;For developing new products and services;For enhancing, improving, or modifying our current website(s), products and services and/or assisting our developers with this activity;For identifying usage trends, for example, understanding which parts of our website(s) and Services are of most interest to users;For determining the effectiveness of our promotional campaigns, so that we can adapt our campaigns to the needs and interests of our users or our publisher’s and other advertising customer’s users; andFor operating and expanding our business activities, for example, understanding which parts of our Services are of most interest to our users or assisting our developers with this activity within their business so we can focus our and their energies and resources on meeting our users’ interests;
+* To perform analytics and research aimed at improving the accuracy, effectiveness, usability, or popularity of the AI Tools;
+* For data analysis and testing, for example, to improve the efficiency of AI Tools;
+* For AI Tools maintenance;
+* For reporting and hosting of data;
+* For audits, to verify that our internal processes function as intended and are compliant with legal, regulatory or contractual requirements;
+* For fraud and security purposes, for example, monitoring to detect and prevent cyberattacks or attempts to commit identity theft;
+* For the prevention of criminal activity or harm to users of our Services;
+* For developing new products and services;
+* For enhancing, improving, or modifying our current website(s), products and services and/or assisting our developers with this activity;
+* For identifying usage trends, for example, understanding which parts of our website(s) and Services are of most interest to users;
+* For determining the effectiveness of our promotional campaigns, so that we can adapt our campaigns to the needs and interests of our users or our publisher’s and other advertising customer’s users; and
+* For operating and expanding our business activities, for example, understanding which parts of our Services are of most interest to our users or assisting our developers with this activity within their business so we can focus our and their energies and resources on meeting our users’ interests;
+We engage in these activities to manage our contractual relationship with you, to comply with a legal obligation, and/or because we have your consent or a legitimate interest.
+
+* For the purposes of training and enhancing our machine learning algorithms, aimed at improving the Services we provide.
+We engage in these activities to manage our contractual relationship with you, to comply with a legal obligation, and/or because we have your consent or a legitimate interest.
+
+* Analysis of Personal Information for business reporting and providing personalized services.To analyze or predict our users’ preferences in order to prepare aggregated trend reports on how our AI Tools are used so we can improve our website(s) and Services.To better understand you so that we can personalize our interactions with you and provide you with information and/or offers tailored to your interests.To better understand your preferences so that we can deliver content via our website(s) and Services that we believe will be relevant and interesting to you.
+* To analyze or predict our users’ preferences in order to prepare aggregated trend reports on how our AI Tools are used so we can improve our website(s) and Services.
+* To better understand you so that we can personalize our interactions with you and provide you with information and/or offers tailored to your interests.
+* To better understand your preferences so that we can deliver content via our website(s) and Services that we believe will be relevant and interesting to you.
+We will perform analyses based on our legitimate interest. We will provide personalized services either with your consent or because we have a legitimate interest.
+
+* Aggregating and/or anonymizing Personal Information.We may aggregate and/or anonymize Personal Information so that it will no longer be considered Personal Information. We do so to generate other data for our use, which we may use and disclose for any purpose.
+* We may aggregate and/or anonymize Personal Information so that it will no longer be considered Personal Information. We do so to generate other data for our use, which we may use and disclose for any purpose.
+#### How we might share the information we collect or receive
+
+For information on who we share the Personal Information that Unity collects, please see our mainPrivacy Policy.
+
+#### Accessing/ Updating/ Deleting Your Information
+
+In accordance with applicable law, you may have several rights concerning the processing of your Personal Information. We provide various methods for Users to access and update their information. For further details and a broader understanding, please refer to our main Privacy Policy. For users with accounts, please send any inquiries or requests to dpo@unity3d.com.
+
+#### Privacy Rights
+
+For information on Privacy Rights, please see our mainPrivacy Policy.
+
+#### Retention
+
+We retain Personal Information for as long as needed or permitted in light of the purpose(s) for which it was obtained and consistent with applicable law. The criteria used to determine our retention periods include:
+
+* The length of time we have an ongoing relationship with you and provide the Services to you (for example, for as long as you have an account with us or keep using the Services);
+* Whether there is a legal obligation to which we are subject (for example, certain laws require us to keep records of your transactions for a certain period of time before we can delete them); or
+* Whether retention is advisable in light of our legal position (such as in regard to applicable statutes of limitations, litigation or regulatory investigations).
+#### Our Policies Concerning Children
+
+AI Tools are not intended for children under 13 years of age, and we do not knowingly collect personal information from children under 13. If we learn we have collected or received personal information from a child under 13 without verification of parental consent, we will delete that information. If you believe we might have any information from or about a child under 13, please contact us atdpo@unity3d.com.For more information on our policies concerning the collection of information from children, please see our mainPrivacy Policy.
+
+#### Transfers out of Country of Collection
+
+For information on transfers out of the country in which Personal Information was collected, please see our mainPrivacy Policy.
+
+#### Safeguards
+
+For more information on how we safeguard your Personal Information, please see our mainPrivacy Policy.
+
+#### Links to Other Sites
+
+As a reminder, this statement only describes Unity’s practices with regard to AI Tools.
+
+Please refer to Unity’s mainPrivacy Policyto understand our data processing activities with respect to your Unity account data, data collected as a result of your use of Unity AI Tools, and other data collected as a result of your use of Unity’s Site, Products or Services as well as your rights to those activities.
+
+#### Changes to This Privacy Notice
+
+We reserve the right to change our practices and this statement at any time. We may send an email or provide notice within some or all of our offerings when this statement changes. We encourage you to check this page regularly so that you know what our current practices are.
+
+#### Contact Us
+
+* DPO@unity3d.com
+* Unity Technologies, 116 New Montgomery, Suite 300, San Francisco, CA 94105 (United States contact)
+
+---
