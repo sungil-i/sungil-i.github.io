@@ -222,5 +222,8 @@ while(true) {
 ```csharp
 int dan = 7;
 int i = 1;
-
+while(i<=9) {
+    Console.WriteLine(i);
+    i++;
+}
 ```
