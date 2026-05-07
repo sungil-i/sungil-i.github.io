@@ -41,3 +41,16 @@ if( dan >= 2  &&  dan <= 9 ) {
 5 x 8 = 40
 5 x 9 = 45
 ```
+
+### (1)-2. 1부터 N까지 짝수의 합 구하기
+
+> 1.숫자(N)를 입력받는다.<br>2.While 문을 사용해서 N까지 짝수의 합을 더한다.
+
+```csharp
+int n = int.Parse( Console.ReadLine() );
+int i = 1;
+while ( i <= n  ) {
+    Console.WriteLine(i);
+    i++;
+}
+```
