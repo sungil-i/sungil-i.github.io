@@ -46,11 +46,24 @@ if( dan >= 2  &&  dan <= 9 ) {
 
 > 1.숫자(N)를 입력받는다.<br>2.While 문을 사용해서 N까지 짝수의 합을 더한다.
 
+**i % 2 == 0  →  i는 짝수이다.**
+
+**i % 2 == 1  →  i는 홀수이다.**
+
 ```csharp
 int n = int.Parse( Console.ReadLine() );
 int i = 1;
+int total = 0;
 while ( i <= n  ) {
-    Console.WriteLine(i);
+    if(i%2 == 0) total = total + i; // total += i; 와 같은 표현
     i++;
 }
+Console.WriteLine($"total = {total}");
+```
+
+실행 결과
+
+```text
+> 100
+total = 2550
 ```
