@@ -190,3 +190,26 @@ for(int i=1; i <= n; i++) {
 짝
 100
 ```
+
+### ### (1)-4. 비밀번호 맞추기 (3회 제한)
+
+> 로그인 창에서 아이디와 비밀번호를 입력할 때<br>비밀번호를 3번만에 맞춰야 한다.<br>그렇지 않으면 에러 메시지를 출력한다.
+
+```csharp
+// (구현 로직)
+// 1.입력한 비밀번호가 맞는지 체크한다.
+// 2.비밀번호가 맞으면 is_ok = true 로 바꾼다.
+// 3.비밀번호가 맞으면 for문을 빠져나온다.
+// 4.비밀번호가 틀리면 계속 for문을 반복한다.
+
+string password = "sungil";
+bool is_ok = false;
+for(int i=1; i<=3; i++) {
+    Console.Write("비밀번호를 입력하세요: ");
+    if(Console.ReadLine() == password) {
+        is_ok = true;
+        break;
+    }
+}
+Console.WriteLine(is_ok ? "SUCCESS" : "FAIL");
+```
