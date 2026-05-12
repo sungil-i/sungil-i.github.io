@@ -191,7 +191,7 @@ for(int i=1; i <= n; i++) {
 100
 ```
 
-### ### (1)-4. 비밀번호 맞추기 (3회 제한)
+### (1)-4. 비밀번호 맞추기 (3회 제한)
 
 > 로그인 창에서 아이디와 비밀번호를 입력할 때<br>비밀번호를 3번만에 맞춰야 한다.<br>그렇지 않으면 에러 메시지를 출력한다.
 
@@ -212,4 +212,20 @@ for(int i=1; i<=3; i++) {
     }
 }
 Console.WriteLine(is_ok ? "SUCCESS" : "FAIL");
+```
+
+### (1)-5. 0입력 시 종료 및 합계 산출
+
+> 숫자를 무한히 입력 받는다.<br>문자열을 숫자로 바꿔서 계속 더한다.<br>0이 나오면 반복문을 빠져나오고,<br>지금까지 입력한 모든 숫자의 합을 출력한다.
+
+```csharp
+int total = 0;
+while(true) {
+    int num = int.Parse( Console.ReadLine() );
+    Console.WriteLine($"입력한 숫자={num}");
+    if(num == 0) break;
+    // total = total + num;
+    total += num;
+}
+Console.WriteLine($"total={total}");
 ```
