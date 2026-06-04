@@ -66,3 +66,8 @@ date: "2026-06-04"
 **Script Machine 추가하기**
 
 1. 'Player' Object 에서 'Add Component'을 선택하고 'Script Machine' 을 추가한다.
+2. 'Graph' 항목에서 'New' 를 선택한 뒤에 'PlayerControl' 이름의 Asset 파일을 추가한다.
+
+![수행3](../../../../assets/images/2026-application-test-3(7).png)
+
+![수행3](../../../../assets/images/2026-application-test-3(8).png)
