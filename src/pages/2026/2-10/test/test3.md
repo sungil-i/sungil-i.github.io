@@ -14,12 +14,20 @@ date: "2026-06-04"
 
 ![수행3](../../../../assets/images/2026-application-test-3(1).png)
 
-### 2. Scene 이름 바꾸기
+### 2. Scene 
+
+**Scene 이름 바꾸기**
 
 1. 왼쪽 하단의 'Project' 메뉴에 가서 'Assets' 에서 'Scenes' 를 선택한다.
 2. 'SampleScene' 을 'MainScene' 으로 이름을 바꾼다.
 
 ![수행3](../../../../assets/images/2026-application-test-3(2).png)
+
+**게임 화면 조정하기**
+
+1. 가운데 '미리보기' 화면에서 화면 비율을 '16:9 Aspect' 로 바꾼다.
+
+![수행3](../../../../assets/images/2026-application-test-3(9).png)
 
 ### 2. Player 만들기
 
@@ -71,3 +79,11 @@ date: "2026-06-04"
 ![수행3](../../../../assets/images/2026-application-test-3(7).png)
 
 ![수행3](../../../../assets/images/2026-application-test-3(8).png)
+
+**키보드로 조작하기**
+
+
+
+1. 'Script Machine'의 'Edit Graph' 를 클릭한다.
+2. 빈공간에서 마우스 오른쪽 클릭을 해서 'On Keyboard Input' 노드를 추가한다.
+3. 'On Keyboard Input' 노드의 Key=Right Arrow, Action=Hold 로 바꾼다.
