@@ -148,5 +148,7 @@ date: "2026-06-04"
 ![수행3](../../../../assets/images/2026-application-test-3(17).png)
 
 3. 'Player' 의 'Script Machine' 을 열고 'On Trigger Enter 2D' 이벤트 노드를 추가한다.
+4. 'Game Object: Compare Tag' 노드를 추가한다.
+5. 
 
 ![수행3](../../../../assets/images/2026-application-test-3(18).png)
