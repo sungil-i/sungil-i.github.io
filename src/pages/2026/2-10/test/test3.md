@@ -23,6 +23,20 @@ date: "2026-06-04"
 
 ### 2. Player 만들기
 
+#### Object 생성하기
+
+1. 오른쪽 상단의 'Hierarchy' 메뉴에 가서 빈공간에 마우스 우클릭을 한다.
+2. '2D Object' > 'Sprites' > 'Square' 를 선택해서 Object 를 생성한다.
+3. Object 이름을 'Player' 로 바꾼다.
+
+#### Object 속성 바꾸기
+
+1. 오른쪽 'Inspector' 메뉴에서 'Transform' 항목의 'Position' 을 선택한다.
+2. 'Position' 의 X=-5, Y=-4 로 설정한다.
+3. 'Sprite Renderer' 에서 'Color' 항목을 선택한다.
+4. 색깔을 노란색(Yellow) 으로 바꾼다.
+
+#### Component 추가하기
 
 
 
