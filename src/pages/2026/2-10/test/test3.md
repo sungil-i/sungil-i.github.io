@@ -113,3 +113,26 @@ date: "2026-06-04"
 * 'Down Arrow': 첫번째빈칸=0, 두번째빈칸=-2
 
 ![수행3](../../../../assets/images/2026-application-test-3(13).png)
+
+### 3. Goal 만들고 게임오버 화면 연결하기
+
+**Goal 만들기**
+
+1. 'Hierachy' 에서 '2D Object' > 'Sprites' > 'Circle' 을 추가한다.
+2. 이름을 'Goal' 로 바꾸고 색깔을 빨간색(Red)으로 바꾼다.
+
+**게임오버 Scene 추가하기**
+
+1. 왼쪽 하단의 'Project' > 'Assets' > 'Scenes' 화면의 빈 공간에서 마우스 우클릭을 한다.
+2. 'Create' > 'Scene' > 'Scene' 으로 새로운 화면을 만든다.
+3. 이름을 'FinishScene' 으로 바꾼다.
+
+![수행3](../../../../assets/images/2026-application-test-3(14).png)
+
+**Build Profile 에 등록하기**
+
+1. 먼저 'FinishScene'을 더블클릭해서 미리보기 화면에 연다.
+2. 왼쪽 상단 'File' > 'Build Profiles' 를 선택한다.
+3. 'Scene List' 탭을 열어서 'Add Open Scenes' 를 클릭해서 'FinishScene' 을 추가합니다.
+
+![수행3](../../../../assets/images/2026-application-test-3(15).png)
