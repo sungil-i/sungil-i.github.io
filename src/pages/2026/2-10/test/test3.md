@@ -103,6 +103,13 @@ date: "2026-06-04"
 
 **키보드 방향키에 연결하기**
 
-1. 
+1. 노드를 선택해서 'Duplicate Selection' 으로 3개 더 복제한다. 
+2. 각 키보드의 키를 'Left Arrow', 'Up Arrow', 'Down Arrow' 연결한다. 
+3. 각 키보드에 따른 속도의 방향을 아래와 같이 바꿔준다. 
+
+* 'Right Arrow': 첫번째빈칸=2, 두번째빈칸=0
+* 'Left Arrow': 첫번째빈칸=-2, 두번째빈칸=0
+* 'Up Arrow': 첫번째빈칸=0, 두번째빈칸=2
+* 'Down Arrow': 첫번째빈칸=0, 두번째빈칸=-2
 
 ![수행3](../../../../assets/images/2026-application-test-3(13).png)
