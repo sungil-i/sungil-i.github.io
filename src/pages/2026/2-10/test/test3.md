@@ -49,3 +49,6 @@ date: "2026-06-04"
 
 ##### Box Collider 2D
 
+1. 'Add Component' 를 누르고 'Box Collider 2D' 를 추가한다.
+
+![수행1-1](../../../../assets/images/2026-application-test-3(5).png)
