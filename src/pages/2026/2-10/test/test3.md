@@ -120,6 +120,9 @@ date: "2026-06-04"
 
 1. 'Hierachy' 에서 '2D Object' > 'Sprites' > 'Circle' 을 추가한다.
 2. 이름을 'Goal' 로 바꾸고 색깔을 빨간색(Red)으로 바꾼다.
+3. 오른쪽 'Inspector' 에서 'Tag' 를 'Finish' 로 선택한다.
+
+![수행3](../../../../assets/images/2026-application-test-3(16).png)
 
 **게임오버 Scene 추가하기**
 
@@ -136,3 +139,4 @@ date: "2026-06-04"
 3. 'Scene List' 탭을 열어서 'Add Open Scenes' 를 클릭해서 'FinishScene' 을 추가합니다.
 
 ![수행3](../../../../assets/images/2026-application-test-3(15).png)
+
