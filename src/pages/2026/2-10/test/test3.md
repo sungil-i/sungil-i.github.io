@@ -100,3 +100,9 @@ date: "2026-06-04"
 ![수행3](../../../../assets/images/2026-application-test-3(11).png)
 
 ![수행3](../../../../assets/images/2026-application-test-3(12).png)
+
+**키보드 방향키에 연결하기**
+
+1. 
+
+![수행3](../../../../assets/images/2026-application-test-3(13).png)
