@@ -36,7 +36,16 @@ date: "2026-06-04"
 3. 'Sprite Renderer' 에서 'Color' 항목을 선택한다.
 4. 색깔을 노란색(Yellow) 으로 바꾼다.
 
+![수행1-1](../../../../assets/images/2026-application-test-3(3).png)
+
 #### Component 추가하기
 
+##### Rigidbody 2D
 
+1. 'Add Component' 를 누르고 'Rigidbody 2D' 를 추가한다.
+2. 속성을 Mass=1, Linear Damping=2, Angular Damping=2, Gravity Scale=0 으로 설정한다.
+
+![수행1-1](../../../../assets/images/2026-application-test-3(4).png)
+
+##### Box Collider 2D
 
