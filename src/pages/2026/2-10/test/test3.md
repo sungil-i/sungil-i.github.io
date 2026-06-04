@@ -146,3 +146,7 @@ date: "2026-06-04"
 2. 'Circle Collider 2D' 에서 'Is Trigger' 를 체크한다.
 
 ![수행3](../../../../assets/images/2026-application-test-3(17).png)
+
+3. 'Player' 의 'Script Machine' 을 열고 'On Trigger Enter 2D' 이벤트 노드를 추가한다.
+
+![수행3](../../../../assets/images/2026-application-test-3(18).png)
