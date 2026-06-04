@@ -82,8 +82,21 @@ date: "2026-06-04"
 
 **키보드로 조작하기**
 
-
+**'On Keyboard Input' 노드 추가하기**
 
 1. 'Script Machine'의 'Edit Graph' 를 클릭한다.
 2. 빈공간에서 마우스 오른쪽 클릭을 해서 'On Keyboard Input' 노드를 추가한다.
 3. 'On Keyboard Input' 노드의 Key=Right Arrow, Action=Hold 로 바꾼다.
+
+![수행3](../../../../assets/images/2026-application-test-3(10).png)
+
+**'RigidBody 2D: Set Linear Velocity' 노드 추가하기**
+
+1. 빈공간에서 마우스 오른쪽 클릭을 해서 'RigidBody 2D: Set Linear Velocity' 노드를 추가한다.
+2. 'RigidBody 2D: Set Linear Velocity' 노드의 2개의 입력칸 중 1번째 입력칸이 X 방향이다.
+3. 'RigidBody 2D: Set Linear Velocity' 노드의 1번째 입력칸에 2를 입력한다. (X방향으로 속도를 2 증가시킨다는 말이다.)
+4. 'On Keyboard Input' 노드의 오른쪽 삼각형을 'RigidBody 2D: Set Linear Velocity' 노드의 왼쪽 삼각형을 연결시킨다. (삼각형은 흐름을 나타낸다. 즉, 'On Keyboard Input' 노드 다음에 'RigidBody 2D: Set Linear Velocity' 노드를 실행시키라는 말이다.)
+
+![수행3](../../../../assets/images/2026-application-test-3(11).png)
+
+![수행3](../../../../assets/images/2026-application-test-3(12).png)
