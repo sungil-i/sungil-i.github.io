@@ -140,3 +140,9 @@ date: "2026-06-04"
 
 ![수행3](../../../../assets/images/2026-application-test-3(15).png)
 
+**Player 가 닿는 기능 구현**
+
+1. 'Goal' 에 'Add Component' 를 클릭하고 'Circle Collider 2D' 를 추가한다.
+2. 'Circle Collider 2D' 에서 'Is Trigger' 를 체크한다.
+
+![수행3](../../../../assets/images/2026-application-test-3(17).png)
