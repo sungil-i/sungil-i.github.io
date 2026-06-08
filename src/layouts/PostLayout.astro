@@ -6,9 +6,9 @@ import MainLayout from "./MainLayout.astro";
 const { frontmatter, headings } = Astro.props;
 
 // Svelte 코드처럼 h2와 h3만 필터링합니다. (Astro에서는 level 대신 depth를 사용합니다)
-const filteredHeadings = headings.filter(
-  (h: any) => h.depth === 2 || h.depth === 3,
-);
+//const filteredHeadings = headings.filter(
+//  (h: any) => h.depth === 2 || h.depth === 3,
+//);
 ---
 
 <MainLayout title={frontmatter.title || "수업 기록"}>
@@ -52,6 +52,7 @@ const filteredHeadings = headings.filter(
         </div>
       </div>
 
+      <!--
       <div class="d-none d-lg-block col-lg-2 col-xl-2 ps-lg-4" style="display:none;">
         <div class="sticky-top pt-2" style="top: 80px;">
           <h6
@@ -74,6 +75,7 @@ const filteredHeadings = headings.filter(
           </nav>
         </div>
       </div>
+      -->
     </div>
   </div>
 </MainLayout>
