@@ -16,6 +16,8 @@ classId: "2-10"
     * 화면 구현: Unity 화면 구현 (NCS 교재)
     * 프로그래밍 언어 응용: C# 프로그래밍 언어 응용 (NCS 교재)
 
+<span style="color:red;"><strong>주의사항!</strong><br>우리는 NCS 교재의 내용에 대해 시험을 안봅니다.<br>NCS 교재와 주제는 같지만 내용은 Unity 와 C# 에 대해서 수행평가 및 2차 정기고사를 봅니다.</span>
+
 ## NCS 교재
 
 [수업자료 링크](https://drive.google.com/drive/folders/1poJI27-4xy6lhXa0Ag45pk1Wt-mBeibw?usp=sharing){:target="_blank"}
@@ -23,3 +25,4 @@ classId: "2-10"
 
 * 화면 구현(2001020225_23v6)
 * 프로그래밍 언어 응용(2001020230_23v5)
+
