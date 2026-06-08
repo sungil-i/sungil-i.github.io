@@ -18,7 +18,8 @@ classId: "2-10"
 
 ## NCS 교재
 
-[수업자료 링크](https://drive.google.com/drive/folders/1poJI27-4xy6lhXa0Ag45pk1Wt-mBeibw?usp=sharing)
+[수업자료 링크](https://drive.google.com/drive/folders/1poJI27-4xy6lhXa0Ag45pk1Wt-mBeibw?usp=sharing){:target="_blank"}
+
 
 * 화면 구현(2001020225_23v6)
 * 프로그래밍 언어 응용(2001020230_23v5)
