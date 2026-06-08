@@ -18,5 +18,7 @@ classId: "2-10"
 
 ## NCS 교재
 
-* [화면 구현](../../../assets/files/2026-1-application-1.pdf)
-* [프로그래밍 언어 응용](../../../assets/files/2026-1-application-2.pdf)
+[수업자료 링크](https://drive.google.com/drive/folders/1poJI27-4xy6lhXa0Ag45pk1Wt-mBeibw?usp=sharing)
+
+* 화면 구현
+* 프로그래밍 언어 응용
