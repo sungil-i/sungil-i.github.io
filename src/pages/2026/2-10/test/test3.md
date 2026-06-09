@@ -12,7 +12,7 @@ date: "2026-06-04"
     * 씬 이름: `SampleScene` → `MainScene`
     * 완성된 프로젝트를 제출용 파일로 만들기: 메뉴에서 `Assets` > `Export As Asset Package` 로 내 프로젝트 파일을 추출한다. (`학번-이름.unitypackage`)
 
-![수행3](../../../../assets/images/2026-application-test-3(20).png)
+![수행3](../../../../assets/images/2026-application-test-3(20).jpg)
 
 2. Player 만들기
     * 사각형 모양, 원 모양의 Sprite 만들기
