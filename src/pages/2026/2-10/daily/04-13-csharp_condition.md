@@ -222,4 +222,8 @@ string timeTxt = (time24h >= 12) ? "PM" : "AM";
 Console.WriteLine($"{time24h}시는 {timeTxt} 입니다.");
 ```
 
-결과: **15시는 PM 입니다.**
+결과
+
+```text
+15시는 PM 입니다.
+```
