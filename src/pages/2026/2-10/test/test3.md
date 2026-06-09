@@ -8,15 +8,19 @@ date: "2026-06-04"
 
 1. 유니티 '2D Universal' 프로젝트를 생성하고, 씬(Scene) 이름을 변경한다.
     * 프로젝트 이름: `my_unity`
+        * 화면구성: `16:9 Aspect`
     * 씬 이름: `SampleScene` → `MainScene`
-    * 완성된 프로젝트를 제출용 파일로 만들기: 
+    * 완성된 프로젝트를 제출용 파일로 만들기: 메뉴에서 `Assets` > `Export As Asset Package` 로 내 프로젝트 파일을 추출한다. (`학번-이름.unitypackage`)
 2. Player 만들기
     * 사각형 모양, 원 모양의 Sprite 만들기
+        * 사각형 모양: `Player` (tag: `Player`)
+        * 원 모양: `Goal` (tag: `Finish`)
     * 위치, 색깔 지정: 
-        * 사각형 모양:
-        * 원 모양: 
+        * 사각형 모양: `위치: X=-7, Y=-3, Z=0`, `색깔=노랑색`
+        * 원 모양: `위치: X=7, Y=3, Z=0`, `색깔=빨강색`
     * 컴포넌트 추가:
         * 사각형 모양: `Rigidbody 2D`, `Box Collider 2D`
+            * `Rigidbody 2D`: `Mass=1`, `Linear Damping=2`, `Angular Damping=2`, `Gravity Scale=0`
         * 원 모양: `Circle Collider 2D`
 3. 키보드 조작하기
     * `Script Machine` 컴포넌트 추가: `PlayerMove.asset` 파일 생성
@@ -25,6 +29,7 @@ date: "2026-06-04"
         * 왼쪽의 'Player' 탭을 선택하고, 'Other Settings' 의 'Active Input Handling' 을 선택한다.
         * 'Active Input Handling' 에서 'Both' 를 선택한다.
     * 좌, 우, 상, 하 키보드 움직임 추가하기
+        * `On Keyboard Input` 노드, `Rigidbody 2D: Set Linear Velocity` 노드 추가
 
 ## 유니티 수행평가 3 학습자료
 
