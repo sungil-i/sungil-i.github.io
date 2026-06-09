@@ -11,6 +11,9 @@ date: "2026-06-04"
         * 화면구성: `16:9 Aspect`
     * 씬 이름: `SampleScene` → `MainScene`
     * 완성된 프로젝트를 제출용 파일로 만들기: 메뉴에서 `Assets` > `Export As Asset Package` 로 내 프로젝트 파일을 추출한다. (`학번-이름.unitypackage`)
+
+![수행3](../../../../assets/images/2026-application-test-3(20).png)
+
 2. Player 만들기
     * 사각형 모양, 원 모양의 Sprite 만들기
         * 사각형 모양: `Player` (tag: `Player`)
@@ -175,7 +178,7 @@ date: "2026-06-04"
 ![수행3](../../../../assets/images/2026-application-test-3(17).png)
 
 3. 'Player' 의 'Script Machine' 을 열고 'On Trigger Enter 2D' 이벤트 노드를 추가한다.
-4. 'Game Object: Compare Tag' 노드를 추가한다.
-5. 
+4. 'Game Object: Compare Tag' 노드, 'If' 노드, 'Scene Manager: Load Scene by Scene Name' 노드를 추가한다.
+5. 만약 Player 와 부딪힌 Object의 Tag 가 'Finish' 라면 'FinishScene' 을 불러서 Scene 을 이동하는 기능을 구현한다.
 
 ![수행3](../../../../assets/images/2026-application-test-3(18).png)
