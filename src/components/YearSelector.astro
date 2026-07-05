@@ -1,10 +1,10 @@
 ---
 // src/components/YearSelector.astro
-import fs from 'fs';
-import path from 'path';
+import fs from "fs";
+import path from "path";
 
-const pagesRoot = path.resolve('./src/pages');
-const targetYears = ['2025', '2026'];
+const pagesRoot = path.resolve("./src/pages");
+const targetYears = ["2025", "2026"];
 
 interface ClassEntry {
   year: string;
@@ -18,16 +18,17 @@ const classEntries: ClassEntry[] = [];
 for (const year of targetYears) {
   const yearDir = path.join(pagesRoot, year);
   if (fs.existsSync(yearDir)) {
-    const subfolders = fs.readdirSync(yearDir, { withFileTypes: true })
-      .filter(dirent => dirent.isDirectory())
-      .map(dirent => dirent.name);
+    const subfolders = fs
+      .readdirSync(yearDir, { withFileTypes: true })
+      .filter((dirent) => dirent.isDirectory())
+      .map((dirent) => dirent.name);
 
     for (const folder of subfolders) {
       classEntries.push({
         year,
         folder,
         value: `/${year}/${folder}/`,
-        label: `${year} - ${folder}`,
+        label: `${year}년 : ${folder}`,
       });
     }
   }
@@ -37,29 +38,45 @@ const currentPath = Astro.url.pathname;
 ---
 
 <div class="d-flex gap-2 align-items-center">
-  <select id="class-switcher" class="form-select form-select-sm" aria-label="수업 선택">
-    <option value="" selected={!classEntries.some(e => currentPath.startsWith(e.value))}>
+  <select
+    id="class-switcher"
+    class="form-select form-select-sm"
+    aria-label="수업 선택"
+  >
+    <option
+      value=""
+      selected={!classEntries.some((e) => currentPath.startsWith(e.value))}
+    >
       수업 선택
     </option>
 
-    {classEntries.map(entry => (
-      <option value={entry.value} selected={currentPath.startsWith(entry.value)}>
-        {entry.label}
-      </option>
-    ))}
+    {
+      classEntries.map((entry) => (
+        <option
+          value={entry.value}
+          selected={currentPath.startsWith(entry.value)}
+        >
+          {entry.label}
+        </option>
+      ))
+    }
   </select>
 
-  <button id="class-move-btn" class="btn btn-sm btn-primary">이동</button>
+  <button
+    id="class-move-btn"
+    class="btn btn-sm btn-theme-adaptive text-nowrap flex-shrink-0"
+    style="min-width:3rem;">Go</button
+  >
 </div>
 
 <script>
-  const switcher = document.getElementById('class-switcher');
-  const moveBtn = document.getElementById('class-move-btn');
+  const switcher = document.getElementById("class-switcher");
+  const moveBtn = document.getElementById("class-move-btn");
 
   if (switcher && moveBtn) {
-    moveBtn.addEventListener('click', () => {
+    moveBtn.addEventListener("click", () => {
       const select = switcher as HTMLSelectElement;
-      if (select.value !== '') {
+      if (select.value !== "") {
         window.location.href = select.value;
       }
     });

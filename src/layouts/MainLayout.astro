@@ -22,81 +22,11 @@ const { title = "성일정보고등학교 박원준T." } = Astro.props;
       rel="stylesheet"
     />
     <style is:global>
-      /* ----------------------------------------------------
-				1. ThemeToggle 아이콘 색상 문제 해결
-			---------------------------------------------------- */
-      /* 헤더가 항상 bg-dark이므로, Light/Dark 모드 상관없이 아이콘을 강제로 흰색으로 고정합니다. */
-      .theme-toggle {
-        color: #ffffff !important;
-      }
-
-      /* ----------------------------------------------------
-				2. ClassLayout 리스트 그룹(list-group) 다크모드 대응
-			---------------------------------------------------- */
-      /* 다크모드일 때 리스트 아이템의 배경을 어둡게, 글자는 밝게 덮어씁니다. */
-      html.dark .list-group-item {
-        background-color: #212529 !important; /* Bootstrap 다크 배경색 */
-        color: #f8f9fa !important; /* 밝은 텍스트 색상 */
-        border-color: #373b3e !important; /* 어두운 테두리 색상 */
-      }
-
-      /* ----------------------------------------------------
-     3. PostLayout 텍스트 가독성 개선 (뒤로가기, 작성일, Outline)
-     ---------------------------------------------------- */
-      /* 다크모드일 때 text-muted 클래스와 일반 span 태그들의 색상을 밝은 회색으로 변경합니다. */
-      html.dark .text-muted,
-      html.dark span.me-1,
-      html.dark span {
-        color: #dee2e6 !important;
-      }
-
-      /* Outline 제목 등 h6 태그의 가독성 확보 */
-      html.dark h6.text-muted {
-        color: #f8f9fa !important;
-      }
-
-      /* 뒤로가기 링크 등 다크모드에서의 일반 링크 색상 (밝은 파란색) */
-      html.dark a {
-        color: #6ea8fe;
-      }
-
-      /* 헤더 안의 링크는 파란색으로 변하지 않도록 흰색으로 유지 */
-      html.dark header a {
-        color: #ffffff !important;
-      }
-
-      /* Shiki 다중 테마 전환 로직 
-    html에 .dark 클래스가 붙었을 때, 다크 모드용 변수를 적용합니다.
-  */
-      html.dark .astro-code,
-      html.dark .astro-code span {
-        color: var(--shiki-dark) !important;
-        background-color: var(--shiki-dark-bg) !important;
-        font-style: var(--shiki-dark-font-style) !important;
-        font-weight: var(--shiki-dark-font-weight) !important;
-        text-decoration: var(--shiki-dark-text-decoration) !important;
-      }
-
-      /* 코드 블록 여백 및 모서리 둥글게 등 디자인 다듬기 */
-      .astro-code {
-        padding: 1.5rem;
-        border-radius: 8px;
-        margin: 1.5rem 0;
-        font-family: "Fira Code", "Consolas", monospace;
-        font-size: 0.95rem;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-      }
-    </style>
-    <style>
-      /* 가독성을 위한 Pretendard 폰트 예시 */
+      /* ====================================================
+     1. 글로벌 폰트 및 변수 정의 (Pretendard)
+     ==================================================== */
       @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
-      body {
-        font-family: Pretendard, sans-serif;
-      }
-      .content-area {
-        min-height: 85vh;
-      }
-      /* 글로벌 CSS 변수 정의 */
+
       :root {
         --bg-color: #ffffff;
         --text-color: #222222;
@@ -107,18 +37,285 @@ const { title = "성일정보고등학교 박원준T." } = Astro.props;
         --text-color: #e0e0e0;
         --link-color: #4da3ff;
       }
+
       body {
+        font-family: Pretendard, sans-serif;
         background-color: var(--bg-color);
         color: var(--text-color);
         transition:
           background-color 0.3s ease,
           color 0.3s ease;
       }
+
       a {
         color: var(--link-color);
       }
-    </style>
 
+      .content-area {
+        min-height: 85vh;
+      }
+
+      /* ====================================================
+     2. UI 컴포넌트 표준화 (ThemeToggle & Go 버튼)
+     ==================================================== */
+      /* [병합됨] ThemeToggle 버튼 기본 레이아웃 및 디자인 */
+      .theme-toggle {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0.5rem;
+        color: #ffffff !important; /* MainLayout 기준: 헤더 아이콘 흰색 강제 고정 */
+        transition: color 0.3s ease;
+
+        /* 아이콘이 버튼 중앙에 오도록 Flex 정렬 */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      /* 아이콘 기본(라이트 모드) 상태 */
+      .moon-icon {
+        display: block;
+      }
+      .sun-icon {
+        display: none;
+      }
+
+      /* Go 버튼 어댑티브 스타일 */
+      .btn-theme-adaptive {
+        background-color: #0d6efd;
+        color: white;
+        border: 1px solid #0d6efd;
+      }
+      .btn-theme-adaptive:hover {
+        background-color: #0b5ed7;
+        color: white;
+      }
+      html.dark .btn-theme-adaptive,
+      .dark .btn-theme-adaptive {
+        background-color: #3d8bfd;
+        color: #212529;
+        border: 1px solid #3d8bfd;
+      }
+      html.dark .btn-theme-adaptive:hover,
+      .dark .btn-theme-adaptive:hover {
+        background-color: #6ea8fe;
+        color: #212529;
+      }
+
+      /* ====================================================
+     3. 📑 목차(TOC) 및 세부 요소 스타일
+     ==================================================== */
+      .markdown-body {
+        transition:
+          background-color 0.3s ease,
+          color 0.3s ease;
+      }
+
+      .toc-details {
+        background-color: var(--bs-tertiary-bg);
+        border: 1px solid var(--bs-border-color) !important;
+        border-radius: 0.25rem;
+        overflow: hidden;
+        transition: background-color 0.3s ease;
+      }
+      .toc-details summary {
+        cursor: pointer;
+        padding: 0.5rem;
+        background-color: #f8f9fa;
+        color: #212529;
+        transition: background-color 0.2s ease;
+      }
+      .toc-details summary:hover {
+        background-color: #e9ecef;
+      }
+      .toc-details summary::-webkit-details-marker {
+        display: none;
+      }
+
+      .toc-link {
+        color: #495057; /* 라이트모드 기본 진회색 */
+        font-size: 0.92rem;
+        border-radius: 4px;
+        padding-left: 0.25rem;
+        transition:
+          color 0.15s ease,
+          background-color 0.15s ease;
+      }
+      .toc-link:hover {
+        color: var(--bs-primary) !important;
+        background-color: var(--bs-secondary-bg);
+      }
+
+      .toc-h2 {
+        font-weight: 600;
+      }
+      .toc-h3 {
+        font-weight: 400;
+      }
+      .toc-h4 {
+        font-weight: 400;
+        font-size: 0.85rem;
+        opacity: 0.85;
+      }
+
+      /* 사이드바 우측 Outline 내비게이션 */
+      .outline-nav .nav-link {
+        transition:
+          color 0.2s ease,
+          background-color 0.2s ease,
+          transform 0.2s ease;
+        border-radius: 6px;
+        font-size: 0.95rem;
+      }
+      .outline-nav .nav-link:hover {
+        color: var(--bs-primary) !important;
+        background-color: var(--bs-light);
+        transform: translateX(3px);
+      }
+
+      /* ====================================================
+     4. 마크다운 본문 레이아웃 (테이블 & 이미지 최적화)
+     ==================================================== */
+      .markdown-body img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 1.5rem auto;
+        border-radius: 0.375rem;
+      }
+
+      .markdown-body table {
+        width: 100% !important;
+        table-layout: auto !important;
+        border-collapse: collapse !important;
+        margin: 1.5rem 0 !important;
+      }
+      .markdown-body table th,
+      .markdown-body table td {
+        padding: 0.75rem !important;
+        border: 1px solid var(--bs-border-color) !important;
+        vertical-align: middle !important;
+        text-align: center !important;
+        color: var(--bs-body-color) !important;
+      }
+      .markdown-body table thead th {
+        background-color: var(--bs-tertiary-bg) !important;
+        font-weight: 700 !important;
+      }
+      .markdown-body table tbody tr {
+        transition: background-color 0.2s ease !important;
+      }
+      .markdown-body table tbody tr:hover {
+        background-color: var(--bs-tertiary-bg) !important;
+        cursor: default;
+      }
+      .markdown-body div.table-wrapper {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      /* ====================================================
+     5. Shiki 코드 블록 & 하이라이트 디자인
+     ==================================================== */
+      .astro-code {
+        padding: 1.5rem;
+        border-radius: 8px;
+        margin: 1.5rem 0;
+        font-family: "Fira Code", "Consolas", monospace;
+        font-size: 0.95rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+      }
+
+      /* ====================================================
+     6. 강력한 다크모드 오버라이딩 (html.dark 대응)
+     ==================================================== */
+      /* [병합됨] ThemeToggle 다크 모드 아이콘 스위칭 */
+      html.dark .moon-icon {
+        display: none;
+      }
+      html.dark .sun-icon {
+        display: block;
+      }
+
+      /* 리스트 그룹 다크 대응 */
+      html.dark .list-group-item {
+        background-color: #212529 !important;
+        color: #f8f9fa !important;
+        border-color: #373b3e !important;
+      }
+
+      /* 텍스트 가독성 확보 */
+      html.dark .text-muted,
+      html.dark span.me-1,
+      html.dark span {
+        color: #dee2e6 !important;
+      }
+      html.dark h6.text-muted {
+        color: #f8f9fa !important;
+      }
+
+      /* 다크모드 일반 링크 및 헤더 예외처리 */
+      html.dark a {
+        color: #6ea8fe;
+      }
+      html.dark header a {
+        color: #ffffff !important;
+      }
+
+      /* Shiki 다중 테마 런타임 전환 */
+      html.dark .astro-code,
+      html.dark .astro-code span {
+        color: var(--shiki-dark) !important;
+        background-color: var(--shiki-dark-bg) !important;
+        font-style: var(--shiki-dark-font-style) !important;
+        font-weight: var(--shiki-dark-font-weight) !important;
+        text-decoration: var(--shiki-dark-text-decoration) !important;
+      }
+
+      /* 목차 다크 모드 텍스트/배경 반전 보형 */
+      html.dark .toc-details,
+      .dark .toc-details {
+        background-color: #212529;
+        border: 1px solid #495057;
+        color: #e9ecef;
+      }
+      html.dark .toc-details summary,
+      .dark .toc-details summary {
+        background-color: #212529;
+        color: #f8f9fa;
+      }
+      html.dark .toc-details summary:hover,
+      .dark .toc-details summary:hover {
+        background-color: #343a40;
+      }
+      html.dark .toc-details .toc-link,
+      .dark .toc-details .toc-link {
+        color: #e9ecef;
+      }
+      html.dark .toc-details .toc-link:hover,
+      .dark .toc-details .toc-link:hover {
+        color: #6ea8fe;
+      }
+
+      /* 마크다운 테이블 다크 테마 보정 */
+      [data-bs-theme="dark"] .markdown-body table thead th {
+        background-color: #212529 !important;
+        color: #ffffff !important;
+        border-color: var(--bs-border-color) !important;
+      }
+      [data-bs-theme="dark"] .markdown-body table td {
+        color: #ffffff !important;
+        border-color: var(--bs-border-color) !important;
+        background-color: transparent !important;
+      }
+      [data-bs-theme="dark"] .markdown-body table tbody tr:hover {
+        background-color: rgba(255, 255, 255, 0.075) !important;
+      }
+      [data-bs-theme="dark"] .markdown-body table tr:nth-child(2n) {
+        background-color: transparent !important;
+      }
+    </style>
     <script is:inline>
       const theme = (() => {
         if (
@@ -166,7 +363,7 @@ const { title = "성일정보고등학교 박원준T." } = Astro.props;
       </div>
     </header>
 
-    <main class="container my-5 content-area">
+    <main class="container-fluid px-3 px-xl-5 my-5 content-area">
       <div class="row">
         <div class="col-12">
           <slot />
