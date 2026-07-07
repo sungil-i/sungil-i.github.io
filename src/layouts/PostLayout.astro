@@ -35,7 +35,7 @@ const tocHeadings = (headings ?? []).filter(
 
         {
           tocHeadings.length > 0 && (
-            <details class="toc-details mb-4 p-3 rounded border">
+            <details id="toc" class="toc-details mb-4 p-3 rounded border">
               <summary
                 class="fw-semibold"
                 style="cursor:pointer; list-style:none; user-select:none;"
@@ -107,4 +107,12 @@ const tocHeadings = (headings ?? []).filter(
       -->
     </div>
   </div>
+
+  <a
+    href="#toc"
+    class="btn btn-primary rounded-circle shadow-lg btn-scroll-top svelte-1teoznn"
+    aria-label="최상단으로 이동"
+  >
+    ↑<br /><span class="small" style="font-size: 0.7rem;">TOP</span>
+  </a>
 </MainLayout>

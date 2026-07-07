@@ -315,6 +315,24 @@ const { title = "성일정보고등학교 박원준T." } = Astro.props;
       [data-bs-theme="dark"] .markdown-body table tr:nth-child(2n) {
         background-color: transparent !important;
       }
+
+      /* ====================================================
+     7. TOP(최상단 이동) 버튼
+     ==================================================== */
+      .btn-scroll-top {
+        position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+        z-index: 1050;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 52px;
+        height: 52px;
+        padding: 0;
+        line-height: 1.2;
+      }
     </style>
     <script is:inline>
       const theme = (() => {

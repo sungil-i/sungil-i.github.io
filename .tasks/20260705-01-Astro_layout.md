@@ -64,3 +64,50 @@ Please refactor the component based on the following requirements:
 
 
 6. Maintain exact HTML structure, nesting, and formatting rules.
+
+## Requirement 05
+
+Target file: `src/layouts/PostLayout.astro`
+Reference file: `src/layouts/MainLayout.astro`
+
+Environment: Claude REPL
+
+Add a fixed 'TOP' (scroll-to-top) button to the bottom-right corner of the post layout, and append its specific styles inside the global `<style>` tag within the `<head>` of the main layout without modifying any existing styles.
+
+### 1. Add an ID to the Table of Contents (TOC) in `src/layouts/PostLayout.astro`
+- Locate the `<details class="toc-details mb-4 p-3 rounded border">` HTML structural element which renders the TOC (`📑 목차`).
+- Add an `id="toc"` attribute to this `<details>` tag to enable smooth anchor navigation directly to the table of contents.
+
+### 2. Append the 'TOP' Button Element to `src/layouts/PostLayout.astro`
+- Add the functional scroll-to-top button inside the layout template. Ensure it navigates to the `#toc` anchor point.
+- Refer to the user-provided Bootstrap template structure. Implement it cleanly as an anchor link to maintain native HTML scrolling to the TOC position:
+
+```html
+  <a href="#toc" class="btn btn-primary rounded-circle shadow-lg btn-scroll-top svelte-1teoznn" aria-label="최상단으로 이동">↑<br><span class="small" style="font-size: 0.7rem;">TOP</span></a>
+```
+
+* CONSTRAINT: Absolutely do NOT change, delete, or break any existing layout logic, markup, or conditional variables inside `src/layouts/PostLayout.astro`. Only append this functional block at an appropriate container boundary.
+
+### 3. Safely Inject Button Styling into `src/layouts/MainLayout.astro`
+
+* Open `src/layouts/MainLayout.astro` and find the global `<style>` tag located inside the `<head>` block.
+* Append CSS rules for the `.btn-scroll-top` class to make it float permanently at the bottom-right of the viewport:
+
+```css
+.btn-scroll-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1050;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  padding: 0;
+  line-height: 1.2;
+}
+```
+
+* CRITICAL CONSTRAINT: Do NOT delete, alter, or overwrite any other CSS classes, selectors, or configurations inside the `<style>` tag or the `<head>` element of `src/layouts/MainLayout.astro`. Keep all existing design completely intact.
