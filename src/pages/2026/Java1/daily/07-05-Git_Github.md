@@ -8,9 +8,7 @@ date: "2026-07-05"
 
 ## 깃(Git)
 
-<!-- ![git](../../../../assets/images/20270707_02_git.PNG) -->
-
-<img src="../../../../assets/images/20270707_02_git.PNG" style="width: 600px; height: auto; ">
+![git](../../../../assets/images/20270707_02_git.PNG)
 
 깃은 소스코드 타임머신이다. 
 
@@ -20,9 +18,7 @@ date: "2026-07-05"
 
 ## 깃허브(Github)
 
-<!-- ![github](../../../../assets/images/20270707_01_github.PNG) -->
-
-<img src="../../../../assets/images/20270707_01_github.PNG" style="width: 600px; height: auto; ">
+![github](../../../../assets/images/20270707_01_github.PNG)
 
 깃허브는 개발자 SNS 이다.
 
