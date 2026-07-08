@@ -31,7 +31,7 @@ classId: "Java1"
 
   <!-- 3번째 줄 -->
   <div class="row mt-3">
-    <div class="col-2 p-3"><a href="https://github.com/c01098801760-commits" target="_blank">한규상</a></div>
+    <div class="col-2 p-3"><a href="https://github.com/qwerasd31" target="_blank">한규상</a></div>
     <div class="col-2 p-3"><a href="https://github.com/20260738-source" target="_blank">한상욱</a></div>
     <div class="col-2 p-3"><a href="https://github.com/ssomkongko" target="_blank">한하람</a></div>
     <div class="col-2 p-3"><a href="https://github.com/egidang1217" target="_blank">한희승</a></div>
