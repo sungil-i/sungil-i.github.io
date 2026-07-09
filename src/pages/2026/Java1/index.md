@@ -11,7 +11,8 @@ classId: "Java1"
 <div class="container mt-4">
   <!-- 1번째 줄 -->
   <div class="row">
-    <div class="col-2 p-3"><a href="https://github.com/Gongyoobin" target="_blank">공유빈</a></div>
+    <div class="col-2 p-3"><a href="https://github.com/Gongyoobin" target="_blank">공유빈</a> 
+    <a href="https://.github.io/web-basic/" target="_blank">🖥️</a></div>
     <div class="col-2 p-3"><a href="https://github.com/dohyun69" target="_blank">김도현</a></div>
     <div class="col-2 p-3"><a href="https://github.com/" target="_blank">김명진</a></div>
     <div class="col-2 p-3"><a href="https://github.com/kimmingyu000" target="_blank">김민규</a></div>
