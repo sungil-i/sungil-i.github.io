@@ -8,6 +8,10 @@ classId: "Java1"
 
 ## 깃허브(Github) 링크
 
+<div>
+<button onclick="window.open('https://github.com/sungil-java-2026')">박원준샘 수업 깃허브</button>
+</div>
+
 <div class="container mt-4">
   <!-- 1번째 줄 
   <a href="https://.github.io/web-basic/" target="_blank">🖥️</a>
