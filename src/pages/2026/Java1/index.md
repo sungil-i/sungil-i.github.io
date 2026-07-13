@@ -65,7 +65,7 @@ classId: "Java1"
     <div class="col-2 p-3"><a href="https://github.com/qwerasd31" target="_blank">한규상</a> 
     <a href="https://qwerasd31.github.io/web-basic/" target="_blank">🖥️</a>
     </div>
-    <div class="col-2 p-3"><a href="https://github.com/20260738-source" target="_blank">한상욱</a> 
+    <div class="col-2 p-3"><a href="https://github.com/juhan6668989" target="_blank">한상욱</a> 
     <a href="https://.github.io/web-basic/" target="_blank">🖥️</a>
     </div>
     <div class="col-2 p-3"><a href="https://github.com/ssomkongko" target="_blank">한하람</a> 
