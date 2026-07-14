@@ -8,7 +8,7 @@ classId: "Java1"
 
 ## 깃허브(Github) 링크
 
-<div style="display: flex; justify-content: center;  align-items: center; height: 150px;">
+<div style="display: flex; justify-content: center;  align-items: center; height: 50px;">
 <button onclick="window.open('https://github.com/sungil-java-2026')" class="btn btn-sm btn-theme-adaptive">박원준샘 수업 깃허브</button>
 </div>
 
