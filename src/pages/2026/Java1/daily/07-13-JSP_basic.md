@@ -25,10 +25,10 @@ JSP = Java Server Page
 
 ![자료주고받기](../../../../assets/images/request-response.png)
 
-## 서버로 자료를 보내는 방법
+## JSP 에서 서버로 자료를 보내는 방법
 
-* GET 방식: 
-* POST 방식: 
+* GET 방식: 자료가 공개적으로 보낸다.
+* POST 방식: 자료를 비공개로 보낸다.
 
 
 
