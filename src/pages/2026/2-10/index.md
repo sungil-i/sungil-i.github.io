@@ -6,7 +6,7 @@ title: "2026학년도 2학년 10반"
 classId: "2-10"
 ---
 
-<div class="row mt-3">
+<div class="row mt-1">
   <div class="col-2 p-3"><a href="https://github.com/" target="_blank">고은성</a> 
   </div>
   <div class="col-2 p-3"><a href="https://github.com/" target="_blank">김동현</a> 
