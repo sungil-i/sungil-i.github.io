@@ -7,15 +7,15 @@ classId: "2-10"
 ---
 
 <div class="row mt-1">
-  <div class="col-2 p-3"><a href="https://github.com/" target="_blank">고은성</a> 
+  <div class="col-2 p-3"><a href="https://github.com/rhdmstjd777" target="_blank">고은성</a> 
   </div>
   <div class="col-2 p-3"><a href="https://github.com/" target="_blank">김동현</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/" target="_blank">김서준</a> 
+  <div class="col-2 p-3"><a href="https://github.com/ksj0521" target="_blank">김서준</a> 
   </div>
   <div class="col-2 p-3"><a href="https://github.com/" target="_blank">김태우</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/" target="_blank">김하준</a> 
+  <div class="col-2 p-3"><a href="https://github.com/kim0712454" target="_blank">김하준</a> 
   </div>
   <div class="col-2 p-3"><a href="https://github.com/" target="_blank">박기환</a> 
   </div>
@@ -23,33 +23,33 @@ classId: "2-10"
   </div>
   <div class="col-2 p-3"><a href="https://github.com/" target="_blank">유도윤</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/" target="_blank">윤소울</a> 
+  <div class="col-2 p-3"><a href="https://github.com/soul0y" target="_blank">윤소울</a> 
   </div>
   <div class="col-2 p-3"><a href="https://github.com/" target="_blank">이서우</a> 
   </div>
   <div class="col-2 p-3"><a href="https://github.com/" target="_blank">이성민</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/" target="_blank">이수혁</a> 
+  <div class="col-2 p-3"><a href="https://github.com/suhyeuk0114" target="_blank">이수혁</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/" target="_blank">이예준</a> 
+  <div class="col-2 p-3"><a href="https://github.com/2025175-crypto" target="_blank">이예준</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/" target="_blank">이준영</a> 
+  <div class="col-2 p-3"><a href="https://github.com/JELOKEU" target="_blank">이준영</a> 
   </div>
   <div class="col-2 p-3"><a href="https://github.com/" target="_blank">이지한</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/" target="_blank">이훈</a> 
+  <div class="col-2 p-3"><a href="https://github.com/sjhj0717" target="_blank">이훈</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/" target="_blank">이희승</a> 
+  <div class="col-2 p-3"><a href="https://github.com/dlgmltmd09" target="_blank">이희승</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/" target="_blank">임예찬</a> 
+  <div class="col-2 p-3"><a href="https://github.com/2025202-blip" target="_blank">임예찬</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/" target="_blank">임하진</a> 
+  <div class="col-2 p-3"><a href="https://github.com/dgw0909" target="_blank">임하진</a> 
   </div>
   <div class="col-2 p-3"><a href="https://github.com/" target="_blank">정희인</a> 
   </div>
   <div class="col-2 p-3"><a href="https://github.com/" target="_blank">조재용</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/" target="_blank">진준서</a> 
+  <div class="col-2 p-3"><a href="https://github.com/FOREVERJ2" target="_blank">진준서</a> 
   </div>
   <div class="col-2 p-3">&nbsp;
   </div>
