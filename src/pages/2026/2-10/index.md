@@ -9,7 +9,7 @@ classId: "2-10"
 <div class="row mt-1">
   <div class="col-2 p-3"><a href="https://github.com/rhdmstjd777" target="_blank">고은성</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/" target="_blank">김동현</a> 
+  <div class="col-2 p-3"><a href="https://github.com/2025165-art" target="_blank">김동현</a> 
   </div>
   <div class="col-2 p-3"><a href="https://github.com/ksj0521" target="_blank">김서준</a> 
   </div>
@@ -45,9 +45,9 @@ classId: "2-10"
   </div>
   <div class="col-2 p-3"><a href="https://github.com/dgw0909" target="_blank">임하진</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/" target="_blank">정희인</a> 
+  <div class="col-2 p-3"><a href="https://github.com/2025204-sys" target="_blank">정희인</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/" target="_blank">조재용</a> 
+  <div class="col-2 p-3"><a href="https://github.com/mkmikl" target="_blank">조재용</a> 
   </div>
   <div class="col-2 p-3"><a href="https://github.com/FOREVERJ2" target="_blank">진준서</a> 
   </div>
