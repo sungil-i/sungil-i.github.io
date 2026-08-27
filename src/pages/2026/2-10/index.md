@@ -13,11 +13,11 @@ classId: "2-10"
   </div>
   <div class="col-2 p-3"><a href="https://github.com/ksj0521" target="_blank">김서준</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/" target="_blank">김태우</a> 
+  <div class="col-2 p-3"><a href="https://github.com/2025167-ai" target="_blank">김태우</a> 
   </div>
   <div class="col-2 p-3"><a href="https://github.com/kim0712454" target="_blank">김하준</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/" target="_blank">박기환</a> 
+  <div class="col-2 p-3"><a href="https://github.com/jsjschch123" target="_blank">박기환</a> 
   </div>
   <div class="col-2 p-3"><a href="https://github.com/" target="_blank">위지은</a> 
   </div>
