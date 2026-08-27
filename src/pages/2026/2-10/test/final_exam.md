@@ -1,6 +1,6 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
-title: "정기고사 2 준비"
+title: "1학기 정기고사 2 준비"
 date: "2026-06-09"
 ---
 

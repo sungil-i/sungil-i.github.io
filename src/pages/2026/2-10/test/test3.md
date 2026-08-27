@@ -1,6 +1,6 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
-title: "수행평가 3 (실습형) 준비"
+title: "1학기 수행평가 3 (실습형) 준비"
 date: "2026-06-04"
 ---
 
