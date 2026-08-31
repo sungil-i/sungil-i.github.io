@@ -7,8 +7,11 @@ https://tech01-hs.goorm.io
 아이디: 학년반번호
 암호: 내가 저장한 암호
 
-< 박원준샘 수업내용 >
+< 박원준샘 수업 링크 >
 https://sungil-i.github.io/2026/2-10/
+
+< 깃허브 링크 >
+https://github.com/unity-2026
 
 이곳에 매일 수업 내용을 기록합니다.
 
