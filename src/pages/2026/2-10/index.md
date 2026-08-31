@@ -5,7 +5,7 @@ title: "2026학년도 2학년 10반"
 # ClassLayout에서 daily/test 폴더를 찾기 위해 필요한 ID입니다.
 classId: "2-10"
 ---
-
+<p style="text-align:center;"><a href="https://github.com/unity-2026" target="_blank">박원준 T.</a></p>
 <div class="row mt-1">
   <div class="col-2 p-3"><a href="https://github.com/rhdmstjd777" target="_blank">고은성</a> 
   </div>
