@@ -21,17 +21,17 @@ classId: "2-10"
   </div>
   <div class="col-2 p-3"><a href="https://github.com/" target="_blank">위지은</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/" target="_blank">유도윤</a> 
+  <div class="col-2 p-3"><a href="https://github.com/2025195-ctrl" target="_blank">유도윤</a> 
   </div>
   <div class="col-2 p-3"><a href="https://github.com/soul0y" target="_blank">윤소울</a> 
   </div>
   <div class="col-2 p-3"><a href="https://github.com/" target="_blank">이서우</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/" target="_blank">이성민</a> 
+  <div class="col-2 p-3"><a href="https://github.com/2025174-droid" target="_blank">이성민</a> 
   </div>
   <div class="col-2 p-3"><a href="https://github.com/suhyeuk0114" target="_blank">이수혁</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/2025175-crypto" target="_blank">이예준</a> 
+  <div class="col-2 p-3"><a href="https://github.com/yejunnx" target="_blank">이예준</a> 
   </div>
   <div class="col-2 p-3"><a href="https://github.com/JELOKEU" target="_blank">이준영</a> 
   </div>
