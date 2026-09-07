@@ -31,13 +31,13 @@ const dailyPosts = allClassContent
     return fileB.localeCompare(fileA);
   });
 
-// 4. test 폴더 파일 필터링 및 이름 오름차순 정렬 (1차 -> 2차 순서대로)
+// 4. test 폴더 파일 필터링 및 이름 내림차순 정렬 (최신글이 위로)
 const testPosts = allClassContent
   .filter((post) => post.url?.includes(`/${classFolder}/test/`))
   .sort((a, b) => {
     const fileA = a.file?.split("/").pop() || "";
     const fileB = b.file?.split("/").pop() || "";
-    return fileA.localeCompare(fileB);
+    return fileB.localeCompare(fileA);
   });
 ---
 
