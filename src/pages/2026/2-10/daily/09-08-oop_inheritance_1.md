@@ -83,6 +83,7 @@ namespace HelloWorld
     public class Dog : Pet
     {
         // 부모 클래스의 생성자 멤버 함수를 가져온다.
+        // base 는 부모 클래스의 생성자 멤버 함수이다.
         public Dog() : base() {}
         public Dog(string name) : base(name) {}
     }
@@ -123,6 +124,7 @@ namespace HelloWorld
     public class Frog : Pet
     {
         // 부모 클래스의 생성자 멤버 함수를 가져온다.
+        // base 는 부모 클래스의 생성자 멤버 함수이다.
         public Frog() : base() {}
         public Frog(string name) : base() {}
     }
