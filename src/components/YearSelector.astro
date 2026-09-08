@@ -1,39 +1,8 @@
 ---
 // src/components/YearSelector.astro
-import fs from "fs";
-import path from "path";
+import { getClassEntries } from "../utils/classEntries";
 
-const pagesRoot = path.resolve("./src/pages");
-const targetYears = ["2025", "2026"];
-
-interface ClassEntry {
-  year: string;
-  folder: string;
-  value: string;
-  label: string;
-}
-
-const classEntries: ClassEntry[] = [];
-
-for (const year of targetYears) {
-  const yearDir = path.join(pagesRoot, year);
-  if (fs.existsSync(yearDir)) {
-    const subfolders = fs
-      .readdirSync(yearDir, { withFileTypes: true })
-      .filter((dirent) => dirent.isDirectory())
-      .map((dirent) => dirent.name);
-
-    for (const folder of subfolders) {
-      classEntries.push({
-        year,
-        folder,
-        value: `/${year}/${folder}/`,
-        label: `${year}년 : ${folder}`,
-      });
-    }
-  }
-}
-
+const classEntries = getClassEntries();
 const currentPath = Astro.url.pathname;
 ---
 

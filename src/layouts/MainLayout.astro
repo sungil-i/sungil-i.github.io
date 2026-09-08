@@ -2,12 +2,18 @@
 // src/layouts/MainLayout.astro
 import YearSelector from "../components/YearSelector.astro"; // 컴포넌트 불러오기
 import ThemeToggle from "../components/ThemeToggle.astro";
+import { getClassEntries } from "../utils/classEntries";
 
 interface Props {
   title?: string;
 }
 
 const { title = "성일정보고등학교 박원준T." } = Astro.props;
+
+// 메인(홈) 페이지에서만 수업 목록을 표로 보여줍니다.
+const isHome =
+  Astro.url.pathname === "/" || Astro.url.pathname === "/index.html";
+const classEntries = getClassEntries();
 ---
 
 <!doctype html>
@@ -384,6 +390,40 @@ const { title = "성일정보고등학교 박원준T." } = Astro.props;
     <main class="container-fluid px-3 px-xl-5 my-1 content-area">
       <div class="row">
         <div class="col-12">
+          {
+            isHome && classEntries.length > 0 && (
+              <div class="mb-5 markdown-body">
+                <h2 class="h4 fw-bold mb-3">📚 수업 목록</h2>
+                <div class="table-responsive">
+                  <table class="table table-hover align-middle">
+                    <thead>
+                      <tr>
+                        <th>연도</th>
+                        <th>수업</th>
+                        <th class="text-end">바로가기</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {classEntries.map((entry) => (
+                        <tr>
+                          <td>{entry.year}년</td>
+                          <td>{entry.folder}</td>
+                          <td class="text-end">
+                            <a
+                              href={entry.value}
+                              class="btn btn-sm btn-theme-adaptive"
+                            >
+                              이동
+                            </a>
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            )
+          }
           <slot />
         </div>
       </div>
