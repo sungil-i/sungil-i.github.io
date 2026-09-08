@@ -31,12 +31,102 @@ date: "2026-09-08"
 
 ![](../../../../assets/images/2026-09-08-oop_inheritance_graph_1.png)
 
+### Pet 클래스 설계하기
 
+C# 소스코드
 
+```csharp
+using System;
 
+namespace HelloWorld
+{
+    // 멤버 변수
+    public string Name;
+    // 멤버 함수
+    public Pet() // 생성자 멤버함수
+    {
+        Console.WriteLine("객체 생성!");
+    }
+    public Pet(string name) // 생성자 멤버함수
+    {
+        this.Name = name;
+        Console.WriteLine("객체 생성!");
+        Console.WriteLine($"나의 이름은 {Name} 입니다.");
+    }
+    public void WhoAreYou()
+    {
+        Console.WriteLine($"나의 이름은 {Name} 입니다.");
+    }
+    public void Move()
+    {
+        Console.WriteLine($"{Name}이/가 움직입니다.");
+    }
+    public void Sound()
+    {
+        Console.WriteLine($"{Name}이/가 소리를 냅니다.");
+    }
+}
+```
 
+### Dog 클래스 설계하기
 
+C# 소스코드
 
+```csharp
+using System;
+
+namespace HelloWorld
+{
+    public class Dog : Pet
+    {
+        // 부모 클래스의 생성자 멤버 함수를 가져온다.
+        public Dog() : base() {}
+        public Dog(string name) : base(name) {}
+    }
+}
+```
+
+### Dog 인스턴스 생성하기
+
+C# 소스코드
+
+```csharp
+// Dog 객체 생성하기
+Dog mydog = new Dog();
+mydog.Name = "멍멍";
+mydog.WhoAreYou();
+mydog.Move();
+mydog.Sound();
+```
+
+### Frog 클래스 설계하기
+
+C# 소스코드
+
+```csharp
+using System;
+
+namespace HelloWorld
+{
+    public class Frog : Pet
+    {
+        // 부모 클래스의 생성자 멤버 함수를 가져온다.
+        public Frog() : base() {}
+        public Frog(string name) : base() {}
+    }
+}
+```
+
+### Dog 인스턴스 생성하기
+
+C# 소스코드
+
+```csharp
+// Frog 객체 생성하기
+Frog myfrog = new Frog("개굴");
+myfrog.Move();
+myfrog.Sound();
+```
 
 
 
