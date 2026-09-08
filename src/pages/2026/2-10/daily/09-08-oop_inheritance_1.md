@@ -4,7 +4,7 @@ title: "09-08(화) 7. C# 객체지향 기초 (3)"
 date: "2026-09-08"
 ---
 
-## 객체지향 상속
+## 객체지향 상속 (이론)
 
 ![](../../../../assets/images/2026-09-08-oop_inheritance_2.png)
 
@@ -27,6 +27,9 @@ date: "2026-09-08"
 * `Pet` 클래스를 상속 받은 `Dog` 클래스를 만든다.<br>→ `public class Dog : Pet { }`
 * `Pet` 클래스를 상속 받은 `Frog` 클래스를 만든다.<br>→ `public class Frog : Pet { }`
 
+## 객체지향 상속 (실습)
+
+![](../../../../assets/images/2026-09-08-oop_inheritance_graph_1.png)
 
 
 
