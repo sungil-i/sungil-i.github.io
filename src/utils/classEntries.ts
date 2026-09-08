@@ -35,5 +35,11 @@ export function getClassEntries(): ClassEntry[] {
     }
   }
 
+  // 최신 글이 위로 오도록 연도, 폴더명 역순으로 정렬합니다.
+  classEntries.sort((a, b) => {
+    if (a.year !== b.year) return b.year.localeCompare(a.year);
+    return b.folder.localeCompare(a.folder);
+  });
+
   return classEntries;
 }
