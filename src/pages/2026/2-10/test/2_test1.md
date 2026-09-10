@@ -6,7 +6,6 @@ date: "2026-09-01"
 
 ## 객체지향 프로그래밍
 
-1. 객체지향 프로그래밍(OOP, Object-Oriented Programming)
 2. 클래스를 설계할 때 쓰는 키워드
 
 ```csharp
