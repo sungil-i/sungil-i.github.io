@@ -1,24 +1,40 @@
-# 🧑‍🏫 IT Education Class Website Project Guidelines
+# 🧑‍🏫 IT Education Class Website Project Guidelines (Astro)
 
 ## 📌 Project Overview
-- **Framework:** Astro
+- **Framework:** Astro v6.0.8
+- **UI Toolkit:** Bootstrap 5.3 (Dark/Light Dual Theme Support)
 - **Deployment/Hosting:** GitHub Pages
 - **URL:** https://sungil-i.github.io
-- **Purpose:** Providing class materials (Markdown) and announcements organized by year, semester, and subject for students.
+- **Authentication (Planned):** SSO Integration via `https://win.upj53.kr`
+- **Purpose:** Providing class materials (Markdown), daily lecture logs, and performance assessment notes organized by year, semester, and classroom.
 
 ## 📂 Main Directory Structure & Roles
-- `src/pages/`: The core routing folder where Markdown (`.md`) based class materials are located, organized by year (2025, 2026), subject (e.g., Java1), and tests.
-- `src/layouts/`: Page layout components (`ClassLayout.astro`, `MainLayout.astro`, `PostLayout.astro`).
+- `src/pages/`: Core routing folder based on Markdown (`*.md`). Subdivided into `YYYY/[classId]/daily/` (lecture notes) and `YYYY/[classId]/test/` (assessments).
+- `src/layouts/`: Page layouts (`MainLayout.astro`, `ClassLayout.astro`, `PostLayout.astro`).
 - `src/components/`: Reusable UI components (`ThemeToggle.astro`, `YearSelector.astro`).
-- `src/assets/`: Images (`.png`) and reference documents (`.pdf`) used in class materials.
+- `src/assets/images/`: Centralized storage for images referenced inside Markdown docs (automatically optimized during build).
+- `chamcham_chloe/`: Context synchronization tools (`sync_to_drive.py`, Google Drive credentials).
 
-## 🚀 Frequently Used Commands (Astro)
-- Start development server: `npm run dev`
-- Production build (for GitHub Pages): `npm run build`
-- Preview build output: `npm run preview`
+## 🚀 Technical Standards & Guidelines
 
-## 📝 Development & Maintenance Guidelines
-1. **Markdown-Based Routing:** When adding new daily class materials, create them under the `src/pages/YYYY/MM-DD/daily/` directory.
-2. **File Naming Convention:** Strictly follow the `MM-DD-subject_name.md` format combining date and topic. (e.g., `04-20-csharp_repeat.md`)
-3. **Required Frontmatter:** When creating a Markdown file, you must specify the appropriate layout setting (e.g., `layout: ../../../layouts/PostLayout.astro`) and the class `title` at the very top.
-4. **Response Tone & Manner:** When writing code or suggesting modifications, always structure the code clearly and easily for students to understand, adopting the perspective of an IT educator.
+### 1. Data Fetching (Markdown)
+- For compiler stability and build performance in Astro v6, **always use `import.meta.glob('../pages/**/*.md', { eager: true })`** instead of `Astro.glob()`.
+
+### 2. Markdown & Asset Path Resolution
+- File naming convention: Strictly adhere to `MM-DD-subject_name.md` (e.g., `04-20-csharp_repeat.md`).
+- Markdown files must specify `layout` and `title` in their frontmatter.
+- When embedding images inside Markdown, resolve the exact relative path pointing to `src/assets/images/` (e.g., `../../../../assets/images/sample.png`) to ensure Astro's image optimization pipeline functions properly.
+
+### 3. UI/UX & Theming (Bootstrap 5.3)
+- Theming is controlled via `data-bs-theme="dark"|"light"` on the root `<html>` element managed by `ThemeToggle.astro`.
+- Avoid hardcoded background/text colors in `.markdown-body`. Use Bootstrap theme variables (`var(--bs-body-color)`, `var(--bs-body-bg)`).
+- **Markdown Tables:** Ensure table headers (`th`) and rows (`td`) inherit or explicitly resolve dark mode colors using `html[data-bs-theme="dark"]` selectors to maintain high contrast.
+- **Layout Width:** Main content in `PostLayout.astro` utilizes `col-lg-10 col-xl-10` to maximize screen real estate for source code blocks.
+
+### 4. Drive Sync & Context Protocol
+- Google Drive context files use the prefix specified in `PROJECT_PREFIX` (e.g., `school-`).
+- Synchronized architecture files: `CLAUDE.md`, `architecture_map.md`, and `system_state.md`.
+
+## 📝 Assistant Response Tone & Manner
+- Maintain the perspective of an encouraging IT educator; propose clear, well-structured, and easily digestible code for students.
+- Always provide precise file paths and contextual explanations when suggesting modifications.

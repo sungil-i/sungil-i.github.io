@@ -1,0 +1,3 @@
+# GCP 서비스 계정 키는 비밀정보이므로 절대 커밋하지 않습니다.
+credentials.json
+credentials.txt
