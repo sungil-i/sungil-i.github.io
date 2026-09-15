@@ -7,53 +7,53 @@ classId: "2-10"
 ---
 <p style="text-align:center;">박원준 T.  <a href="https://github.com/sungil-i?tab=repositories" target="_blank" style="margin:0 20px 0 20px">수업 소스코드</a> <a href="https://github.com/unity-2026" target="_blank" style="margin:0 20px 0 20px">템플릿</a> </p>
 <div class="row mt-1">
-  <div class="col-2 p-3"><a href="https://github.com/rhdmstjd777" target="_blank">고은성</a> 
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center"><a href="https://github.com/rhdmstjd777" target="_blank">고은성</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/2025165-art" target="_blank">김동현</a> 
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center"><a href="https://github.com/2025165-art" target="_blank">김동현</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/ksj0521" target="_blank">김서준</a> 
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center"><a href="https://github.com/ksj0521" target="_blank">김서준</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/2025167-ai" target="_blank">김태우</a> 
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center"><a href="https://github.com/2025167-ai" target="_blank">김태우</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/kim0712454" target="_blank">김하준</a> 
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center"><a href="https://github.com/kim0712454" target="_blank">김하준</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/jsjschch123" target="_blank">박기환</a> 
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center"><a href="https://github.com/jsjschch123" target="_blank">박기환</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/" target="_blank">위지은</a> 
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center"><a href="https://github.com/" target="_blank">위지은</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/2025195-ctrl" target="_blank">유도윤</a> 
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center"><a href="https://github.com/2025195-ctrl" target="_blank">유도윤</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/soul0y" target="_blank">윤소울</a> 
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center"><a href="https://github.com/soul0y" target="_blank">윤소울</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/" target="_blank">이서우</a> 
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center"><a href="https://github.com/" target="_blank">이서우</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/2025174-droid" target="_blank">이성민</a> 
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center"><a href="https://github.com/2025174-droid" target="_blank">이성민</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/suhyeuk0114" target="_blank">이수혁</a> 
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center"><a href="https://github.com/suhyeuk0114" target="_blank">이수혁</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/yejunnx" target="_blank">이예준</a> 
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center"><a href="https://github.com/yejunnx" target="_blank">이예준</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/JELOKEU" target="_blank">이준영</a> 
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center"><a href="https://github.com/JELOKEU" target="_blank">이준영</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/" target="_blank">이지한</a> 
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center"><a href="https://github.com/" target="_blank">이지한</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/sjhj0717" target="_blank">이훈</a> 
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center"><a href="https://github.com/sjhj0717" target="_blank">이훈</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/dlgmltmd09" target="_blank">이희승</a> 
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center"><a href="https://github.com/dlgmltmd09" target="_blank">이희승</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/2025202-blip" target="_blank">임예찬</a> 
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center"><a href="https://github.com/2025202-blip" target="_blank">임예찬</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/dgw0909" target="_blank">임하진</a> 
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center"><a href="https://github.com/dgw0909" target="_blank">임하진</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/2025204-sys" target="_blank">정희인</a> 
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center"><a href="https://github.com/2025204-sys" target="_blank">정희인</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/mkmikl" target="_blank">조재용</a> 
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center"><a href="https://github.com/mkmikl" target="_blank">조재용</a> 
   </div>
-  <div class="col-2 p-3"><a href="https://github.com/FOREVERJ2" target="_blank">진준서</a> 
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center"><a href="https://github.com/FOREVERJ2" target="_blank">진준서</a> 
   </div>
-  <div class="col-2 p-3">&nbsp;
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center">&nbsp;
   </div>
-  <div class="col-2 p-3">&nbsp;
+  <div class="col-2 p-3 d-flex justify-content-center align-items-center">&nbsp;
   </div>
 <!--
   <div class="col-2 p-3"><a href="https://github.com/" target="_blank"></a> 
