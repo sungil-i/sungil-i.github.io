@@ -23,12 +23,21 @@ _Last updated: 2026-09-15_
   `UpjLayout.astro` groups its Markdown docs by topic folder, newest
   first, and `classEntries.ts` now enumerates only 4-digit year folders
   so `upj53` never appears in the public `YearSelector.astro` dropdown.
+- Realigned the private archive to match public path depth (Requirement
+  03): posts now live at `src/pages/upj53/[classId]/daily/*.md`, same
+  depth as `src/pages/YYYY/[classId]/daily/`, so `layout`/image relative
+  paths (`../../../../...`) stay identical when copying content between
+  them. `UpjLayout.astro` now groups by `classId` (extracted from the
+  `[classId]/daily/*.md` path) instead of an arbitrary topic folder, and
+  sorts posts within a group by `date` frontmatter (falling back to
+  filename) descending. Build verification (`npm run build`) was not run
+  in-sandbox (no Node.js/npm available there) — please confirm locally.
 
 ## In Progress / Planned
 - SSO integration via `https://win.upj53.kr` (planned; not yet wired in).
 - Plan to deprecate hardcoded `ADMIN_PASSWORD`/`USER1_PASSWORD` once SSO
   auth lands.
-- See `.tasks/2026-09-14-upgrade_astro.md` (Requirements 01-02 done;
+- See `.tasks/2026-09-14-upgrade_astro.md` (Requirements 01-03 done;
   later requirements in that file are unfilled templates for future
   sessions).
 

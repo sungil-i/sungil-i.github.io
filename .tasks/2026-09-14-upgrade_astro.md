@@ -3,29 +3,29 @@
 -->
 
 
-# Requirement 01: Architecture Document Curation and Google Drive Sync Integration
+## Requirement 01: Architecture Document Curation and Google Drive Sync Integration
 
-## Context
+### Context
 - Framework: Astro v6.0.8 (Static Site Generation hosted on GitHub Pages)
 - Current Working Directory: `/home/upj53/Workspace/sungil-i.github.io/`
 - OS/SW: Ubuntu 20.04.6 LTS on Windows 11 Pro WSL
 
-## Target Files
+### Target Files
 - `.tasks/2026-09-14-upgrade_astro.md`
 - `.env`
 - `CLAUDE.md`
 - `chamcham_chloe/sync_to_drive.py`
 
-## Tasks
+### Tasks
 
-### Task 1: Document Curation & Scope Definition
+#### Task 1: Document Curation & Scope Definition
 - Retain only the 3 relevant architecture documents for Astro SSG:
   - `CLAUDE.md` (Core instructions, tech stack, and theme rules)
   - `architecture_map.md` (Directory hierarchy and layout map)
   - `system_state.md` (Operational state and task backlog)
 - Explicitly exclude `database_schema.md` (no database in static markdown architecture) and `api_registry.md` (no backend endpoints on GitHub Pages).
 
-### Task 2: Refactor `chamcham_chloe/sync_to_drive.py`
+#### Task 2: Refactor `chamcham_chloe/sync_to_drive.py`
 - Target: `chamcham_chloe/sync_to_drive.py`
 - Read `PROJECT_PREFIX` from `.env` (defaulting to `"school-"`).
 - Update `target_docs` list to target only:
@@ -35,13 +35,13 @@
 - Prepend `PROJECT_PREFIX` to Google Drive target file names (e.g., `school-CLAUDE.md`).
 - Ensure robust path resolution relative to project root without hardcoded machine paths where possible.
 
-### Task 3: Improve Environment Configuration
+#### Task 3: Improve Environment Configuration
 - Target: `.env`
 - Add `AUTH_SERVER_URL="https://win.upj53.kr"` to configure planned SSO endpoint.
 - Update `COOKIE_DOMAIN` comments for root domain sharing (`.upj53.kr`).
 - Document deprecation of hardcoded credentials (`ADMIN_PASSWORD`, `USER1_PASSWORD`) when authenticating via external SSO.
 
-### Task 4: Upgrade `CLAUDE.md`
+#### Task 4: Upgrade `CLAUDE.md`
 - Target: `CLAUDE.md`
 - Update content to reflect Astro v6.0.8 standards:
   - Markdown layout and relative asset path rules (`src/assets/images/`).
@@ -93,7 +93,33 @@ Read the task document at `/home/upj53/Workspace/sungil-i.github.io/.tasks/2026-
 
 
 
+## Requirement 03
 
+Target file: `src/layouts/UpjLayout.astro`, `src/pages/upj53/`
+
+Environment: Ubuntu 20.04.6 LTS(bash) on Windows 11 Pro WSL (Local)
+
+Align the directory depth of private teacher archive files under `src/pages/upj53` to match public class paths (`src/pages/YYYY/[classId]/daily/`) so relative asset paths (`../../../../assets/images/`) remain identical when copying content.
+
+### 1. Refactor Private Folder Structure (`src/pages/upj53/`)
+- Reorganize subdirectories under `src/pages/upj53/` so all markdown files sit exactly 3 directory levels below `src/pages/`.
+- Adopt the structure `src/pages/upj53/[classId]/daily/*.md` (e.g., `src/pages/upj53/2-10/daily/09-15-github_desktop_n_unity.md`) or `src/pages/upj53/YYYY-[classId]/daily/*.md`.
+- Ensure all private markdown posts use:
+  - `layout: ../../../../layouts/PostLayout.astro`
+  - Image paths: `../../../../assets/images/[image_name].png`
+- Clean up or migrate shallower legacy sample files (e.g., `src/pages/upj53/2026-csharp/01-csharp-intro.md`).
+
+### 2. Update Archive Layout (`src/layouts/UpjLayout.astro`)
+- Keep `import.meta.glob('../pages/upj53/**/*.md', { eager: true })` to collect all private posts.
+- Filter out the entry point `src/pages/upj53/index.md`.
+- Dynamically extract category/class group names from relative file paths (e.g., `2-10/daily` or `2026-2-10/daily`).
+- Sort groups in reverse alphabetical order (`b.localeCompare(a)`).
+- Within each group, sort posts in reverse chronological order (by date frontmatter or filename descending).
+- Render grouped lists using Bootstrap 5.3 list-groups with complete dark/light theme compatibility (`data-bs-theme`).
+
+### 3. Verification & Build Integrity
+- Ensure `src/pages/upj53/2-10/daily/09-15-github_desktop_n_unity.md` exists with frontmatter (`title`, `layout`) and a sample image reference pointing to `../../../../assets/images/`.
+- Run `npm run build` to confirm no broken layout imports, route conflicts, or Vite bundling errors.
 
 
 

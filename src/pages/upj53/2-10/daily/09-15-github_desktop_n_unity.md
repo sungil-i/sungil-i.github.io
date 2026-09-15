@@ -1,7 +1,7 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
-title: "09-10(목) Unity 3D Starter"
-date: "2026-09-10"
+title: "09-15 Github Desktop"
+date: "2026-09-15"
 ---
 
 <!--
@@ -9,6 +9,8 @@ date: "2026-09-10"
 -->
 
 ## 프로젝트
+
+https://drive.google.com/file/d/1kzihf7whcu_lpCvGRcPLduqHY6eKjoed/view?usp=sharing
 
 ### 생성
 

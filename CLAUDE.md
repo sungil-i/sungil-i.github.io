@@ -10,7 +10,7 @@
 
 ## 📂 Main Directory Structure & Roles
 - `src/pages/`: Core routing folder based on Markdown (`*.md`). Subdivided into `YYYY/[classId]/daily/` (lecture notes) and `YYYY/[classId]/test/` (assessments).
-- `src/pages/upj53/`: Private teacher-only archive, grouped by topic folder. Excluded from the public year/class dropdown because `classEntries.ts` only enumerates 4-digit year folders.
+- `src/pages/upj53/`: Private teacher-only archive, structured as `[classId]/daily/*.md` to mirror the public `YYYY/[classId]/daily/` path depth (same relative asset paths). Excluded from the public year/class dropdown because `classEntries.ts` only enumerates 4-digit year folders.
 - `src/layouts/`: Page layouts (`MainLayout.astro`, `ClassLayout.astro`, `PostLayout.astro`, `UpjLayout.astro` for the private archive).
 - `src/components/`: Reusable UI components (`ThemeToggle.astro`, `YearSelector.astro`).
 - `src/assets/images/`: Centralized storage for images referenced inside Markdown docs (automatically optimized during build).
