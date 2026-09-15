@@ -1,1 +1,36 @@
-# 
+# School.env
+# Python 3.11.15
+
+########################################################
+# System (보안 및 웹훅 설정)
+# 🛡️ [Requirement 6 Task 2, 2026-07-21] SECRET_KEY -> AUTH_SECRET_KEY로 개명(의미 명확화)
+# 및 신규 고강도 키로 교체(scripts/gen_secret_key.py, secrets.token_urlsafe(32)).
+AUTH_SECRET_KEY="vrCZZ3jCmJnctU1feopQxrYF4TxBltThU8XEVlhuNzA"
+ADMIN_ID="upj53"
+ADMIN_PASSWORD="#Pwj041226"
+USER1_ID="teacher"
+USER1_PASSWORD="Pwj041226"
+
+########################################################
+# 로컬에서는 None(기본 동작), 서버에서는 "sungil-i.github.io"로 세팅하여 SSO 통합 쿠키 적용
+COOKIE_DOMAIN="localhost"
+# COOKIE_DOMAIN="sungil-i.github.io"
+
+########################################################
+# ChamCham <-> Chloe 실시간 아키텍처 컨텍스트 동기화 (Requirement 8)
+GDRIVE_FOLDER_ID="1gZ3isAiqC76io28SgrV0TgxEIwh5jU2h"
+GCP_SERVICE_ACCOUNT_JSON="chamcham_chloe/credentials.json"
+PROJECT_PREFIX="school-"
+
+########################################################
+# Hybrid Environment Path Framework (Requirement 10)
+# Toggle between 'Local' and 'School'
+ENVIRONMENT="School"
+# ENVIRONMENT="Local"
+LOCAL_ROOT_PATH=""
+SCHOOL_ROOT_PATH="/home/upj53/Workspace/sungil-i.github.io"
+
+########################################################
+# Conda (Headless Execution — CLAUDE.md "conda run" pattern)
+CONDA_EXE_PATH="/home/upj53/anaconda3/condabin/conda"
+CONDA_ENV_NAME="cc"
