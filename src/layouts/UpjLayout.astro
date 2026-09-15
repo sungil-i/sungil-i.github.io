@@ -1,0 +1,120 @@
+---
+// src/layouts/UpjLayout.astro
+// 교사 전용 아카이브(src/pages/upj53) 전용 레이아웃입니다.
+// 학생용 YearSelector/classEntries와는 완전히 분리된 별도 탐색 경로입니다.
+import MainLayout from "./MainLayout.astro";
+
+interface Props {
+  frontmatter: {
+    title: string;
+  };
+}
+
+const { frontmatter } = Astro.props;
+
+interface ArchivePost {
+  url?: string;
+  file?: string;
+  frontmatter?: { title?: string };
+}
+
+// 1. private 아카이브 하위의 모든 마크다운 문서를 즉시(eager) 로드합니다.
+const pages = import.meta.glob("../pages/upj53/**/*.md", { eager: true });
+const allPosts = Object.values(pages) as ArchivePost[];
+
+// 2. 주제 하위 폴더(예: 2026-csharp) 안에 있는 문서만 대상으로 하여,
+//    아카이브 진입 문서(upj53/index.md) 자체는 목록에서 제외합니다.
+const TOPIC_PATTERN = /\/pages\/upj53\/([^/]+)\/.*\.md$/;
+
+const groupMap = new Map<string, ArchivePost[]>();
+
+for (const post of allPosts) {
+  const match = post.file?.match(TOPIC_PATTERN);
+  if (!match) continue;
+
+  const topic = match[1];
+  const posts = groupMap.get(topic) ?? [];
+  posts.push(post);
+  groupMap.set(topic, posts);
+}
+
+interface TopicGroup {
+  topic: string;
+  posts: ArchivePost[];
+}
+
+// 3. 주제 그룹은 역알파벳순(b.localeCompare(a))으로 정렬해 최신 주제가 위로 오게 하고,
+//    각 그룹 내부 문서 역시 파일명 역알파벳순으로 정렬합니다.
+const topicGroups: TopicGroup[] = Array.from(groupMap.entries())
+  .map(([topic, posts]) => ({
+    topic,
+    posts: posts.sort((a, b) => {
+      const fileA = a.file?.split("/").pop() ?? "";
+      const fileB = b.file?.split("/").pop() ?? "";
+      return fileB.localeCompare(fileA);
+    }),
+  }))
+  .sort((a, b) => b.topic.localeCompare(a.topic));
+---
+
+<MainLayout title={frontmatter.title || "교사 전용 아카이브"}>
+  <div class="mb-5 pt-4 border-bottom">
+    <h1 class="fw-bold mb-3">{frontmatter.title}</h1>
+    <div class="archive-intro">
+      <slot />
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      {
+        topicGroups.length > 0 ? (
+          topicGroups.map((group) => (
+            <section class="mb-5">
+              <h2 class="h4 fw-bold mb-3 pb-2 border-bottom d-flex align-items-center gap-2">
+                <span>📁 {group.topic}</span>
+                <span class="badge bg-secondary rounded-pill">
+                  {group.posts.length}
+                </span>
+              </h2>
+              <div class="list-group">
+                {group.posts.map((post) => (
+                  <a
+                    href={post.url}
+                    class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                  >
+                    <span>
+                      {post.frontmatter?.title ||
+                        post.file?.split("/").pop()?.replace(".md", "")}
+                    </span>
+                    <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">
+                      문서
+                    </span>
+                  </a>
+                ))}
+              </div>
+            </section>
+          ))
+        ) : (
+          <p class="text-muted">등록된 아카이브 문서가 없습니다.</p>
+        )
+      }
+    </div>
+  </div>
+</MainLayout>
+
+<style>
+  /* CLAUDE.md 테마 규칙: 하드코딩 색상 대신 Bootstrap 테마 변수를 사용합니다. */
+  .archive-intro {
+    color: var(--bs-body-color);
+  }
+
+  /* 사이트의 실제 다크모드 토글은 html.dark 클래스를 사용하지만,
+     Bootstrap 5.3의 data-bs-theme="dark" 속성 환경에서도 동일하게 동작하도록
+     두 선택자를 모두 대응합니다. */
+  html.dark .badge.bg-primary-subtle,
+  [data-bs-theme="dark"] .badge.bg-primary-subtle {
+    background-color: rgba(13, 110, 253, 0.25) !important;
+    color: #9ec5fe !important;
+  }
+</style>

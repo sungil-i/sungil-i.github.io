@@ -56,7 +56,34 @@ Read the task document at `/home/upj53/Workspace/sungil-i.github.io/.tasks/2026-
 
 
 
+## Requirement 02
 
+Target file: `src/components/YearSelector.astro`, `src/utils/classEntries.ts`, `src/layouts/UpjLayout.astro`, `src/pages/upj53/index.md`
+
+Environment: Ubuntu 20.04.6 LTS(bash) on Windows 11 Pro WSL (Local)
+
+Design and implement a private archive section under `src/pages/upj53` that is strictly excluded from public student navigation and displays topic folders and documents in reverse chronological order.
+
+### 1. Guard Public Navigation (`YearSelector.astro` & `classEntries.ts`)
+- Review `src/components/YearSelector.astro` and `src/utils/classEntries.ts`.
+- Ensure directory enumeration logic filters folder names strictly by 4-digit academic year pattern (`/^\d{4}$/`).
+- Explicitly exclude `upj53` and non-year folders from appearing in the student-facing Year/Class dropdown list.
+
+### 2. Create Archive Layout (`src/layouts/UpjLayout.astro`)
+- Create a dedicated layout component `src/layouts/UpjLayout.astro` wrapping `MainLayout.astro`.
+- Collect all markdown files under the private folder using `import.meta.glob('../pages/upj53/**/*.md', { eager: true })`.
+- Parse relative paths to group markdown posts by sub-topic directory (e.g., `2026-csharp`, `2025-java-1`).
+- Sort topic groups in reverse alphabetical order (`b.localeCompare(a)`) so the newest subject appears at the top.
+- Inside each topic, sort posts in reverse alphabetical order by filename.
+- Render the grouped posts using Bootstrap 5.3 list groups and badges with complete `data-bs-theme="dark|light"` compatibility.
+
+### 3. Create Private Index Entry (`src/pages/upj53/index.md`)
+- Create `src/pages/upj53/index.md` configured with `layout: ../../layouts/UpjLayout.astro` and frontmatter metadata (`title: "교사 전용 아카이브"`).
+- Provide a clear container slot for introductory notes or personal announcements.
+
+### 4. Verification Fixture
+- Add a sample document `src/pages/upj53/2026-csharp/01-csharp-intro.md` with appropriate frontmatter (`layout: ../../../layouts/PostLayout.astro`, `title: "C# 커리큘럼 계획"`).
+- Ensure Vite/Astro build (`npm run build`) compiles cleanly without broken route references.
 
 
 

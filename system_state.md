@@ -1,6 +1,6 @@
 # System State
 
-_Last updated: 2026-09-14_
+_Last updated: 2026-09-15_
 
 ## Current Stack
 - Astro v6.0.8, Bootstrap 5.3 dual-theme UI, static hosting on GitHub Pages.
@@ -18,13 +18,19 @@ _Last updated: 2026-09-14_
   since this project has no database or backend API to document.
 - `architecture_map.md` regenerated from `architecture_map_draft.md`
   (draft removed) with concise English one-line descriptions.
+- Added a private teacher-only archive under `src/pages/upj53/`
+  (Requirement 02, `.tasks/2026-09-14-upgrade_astro.md`): new
+  `UpjLayout.astro` groups its Markdown docs by topic folder, newest
+  first, and `classEntries.ts` now enumerates only 4-digit year folders
+  so `upj53` never appears in the public `YearSelector.astro` dropdown.
 
 ## In Progress / Planned
 - SSO integration via `https://win.upj53.kr` (planned; not yet wired in).
 - Plan to deprecate hardcoded `ADMIN_PASSWORD`/`USER1_PASSWORD` once SSO
   auth lands.
-- See `.tasks/2026-09-14-upgrade_astro.md` (Requirement 01 done; later
-  requirements in that file are unfilled templates for future sessions).
+- See `.tasks/2026-09-14-upgrade_astro.md` (Requirements 01-02 done;
+  later requirements in that file are unfilled templates for future
+  sessions).
 
 ## Known Issues / Follow-ups
 - `chamcham_chloe/credentials.txt` and `env_backup_school.txt` are
