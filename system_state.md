@@ -32,6 +32,10 @@ _Last updated: 2026-09-15_
   sorts posts within a group by `date` frontmatter (falling back to
   filename) descending. Build verification (`npm run build`) was not run
   in-sandbox (no Node.js/npm available there) — please confirm locally.
+- Doc sync pass (2026-09-15): removed stale `architecture_map.md`
+  references to `chamcham_chloe/credentials.txt` and
+  `chamcham_chloe/local_backup/` (both gone from disk), documented the
+  new `env_backup_local.txt` file, and added it to `.gitignore`.
 
 ## In Progress / Planned
 - SSO integration via `https://win.upj53.kr` (planned; not yet wired in).
@@ -42,13 +46,15 @@ _Last updated: 2026-09-15_
   sessions).
 
 ## Known Issues / Follow-ups
-- `chamcham_chloe/credentials.txt` and `env_backup_school.txt` are
-  untracked plaintext copies of live secrets (GCP key, admin passwords)
-  and are not covered by `.gitignore` — do not `git add` them; delete or
-  gitignore before committing.
-- `xyz/` (Unity privacy-policy tooling) and
-  `chamcham_chloe/local_backup/` contain content unrelated to this site
-  and can likely be removed.
+- `env_backup_school.txt` and `env_backup_local.txt` are untracked
+  plaintext copies of live secrets (GCP key, admin passwords). Only
+  `env_backup_school.txt` was covered by `.gitignore`; added
+  `env_backup_local.txt` (2026-09-15) — do not `git add` either file.
+- `xyz/` (Unity privacy-policy tooling) contains content unrelated to
+  this site and can likely be removed.
+- `chamcham_chloe/credentials.txt` and `chamcham_chloe/local_backup/`
+  (referenced in earlier notes) no longer exist on disk; removed from
+  `architecture_map.md` (2026-09-15).
 
 ## Sync Protocol
 - `chamcham_chloe/sync_to_drive.py` uploads `SYNC_FILES`

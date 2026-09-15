@@ -5,13 +5,12 @@
   - CLAUDE.md, README.md, architecture_map.md, system_state.md
   - astro.config.mjs, package.json, package-lock.json, tsconfig.json
   - generate_architecture_map.py, export_code.py
-  - env_backup_school.txt (untracked plaintext secrets backup)
+  - env_backup_school.txt, env_backup_local.txt (untracked plaintext secrets backups)
   - .github/workflows/deploy.yml
   - .tasks/ (Claude Code session task specs, not deployed)
   - chamcham_chloe/ (Drive sync tooling)
     - sync_to_drive.py
-    - credentials.json (secret, gitignored), credentials.txt (untracked secret)
-    - local_backup/ (misc backup scripts, unrelated to this site)
+    - credentials.json (GCP service account key, gitignored)
   - marp_presentation/ (Marp slide decks for class, not part of the site)
   - xyz/ (unrelated Unity privacy-policy tooling, not part of the site)
   - public/
@@ -46,13 +45,11 @@
 - `tsconfig.json`: TypeScript compiler config.
 - `generate_architecture_map.py`: Scans repo, drafts architecture map.
 - `export_code.py`: Local code export utility script.
-- `env_backup_school.txt`: Untracked plaintext secrets backup; never commit.
+- `env_backup_school.txt`, `env_backup_local.txt`: Plaintext secrets backups; never commit.
 - `.github/workflows/deploy.yml`: CI pipeline to build and deploy Pages.
 - `.tasks/*.md`: Per-session task specs used to drive Claude Code work.
 - `chamcham_chloe/sync_to_drive.py`: Pushes SYNC_FILES docs to Google Drive.
 - `chamcham_chloe/credentials.json`: GCP service account key (secret).
-- `chamcham_chloe/credentials.txt`: Untracked secret copy; never commit.
-- `chamcham_chloe/local_backup/`: Unrelated backup scripts, ignore.
 - `marp_presentation/class_01.*`: Marp slide deck for a class session.
 - `xyz/`: Unrelated Unity privacy-policy docs; not part of this site.
 - `src/pages/index.md`: Site homepage.
