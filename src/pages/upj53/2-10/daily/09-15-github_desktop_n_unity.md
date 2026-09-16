@@ -77,9 +77,15 @@ Github Desktop 에 새로운 저장소로 등록할 때, 'Git ignore' 를 `Unity
 
 ![](../../../../assets/images/2026-09-15-github_desktop_9.png)
 
-![](../../../../assets/images/)
+'Name' 은 Unity 프로젝트 이름(`unity-project-1`)과 동일하게 만듭니다.
 
-![](../../../../assets/images/)
+'Keep this code private' 를 체크하면 Github 홈페이지에 비공개로 만들 수 있습니다.
+
+![](../../../../assets/images/2026-09-15-github_desktop_10.png)
+
+'Keep this code private' 를 체크를 해제하면 Github 홈페이지에 공개로 만들 수 있습니다.
+
+![](../../../../assets/images/2026-09-15-github_desktop_12.png)
 
 ![](../../../../assets/images/)
 
