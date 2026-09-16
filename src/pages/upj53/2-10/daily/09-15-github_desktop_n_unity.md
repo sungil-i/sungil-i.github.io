@@ -1,107 +1,76 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
-title: "09-15 Github Desktop"
+title: "09-15 깃허브에 유니티 프로젝트 업로드 하는 방법"
 date: "2026-09-15"
 ---
 
 <!--
-![3d-starter](../../../../assets/images/)
+![](../../../../assets/images/)
 -->
 
-## 프로젝트
+## 0.핵심 요약
+
+깃허브 저장소에 유니티 프로젝트를 업로드 할 수 있습니다.
+
+단, 작업 순서가 중요합니다. 먼저 유니티 프로젝트를 생성한 뒤에 깃허브 저장소에 업로드 해야 합니다.
+
+**깃허브에 유니티 프로젝트 업로드 하는 방법 요약**
+* 우선 [Github Desktop](https://drive.google.com/file/d/1kzihf7whcu_lpCvGRcPLduqHY6eKjoed/view?usp=sharing) 을 설치합니다.
+* Unity 프로젝트를 생성합니다. `unity-project-1` 이름의 프로젝트를 예를 들어 설명합니다.
+* 그 다음, Github Desktop 을 실행시켜서 Unity 프로젝트 폴더를 새로 등록합니다.
+* 등록이 완료 됐으면 Github 에 업로드(Publish, Push)합니다.
+
+## 1.Github Desktop 설치
+
+![](../../../../assets/images/2026-09-15-github_desktop_1.png)
+
+Github 홈페이지(`https://desktop.github.com/download/`)에서 GitHub Desktop(`GitHubDesktopSetup-x64.exe`)을 다운로드 받습니다.
+
+다운로드 속도가 느리면 이곳([https://drive.google.com/file/d/1kzihf7whcu_lpCvGRcPLduqHY6eKjoed/view?usp=sharing](https://drive.google.com/file/d/1kzihf7whcu_lpCvGRcPLduqHY6eKjoed/view?usp=sharing))에서 다운로드 받으세요.
+
+Github Desktop 설치 후 다음과 같은 방법으로 나의 계정에 로그인을 완료합니다.
+
+![](../../../../assets/images/2026-09-15-github_desktop_2.png)
+
+웹 브라우저에서 나의 Github 계정에 연결하여 권한을 부여합니다.
+
+![](../../../../assets/images/2026-09-15-github_desktop_3.png)
+
+![](../../../../assets/images/2026-09-15-github_desktop_4.png)
+
+![](../../../../assets/images/2026-09-15-github_desktop_5.png)
+
+다음과 같이 Git 설정을 완료합니다.
+
+![](../../../../assets/images/2026-09-15-github_desktop_6.png)
+
+## 2.Unity 프로젝트 생성
+
+`unity-project-1` 이름의 유니티 프로젝트를 생성합니다.
+
+![](../../../../assets/images/2026-09-15-github_desktop_11.png)
+
+![](../../../../assets/images/)
+
+![](../../../../assets/images/)
+
+![](../../../../assets/images/)
+
+![](../../../../assets/images/)
+
+![](../../../../assets/images/)
+
+![](../../../../assets/images/)
+
+
+
+
+## 3.Github Desktop 에 저장소 생성 후 업로드
+
+
+
+## 
+
+
 
 https://drive.google.com/file/d/1kzihf7whcu_lpCvGRcPLduqHY6eKjoed/view?usp=sharing
-
-### 생성
-
-| 항목 | 값 |
-| :-: | :-: |
-| 에디터 버전 | 6.3 LTS |
-| 타입 | Universal 3D |
-| 프로젝트 이름 | 3d-starter |
-
-![3d-starter](../../../../assets/images/2026-09-10-unity-3d-starter_1.png)
-
-### VS Code 에디터로 설정
-
-* 메뉴: Edit → Preferences ▶ External Tool → External Script Editor : Visual Studio Code
-
-![3d-starter](../../../../assets/images/2026-09-10-unity-3d-starter_3.png)
-
-![3d-starter](../../../../assets/images/2026-09-10-unity-3d-starter_2.png)
-
-
-### 키보드 입력 추가
-
-* 메뉴: Edit → Project Settings ▶ Player → Other Settings → Active Input Handling : Both
-
-![3d-starter](../../../../assets/images/2026-09-10-unity-3d-starter_12.png)
-
-![3d-starter](../../../../assets/images/2026-09-10-unity-3d-starter_13.png)
-
-## 게임 오브젝트 만들기
-
-### Ground 만들기
-
-* Hierachy 에서 마우스 우클릭 ▶ 3D Object → Plane
-* 이름을 Ground 로 변경한다.
-* 크기 변경: Scale `X=10`, `Y=10`, `Z=10`
-
-![3d-starter](../../../../assets/images/2026-09-10-unity-3d-starter_4.png)
-
-### Player 만들기
-
-* Hierachy 에서 마우스 우클릭 ▶ 3D Object → Sphere
-* 이름을 Player 로 변경한다.
-* Tag 를 Player 로 선택한다.
-* 위치 변경: Position `X=0`, `Y=0.5`, `Z=0`
-
-![3d-starter](../../../../assets/images/2026-09-10-unity-3d-starter_5.png)
-
-![3d-starter](../../../../assets/images/2026-09-10-unity-3d-starter_6.png)
-
-### Item 만들기
-
-* Hierachy 에서 마우스 우클릭 ▶ 3D Object → Cube
-* 이름을 Item (1) 로 변경한다.
-* 새로운 Tag 추가: Tag 의 Add Tag... 를 선택한다.
-    * `+` 를 누르고 New Tag Name 에 Item 을 입력한 뒤 `Save` 한다.
-    * 그리고 다시 Item (1) 객체의 Tag 를 누르고 'Item' 을 선택한다.
-* 위치 변경: Position `X=3`, `Y=0.5`, `Z=3`
-
-![3d-starter](../../../../assets/images/2026-09-10-unity-3d-starter_7.png)
-
-![3d-starter](../../../../assets/images/2026-09-10-unity-3d-starter_8.png)
-
-![3d-starter](../../../../assets/images/2026-09-10-unity-3d-starter_9.png)
-
-![3d-starter](../../../../assets/images/2026-09-10-unity-3d-starter_10.png)
-
-* Item (1) 객체 복사: Hierachy 에서 Item (1) 를 누르고 `Ctrl + D` 를 6번 누른다.
-* Item (1) ~ Item (7) 까지 만든다.
-* Item (2) 부터 Item (7) 까지 위치를 변경한다.
-    * Item (2): Position `X=-7`, `Y=0.5`, `X=7`
-    * Item (3): Position `X=5`, `Y=0.5`, `X=1`
-    * Item (4): Position `X=-5`, `Y=0.5`, `X=-7`
-    * Item (5): Position `X=5`, `Y=0.5`, `X=-4`
-    * Item (6): Position `X=4`, `Y=0.5`, `X=-9`
-    * Item (7): Position `X=-9`, `Y=0.5`, `X=9`
-
-![3d-starter](../../../../assets/images/2026-09-10-unity-3d-starter_11.png)
-
-* Item (1) 부터 Item (7) 까지 재질을 변경한다.
-* Item (1) 부터 Item (7) 까지 `Shift` 키로 복수 선택한다.
-* Matarials 를 선택하고 Element 0 을 Gold 로 선택한다.
-
-![3d-starter](../../../../assets/images/2026-09-10-unity-3d-starter_14.png)
-
-### Main Camera 조정
-
-* 전체 화면이 보이도록 위치와 각도를 조정한다.
-* 위치 조정: Position `X=0`, `Y=15`, `Z=-10`
-* 각도 조정: Rotation `X=60`, `Y=0`, `Z=0`
-
-![3d-starter](../../../../assets/images/2026-09-10-unity-3d-starter_15.png)
-
-## C# 스크립트 작성
-
