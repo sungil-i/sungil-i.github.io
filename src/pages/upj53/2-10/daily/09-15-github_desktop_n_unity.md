@@ -87,21 +87,24 @@ Github Desktop 에 새로운 저장소로 등록할 때, 'Git ignore' 를 `Unity
 
 ![](../../../../assets/images/2026-09-15-github_desktop_12.png)
 
-![](../../../../assets/images/)
+Github 에 업로드가 완료되면 다음과 같이 화면이 나온다.
 
-![](../../../../assets/images/)
-
-![](../../../../assets/images/)
-
-![](../../../../assets/images/)
-
-![](../../../../assets/images/)
-
-![](../../../../assets/images/)
-
-
+![](../../../../assets/images/2026-09-15-github_desktop_13.png)
 
 ## 4.Github 웹 페이지에서 업로드 확인하기
+
+나의 Github 홈페이지의 나의 계정에 가면 저장소(`https://github.com/아이디`)에 방금 만든 `unity-project-1` 프로젝트가 업로드 된 것을 확인할 수 있다.
+
+![](../../../../assets/images/)
+
+![](../../../../assets/images/)
+
+![](../../../../assets/images/)
+
+![](../../../../assets/images/)
+
+![](../../../../assets/images/)
+
 
 
 
