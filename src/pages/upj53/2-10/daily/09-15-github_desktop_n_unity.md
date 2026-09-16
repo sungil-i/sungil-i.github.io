@@ -95,19 +95,13 @@ Github 에 업로드가 완료되면 다음과 같이 화면이 나온다.
 
 나의 Github 홈페이지의 나의 계정에 가면 저장소(`https://github.com/아이디`)에 방금 만든 `unity-project-1` 프로젝트가 업로드 된 것을 확인할 수 있다.
 
-![](../../../../assets/images/)
+나의 계정의 저장소('Repositories') 메뉴를 클릭하면 업로드한 Unity 프로젝트를 볼 수 있다.
 
-![](../../../../assets/images/)
+![](../../../../assets/images/2026-09-15-github_desktop_15.png)
 
-![](../../../../assets/images/)
+![](../../../../assets/images/2026-09-15-github_desktop_14.png)
 
-![](../../../../assets/images/)
+나의 Github 계정의 저장소('Repositories')에 업로드된 Unity 프로젝트(`unity-project-1`)는 다음과 같은 모습을 가진다.
 
-![](../../../../assets/images/)
+![](../../../../assets/images/2026-09-15-github_desktop_16.png)
 
-
-
-
-
-
-<!-- https://drive.google.com/file/d/1kzihf7whcu_lpCvGRcPLduqHY6eKjoed/view?usp=sharing -->
