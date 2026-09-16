@@ -99,8 +99,6 @@ Github 에 업로드가 완료되면 다음과 같이 화면이 나온다.
 
 ![](../../../../assets/images/2026-09-15-github_desktop_15.png)
 
-![](../../../../assets/images/2026-09-15-github_desktop_14.png)
-
 나의 Github 계정의 저장소('Repositories')에 업로드된 Unity 프로젝트(`unity-project-1`)는 다음과 같은 모습을 가진다.
 
 ![](../../../../assets/images/2026-09-15-github_desktop_16.png)
