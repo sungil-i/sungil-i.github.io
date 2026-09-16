@@ -5,12 +5,13 @@
   - CLAUDE.md, README.md, architecture_map.md, system_state.md
   - astro.config.mjs, package.json, package-lock.json, tsconfig.json
   - generate_architecture_map.py, export_code.py
-  - env_backup_school.txt, env_backup_local.txt (untracked plaintext secrets backups)
+  - env_backup_school.txt, env_backup_local.txt (plaintext secrets backups;
+    currently tracked in git — see system_state.md Known Issues)
   - .github/workflows/deploy.yml
   - .tasks/ (Claude Code session task specs, not deployed)
   - chamcham_chloe/ (Drive sync tooling)
     - sync_to_drive.py
-    - credentials.json (GCP service account key, gitignored)
+    - credentials.json, credentials.txt (GCP service account key, gitignored)
   - marp_presentation/ (Marp slide decks for class, not part of the site)
   - xyz/ (unrelated Unity privacy-policy tooling, not part of the site)
   - public/
@@ -24,6 +25,7 @@
       - YYYY/[classId]/test/*.md (assessment notes)
       - upj53/ (private teacher-only archive, excluded from public nav)
         - index.md (archive entry, lists classes newest-first)
+        - [classId]/index.md (per-class index, mirrors public class index)
         - [classId]/daily/*.md (e.g. 2-10/daily/09-15-...md; mirrors public depth)
     - layouts/
       - MainLayout.astro, ClassLayout.astro, PostLayout.astro
@@ -41,15 +43,15 @@
 - `architecture_map.md`: This file; directory map and module summary.
 - `system_state.md`: Rolling log of recent changes and open items.
 - `astro.config.mjs`: Astro build and GitHub Pages site config.
-- `package.json`, `package-lock.json`: npm scripts and dependencies.
+- `package.json`, `package-lock.json`: npm scripts and dependencies (Astro ^7.0.6).
 - `tsconfig.json`: TypeScript compiler config.
 - `generate_architecture_map.py`: Scans repo, drafts architecture map.
 - `export_code.py`: Local code export utility script.
-- `env_backup_school.txt`, `env_backup_local.txt`: Plaintext secrets backups; never commit.
+- `env_backup_school.txt`, `env_backup_local.txt`: Plaintext secrets backups; tracked in git (leak risk).
 - `.github/workflows/deploy.yml`: CI pipeline to build and deploy Pages.
 - `.tasks/*.md`: Per-session task specs used to drive Claude Code work.
 - `chamcham_chloe/sync_to_drive.py`: Pushes SYNC_FILES docs to Google Drive.
-- `chamcham_chloe/credentials.json`: GCP service account key (secret).
+- `chamcham_chloe/credentials.json`, `credentials.txt`: GCP service account key copies (secret).
 - `marp_presentation/class_01.*`: Marp slide deck for a class session.
 - `xyz/`: Unrelated Unity privacy-policy docs; not part of this site.
 - `src/pages/index.md`: Site homepage.
@@ -58,6 +60,7 @@
 - `src/pages/YYYY/[classId]/daily/*.md`: Daily lecture notes.
 - `src/pages/YYYY/[classId]/test/*.md`: Assessment/exam prep notes.
 - `src/pages/upj53/index.md`: Private archive entry, not in student nav.
+- `src/pages/upj53/[classId]/index.md`: Private class index; same layout as public.
 - `src/pages/upj53/[classId]/daily/*.md`: Private lecture notes, public-depth.
 - `src/layouts/MainLayout.astro`: Base HTML shell, theme toggle, nav.
 - `src/layouts/ClassLayout.astro`: Layout for class index pages.
@@ -78,3 +81,5 @@
 - `classEntries.ts` enumerates only 4-digit year folders under
   `src/pages/`, so `src/pages/upj53/` (private archive) never reaches
   the public `YearSelector.astro` dropdown.
+- `ClassLayout.astro` filters posts by URL path, so it renders identically
+  for `src/pages/YYYY/[classId]/index.md` and `src/pages/upj53/[classId]/index.md`.

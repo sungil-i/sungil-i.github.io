@@ -1,7 +1,7 @@
 # 🧑‍🏫 IT Education Class Website Project Guidelines (Astro)
 
 ## 📌 Project Overview
-- **Framework:** Astro v6.0.8
+- **Framework:** Astro v7.3.2 (`package.json`: `^7.0.6`)
 - **UI Toolkit:** Bootstrap 5.3 (Dark/Light Dual Theme Support)
 - **Deployment/Hosting:** GitHub Pages
 - **URL:** https://sungil-i.github.io
@@ -19,7 +19,7 @@
 ## 🚀 Technical Standards & Guidelines
 
 ### 1. Data Fetching (Markdown)
-- For compiler stability and build performance in Astro v6, **always use `import.meta.glob('../pages/**/*.md', { eager: true })`** instead of `Astro.glob()`.
+- For compiler stability and build performance in Astro v7, **always use `import.meta.glob('../pages/**/*.md', { eager: true })`** instead of `Astro.glob()`.
 
 ### 2. Markdown & Asset Path Resolution
 - File naming convention: Strictly adhere to `MM-DD-subject_name.md` (e.g., `04-20-csharp_repeat.md`).

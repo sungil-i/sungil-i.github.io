@@ -129,7 +129,42 @@ Read the task document at `/home/upj53/Workspace/sungil-i.github.io/.tasks/2026-
 
 
 
+## Requirement 04
 
+Target file: `src/pages/2026/2-10/index.md`, `src/pages/upj53/2-10/index.md`, `src/pages/upj53/index.md`, `src/layouts/ClassLayout.astro`, `src/layouts/UpjLayout.astro`, `src/pages/upj53/2-10/daily/09-15-github_desktop_n_unity.md`
+
+Environment: Ubuntu 20.04.6 LTS(bash) on Windows 11 Pro WSL (Local)
+
+Enforce strict 3-tier relative path depth symmetry across public (`src/pages/YYYY/`) and private (`src/pages/upj53/`) namespaces to resolve Layout undefined and Vite ImageNotFound compilation errors.
+
+### 1. Enforce Tier 2 Class Index Layout Symmetry (`src/pages/2026/2-10/index.md` & `src/pages/upj53/2-10/index.md`)
+- Inspect the frontmatter of `src/pages/2026/2-10/index.md` and `src/pages/upj53/2-10/index.md`.
+- Ensure the `layout` property in both files points strictly to `../../../layouts/ClassLayout.astro` (exactly 3 parent hops: `[classId]` -> `YYYY|upj53` -> `pages` -> `layouts`).
+- Correct the regression where class index files erroneously used 4 parent hops (`../../../../layouts/ClassLayout.astro`), which traverses outside `src/` and causes Astro's runtime exception `Unable to render Layout because it is undefined!`.
+- Inspect `src/pages/2026/index.md` and `src/pages/upj53/index.md` (Tier 1: depth 1) to verify they strictly use 2 parent hops (`../../layouts/...`, `../../assets/images/...`).
+- Verify `src/layouts/ClassLayout.astro` imports `MainLayout.astro` properly and contains no syntax errors.
+
+### 2. Enforce Tier 3 Daily Post Depth Symmetry & Resolve Image Asset Paths
+- Ensure absolute directory depth parity between public and private daily notes:
+  - Public path: `src/pages/YYYY/[classId]/daily/*.md` (depth = 3 subdirectories below `src/pages/`).
+  - Private path: `src/pages/upj53/[classId]/daily/*.md` (depth = 3 subdirectories below `src/pages/`).
+- Audit and relocate any misplaced private markdown files:
+  - Verify if `09-15-github_desktop_n_unity.md` is located directly under `src/pages/upj53/2-10/` (missing `daily/`) or legacy paths (e.g., `src/pages/upj53/2026/2-10/`).
+  - If misplaced, move it strictly to `src/pages/upj53/2-10/daily/09-15-github_desktop_n_unity.md`.
+- Verify asset path resolution for Tier 3 posts:
+  - Confirm image references use exactly 4 parent hops: `../../../../assets/images/2026-09-15-github_desktop_1.png`.
+  - Confirm post layout references use exactly 4 parent hops: `layout: ../../../../layouts/PostLayout.astro`.
+  - Check case-sensitive file existence of `src/assets/images/2026-09-15-github_desktop_1.png` on the WSL filesystem.
+
+### 3. Verify Cross-Namespace Zero-Edit Portability
+- Verify that moving or copying a daily post from `src/pages/upj53/2-10/daily/` to `src/pages/2026/2-10/daily/` (or vice-versa) requires zero changes to image paths (`../../../../assets/images/`) or layout references (`../../../../layouts/PostLayout.astro`).
+- Check `src/layouts/UpjLayout.astro` glob parsing (`import.meta.glob('../pages/upj53/**/*.md', { eager: true })`) to ensure no orphan markdown files outside the 3-tier structure trigger eager Vite compilation errors.
+
+### 4. Build & Dev Server Integrity Check
+- Execute `npm run build` or Vite build check to verify that:
+  - `src/pages/2026/2-10/index.md` and `src/pages/upj53/2-10/index.md` render without `Layout undefined` errors.
+  - Accessing `http://localhost:4321/upj53/` compiles cleanly without Vite `ImageNotFound` exceptions.
+  - No broken asset links or layout reference errors remain across both public and private namespaces.
 
 
 
