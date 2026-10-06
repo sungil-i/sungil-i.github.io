@@ -55,6 +55,12 @@ namespace HelloWorld
         // 멤버 변수
         public string Name;
         // 멤버 함수
+        // 생성자 함수
+        public Pet(string name)
+        {
+            this.Name = name;
+            Console.WriteLine($"{Name} 인스턴스를 생성했습니다.");
+        }
         // virtual 키워드는 부모 클래스에서 자식 클래스에게 수정 권한을 부여하는 것이다.
         public virtual void move() 
         {
@@ -70,8 +76,91 @@ namespace HelloWorld
 
 ### `Dog` 클래스 설계 (자식 클래스 1)
 
+`Dog` 클래스 C# 소스코드
+
+```csharp
+using System;
+
+namespace HelloWorld
+{
+    public class Dog : Pet
+    {
+        // 생성자 함수 (자식 클래스 name → 부모 클래스 name)
+        publc Dog(string name) : base(name) {}
+        // 부모 클래스에 있는 move() 함수를 수정한다.
+        public override void move() {
+            Console.WriteLine("네발로 걸어간다..");
+        }
+        // 부모 클래스에 있는 sound() 함수를 수정한다.
+        public override void sound() {
+            Console.WriteLine("멍멍!!");
+        }
+    }
+}
+```
+
 ### `Frog` 클래스 설계 (자식 클래스 2)
 
+`Frog` 클래스 C# 소스코드
+
+```csharp
+using System;
+
+namespace HelloWorld
+{
+    public class Frog : Pet
+    {
+        // 생성자 함수 (자식 클래스 name → 부모 클래스 name)
+        publc Frog(string name) : base(name) {}
+        // 부모 클래스에 있는 move() 함수를 수정한다.
+        public override void move() {
+            Console.WriteLine("폴짝폴짝 뛰어간다..");
+        }
+        // 부모 클래스에 있는 sound() 함수를 수정한다.
+        public override void sound() {
+            Console.WriteLine("개굴개굴!!");
+        }
+    }
+}
+```
+
+### 인스턴스 생성
+
+#### `Dog` 인스턴스 생성
+
+`Dog` 인스턴스 생성 C# 소스코드
+
+```csharp
+Dog mydog = new Dog("스누피");
+mydog.move();
+mydog.sound();
+```
+
+실행결과
+
+```text
+스누피 인스턴스를 생성했습니다.
+네발로 걸어간다..
+멍멍!!
+```
+
+#### `Frog` 인스턴스 생성
+
+`Frog` 인스턴스 생성 C# 소스코드
+
+```csharp
+Frog myfrog = new Frog("케로로")
+myfrog.move();
+myfrog.sound();
+```
+
+실행결과
+
+```text
+케로로 인스턴스를 생성했습니다.
+폴짝폴짝 뛰어간다..
+개굴개굴!!
+```
 
 
 
