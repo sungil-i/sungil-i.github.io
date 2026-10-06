@@ -1,0 +1,28 @@
+# 의존성 및 빌드 결과물
+node_modules/
+dist/
+.astro/
+
+# 환경 변수 및 Git
+.env
+.env.*
+.git/
+
+# 정적 에셋 및 미디어 파일 (Claude가 코드로 분석할 필요 없는 파일들)
+*.png
+*.PNG
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.svg
+*.pdf
+src/assets/java/
+src/assets/files/
+
+# 기타 유틸리티 결과물
+.github/
+.vscode/
+.tasks/
+xyz/*.html
+xyz/*.pdf
