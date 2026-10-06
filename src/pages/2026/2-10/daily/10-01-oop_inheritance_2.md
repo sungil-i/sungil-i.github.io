@@ -29,9 +29,9 @@ date: "2026-10-01"
 
 ### 전체 클래스 설계
 
-`Pet` 부모 클래스를 만들고, 이 클래스를 상속 받는 2개의 클래스를 만듭니다.
+`Animal` 부모 클래스를 만들고, 이 클래스를 상속 받는 2개의 클래스를 만듭니다.
 
-`Dog` 클래스와 `Frog` 클래스는 `Pet` 클래스를 부모로 갖는 자식 클래스입니다.
+`Cat` 클래스와 `Bird` 클래스는 `Animal` 클래스를 부모로 갖는 자식 클래스입니다.
 
 ![](../../../../assets/images/2026-09-08-oop_inheritance_graph_2.png)
 
@@ -41,22 +41,22 @@ date: "2026-10-01"
 
 수정해서 자신만의 기능을 구현해서 사용할 수 있다.
 
-### `Pet` 클래스 설계 (부모 클래스)
+### `Animal` 클래스 설계 (부모 클래스)
 
-`Pet` 클래스 C# 소스코드
+`Animal` 클래스 C# 소스코드
 
 ```csharp
 using System;
 
 namespace HelloWorld
 {
-    public class Pet
+    public class Animal
     {
         // 멤버 변수
         public string Name;
         // 멤버 함수
         // 생성자 함수
-        public Pet(string name)
+        public Animal(string name)
         {
             this.Name = name;
             Console.WriteLine($"{Name} 인스턴스를 생성했습니다.");
@@ -74,51 +74,51 @@ namespace HelloWorld
 }
 ```
 
-### `Dog` 클래스 설계 (자식 클래스 1)
+### `Cat` 클래스 설계 (자식 클래스 1)
 
-`Dog` 클래스 C# 소스코드
+`Cat` 클래스 C# 소스코드
 
 ```csharp
 using System;
 
 namespace HelloWorld
 {
-    public class Dog : Pet
+    public class Cat : Animal
     {
         // 생성자 함수 (자식 클래스 name → 부모 클래스 name)
-        publc Dog(string name) : base(name) {}
+        publc Cat(string name) : base(name) {}
         // 부모 클래스에 있는 move() 함수를 수정한다.
         public override void move() {
             Console.WriteLine("네발로 걸어간다..");
         }
         // 부모 클래스에 있는 sound() 함수를 수정한다.
         public override void sound() {
-            Console.WriteLine("멍멍!!");
+            Console.WriteLine("야옹!!");
         }
     }
 }
 ```
 
-### `Frog` 클래스 설계 (자식 클래스 2)
+### `Bird` 클래스 설계 (자식 클래스 2)
 
-`Frog` 클래스 C# 소스코드
+`Bird` 클래스 C# 소스코드
 
 ```csharp
 using System;
 
 namespace HelloWorld
 {
-    public class Frog : Pet
+    public class Bird : Animal
     {
         // 생성자 함수 (자식 클래스 name → 부모 클래스 name)
-        publc Frog(string name) : base(name) {}
+        publc Bird(string name) : base(name) {}
         // 부모 클래스에 있는 move() 함수를 수정한다.
         public override void move() {
-            Console.WriteLine("폴짝폴짝 뛰어간다..");
+            Console.WriteLine("훨훨 날아서 간다..");
         }
         // 부모 클래스에 있는 sound() 함수를 수정한다.
         public override void sound() {
-            Console.WriteLine("개굴개굴!!");
+            Console.WriteLine("짹짹!!");
         }
     }
 }
@@ -126,40 +126,40 @@ namespace HelloWorld
 
 ### 인스턴스 생성
 
-#### `Dog` 인스턴스 생성
+#### `Cat` 인스턴스 생성
 
-`Dog` 인스턴스 생성 C# 소스코드
+`Cat` 인스턴스 생성 C# 소스코드
 
 ```csharp
-Dog mydog = new Dog("스누피");
-mydog.move();
-mydog.sound();
+Cat mycat = new Cat("헬로키티");
+mycat.move();
+mycat.sound();
 ```
 
 실행결과
 
 ```text
-스누피 인스턴스를 생성했습니다.
+헬로키티 인스턴스를 생성했습니다.
 네발로 걸어간다..
-멍멍!!
+야옹!!
 ```
 
-#### `Frog` 인스턴스 생성
+#### `Bird` 인스턴스 생성
 
-`Frog` 인스턴스 생성 C# 소스코드
+`Bird` 인스턴스 생성 C# 소스코드
 
 ```csharp
-Frog myfrog = new Frog("케로로")
-myfrog.move();
-myfrog.sound();
+Bird mybird = new Bird("앵그리버드")
+mybird.move();
+mybird.sound();
 ```
 
 실행결과
 
 ```text
-케로로 인스턴스를 생성했습니다.
-폴짝폴짝 뛰어간다..
-개굴개굴!!
+앵그리버드 인스턴스를 생성했습니다.
+훨훨 날아서 간다..
+짹짹!!
 ```
 
 
