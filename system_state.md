@@ -1,6 +1,6 @@
 # System State
 
-_Last updated: 2026-09-16_
+_Last updated: 2026-10-06_
 
 ## Current Stack
 - Astro v7.3.2 (`package.json` pins `^7.0.6`), Bootstrap 5.3 dual-theme UI,
@@ -8,6 +8,17 @@ _Last updated: 2026-09-16_
 - Content is Markdown-only under `src/pages/`; no database, no backend API.
 
 ## Recently Completed
+- Theme refactor (`.tasks/2026-10-06-refactor_at_home.md`, Req 01-02):
+  `MainLayout.astro` footer uses `bg-body-tertiary`/`text-body-secondary`/
+  `border-secondary-subtle`; `.btn-theme-adaptive` and the home class table
+  use theme CSS variables; an inline `<head>` script syncs `data-bs-theme`
+  with the `html.dark` class (ThemeToggle only toggles the class).
+  `PostLayout.astro` back links now point to `/YYYY/[classId]/` (derived
+  from `Astro.url.pathname`) instead of `history.back()`, with
+  `text-body-secondary` / `btn-outline-secondary`. Build passes (48 pages).
+- Doc sync pass (2026-10-06): `architecture_map.md` rewritten from
+  `architecture_map_draft.md` (English, descriptions <=100 bytes; draft
+  deleted); `credentials.txt` no longer exists on disk.
 - Upgraded Astro from v6.0.8 to v7.3.2 (`.tasks/2026-09-14-upgrade_astro.md`);
   `CLAUDE.md`/`architecture_map.md` version references updated to match.
 - Fixed Requirement 04 (3-tier path-depth symmetry): `src/pages/upj53/2-10/index.md`
@@ -46,9 +57,10 @@ _Last updated: 2026-09-16_
 - SSO integration via `https://win.upj53.kr` (planned; not yet wired in).
 - Plan to deprecate hardcoded `ADMIN_PASSWORD`/`USER1_PASSWORD` once SSO
   auth lands.
-- See `.tasks/2026-09-14-upgrade_astro.md` (Requirements 01-04 done;
-  later requirements in that file are unfilled templates for future
-  sessions).
+- `.tasks/2026-10-06-refactor_at_home.md`: Requirements 01-02 done;
+  03+ pending or unfilled templates.
+- `.tasks/2026-09-14-upgrade_astro.md`: Requirements 01-04 done; later
+  ones are unfilled templates.
 
 ## Known Issues / Follow-ups
 - **CRITICAL — live secret leak:** `env_backup_school.txt` and
@@ -58,20 +70,15 @@ _Last updated: 2026-09-16_
   and committed** (commits `78a1780`, `50d7dc8`) on `master`, which is
   up to date with `origin/master` — i.e. these secrets are already
   pushed to the remote. A prior note here claimed they were "untracked";
-  verified 2026-09-16 that this was wrong. Recommended remediation
+  verified 2026-09-16 that this was wrong; re-verified 2026-10-06 (`git ls-files` still lists both, `.gitignore` still lacks them). Recommended remediation
   (not yet done — needs explicit sign-off since it touches shared
   history): rotate `AUTH_SECRET_KEY`/`ADMIN_PASSWORD`/`USER1_PASSWORD`
   and the GCP service-account key, `git rm --cached` both files, add
   them to `.gitignore`, and scrub them from git history (e.g.
   `git filter-repo` or BFG) since a new commit alone leaves them in
   history.
-- `chamcham_chloe/credentials.json` and `chamcham_chloe/credentials.txt`
-  both still exist on disk (duplicate copies of the same GCP key). A
-  prior note here claimed `credentials.txt` "no longer exists"; verified
-  2026-09-16 that it does. Both are correctly covered by
-  `chamcham_chloe/.gitignore` and are not tracked, so this is lower risk
-  than the `env_backup_*` issue above, but the duplicate should probably
-  be removed.
+- `chamcham_chloe/credentials.json` (GCP key) is gitignored and untracked;
+  the duplicate `credentials.txt` was removed (verified 2026-10-06).
 - `chamcham_chloe/__pycache__/sync_to_drive.cpython-311.pyc` is tracked
   in git (compiled bytecode cache; should be `git rm --cached` and
   ignored, not a secret but repo clutter).

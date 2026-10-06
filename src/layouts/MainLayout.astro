@@ -87,26 +87,35 @@ const classEntries = getClassEntries();
         display: none;
       }
 
-      /* Go 버튼 어댑티브 스타일 */
+      /* Go 버튼 어댑티브 스타일 (data-bs-theme / html.dark 동기화) */
       .btn-theme-adaptive {
-        background-color: #0d6efd;
-        color: white;
-        border: 1px solid #0d6efd;
+        --btn-adaptive-bg: #0d6efd;
+        --btn-adaptive-hover-bg: #0b5ed7;
+        --btn-adaptive-color: #ffffff;
+        background-color: var(--btn-adaptive-bg);
+        color: var(--btn-adaptive-color);
+        border: 1px solid var(--btn-adaptive-bg);
       }
-      .btn-theme-adaptive:hover {
-        background-color: #0b5ed7;
-        color: white;
+      .btn-theme-adaptive:hover,
+      .btn-theme-adaptive:focus-visible {
+        background-color: var(--btn-adaptive-hover-bg);
+        border-color: var(--btn-adaptive-hover-bg);
+        color: var(--btn-adaptive-color);
       }
-      html.dark .btn-theme-adaptive,
-      .dark .btn-theme-adaptive {
-        background-color: #3d8bfd;
-        color: #212529;
-        border: 1px solid #3d8bfd;
+      html[data-bs-theme="dark"] .btn-theme-adaptive,
+      html.dark .btn-theme-adaptive {
+        --btn-adaptive-bg: #3d8bfd;
+        --btn-adaptive-hover-bg: #6ea8fe;
+        --btn-adaptive-color: #212529;
       }
-      html.dark .btn-theme-adaptive:hover,
-      .dark .btn-theme-adaptive:hover {
-        background-color: #6ea8fe;
-        color: #212529;
+
+      /* 수업 목록 테이블: Bootstrap 테마 변수 상속 */
+      .markdown-body .table {
+        --bs-table-bg: var(--bs-body-bg);
+        --bs-table-color: var(--bs-body-color);
+        --bs-table-hover-bg: var(--bs-tertiary-bg);
+        --bs-table-hover-color: var(--bs-body-color);
+        --bs-table-border-color: var(--bs-border-color);
       }
 
       /* ====================================================
@@ -360,6 +369,19 @@ const classEntries = getClassEntries();
         document.documentElement.classList.add("dark");
       }
       window.localStorage.setItem("theme", theme);
+
+      // Bootstrap 5.3 테마(data-bs-theme)를 html.dark 클래스와 동기화 (FOUC 방지: head에서 즉시 실행)
+      const root = document.documentElement;
+      const syncBsTheme = () =>
+        root.setAttribute(
+          "data-bs-theme",
+          root.classList.contains("dark") ? "dark" : "light",
+        );
+      syncBsTheme();
+      new MutationObserver(syncBsTheme).observe(root, {
+        attributes: true,
+        attributeFilter: ["class"],
+      });
     </script>
   </head>
   <body>
@@ -393,7 +415,7 @@ const classEntries = getClassEntries();
           {
             isHome && classEntries.length > 0 && (
               <div class="mt-2 mb-5 markdown-body">
-                <h2 class="h4 fw-bold mb-3" style="text-align:center;">📚 수업 목록</h2>
+                <h2 class="h4 fw-bold my-3" style="text-align:center;">📚 수업 목록</h2>
                 <div class="table-responsive">
                   <table class="table table-hover align-middle">
                     <thead>
@@ -429,9 +451,11 @@ const classEntries = getClassEntries();
       </div>
     </main>
 
-    <footer class="py-4 bg-light text-center border-top">
+    <footer
+      class="py-4 bg-body-tertiary text-center border-top border-secondary-subtle"
+    >
       <div class="container">
-        <p class="text-muted mb-0">
+        <p class="text-body-secondary mb-0">
           © 2025 성일정보고등학교 박원준T. 수업 자료실
         </p>
       </div>

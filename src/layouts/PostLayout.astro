@@ -8,6 +8,11 @@ const { frontmatter, headings } = Astro.props;
 const tocHeadings = (headings ?? []).filter(
   (h: any) => h.depth >= 2 && h.depth <= 4,
 );
+
+// 현재 URL(/YYYY/classId/... 또는 /upj53/classId/...)에서 상위 수업 목록 경로를 계산합니다.
+const segments = Astro.url.pathname.split("/").filter(Boolean);
+const classListUrl =
+  segments.length >= 2 ? `/${segments[0]}/${segments[1]}/` : "/";
 ---
 
 <MainLayout title={frontmatter.title || "수업 기록"}>
@@ -16,8 +21,8 @@ const tocHeadings = (headings ?? []).filter(
       <div class="col-12 col-lg-11 col-xxl-10">
         <div class="mb-4">
           <a
-            href="javascript:history.back()"
-            class="text-decoration-none text-muted small"
+            href={classListUrl}
+            class="text-decoration-none text-body-secondary small"
           >
             <span class="me-1">←</span> 목록으로 돌아가기
           </a>
@@ -73,8 +78,8 @@ const tocHeadings = (headings ?? []).filter(
         <div class="mt-5 text-center">
           <hr class="mb-5" />
           <a
-            href="javascript:history.back()"
-            class="btn btn-outline-dark px-4 rounded-pill"
+            href={classListUrl}
+            class="btn btn-outline-secondary px-4 rounded-pill"
           >
             목록으로 돌아가기
           </a>

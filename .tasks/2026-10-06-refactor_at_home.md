@@ -60,7 +60,32 @@ Read the task document at `/home/upj53/classrooms/.tasks/2026-10-06-refactor_at_
 
 
 
+## Requirement 02
 
+Target file: `src/layouts/PostLayout.astro`
+
+Environment: Ubuntu 20.04.6 LTS(bash) on Windows 11 Pro WSL (Local)
+
+Replace client-side `javascript:history.back()` in `src/layouts/PostLayout.astro` with deterministic routing to the parent class index page based on `Astro.url.pathname`.
+
+### 1. Derive Class Index Route from URL Pathname
+- In the frontmatter component script (`--- ... ---`) of `src/layouts/PostLayout.astro`:
+  - Inspect `Astro.url.pathname`.
+  - Extract path segments using `const segments = Astro.url.pathname.split('/').filter(Boolean);`.
+  - Dynamically construct the parent class index URL:
+    - Expected pattern: `/\({segments[0]}/\){segments[1]}/` (e.g., `/2026/2-10/`, `/2026/Java1/`, `/upj53/2-10/`).
+    - Provide a safe fallback (e.g., `'/'`) if `segments.length < 2`.
+  - Expose the resolved URL as `const classListUrl = segments.length >= 2 ? `/\({segments[0]}/\){segments[1]}/` : '/';`.
+
+### 2. Update Navigation Links & Enhance Theme Contrast
+- Replace `href="javascript:history.back()"` in the top navigation link with `href={classListUrl}`.
+  - Update `class="text-decoration-none text-muted small"` to `class="text-decoration-none text-body-secondary small"` for Bootstrap 5.3 theme compatibility.
+- Replace `href="javascript:history.back()"` in the bottom navigation button with `href={classListUrl}`.
+  - Change `btn-outline-dark` to `btn-outline-secondary` to prevent illegible black borders when viewing under dark mode (`html[data-bs-theme="dark"]`).
+
+### 3. Verify Static Build Integrity
+- Ensure the changes do not break markdown rendering or outline generation.
+- Run `npm run build` or Vite build check to verify that all markdown posts compiled via `PostLayout.astro` generate valid href targets without runtime warnings.
 
 
 

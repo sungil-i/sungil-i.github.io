@@ -27,9 +27,10 @@
 - When embedding images inside Markdown, resolve the exact relative path pointing to `src/assets/images/` (e.g., `../../../../assets/images/sample.png`) to ensure Astro's image optimization pipeline functions properly.
 
 ### 3. UI/UX & Theming (Bootstrap 5.3)
-- Theming is controlled via `data-bs-theme="dark"|"light"` on the root `<html>` element managed by `ThemeToggle.astro`.
+- `ThemeToggle.astro` toggles the `dark` class on `<html>`; an inline script in `MainLayout.astro` mirrors it to `data-bs-theme="dark"|"light"` (MutationObserver, set before paint). Use Bootstrap 5.3 adaptive classes (`bg-body-tertiary`, `text-body-secondary`, `border-secondary-subtle`, `btn-outline-secondary`) instead of `bg-light`, `text-muted`, `btn-outline-dark`.
 - Avoid hardcoded background/text colors in `.markdown-body`. Use Bootstrap theme variables (`var(--bs-body-color)`, `var(--bs-body-bg)`).
 - **Markdown Tables:** Ensure table headers (`th`) and rows (`td`) inherit or explicitly resolve dark mode colors using `html[data-bs-theme="dark"]` selectors to maintain high contrast.
+- **Post Navigation:** `PostLayout.astro` builds the back-to-class link from `Astro.url.pathname` (`/${segments[0]}/${segments[1]}/`, fallback `/`); never use `javascript:history.back()`.
 - **Layout Width:** Main content in `PostLayout.astro` utilizes `col-lg-10 col-xl-10` to maximize screen real estate for source code blocks.
 
 ### 4. Drive Sync & Context Protocol
