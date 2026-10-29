@@ -32,6 +32,8 @@ date: "2026-10-08"
 
 ![](../../../../assets/images/2026-10-08-shooting-game-new-project.png)
 
+![](../../../../assets/images/2026-10-08-shooting-game-aspect.png)
+
 ### 프로젝트 기본 세팅
 
 #### 입력방식 'both' 추가
