@@ -104,3 +104,36 @@ Project 창에서 `Assets` 을 선택하고 마우스 우클릭 한뒤에,
 
 ![](../../../../assets/images/2026-10-08-shooting-1_13.png)
 
+스프라이트 설정하기 (Inspector)
+
+* Textture Type: **Sprite (2D and UI)** 선택
+* Sprite Mode: **Multiple** 선택
+* Pixels Per Unit: **16** 입력
+* Filter Mod: **Point (no filter)** 선택
+* Compression: **None** 선택
+
+최종적으로 **'Apply'** 버튼을 클릭해야 적용됩니다.
+
+![](../../../../assets/images/2026-10-27-sprites-setting.jpg)
+
+### Sprite Editor 에서 이미지 쪼개기
+
+'Slice' 메뉴를 클릭합니다.
+
+* Type: **Automatic** 선택
+
+**'Slice'** 버튼을 누르면 이미지가 자동으로 하나씩 잘립니다.
+
+![](../../../../assets/images/2026-10-27-sprites-editor.jpg)
+
+### Player(플레이어) 객체 추가
+
+![](../../../../assets/images/2026-10-27-sprites-create-player.jpg)
+
+![](../../../../assets/images/2026-10-27-sprites-create-player-inspector.jpg)
+
+### Enemy(적군) 객체 추가
+
+![](../../../../assets/images/2026-10-27-sprites-create-enemy.jpg)
+
+![](../../../../assets/images/2026-10-27-sprites-create-enemy-inspector.jpg)
