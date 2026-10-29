@@ -12,6 +12,8 @@ date: "2026-10-08"
 
 ### 학습주제 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BgewNm5wB8A?si=S3O0Nupbsql7kqlm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 1. 이미지(Sprite)를 사용해서 객체(Object)를 만들 수 있다.
     * 이미지를 Assets 에 Sprites 로 등록한다.
     * 1개의 이미지를 여러개의 객체로 나눈다.
