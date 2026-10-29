@@ -1,0 +1,16 @@
+# basic command
+alias l='ls -lt'
+alias la='ls -alt'
+alias c='clear'
+alias ..='cd ..'
+alias ...='cd ../../'
+alias q='exit'
+
+# change director
+alias cdClassroom='cd /home/upj53/Workspace/sungil-i.github.io'
+
+# git command
+alias gitSync='git -C "/home/upj53/Workspace/sungil-i.github.io" fetch && git pull'
+alias gitPush='git -C "/home/upj53/Workspace/sungil-i.github.io" add . && git -C "/home/upj53/Workspace/sungil-i.github.io" commit -m "update from school" && git -C "/home/upj53/Workspace/sungil-i.github.io" push origin master'
+
+cd '/home/upj53/Workspace/sungil-i.github.io'
