@@ -28,11 +28,9 @@ date: "2026-10-08"
 | :-: | :-: |
 | 에디터 버전 | 6.3 LTS |
 | 타입 | Universal 2D |
-| 프로젝트 이름 | shooting-1 |
+| 프로젝트 이름 | shooting-game |
 
-![](../../../../assets/images/2026-10-08-shooting-1_1.png)
-
-![](../../../../assets/images/2026-10-08-shooting-1_2.png)
+![](../../../../assets/images/2026-10-08-shooting-game-new-project.png)
 
 ### 프로젝트 기본 세팅
 
