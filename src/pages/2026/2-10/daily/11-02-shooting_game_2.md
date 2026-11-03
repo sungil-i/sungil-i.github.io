@@ -104,7 +104,43 @@ namespace HelloWorld
 }
 ```
 
+**`Example05.cs` 소스코드: 인스턴스 생성**
+```csharp
+using System;
 
+namespace HelloWorld
+{
+    public class Example05
+    {
+        public static void Run()
+        {
+            Console.WriteLine("\n--- Example 05 실행 ---");
+            // 실습 코드를 작성하는 부분
+            // 플레이어 비행기 인스턴스 만들기
+            Player player = new Player(5);
+            // 적 비행기 인스턴스 만들기
+            Enemy enemy = new Enemy(1);
+            // 게임화면이라는 가정 하에
+            // 플레이어 비행기와 적 비행기의 멤버 함수를 호출합니다.
+            player.move();
+            player.shoot();
+            enemy.move();
+            enemy.shoot();
+        }
+    }
+}
+```
+
+**실행 결과**
+```text
+--- Example 05 실행 ---
+MonoBehaviour 유니티 객체 상속받음!
+MonoBehaviour 유니티 객체 상속받음!
+좌우로 움직인다.
+위쪽으로 미사일을 쏜다.
+좌우로 움직이면서 아래로 내려온다.
+아래쪽으로 미사일을 쏜다.
+```
 
 
 
