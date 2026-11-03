@@ -142,8 +142,7 @@ MonoBehaviour 유니티 객체 상속받음!
 아래쪽으로 미사일을 쏜다.
 ```
 
-
-
+![](../../../../assets/images/2026-11-03-shooting-instance-result.jpg)
 
 
 
