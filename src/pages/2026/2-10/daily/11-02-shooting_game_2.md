@@ -1,1 +1,156 @@
+---
+layout: ../../../../layouts/PostLayout.astro
+title: "11-02(월) Unity 슈팅게임 2"
+date: "2026-11-02"
+---
+
+<!--
+![](../../../../assets/images/)
+-->
+
 <!--  -->
+
+## Unity 슈팅게임 2 클래스 설계
+
+게임 화면
+
+![](../../../../assets/images/2026-11-02-galage-game.png)
+
+
+Player 와 Enemy 클래스 설계
+
+![](../../../../assets/images/2026-11-02-galage-game-class-arch.png)
+
+
+## 클래스 C# 코드 (기본틀)
+
+> Unity 에서 작성하기 전에 C# 코드의 기본틀을 만듭니다.
+
+> 깃허브(Github)의 [코드스페이스(Codespaces) VS Code](https://github.com/codespaces)에서 작성할 수 있습니다.
+
+**`Shooting.cs` 소스코드: 부모 클래스**
+```csharp
+using System;
+
+namespace HelloWorld
+{
+    public class Shooting
+    {
+        // 멤버 변수
+        public int hp = 1;
+
+        // 생성자 멤버 함수
+        public Shooting(int my_hp)
+        {
+            Console.WriteLine("MonoBehaviour 유니티 객체 상속받음!");
+            this.hp = my_hp;
+        }
+        // 일반 멤버 함수
+        public virtual void move()
+        {
+            Console.WriteLine("비행기가 움직입니다.");
+        }
+        public virtual void shoot()
+        {
+            Console.WriteLine("미사일을 쏩니다.");
+        }
+    }
+}
+```
+
+**`Player.cs` 소스코드: 자식 클래스 (1)**
+```csharp
+using System;
+
+namespace HelloWorld
+{
+    public class Player : Shooting
+    {
+        // 생성자 멤버 함수
+        public Player(int my_hp) : base(my_hp) {}
+        // 일반 멤버 함수
+        public override void move()
+        {
+            Console.WriteLine("좌우로 움직인다.");
+        }
+        public override void shoot()
+        {
+            Console.WriteLine("위쪽으로 미사일을 쏜다.");
+        }
+    }
+}
+```
+
+**`Enemy.cs` 소스코드: 자식 클래스 (2)**
+```csharp
+using System;
+
+namespace HelloWorld
+{
+    public class Enemy : Shooting
+    {
+        // 생성자 멤버 함수
+        public Enemy(int my_hp): base(my_hp) {}
+        // 일반 멤버 함수
+        public override void move()
+        {
+            Console.WriteLine("좌우로 움직이면서 아래로 내려온다.");
+        }
+        public override void shoot()
+        {
+            Console.WriteLine("아래쪽으로 미사일을 쏜다.");
+        }
+    }
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
