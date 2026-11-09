@@ -8,9 +8,21 @@ date: "2026-11-05"
 ![](../../../../assets/images/)
 -->
 
-<!--  -->
+<!-- 
+<img src="" style="width:75%; height:auto; ">
+-->
 
 ## Unity 에 Shooting Game 구현하기
+
+### 클래스 다이어그램
+
+**게임 화면**
+
+<img src="../../../../assets/images/2026-11-09-game-object.png" style="width:75%; height:auto; ">
+
+**클래스 만들기**
+
+<img src="../../../../assets/images/2026-11-09-class-diagram.png" style="width:75%; height:auto; ">
 
 ### 1. 'Shooting.cs' 부모 클래스 생성하기
 
