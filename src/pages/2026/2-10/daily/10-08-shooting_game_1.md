@@ -1,6 +1,6 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
-title: "10-08(목) Unity 슈팅게임 1"
+title: "10-08(목) Unity 슈팅게임 1: 게임 객체 만들기"
 date: "2026-10-08"
 ---
 
