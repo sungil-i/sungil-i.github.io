@@ -168,3 +168,7 @@ public class EnemyControl : Shooting
     }
 }
 ```
+
+## 최종 구현된 게임 화면
+
+![](../../../../assets/images/2026-11-10-game_play.png)
