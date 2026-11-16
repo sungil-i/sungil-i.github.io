@@ -26,11 +26,31 @@
 -->
 
 
+## Requirement 1
 
+Target file: `src/assets/images/unity_gui.jpg`, `src/pages/2026/2-10/test/2_test3.md`
+
+Environment: Windows 11 Pro PowerShell + WSL Bridge (실습실 PC)
+
+Diagnose and resolve the Astro `[NoImageMetadata]` build failure on `unity_gui.jpg` and standardize internal root-relative markdown links in `2_test3.md`.
+
+### 1. Diagnose and Fix Corrupted Image Metadata (`src/assets/images/unity_gui.jpg`)
+- Inspect `src/assets/images/unity_gui.jpg` using CLI diagnostics (`file src/assets/images/unity_gui.jpg` and byte-size check) to verify valid image magic bytes (JPEG/PNG/WebP) and non-zero file size.
+- Search all markdown files under `src/pages/` referencing `unity_gui.jpg` to confirm exact relative path resolution (`../../../../assets/images/unity_gui.jpg`).
+- Check `.gitattributes` and Git tracking status (`git ls-files --eol src/assets/images/unity_gui.jpg`) to ensure WSL `core.autocrlf` did not corrupt binary line endings.
+- If `unity_gui.jpg` is corrupted, empty, or misnamed (e.g., WebP/PNG saved with `.jpg` extension), convert/re-export it as a valid image or update the extension and markdown reference accordingly.
+
+### 2. Standardize Internal Links (`src/pages/2026/2-10/test/2_test3.md`)
+- Inspect `src/pages/2026/2-10/test/2_test3.md`.
+- Replace hardcoded production domain URLs (`https://sungil-i.github.io/2026/2-10/daily/10-08-shooting_game_1/`) with root-relative internal paths (`/2026/2-10/daily/10-08-shooting_game_1/`).
+- Verify that the target markdown file (`src/pages/2026/2-10/daily/10-08-shooting_game_1.md`) exists on disk and matches the exact slug casing.
+
+### 3. Verify Static Production Build
+- Run `npm run build` inside the WSL environment to confirm that `vite-plugin-assets` processes image metadata cleanly without `[NoImageMetadata]` errors and all static routes compile with exit code 0.
 
 
 <!--
-Read the task document at ``. ONLY execute 'Requirement 1'. Do NOT execute or modify anything related to other requirements. Strictly adhere to the Role and Harness Constraints specified in `CLAUDE.md`.
+Read the task document at ``. ONLY execute 'Requirement 1' (1 ~ 3). Do NOT execute or modify anything related to other requirements. Strictly adhere to the Role and Harness Constraints specified in `CLAUDE.md`.
 -->
 
 

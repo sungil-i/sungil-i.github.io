@@ -8,12 +8,12 @@ date: "2026-11-12"
 
 * Unity 프로젝트 용량이 크기 때문에 실습형으로 제출하는데 어려움이 있을 것 같습니다.
 * 컴퓨터를 사용할 수 있는 환경에서 서술형, 또는 단답형으로 시험지에 적는 방법으로 수행평가를 보겠습니다.
-* 오픈북으로 [학습자료](https://sungil-i.github.io/2026/2-10/)를 보면서 문제를 풀 수 있습니다.
+* 오픈북으로 [학습자료](/2026/2-10/)를 보면서 문제를 풀 수 있습니다.
 
 ※ Unity 프로그램을 실행시켜서서 참고할 수 있습니다.
 
 **시험 범위**
 
-* [Unity 슈팅게임 1 - 게임 객체 만들기](https://sungil-i.github.io/2026/2-10/daily/10-08-shooting_game_1/)
-* [Unity 슈팅게임 3 - 유니티 작업](https://sungil-i.github.io/2026/2-10/daily/11-05-shooting_game_3)
-* [Unity 슈팅게임 4 - 총알 만들기](https://sungil-i.github.io/2026/2-10/daily/11-10-shooting_game_4)
+* [Unity 슈팅게임 1 - 게임 객체 만들기](/2026/2-10/daily/10-08-shooting_game_1/)
+* [Unity 슈팅게임 3 - 유니티 작업](/2026/2-10/daily/11-05-shooting_game_3)
+* [Unity 슈팅게임 4 - 총알 만들기](/2026/2-10/daily/11-10-shooting_game_4)
