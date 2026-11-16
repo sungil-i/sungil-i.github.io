@@ -22,7 +22,7 @@ date: "2026-11-10"
 * 체크를 해제해서 비활성화 시킨다. (총알은 1개만 있는 것이 아니고, 계속 복사해서 쓸 것이기 때문이다.)
 * 크기를 바꾸기 위해서 `Scale` 을 `x=0.1`, `y=0.3` 으로 변경한다.
 
-![](../../../../assets/images/2026-11-10-bullet_template_inspector.jpg)
+![](../../../../assets/images/2026-11-10-bullet_template_inspector.png)
 
 ## 각 객체에 컴포넌트 연결하기
 
@@ -32,14 +32,14 @@ date: "2026-11-10"
     * **`Is Trigger` 를 꼭 체크해줘야 합니다.**
 * `RigidBody 2D` 컴포넌트 추가하기 (물리적인 움직임)
 
-![](../../../../assets/images/2026-11-10-bullet_component.jpg)
+![](../../../../assets/images/2026-11-10-bullet_component.png)
 
 ### 플레이어(Player) 객체
 
 * `Box Collider 2D` 컴포넌트 추가하기 (충돌 감지)
 * `RigidBody 2D` 컴포넌트 추가하기 (물리적인 움직임)
 
-![](../../../../assets/images/2026-11-10-player_component.jpg)
+![](../../../../assets/images/2026-11-10-player_component.png)
 
 ### 적군 비행기(Enemy) 객체
 
@@ -47,7 +47,7 @@ date: "2026-11-10"
     * 5개의 적군 비행기를 만들려면 4번 `Ctrl + d` 를 눌러서 총 5개의 적군 비행기를 만든다.
 * `Box Collider 2D` 컴포넌트 추가하기 (충돌 감지)
 
-![](../../../../assets/images/2026-11-10-enemy_component.jpg)
+![](../../../../assets/images/2026-11-10-enemy_component.png)
 
 ## 플레이어(Player) 객체에 총알 연결하기
 
@@ -57,7 +57,7 @@ date: "2026-11-10"
 
 MonoBehavious 를 상속받아야 합니다.
 
-![](../../../../assets/images/2026-11-10-bullet_add_cs_script.jpg)
+![](../../../../assets/images/2026-11-10-bullet_add_cs_script.png)
 
 **`BulletControl.cs` 소스코드**
 

@@ -116,7 +116,7 @@ Project 창에서 `Assets` 을 선택하고 마우스 우클릭 한뒤에,
 
 최종적으로 **'Apply'** 버튼을 클릭해야 적용됩니다.
 
-![](../../../../assets/images/2026-10-27-sprites-setting.jpg)
+![](../../../../assets/images/2026-10-27-sprites-setting.png)
 
 ### Sprite Editor 에서 이미지 쪼개기
 
@@ -126,16 +126,16 @@ Project 창에서 `Assets` 을 선택하고 마우스 우클릭 한뒤에,
 
 **'Slice'** 버튼을 누르면 이미지가 자동으로 하나씩 잘립니다.
 
-![](../../../../assets/images/2026-10-27-sprites-editor.jpg)
+![](../../../../assets/images/2026-10-27-sprites-editor.png)
 
 ### Player(플레이어) 객체 추가
 
-![](../../../../assets/images/2026-10-27-sprites-create-player.jpg)
+![](../../../../assets/images/2026-10-27-sprites-create-player.png)
 
-![](../../../../assets/images/2026-10-27-sprites-create-player-inspector.jpg)
+![](../../../../assets/images/2026-10-27-sprites-create-player-inspector.png)
 
 ### Enemy(적군) 객체 추가
 
-![](../../../../assets/images/2026-10-27-sprites-create-enemy.jpg)
+![](../../../../assets/images/2026-10-27-sprites-create-enemy.png)
 
-![](../../../../assets/images/2026-10-27-sprites-create-enemy-inspector.jpg)
+![](../../../../assets/images/2026-10-27-sprites-create-enemy-inspector.png)

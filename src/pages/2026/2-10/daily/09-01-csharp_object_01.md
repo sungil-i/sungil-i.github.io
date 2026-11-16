@@ -30,29 +30,29 @@ Github 는 작성한 소스코드를 안전하게 인터넷에 보관할 수 있
 
 ### Codespaces: Github 에서 VS Code 사용하기
 
-![Codespaces](../../../../assets/images/2026-09-07-codespaces_01.jpg)
+![Codespaces](../../../../assets/images/2026-09-07-codespaces_01.png)
 
-![Codespaces](../../../../assets/images/2026-09-07-codespaces_02.jpg)
+![Codespaces](../../../../assets/images/2026-09-07-codespaces_02.png)
 
-![Codespaces](../../../../assets/images/2026-09-07-codespaces_03.jpg)
+![Codespaces](../../../../assets/images/2026-09-07-codespaces_03.png)
 
-![Codespaces](../../../../assets/images/2026-09-07-codespaces_04.jpg)
+![Codespaces](../../../../assets/images/2026-09-07-codespaces_04.png)
 
-![Codespaces](../../../../assets/images/2026-09-07-codespaces_05.jpg)
+![Codespaces](../../../../assets/images/2026-09-07-codespaces_05.png)
 
-![Codespaces](../../../../assets/images/2026-09-07-codespaces_06.jpg)
+![Codespaces](../../../../assets/images/2026-09-07-codespaces_06.png)
 
-![Codespaces](../../../../assets/images/2026-09-07-codespaces_07.jpg)
+![Codespaces](../../../../assets/images/2026-09-07-codespaces_07.png)
 
-![Codespaces](../../../../assets/images/2026-09-07-codespaces_08.jpg)
+![Codespaces](../../../../assets/images/2026-09-07-codespaces_08.png)
 
-![Codespaces](../../../../assets/images/2026-09-07-codespaces_09.jpg)
+![Codespaces](../../../../assets/images/2026-09-07-codespaces_09.png)
 
-![Codespaces](../../../../assets/images/2026-09-07-codespaces_10.jpg)
+![Codespaces](../../../../assets/images/2026-09-07-codespaces_10.png)
 
-![Codespaces](../../../../assets/images/2026-09-07-codespaces_11.jpg)
+![Codespaces](../../../../assets/images/2026-09-07-codespaces_11.png)
 
-![Codespaces](../../../../assets/images/2026-09-07-codespaces_12.jpg)
+![Codespaces](../../../../assets/images/2026-09-07-codespaces_12.png)
 
 
 

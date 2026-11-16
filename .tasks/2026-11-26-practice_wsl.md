@@ -138,3 +138,37 @@ Upgrade `CLAUDE.md` using Claude Code memory best practices (`https://code.claud
 
 <!--
 -->
+
+## Requirement 4
+
+Target file: `src/assets/images/2026-09-15-github_desktop_1.png`, `src/assets/images/`, `src/assets/java/`, `src/assets/files/`
+
+Environment: Windows 11 Pro PowerShell + WSL Bridge (실습실 PC)
+
+Diagnose and resolve the `[NoImageMetadata]` build failure on `src/assets/images/2026-09-15-github_desktop_1.png`, and perform a comprehensive integrity audit across all asset subdirectories (`images`, `java`, `files`).
+
+### 1. Diagnose and Fix `src/assets/images/2026-09-15-github_desktop_1.png`
+- Inspect `src/assets/images/2026-09-15-github_desktop_1.png` both on the local WSL filesystem (`file` and byte-size check) and inside the Git object database (`git show HEAD:src/assets/images/2026-09-15-github_desktop_1.png | file -`).
+- Identify the root cause:
+  - Case A: The local file is valid PNG/JPEG/WebP, but the committed Git blob in `HEAD` was corrupted by historical CRLF conversion. Re-stage the clean binary file (`git rm --cached src/assets/images/2026-09-15-github_desktop_1.png && git add src/assets/images/2026-09-15-github_desktop_1.png`).
+  - Case B: The file is actually JPEG or WebP saved with a `.png` extension. Rename it to match its true format using `git mv` and update all markdown references under `src/pages/`.
+  - Case C: The file itself is truncated, zero-byte, or has corrupted magic bytes on disk. Report it clearly in the final summary so 원준님 can replace it with a fresh screenshot.
+
+### 2. Full Asset Audit Across `src/assets/images/`, `src/assets/java/`, and `src/assets/files/`
+- Recursively scan every file inside `src/assets/images/`, `src/assets/java/`, and `src/assets/files/`.
+- Check each file for:
+  1. Zero-byte or truncated files.
+  2. Extension vs. real binary format mismatch (e.g., PNG saved as `.jpg`, WebP saved as `.png`, HTML error page saved as image/PDF).
+  3. Git `HEAD` blob corruption vs. local working tree file (`git show HEAD:<path> | file -`).
+  4. Leftover Windows NTFS metadata artifacts (`*:Zone.Identifier`).
+- For any misnamed image file found during the audit, rename it via `git mv` to match its actual format and update any referencing markdown links in `src/pages/`.
+- For any Git-blob-corrupted file whose working tree copy is intact, re-stage it so Git stores the clean binary blob.
+- Remove any `*:Zone.Identifier` files if present, and report a complete audit table of all checked directories and any anomalies found.
+
+### 3. Verify Static Production Build
+- Run `npm run build` in WSL to verify that Astro and `vite-plugin-assets` process all assets cleanly and exit with code 0.
+- Run `git status` to summarize all staged/modified files without committing unless instructed.
+
+
+<!--
+-->

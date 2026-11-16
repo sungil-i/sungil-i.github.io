@@ -143,7 +143,7 @@ namespace HelloWorld
 [자식 Enemy 클래스] 아래쪽으로 미사일을 쏜다.
 ```
 
-![](../../../../assets/images/2026-11-03-shooting-instance-result.jpg)
+![](../../../../assets/images/2026-11-03-shooting-instance-result.png)
 
 
 
