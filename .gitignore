@@ -71,4 +71,5 @@ $RECYCLE.BIN/
 # ========================================================
 .claude/
 .claude_session
+CLAUDE.local.md
 .tasks/temp_*

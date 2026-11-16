@@ -1,13 +1,30 @@
 # System State
 
-_Last updated: 2026-10-06_
+_Last updated: 2026-11-26_
 
 ## Current Stack
-- Astro v7.3.2 (`package.json` pins `^7.0.6`), Bootstrap 5.3 dual-theme UI,
-  static hosting on GitHub Pages.
+- Astro v7.x (`package.json` pins `^7.4.8`, `engines.node >=22.12.0`),
+  Bootstrap 5.3 dual-theme UI, static hosting on GitHub Pages.
+- CI (`.github/workflows/deploy.yml`): Node.js 22, `actions/checkout@v5`,
+  `actions/setup-node@v5` (Node 24-compatible majors).
 - Content is Markdown-only under `src/pages/`; no database, no backend API.
 
 ## Recently Completed
+- `.tasks/2026-11-26-practice_wsl.md` (2026-11-26):
+  - Req 1: Fixed the `[NoImageMetadata]` build failure by renaming the
+    mislabeled `unity_gui.jpg` (really a PNG) to `unity_gui.png` and updating
+    both markdown references; converted the hardcoded domain link in
+    `src/pages/2026/2-10/test/2_test3.md` to a root-relative path.
+  - Req 2: Replaced `* text eol=crlf` in `.gitattributes` with LF rules plus
+    `binary` protection for images/fonts/pdf/zip; re-staged `unity_gui.png`
+    (the committed blob had lost its `\r` bytes); upgraded deploy.yml actions
+    to checkout@v5 / setup-node@v5; `.gitignore` now ignores
+    `chamcham_chloe/credentials.txt`; `package.json` audited (unchanged).
+  - Req 3: Rewrote `CLAUDE.md` (<200 lines) with `@architecture_map.md` /
+    `@system_state.md` imports, path-scoped `.claude/rules/astro-ui.md` and
+    `.claude/rules/markdown-content.md`, and the `CLAUDE.local.md` override
+    convention (gitignored); refreshed `architecture_map.md` from
+    `architecture_map_draft.md` (draft deleted); updated this file.
 - Theme refactor (`.tasks/2026-10-06-refactor_at_home.md`, Req 01-02):
   `MainLayout.astro` footer uses `bg-body-tertiary`/`text-body-secondary`/
   `border-secondary-subtle`; `.btn-theme-adaptive` and the home class table
@@ -54,34 +71,22 @@ _Last updated: 2026-10-06_
   reality.
 
 ## In Progress / Planned
+- Verify and commit/push the Requirement 1-3 changes (Git status review first).
+- Run `python -m chamcham_chloe.sync_to_drive` to sync the SSOT docs to Google Drive.
 - SSO integration via `https://win.upj53.kr` (planned; not yet wired in).
 - Plan to deprecate hardcoded `ADMIN_PASSWORD`/`USER1_PASSWORD` once SSO
   auth lands.
-- `.tasks/2026-10-06-refactor_at_home.md`: Requirements 01-02 done;
-  03+ pending or unfilled templates.
-- `.tasks/2026-09-14-upgrade_astro.md`: Requirements 01-04 done; later
-  ones are unfilled templates.
 
 ## Known Issues / Follow-ups
-- **CRITICAL — live secret leak:** `env_backup_school.txt` and
-  `env_backup_local.txt` are plaintext copies of `.env` (contain
-  `AUTH_SECRET_KEY`, `ADMIN_PASSWORD`, `USER1_PASSWORD`, the GCP Drive
-  folder ID). Neither is in `.gitignore`, and both are already **tracked
-  and committed** (commits `78a1780`, `50d7dc8`) on `master`, which is
-  up to date with `origin/master` — i.e. these secrets are already
-  pushed to the remote. A prior note here claimed they were "untracked";
-  verified 2026-09-16 that this was wrong; re-verified 2026-10-06 (`git ls-files` still lists both, `.gitignore` still lacks them). Recommended remediation
-  (not yet done — needs explicit sign-off since it touches shared
-  history): rotate `AUTH_SECRET_KEY`/`ADMIN_PASSWORD`/`USER1_PASSWORD`
-  and the GCP service-account key, `git rm --cached` both files, add
-  them to `.gitignore`, and scrub them from git history (e.g.
-  `git filter-repo` or BFG) since a new commit alone leaves them in
-  history.
+- **CRITICAL - secrets remain in git history:** `env_backup_*.txt`
+  (`AUTH_SECRET_KEY`, `ADMIN_PASSWORD`, `USER1_PASSWORD`, GCP Drive folder ID)
+  were committed (`78a1780`, `50d7dc8`) and pushed. They are no longer
+  tracked (`git ls-files` clean, verified 2026-11-26; ignored since
+  `09f2dd9`), but history still holds them. Recommended (needs explicit
+  sign-off): rotate the secrets and GCP key, then scrub history with
+  `git filter-repo` or BFG. Local copies were left in place.
 - `chamcham_chloe/credentials.json` (GCP key) is gitignored and untracked;
-  the duplicate `credentials.txt` was removed (verified 2026-10-06).
-- `chamcham_chloe/__pycache__/sync_to_drive.cpython-311.pyc` is tracked
-  in git (compiled bytecode cache; should be `git rm --cached` and
-  ignored, not a secret but repo clutter).
+  `credentials.txt` exists locally but is gitignored and untracked (2026-11-26).
 - `xyz/` (Unity privacy-policy tooling) contains content unrelated to
   this site and can likely be removed.
 

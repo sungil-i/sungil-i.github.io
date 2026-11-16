@@ -4,18 +4,15 @@
 - ./ (project root)
   - CLAUDE.md, README.md, architecture_map.md, system_state.md
   - astro.config.mjs, package.json, package-lock.json, tsconfig.json
-  - generate_architecture_map.py, export_code.py
-  - env_backup_school.txt, env_backup_local.txt (plaintext secrets; tracked in git)
-  - .claudeignore, .gitignore, .vscode/
+  - generate_architecture_map.py
+  - .claudeignore, .gitignore, .gitattributes (LF + binary asset protection), .vscode/
+  - .claude/rules/ (path-scoped rules: astro-ui.md, markdown-content.md)
   - .github/workflows/deploy.yml
   - .tasks/ (Claude Code task specs, not deployed)
     - 2026-07-05-Astro_layout.md, 2026-09-14-upgrade_astro.md
-    - 2026-10-06-refactor_at_home.md, __MEMO__.md
+    - 2026-10-06-refactor_at_home.md, 2026-11-26-practice_wsl.md, __MEMO__.md
   - chamcham_chloe/ (Drive sync tooling)
     - sync_to_drive.py
-    - credentials.json (GCP service account key, gitignored)
-  - marp_presentation/
-    - class_01.md, class_01.html
   - xyz/ (unrelated Unity privacy-policy tooling, not part of the site)
   - public/
     - favicon.ico, favicon.svg
@@ -38,7 +35,7 @@
     - utils/
       - classEntries.ts
     - assets/
-      - images/, java/, files/
+      - images/ (incl. unity_gui.png), java/, files/
 
 ## 2. Module Summary
 - `CLAUDE.md`: Assistant guidelines: stack, conventions, theming rules.
@@ -46,20 +43,17 @@
 - `architecture_map.md`: This file; directory map and module summary.
 - `system_state.md`: Rolling log of recent changes and open items.
 - `astro.config.mjs`: Astro build and GitHub Pages site config.
-- `package.json`: npm scripts and dependencies (Astro ^7.0.6).
+- `package.json`: npm scripts and dependencies (Astro ^7.4.8).
 - `package-lock.json`: Locked npm dependency versions.
 - `tsconfig.json`: TypeScript compiler config.
 - `generate_architecture_map.py`: Scans repo and writes architecture_map_draft.md.
-- `export_code.py`: Exports project code into a single file.
-- `env_backup_school.txt`: Plaintext .env backup (school); tracked in git, leak risk.
-- `env_backup_local.txt`: Plaintext .env backup (local); tracked in git, leak risk.
+- `.gitattributes`: LF defaults for text; binary protection for images, fonts, pdf, zip.
+- `.claude/rules/astro-ui.md`: Path-scoped rules for layouts/components (theme, glob).
+- `.claude/rules/markdown-content.md`: Path-scoped rules for Markdown pages (paths, links).
 - `.claudeignore`: Paths hidden from Claude Code (deps, build, env).
 - `.github/workflows/deploy.yml`: CI that builds Astro and deploys to GitHub Pages.
 - `.tasks/*.md`: Per-session task specs that drive Claude Code work.
 - `chamcham_chloe/sync_to_drive.py`: Uploads SYNC_FILES docs to Google Drive.
-- `chamcham_chloe/credentials.json`: GCP service account key (secret, gitignored).
-- `marp_presentation/class_01.md`: Marp slide deck source for a Java class.
-- `marp_presentation/class_01.html`: Rendered HTML of the Marp deck.
 - `xyz/`: Unity privacy-policy scrapers and docs; unrelated to the site.
 - `public/favicon.ico`, `public/favicon.svg`: Site favicons.
 - `src/pages/index.md`: Site homepage.
@@ -86,6 +80,7 @@
 - `src/components/YearSelector.astro`: Year/class dropdown with Go button.
 - `src/utils/classEntries.ts`: Lists class folders under 4-digit year dirs only.
 - `src/assets/images/`: Images referenced from Markdown content.
+- `src/assets/images/unity_gui.png`: Unity editor layout screenshot (PNG) used by 2-10 notes.
 - `src/assets/java/`: Java course slide images.
 - `src/assets/files/`: PDFs referenced from Markdown content.
 

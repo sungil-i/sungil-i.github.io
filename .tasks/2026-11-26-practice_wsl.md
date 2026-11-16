@@ -50,7 +50,6 @@ Diagnose and resolve the Astro `[NoImageMetadata]` build failure on `unity_gui.j
 
 
 <!--
-Read the task document at ``. ONLY execute 'Requirement 1' (1 ~ 3). Do NOT execute or modify anything related to other requirements. Strictly adhere to the Role and Harness Constraints specified in `CLAUDE.md`.
 -->
 
 
@@ -93,4 +92,49 @@ Resolve Git CRLF binary corruption causing `[NoImageMetadata]` on `unity_gui.png
 - Run `git status` and `git diff --check` to confirm clean line-ending attributes and zero binary corruption.
 
 
+<!--
+-->
 
+## Requirement 3
+
+Target file: `CLAUDE.md`, `.claude/rules/`, `architecture_map.md`, `system_state.md`, `architecture_map_draft.md`, `.gitignore`
+
+Environment: Windows 11 Pro PowerShell + WSL Bridge (실습실 PC)
+
+Upgrade `CLAUDE.md` using Claude Code memory best practices (`https://code.claude.com/docs/en/memory`), update `architecture_map.md` from `architecture_map_draft.md` (then delete the draft), and synchronize `system_state.md` with all completed work.
+
+### 1. Upgrade `CLAUDE.md` Using Claude Code Memory Architecture
+- Inspect existing `CLAUDE.md`, `.gitignore`, and any existing `.claude/` directory in the repository root.
+- Refactor `CLAUDE.md` into a concise, scannable, high-signal project memory file (target under 200 lines) modeled after `backend/v2` and Claude Code memory guidelines (`code.claude.com/docs/en/memory`):
+  - **SSOT Memory Imports**: Add `@architecture_map.md` and `@system_state.md` imports so Claude Code automatically loads the 3-document SSOT context without duplicating directory trees or status logs inside `CLAUDE.md`.
+  - **Modular Path-Scoped Rules (`.claude/rules/`)**: Extract domain-specific standards into focused rule files with YAML `paths:` frontmatter so rules load contextually without diluting root `CLAUDE.md`:
+    - Create `.claude/rules/astro-ui.md` (`paths: ["src/layouts/**/*.astro", "src/components/**/*.astro"]`): Document Bootstrap 5.3 `data-bs-theme="dark|light"` dual-theme rules, semantic theme variables (`var(--bs-body-color)`, `var(--bs-body-bg)`, `bg-body-tertiary`, `text-body-secondary`), `html[data-bs-theme="dark"]` table overrides, `PostLayout.astro` wide grid (`col-lg-10 col-xl-10`), and mandatory `import.meta.glob('../pages/**/*.md', { eager: true })` (forbidding `Astro.glob()`).
+    - Create `.claude/rules/markdown-content.md` (`paths: ["src/pages/**/*.md", "src/pages/**/*.mdx"]`): Document 3-tier relative path depth symmetry across public (`src/pages/YYYY/[classId]/daily/`) and private (`src/pages/upj53/[classId]/daily/`) namespaces (`../../../../assets/images/` and `../../../../layouts/PostLayout.astro`), `MM-DD-subject_name.md` naming, required frontmatter (`layout`, `title`), and root-relative internal link format (`/YYYY/[classId]/...`).
+  - **Local Override Convention (`CLAUDE.local.md`)**: Document `CLAUDE.local.md` for machine-specific overrides (e.g., WSL/Conda paths across Local Laptop and School PC) and ensure `CLAUDE.local.md` is listed in `.gitignore`.
+  - **Essential Core Sections in `CLAUDE.md`**: Keep Project Overview & Stack (Astro SSG, Bootstrap 5.3, GitHub Pages `https://sungil-i.github.io`, planned SSO via `https://win.upj53.kr`), Build/Sync Commands (`npm run dev`, `npm run build`, `npm run preview`, `python -m chamcham_chloe.sync_to_drive` with `PROJECT_PREFIX="school-"`), Git/Security Guardrails (`.gitattributes` binary protection, `.gitignore` secret isolation), and **preserve all existing Role and Harness Constraints** intact.
+
+### 2. Update `architecture_map.md` from `architecture_map_draft.md` and Delete Draft
+- Read `architecture_map_draft.md` and existing `architecture_map.md`.
+- Update `architecture_map.md` using the directory structure and file inventory from `architecture_map_draft.md` while strictly adhering to the rules in `CLAUDE.md`:
+  - Reflect newly added/updated paths (including `.claude/rules/`, `.gitattributes`, `src/assets/images/unity_gui.png`, and `src/pages/upj53/`).
+  - Exclude `architecture_map_draft.md` itself and any sensitive/temporary artifacts from the tree and module list.
+  - Replace any generic placeholder strings (e.g., `"역할을 요약해주세요."`) with accurate, one-line Korean role summaries consistent with `architecture_map.md`.
+  - Maintain the Astro SSG data flow section (`src/pages/**/*.md` -> Layout components -> `npm run build` -> GitHub Pages).
+- Delete `architecture_map_draft.md` from the repository (`rm -f architecture_map_draft.md`) once `architecture_map.md` is updated and verified.
+
+### 3. Update `system_state.md` Based on Work Performed
+- Read `system_state.md` and review the completed work in `.tasks/2026-11-26-practice_wsl.md` (Requirements 1, 2, and 3).
+- Update `system_state.md` in strict compliance with `CLAUDE.md`:
+  - Record completed tasks:
+    - Requirement 1: Fixed `[NoImageMetadata]` build failure by renaming mislabeled `unity_gui.jpg` to `unity_gui.png` and converting hardcoded domain link to root-relative path in `src/pages/2026/2-10/test/2_test3.md`.
+    - Requirement 2: Configured `.gitattributes` binary asset protection (`*.png`, `*.jpg`, etc.) and LF line-ending rules, upgraded deprecated Node.js 20 GitHub Actions in `.github/workflows/deploy.yml` to Node.js 24-compatible versions, and audited `.gitignore` and `package.json`.
+    - Requirement 3: Upgraded `CLAUDE.md` with Claude Code memory imports (`@architecture_map.md`, `@system_state.md`) and path-scoped `.claude/rules/`, updated `architecture_map.md` from `architecture_map_draft.md` (and deleted the draft), and updated `system_state.md`.
+  - Update runtime compatibility status (CI Node.js 22/24 alignment) and active next steps (Git commit/push verification, `python -m chamcham_chloe.sync_to_drive` Google Drive SSOT sync, and `https://win.upj53.kr` SSO roadmap).
+
+### 4. Verification
+- Confirm `architecture_map_draft.md` is completely removed (`test ! -f architecture_map_draft.md`).
+- Verify that `@architecture_map.md` and `@system_state.md` imports in `CLAUDE.md` point to valid existing files at the repository root.
+- Run `npm run build` in WSL to verify exit code 0 and zero regressions.
+
+<!--
+-->
