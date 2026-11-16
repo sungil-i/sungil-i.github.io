@@ -14,6 +14,6 @@ date: "2026-11-12"
 
 **시험 범위**
 
-* [Unity 슈팅게임 1 - 게임 객체 만들기](/2026/2-10/daily/10-08-shooting_game_1/)
-* [Unity 슈팅게임 3 - 유니티 작업](/2026/2-10/daily/11-05-shooting_game_3)
-* [Unity 슈팅게임 4 - 총알 만들기](/2026/2-10/daily/11-10-shooting_game_4)
+* [Unity 슈팅게임 1 - 게임 객체 만들기](https://sungil-i.github.io/2026/2-10/daily/10-08-shooting_game_1/)
+* [Unity 슈팅게임 3 - 유니티 작업](https://sungil-i.github.io/2026/2-10/daily/11-05-shooting_game_3)
+* [Unity 슈팅게임 4 - 총알 만들기](https://sungil-i.github.io/2026/2-10/daily/11-10-shooting_game_4)
