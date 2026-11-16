@@ -172,3 +172,47 @@ Diagnose and resolve the `[NoImageMetadata]` build failure on `src/assets/images
 
 <!--
 -->
+
+
+## Requirement 5
+
+Target file: `CLAUDE.md`, `.claude/rules/markdown-content.md`, `.gitignore`, `.gitattributes`, `scripts/verify_assets.py`, `.githooks/pre-commit`, `architecture_map.md`, `system_state.md`
+
+Environment: Windows 11 Pro PowerShell + WSL Bridge (실습실 PC)
+
+Codify image binary integrity guardrails in `CLAUDE.md` and `.claude/rules/markdown-content.md`, add automated asset verification scripts and Git hooks to prevent `[NoImageMetadata]` regressions, and synchronize `architecture_map.md` and `system_state.md`.
+
+### 1. Update `CLAUDE.md` and `.claude/rules/markdown-content.md`
+- Inspect `CLAUDE.md` (keep total length concise under 200 lines per existing convention) and `.claude/rules/markdown-content.md`.
+- In `CLAUDE.md` under `Git & Security Guardrails`:
+  - Explicitly document that any image committed before `.gitattributes` binary protection may retain a CRLF-corrupted Git blob in `HEAD` and must be re-staged via `git rm --cached <path> && git add <path>`.
+  - Require verifying new or updated images in `src/assets/` with `python3 scripts/verify_assets.py` (or `file`) and running `npm run build` before `git push`.
+  - Forbid manually renaming image extensions (e.g., `.webp` or `.png` renamed to `.jpg`) without true format re-encoding.
+- In `.claude/rules/markdown-content.md`:
+  - Add a dedicated section on Binary Asset Hygiene covering magic-byte verification, Windows-to-WSL copy safety (waiting for screenshot write completion and excluding `*:Zone.Identifier`), and exact 4-level relative asset paths (`../../../../assets/images/`).
+
+### 2. Harden `.gitignore` and Verify `.gitattributes`
+- Inspect `.gitignore` and ensure `*:Zone.Identifier` (Windows NTFS alternate data stream metadata created during Windows-to-WSL copies) is explicitly ignored.
+- Inspect `.gitattributes` to confirm `binary` (`-text -diff`) attributes cover all binary extensions present under `src/assets/` (`*.png`, `*.jpg`, `*.jpeg`, `*.webp`, `*.gif`, `*.ico`, `*.svgz`, `*.pdf`, `*.zip`, `*.woff`, `*.woff2`, `*.ttf`, `*.eot`).
+
+### 3. Create Automated Asset Integrity Script & Pre-Commit Hook
+- Create `scripts/verify_assets.py` (Python 3 standard library only, zero external dependencies):
+  - Scan all files under `src/assets/` (or specific file paths passed via CLI arguments).
+  - Verify non-zero file size (> 0 bytes).
+  - Validate magic-byte signatures against file extensions (`.png`, `.jpg`/`.jpeg`, `.webp`, `.gif`, `.pdf`).
+  - Detect and flag any leftover `*:Zone.Identifier` metadata files.
+  - When run inside a Git repository, verify staged blobs (`git show :<path>`) for modified/added files under `src/assets/` so CRLF-corrupted index blobs are caught before commit.
+  - Exit with code 0 when clean, or exit with code 1 with clear diagnostics on failure.
+- Create `.githooks/pre-commit` (executable `chmod +x`) that runs `python3 scripts/verify_assets.py --staged` whenever files under `src/assets/` are staged, and document `git config core.hooksPath .githooks` in `CLAUDE.md` so both Local Laptop and School PC share the hook.
+
+### 4. Synchronize `architecture_map.md` and `system_state.md`
+- Update `architecture_map.md` to include `scripts/verify_assets.py` and `.githooks/pre-commit` in the directory structure and module summary.
+- Update `system_state.md` to log the completion of Requirement 4 (full `src/assets/` audit and GitHub Pages green build restoration) and Requirement 5 (preventive `CLAUDE.md` guardrails and automated binary asset verification).
+
+### 5. Verification
+- Run `python3 scripts/verify_assets.py` across the entire `src/assets/` directory and verify exit code 0.
+- Run `npm run build` in WSL to confirm clean static site generation with exit code 0.
+
+
+<!--
+-->

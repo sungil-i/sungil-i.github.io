@@ -5,6 +5,8 @@
   - CLAUDE.md, README.md, architecture_map.md, system_state.md
   - astro.config.mjs, package.json, package-lock.json, tsconfig.json
   - generate_architecture_map.py
+  - scripts/ (verify_assets.py)
+  - .githooks/ (pre-commit)
   - .claudeignore, .gitignore, .gitattributes (LF + binary asset protection), .vscode/
   - .claude/rules/ (path-scoped rules: astro-ui.md, markdown-content.md)
   - .github/workflows/deploy.yml
@@ -47,6 +49,8 @@
 - `package-lock.json`: Locked npm dependency versions.
 - `tsconfig.json`: TypeScript compiler config.
 - `generate_architecture_map.py`: Scans repo and writes architecture_map_draft.md.
+- `scripts/verify_assets.py`: Checks src/assets size, magic bytes, Zone.Identifier, staged blobs.
+- `.githooks/pre-commit`: Runs verify_assets.py --staged when src/assets is staged.
 - `.gitattributes`: LF defaults for text; binary protection for images, fonts, pdf, zip.
 - `.claude/rules/astro-ui.md`: Path-scoped rules for layouts/components (theme, glob).
 - `.claude/rules/markdown-content.md`: Path-scoped rules for Markdown pages (paths, links).

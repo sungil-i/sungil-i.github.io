@@ -25,6 +25,7 @@
 *.webp  binary
 *.gif   binary
 *.ico   binary
+*.svgz  binary
 *.pdf   binary
 *.zip   binary
 *.woff  binary

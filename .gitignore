@@ -51,6 +51,7 @@ venv/
 .LSOverride
 
 # Windows
+*:Zone.Identifier
 Thumbs.db
 ehthumbs.db
 Desktop.ini

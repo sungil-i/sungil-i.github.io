@@ -32,6 +32,10 @@ The directory tree and module inventory live in `architecture_map.md`; current s
 - `.gitignore` isolates secrets: `.env*`, `env_backup_*.txt`, `chamcham_chloe/credentials.*`, `*.pem`, `*.key`. Never commit or print their contents.
 - Do not delete local secret files without explicit sign-off; report them instead.
 - Images in `src/assets/images/` must have the extension matching their real format (verify with `file`).
+- Images committed before the `.gitattributes` binary protection may keep a CRLF-corrupted blob in `HEAD`; re-stage them with `git rm --cached <path> && git add <path>`.
+- Verify new or updated images in `src/assets/` with `python3 scripts/verify_assets.py` (or `file`) and run `npm run build` before `git push`.
+- Never rename an image extension by hand (e.g., `.webp`/`.png` -> `.jpg`) without true format re-encoding.
+- Enable the shared pre-commit hook once per clone (Local Laptop and School PC): `git config core.hooksPath .githooks` (runs `scripts/verify_assets.py --staged` when `src/assets/` is staged).
 
 ## 💻 Local Override Convention (`CLAUDE.local.md`)
 - Put machine-specific settings (WSL/Conda paths on Local Laptop vs School PC, personal notes) in `CLAUDE.local.md` at the repository root.

@@ -10,6 +10,14 @@ _Last updated: 2026-11-26_
 - Content is Markdown-only under `src/pages/`; no database, no backend API.
 
 ## Recently Completed
+- Requirement 4 (`.tasks/2026-11-26-practice_wsl.md`): full `src/assets/`
+  audit (images, java, files) and GitHub Pages green build restoration.
+- Requirement 5 (`.tasks/2026-11-26-practice_wsl.md`): preventive guardrails.
+  `CLAUDE.md` and `.claude/rules/markdown-content.md` now cover CRLF-blob
+  re-staging, Binary Asset Hygiene, and the no-manual-extension-rename rule;
+  `.gitignore` ignores `*:Zone.Identifier`; `.gitattributes` adds `*.svgz`;
+  new `scripts/verify_assets.py` and `.githooks/pre-commit` (enable with
+  `git config core.hooksPath .githooks`) block corrupted assets.
 - `.tasks/2026-11-26-practice_wsl.md` (2026-11-26):
   - Req 1: Fixed the `[NoImageMetadata]` build failure by renaming the
     mislabeled `unity_gui.jpg` (really a PNG) to `unity_gui.png` and updating
