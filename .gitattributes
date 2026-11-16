@@ -1,5 +1,33 @@
-# 기본 텍스트 파일은 체크아웃 시 CRLF 변환
-* text eol=crlf
+# 기본값: 자동 감지, 저장소/체크아웃 모두 LF
+* text=auto eol=lf
 
-# 쉘 스크립트 및 실행 파일은 항상 LF 유지
-*.sh text eol=lf
+# 코드, 설정, 쉘, 마크다운은 항상 LF
+*.astro text eol=lf
+*.ts    text eol=lf
+*.tsx   text eol=lf
+*.js    text eol=lf
+*.mjs   text eol=lf
+*.cjs   text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.mdx   text eol=lf
+*.css   text eol=lf
+*.html  text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.py    text eol=lf
+*.sh    text eol=lf
+
+# 바이너리 자산은 변환/diff 금지
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.webp  binary
+*.gif   binary
+*.ico   binary
+*.pdf   binary
+*.zip   binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.eot   binary

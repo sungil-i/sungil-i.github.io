@@ -27,7 +27,7 @@ env_backup_*.txt
 
 # Google Drive Sync Service Account Credentials
 chamcham_chloe/credentials.json
-!chamcham_chloe/credentials.txt
+chamcham_chloe/credentials.txt
 
 # ========================================================
 # 4. Python Runtime & Virtual Environments
