@@ -1,6 +1,6 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
-title: "2학기 정기고사 (기말고사) 준비"
+title: "2학기 정기시험 (기말고사) 준비"
 date: "2026-11-23"
 ---
 
